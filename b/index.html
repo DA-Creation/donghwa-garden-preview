@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./styles.css?v=20260907-login-stable">
   <link rel="stylesheet" href="./subscription-home.css?v=20260911-responsive-cards">
       <link rel="stylesheet" href="./clean-type.css?v=20260910-composition-stories">
+    <link rel="stylesheet" href="./cohort-ribbon.css?v=20260911">
   </head>
   <body>
     <div class="app-shell">
@@ -74,6 +75,17 @@
             </g>
           </svg>
         </section>
+
+        <div class="cohort-ribbon" id="cohort-ribbon" data-theme="b">
+          <a class="cohort-ribbon__link" href="#cohort">
+            <span class="sr-only" data-marquee-text>01기 모집 마감 7일 남음</span>
+            <span class="cohort-ribbon__track" aria-hidden="true">
+              <span class="cohort-ribbon__group"><span data-marquee-text>01기 모집 마감 7일 남음</span><i>·</i><span data-marquee-text>01기 모집 마감 7일 남음</span><i>·</i></span>
+              <span class="cohort-ribbon__group"><span data-marquee-text>01기 모집 마감 7일 남음</span><i>·</i><span data-marquee-text>01기 모집 마감 7일 남음</span><i>·</i></span>
+            </span>
+          </a>
+          <button class="cohort-ribbon__pause" type="button" data-ribbon-pause aria-pressed="false" aria-label="모집 띠 움직임 멈추기"><span aria-hidden="true">Ⅱ</span></button>
+        </div>
 
         <section class="benefits-hero" data-benefits-hero hidden aria-label="정기배송 혜택 소개">
           <img src="./assets/benefits-hero-reference.png" alt="중간 유통 과정 없이 농가 직거래로 만나는 친환경 채소박스 정기배송">
@@ -202,7 +214,7 @@
 <small class="principle-chart-note">브랜드 대표 품목 · 배송 구성은 주차별 상이</small>
 </div><p>안송자 할머니의 비법을 담은 청국장과 된장 고추지. 진한 발효의 풍미로 매일 먹는 밥상을 정갈하게 채웁니다.</p></article>
         </section>
-        <section class="subscription-section subscription-cohort">
+        <section class="subscription-section subscription-cohort" id="cohort">
           <h2>왜 기수제로 받나요?</h2>
           <p>매주 신선하게 만들고 보내려면<br>미리 정한 수량만 준비할 수 있으니까요.</p>
           <div class="cohort-route" data-cohort-route>
@@ -864,5 +876,6 @@
     <script src="./hero-editor.js?v=20260910-hero-match-a"></script>
     <script src="./composition-marquee.js?v=20260910-hover"></script>
     <script src="./cohort-route.js"></script>
+    <script src="./cohort-ribbon.js?v=20260911"></script>
   </body>
 </html>

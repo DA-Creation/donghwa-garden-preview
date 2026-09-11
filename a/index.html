@@ -12,6 +12,7 @@
     <title>A-1 · 동화가든 | 매주 도착하는 강릉의 한 상</title>
     <link rel="stylesheet" href="./styles.css?v=20260910-hero-no-shadow">
   <link rel="stylesheet" href="./subscription-home.css?v=20260911-story-hover">
+    <link rel="stylesheet" href="./cohort-ribbon.css?v=20260911">
   </head>
   <body>
     <div class="app-shell">
@@ -70,6 +71,17 @@
             </g>
           </svg>
         </section>
+
+        <div class="cohort-ribbon" id="cohort-ribbon" data-theme="a">
+          <a class="cohort-ribbon__link" href="#cohort">
+            <span class="sr-only" data-marquee-text>01기 모집 마감 7일 남음</span>
+            <span class="cohort-ribbon__track" aria-hidden="true">
+              <span class="cohort-ribbon__group"><span data-marquee-text>01기 모집 마감 7일 남음</span><i>·</i><span data-marquee-text>01기 모집 마감 7일 남음</span><i>·</i></span>
+              <span class="cohort-ribbon__group"><span data-marquee-text>01기 모집 마감 7일 남음</span><i>·</i><span data-marquee-text>01기 모집 마감 7일 남음</span><i>·</i></span>
+            </span>
+          </a>
+          <button class="cohort-ribbon__pause" type="button" data-ribbon-pause aria-pressed="false" aria-label="모집 띠 움직임 멈추기"><span aria-hidden="true">Ⅱ</span></button>
+        </div>
 
         <section class="benefits-hero" data-benefits-hero hidden aria-label="정기배송 혜택 소개">
           <img src="./assets/benefits-hero-reference.png" alt="중간 유통 과정 없이 농가 직거래로 만나는 친환경 채소박스 정기배송">
@@ -260,7 +272,7 @@
             <p class="ferment-footer">발효의 구수한 풍미를 담은 반찬들</p>
           </article>
         </section>
-        <section class="subscription-section subscription-cohort">
+        <section class="subscription-section subscription-cohort" id="cohort">
           <article class="cohort-shape-card cohort-shape-card--reason">
             <svg class="cohort-shape-card__shape" viewBox="0 0 400 360" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path transform="matrix(0 1 -1 0 400 0)" d="M94 0H266C323 0 360 39 360 100C360 146 346 176 318 200C346 222 360 250 360 300C360 363 323 400 266 400H94C35 400 0 363 0 300V100C0 39 35 0 94 0Z" fill="#f585bf"/></svg>
             <h2>왜 기수제로 받나요?</h2>
@@ -912,5 +924,6 @@
     <script src="./subscription-promise.js?v=20260910-a1-header-exit"></script>
     <script src="./subscription-cta-hover.js?v=20260911-story-hover"></script>
   <script src="./subscription-reassurance.js?v=20260911-detail-pin"></script>
-</body>
+  <script src="./cohort-ribbon.js?v=20260911"></script>
+  </body>
 </html>
