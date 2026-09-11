@@ -12,7 +12,7 @@
       "stroke": "#18271e",
       "strokeWidth": 0,
       "highlight": "#e6f2b9",
-      "text": "안송자 할머니의 새벽 고집으로"
+      "text": "안송자 할머니의 집밥 정기식단"
     },
     "title": {
       "visible": true,
@@ -26,7 +26,7 @@
       "stroke": "#18271e",
       "strokeWidth": 0,
       "highlight": "#e6f2b9",
-      "text": "애덜아,\n줄 서지 마라!"
+      "text": "애덜아,\n잘 챙겨 먹어라!"
     },
     "message": {
       "visible": true,
@@ -40,7 +40,7 @@
       "stroke": "#18271e",
       "strokeWidth": 0,
       "highlight": "#ffffff",
-      "text": "할머니가 강릉에서\n바로 보내주마."
+      "text": "할머니가 강릉에서\n매주 보내주마."
     },
     "decor0": {
       "visible": true,

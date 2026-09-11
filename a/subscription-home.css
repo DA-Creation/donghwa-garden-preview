@@ -1191,3 +1191,6 @@ body.is-hero-editing .has-composition-reveal > :first-child { opacity: 1; clip-p
 .kimchi-evidence-bar > b { color: #fff; }
 .kimchi-evidence-row:not(.kimchi-evidence-row--added) .kimchi-evidence-bar > b { font-weight: 800; }
 .kimchi-evidence-highlight { margin-right: 8px; color: #fff; font: 400 20px/1 'Soonakpilyeosa', sans-serif; white-space: nowrap; }
+
+/* Keep the approved cover copy on its two explicit lines. */
+.subscription-home .subscription-hero .subscription-video-title h1 { white-space: nowrap; text-wrap: nowrap; }

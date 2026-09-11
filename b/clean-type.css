@@ -60,3 +60,52 @@ body.is-hero-editing .subscription-island-cta { display: none; }
   margin: 0; border-radius: 12px; background: #f4f1e9;
 }
 .subscription-home .composition-story h3 { margin: calc(28px * 2 / 3) 0 0; text-align: left; font-size: 17px; line-height: 1.55; font-weight: 700; color: #383838; word-break: keep-all; }
+
+/* Preserve the explicit two-line cover title without changing its saved size. */
+.subscription-home .subscription-hero .subscription-video-title h1 {
+  white-space: nowrap;
+  text-wrap: nowrap;
+}
+
+.subscription-home .cohort-route {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 28px 0;
+  padding: 22px 12px 18px;
+  border-radius: 18px;
+  background: #e8efdb;
+  color: #2e4936;
+}
+.subscription-home .cohort-route__step { margin: 0; min-width: 0; text-align: center; }
+.subscription-home .cohort-route__step img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 10px;
+  animation: cohort-route-lift 4.8s ease-in-out infinite;
+  animation-play-state: paused;
+}
+.subscription-home .cohort-route__step:nth-child(2) img { animation-delay: 180ms; }
+.subscription-home .cohort-route__step:nth-child(3) img { animation-delay: 360ms; }
+.subscription-home .cohort-route.is-running img { animation-play-state: running; }
+.subscription-home .cohort-route__step figcaption {
+  display: grid;
+  gap: 5px;
+  margin-top: 12px;
+  font-size: clamp(10px, 3cqw, 13px);
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: -.035em;
+}
+.subscription-home .cohort-route__step figcaption b { font-size: 12px; font-weight: 800; }
+.subscription-home .cohort-route__step figcaption span { white-space: nowrap; }
+@keyframes cohort-route-lift {
+  0%, 16%, 100% { transform: translateY(0); }
+  8% { transform: translateY(-8px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .subscription-home .cohort-route__step img { animation: none; transform: none; }
+}
