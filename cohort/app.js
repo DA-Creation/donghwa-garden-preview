@@ -4,9 +4,9 @@
   const toast = document.querySelector('[data-toast]');
   const appShell = document.querySelector('.app-shell');
   const siteLogoImage = document.querySelector('.site-logo img');
-  const assetRoot = new URL('./', siteLogoImage?.currentSrc || siteLogoImage?.src || new URL('./assets/', document.baseURI)).href;
-  const resolveAssetPath = (path) => path?.startsWith('./assets/')
-    ? new URL(path.slice('./assets/'.length), assetRoot).href
+  const assetRoot = new URL('./', siteLogoImage?.currentSrc || siteLogoImage?.src || new URL('../b/assets/', document.baseURI)).href;
+  const resolveAssetPath = (path) => path?.startsWith('../b/assets/')
+    ? new URL(path.slice('../b/assets/'.length), assetRoot).href
     : path;
   const loginScreen = document.querySelector('[data-login-screen]');
   const loginContent = loginScreen?.querySelector('.login-screen__content');
@@ -270,12 +270,12 @@
   const reviewTotal = 105178;
   const reviewBatchSize = 10;
   const reviewPhotos = [
-    { src: resolveAssetPath('./assets/meal-box.png'), alt: '동화가든 제철 한 상 후기' },
-    { src: resolveAssetPath('./assets/spicy-tofu.jpg'), alt: '얼큰한 순두부 집밥 후기' },
-    { src: resolveAssetPath('./assets/white-kimchi.jpg'), alt: '백김치와 제철 반찬 후기' },
-    { src: resolveAssetPath('./assets/guide.jpg'), alt: '동화가든 재료로 차린 집밥' },
-    { src: resolveAssetPath('./assets/soft-tofu.jpg'), alt: '동화가든 순두부 배송 후기' },
-    { src: resolveAssetPath('./assets/soy-milk.png'), alt: '고소한 두유와 아침 식탁 후기' }
+    { src: resolveAssetPath('../b/assets/meal-box.png'), alt: '동화가든 제철 한 상 후기' },
+    { src: resolveAssetPath('../b/assets/spicy-tofu.jpg'), alt: '얼큰한 순두부 집밥 후기' },
+    { src: resolveAssetPath('../b/assets/white-kimchi.jpg'), alt: '백김치와 제철 반찬 후기' },
+    { src: resolveAssetPath('../b/assets/guide.jpg'), alt: '동화가든 재료로 차린 집밥' },
+    { src: resolveAssetPath('../b/assets/soft-tofu.jpg'), alt: '동화가든 순두부 배송 후기' },
+    { src: resolveAssetPath('../b/assets/soy-milk.png'), alt: '고소한 두유와 아침 식탁 후기' }
   ];
   const experienceTexts = [
     '다양한 제철 재료가 먹기 좋은 양으로 와서 냉장고가 복잡하지 않아요. 매주 새로운 식탁을 차리는 재미가 생겼습니다.',
@@ -684,7 +684,7 @@
 
   marketProductCards.forEach((card, index) => {
     const imageNode = card.querySelector('.market-product__visual img');
-    const image = imageNode?.getAttribute('src') || resolveAssetPath('./assets/market/product-016.png');
+    const image = imageNode?.getAttribute('src') || resolveAssetPath('../b/assets/market/product-016.png');
     const fileKey = image.split('/').pop()?.replace(/\.[^.]+$/, '') || `product-${index + 1}`;
     let key = card.dataset.marketProductKey || fileKey;
     let duplicateIndex = 2;
@@ -1369,26 +1369,26 @@
   });
 
   const recipeMenuItems = [
-    { key: 'fig-sandwich', name: '무화과 샌드위치', title: '달콤 짭짤 제철 한 입 무화과 샌드위치', image: './assets/market/product-042.png', tags: ['무화과', '루꼴라', '햄'] },
-    { key: 'peach-yogurt', name: '복숭아 그릭요거트', title: '달콤하고 산뜻한 복숭아 그릭요거트', image: './assets/market/product-038.png', tags: ['복숭아', '요거트', '5분'] },
-    { key: 'perilla-noodles', name: '들깨 메밀면', title: '고소하게 비벼 먹는 들깨 메밀면', image: './assets/guide.jpg', tags: ['들깨', '메밀면', '15분'] },
-    { key: 'maple-pumpkin', name: '메이플 땅콩호박구이', title: '달콤한 메이플 땅콩호박구이', image: './assets/market/product-016.png', tags: ['땅콩호박', '메이플', '오븐'] },
-    { key: 'earl-grey-peach', name: '얼그레이 복숭아 마리네이드', title: '향긋한 얼그레이 복숭아 마리네이드', image: './assets/market/product-038.png', tags: ['복숭아', '얼그레이', '디저트'] },
-    { key: 'pumpkin-gnocchi', name: '단호박 감자뇨끼', title: '쫀득하고 부드러운 단호박 감자뇨끼', image: './assets/market/product-016.png', tags: ['단호박', '감자', '뇨끼'] },
-    { key: 'potato-rosti', name: '감자 뢰스티', title: '겉바속촉 감자 뢰스티', image: './assets/market/product-092.png', tags: ['감자', '치즈', '팬요리'] },
-    { key: 'tomato-noodles', name: '토마토 소면', title: '새콤하게 말아 먹는 토마토 소면', image: './assets/market/product-075.png', tags: ['토마토', '소면', '한 그릇'] },
-    { key: 'taco-rice', name: '타코 라이스', title: '채소를 듬뿍 올린 타코 라이스', image: './assets/hero-table.jpg', tags: ['채소', '밥', '타코'] },
-    { key: 'pickled-udon', name: '채소 절임우동', title: '아삭한 채소 절임우동', image: './assets/white-kimchi.jpg', tags: ['절임채소', '우동', '10분'] },
-    { key: 'cucumber-bibimbap', name: '오이 비빔밥', title: '시원하고 아삭한 오이 비빔밥', image: './assets/market/product-125.png', tags: ['오이', '밥', '고추장'] },
-    { key: 'napolitan-pasta', name: '냉털 나폴리탄 파스타', title: '냉장고 채소로 만드는 나폴리탄 파스타', image: './assets/market/product-075.png', tags: ['토마토', '채소', '파스타'] },
-    { key: 'tomato-kimchi', name: '토마토 김치', title: '상큼하고 아삭한 토마토 김치', image: './assets/market/product-075.png', tags: ['토마토', '부추', '김치'] },
-    { key: 'tomato-eggs', name: '토마토 달걀볶음', title: '포근하고 촉촉한 토마토 달걀볶음', image: './assets/hero-table.jpg', tags: ['토마토', '달걀', '10분'] },
-    { key: 'tomato-cold-noodles', name: '토마토 냉국수', title: '한여름에 시원한 토마토 냉국수', image: './assets/guide.jpg', tags: ['토마토', '국수', '냉요리'] },
-    { key: 'spinach-tomato-pasta', name: '시금치 토마토 파스타', title: '초록빛 시금치 토마토 파스타', image: './assets/market/product-125.png', tags: ['시금치', '토마토', '파스타'] },
-    { key: 'cucumber-somtam', name: '오이 솜땀', title: '새콤달콤 입맛 돋우는 오이 솜땀', image: './assets/white-kimchi.jpg', tags: ['오이', '당근', '라임'] },
-    { key: 'tomato-butter-rice', name: '토마토 마늘버터밥', title: '풍미 가득 토마토 마늘버터밥', image: './assets/market/product-138.png', tags: ['토마토', '마늘', '밥'] },
-    { key: 'vegetable-bibim-noodles', name: '채소 비빔국수', title: '아삭한 제철 채소 비빔국수', image: './assets/spicy-tofu.jpg', tags: ['채소', '국수', '비빔장'] },
-    { key: 'zucchini-perilla-noodles', name: '주키니 들기름면', title: '고소한 주키니 들기름면', image: './assets/market/product-125.png', tags: ['주키니', '들기름', '면'] }
+    { key: 'fig-sandwich', name: '무화과 샌드위치', title: '달콤 짭짤 제철 한 입 무화과 샌드위치', image: '../b/assets/market/product-042.png', tags: ['무화과', '루꼴라', '햄'] },
+    { key: 'peach-yogurt', name: '복숭아 그릭요거트', title: '달콤하고 산뜻한 복숭아 그릭요거트', image: '../b/assets/market/product-038.png', tags: ['복숭아', '요거트', '5분'] },
+    { key: 'perilla-noodles', name: '들깨 메밀면', title: '고소하게 비벼 먹는 들깨 메밀면', image: '../b/assets/guide.jpg', tags: ['들깨', '메밀면', '15분'] },
+    { key: 'maple-pumpkin', name: '메이플 땅콩호박구이', title: '달콤한 메이플 땅콩호박구이', image: '../b/assets/market/product-016.png', tags: ['땅콩호박', '메이플', '오븐'] },
+    { key: 'earl-grey-peach', name: '얼그레이 복숭아 마리네이드', title: '향긋한 얼그레이 복숭아 마리네이드', image: '../b/assets/market/product-038.png', tags: ['복숭아', '얼그레이', '디저트'] },
+    { key: 'pumpkin-gnocchi', name: '단호박 감자뇨끼', title: '쫀득하고 부드러운 단호박 감자뇨끼', image: '../b/assets/market/product-016.png', tags: ['단호박', '감자', '뇨끼'] },
+    { key: 'potato-rosti', name: '감자 뢰스티', title: '겉바속촉 감자 뢰스티', image: '../b/assets/market/product-092.png', tags: ['감자', '치즈', '팬요리'] },
+    { key: 'tomato-noodles', name: '토마토 소면', title: '새콤하게 말아 먹는 토마토 소면', image: '../b/assets/market/product-075.png', tags: ['토마토', '소면', '한 그릇'] },
+    { key: 'taco-rice', name: '타코 라이스', title: '채소를 듬뿍 올린 타코 라이스', image: '../b/assets/hero-table.jpg', tags: ['채소', '밥', '타코'] },
+    { key: 'pickled-udon', name: '채소 절임우동', title: '아삭한 채소 절임우동', image: '../b/assets/white-kimchi.jpg', tags: ['절임채소', '우동', '10분'] },
+    { key: 'cucumber-bibimbap', name: '오이 비빔밥', title: '시원하고 아삭한 오이 비빔밥', image: '../b/assets/market/product-125.png', tags: ['오이', '밥', '고추장'] },
+    { key: 'napolitan-pasta', name: '냉털 나폴리탄 파스타', title: '냉장고 채소로 만드는 나폴리탄 파스타', image: '../b/assets/market/product-075.png', tags: ['토마토', '채소', '파스타'] },
+    { key: 'tomato-kimchi', name: '토마토 김치', title: '상큼하고 아삭한 토마토 김치', image: '../b/assets/market/product-075.png', tags: ['토마토', '부추', '김치'] },
+    { key: 'tomato-eggs', name: '토마토 달걀볶음', title: '포근하고 촉촉한 토마토 달걀볶음', image: '../b/assets/hero-table.jpg', tags: ['토마토', '달걀', '10분'] },
+    { key: 'tomato-cold-noodles', name: '토마토 냉국수', title: '한여름에 시원한 토마토 냉국수', image: '../b/assets/guide.jpg', tags: ['토마토', '국수', '냉요리'] },
+    { key: 'spinach-tomato-pasta', name: '시금치 토마토 파스타', title: '초록빛 시금치 토마토 파스타', image: '../b/assets/market/product-125.png', tags: ['시금치', '토마토', '파스타'] },
+    { key: 'cucumber-somtam', name: '오이 솜땀', title: '새콤달콤 입맛 돋우는 오이 솜땀', image: '../b/assets/white-kimchi.jpg', tags: ['오이', '당근', '라임'] },
+    { key: 'tomato-butter-rice', name: '토마토 마늘버터밥', title: '풍미 가득 토마토 마늘버터밥', image: '../b/assets/market/product-138.png', tags: ['토마토', '마늘', '밥'] },
+    { key: 'vegetable-bibim-noodles', name: '채소 비빔국수', title: '아삭한 제철 채소 비빔국수', image: '../b/assets/spicy-tofu.jpg', tags: ['채소', '국수', '비빔장'] },
+    { key: 'zucchini-perilla-noodles', name: '주키니 들기름면', title: '고소한 주키니 들기름면', image: '../b/assets/market/product-125.png', tags: ['주키니', '들기름', '면'] }
   ];
   recipeMenuItems.forEach((item) => { item.image = resolveAssetPath(item.image); });
   const recipesMain = document.querySelector('.subview--recipes');
@@ -1521,7 +1521,7 @@
   const recipeDetailItems = new Map(recipeMenuItems.map((item) => [item.key, {
     ...item,
     author: '동화가든',
-    avatar: resolveAssetPath('./assets/grandmother.png'),
+    avatar: resolveAssetPath('../b/assets/grandmother.png'),
     bookmarkCount: 0,
     description: `${item.tags.join(', ')}를 활용해 가볍고 맛있게 완성하는 ${item.name} 레시피예요. 재료의 식감과 제철 풍미를 그대로 즐겨보세요.`
   }]));
@@ -1531,8 +1531,8 @@
     const tags = [...card.querySelectorAll(':scope > p > span')].map((tag) => tag.textContent.trim()).filter(Boolean);
     const authorNode = card.querySelector('.recipe-feed-card__author') || card.querySelector(':scope > small');
     const author = authorNode?.textContent.trim() || '동화가든';
-    const avatar = authorNode?.querySelector('img')?.getAttribute('src') || './assets/grandmother.png';
-    const image = card.querySelector(':scope > div > img')?.getAttribute('src') || './assets/hero-table.jpg';
+    const avatar = authorNode?.querySelector('img')?.getAttribute('src') || '../b/assets/grandmother.png';
+    const image = card.querySelector(':scope > div > img')?.getAttribute('src') || '../b/assets/hero-table.jpg';
     const bookmarkCount = Number(card.querySelector(':scope > p em strong')?.textContent.replace(/[^0-9]/g, '')) || 0;
     const key = `feed-${index + 1}`;
     card.dataset.recipeDetailKey = key;

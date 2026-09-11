@@ -343,7 +343,7 @@
 .subscription-cta-card {
   position: relative; isolation: isolate; overflow: hidden; border-radius: 26px;
   min-height: 390px; padding: 44px 22px; color: #fff;
-  background: #17261d url('./assets/hero-table.jpg') center bottom / cover no-repeat;
+  background: #17261d url('../b/assets/hero-table.jpg') center bottom / cover no-repeat;
 }
 .subscription-cta-card::before {
   content: ''; position: absolute; inset: 0; z-index: -1;

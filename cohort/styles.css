@@ -1,8 +1,8 @@
-@font-face { font-family: "Pretendard Local"; src: url("./assets/fonts/pretendard-400.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: swap; }
-@font-face { font-family: "Pretendard Local"; src: url("./assets/fonts/pretendard-500.woff2") format("woff2"); font-style: normal; font-weight: 500; font-display: swap; }
-@font-face { font-family: "Pretendard Local"; src: url("./assets/fonts/pretendard-600.woff2") format("woff2"); font-style: normal; font-weight: 600; font-display: swap; }
-@font-face { font-family: "Pretendard Local"; src: url("./assets/fonts/pretendard-700.woff2") format("woff2"); font-style: normal; font-weight: 700; font-display: swap; }
-@font-face { font-family: "Pretendard Local"; src: url("./assets/fonts/pretendard-800.woff2") format("woff2"); font-style: normal; font-weight: 800; font-display: swap; }
+@font-face { font-family: "Pretendard Local"; src: url("../b/assets/fonts/pretendard-400.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: "Pretendard Local"; src: url("../b/assets/fonts/pretendard-500.woff2") format("woff2"); font-style: normal; font-weight: 500; font-display: swap; }
+@font-face { font-family: "Pretendard Local"; src: url("../b/assets/fonts/pretendard-600.woff2") format("woff2"); font-style: normal; font-weight: 600; font-display: swap; }
+@font-face { font-family: "Pretendard Local"; src: url("../b/assets/fonts/pretendard-700.woff2") format("woff2"); font-style: normal; font-weight: 700; font-display: swap; }
+@font-face { font-family: "Pretendard Local"; src: url("../b/assets/fonts/pretendard-800.woff2") format("woff2"); font-style: normal; font-weight: 800; font-display: swap; }
 
 :root {
   --app-width: 390px;
