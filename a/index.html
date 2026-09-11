@@ -12,7 +12,7 @@
     <title>A-1 · 동화가든 | 매주 도착하는 강릉의 한 상</title>
     <link rel="stylesheet" href="./styles.css?v=20260910-hero-no-shadow">
   <link rel="stylesheet" href="./subscription-home.css?v=20260911-story-hover">
-    <link rel="stylesheet" href="./cohort-ribbon.css?v=20260911">
+    <link rel="stylesheet" href="./cohort-ribbon.css?v=20260911-notice">
   </head>
   <body>
     <div class="app-shell">
@@ -925,5 +925,16 @@
     <script src="./subscription-cta-hover.js?v=20260911-story-hover"></script>
   <script src="./subscription-reassurance.js?v=20260911-detail-pin"></script>
   <script src="./cohort-ribbon.js?v=20260911"></script>
+      <dialog id="cohort-notice-dialog" class="cohort-notice" data-theme="a" aria-labelledby="cohort-notice-title">
+      <button type="button" class="cohort-notice__close" data-notice-close aria-label="닫기">×</button>
+      <p>동화가든 정기배송</p>
+      <h2 id="cohort-notice-title">다음 기수<br>알림받기</h2>
+      <p>다음 기수 모집 일정은 알림으로 안내합니다.</p>
+      <label>알림 받을 이메일<input type="email" value="sample@example.com" readonly></label>
+      <p class="cohort-notice__help" data-notice-status role="status">시연용 이메일입니다. 실제 알림은 발송하지 않습니다.</p>
+      <button type="button" class="cohort-notice__action" data-notice-submit>알림 신청 화면 확인</button>
+      <button type="button" class="cohort-notice__action" data-notice-cancel hidden>알림 신청 취소</button>
+    </dialog>
+    <script src="./cohort-notice.js?v=20260911"></script>
   </body>
 </html>
