@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(df637de59951-MaruBuri-Regular.eot);
+    src: url(935a67928ba3-MaruBuri-Regular.eot) format("embedded-opentype"), url(701c856f876f-MaruBuri-Regular.woff2) format("woff2"), url(7d5d761b3fad-MaruBuri-Regular.woff) format("woff"), url(86bc763a9c98-MaruBuri-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'MaruBuriSemiBold';
+    src: url(4ec2f519f7e4-MaruBuri-SemiBold.eot);
+    src: url(01975fe63cbe-MaruBuri-SemiBold.eot) format("embedded-opentype"), url(4df07ae1f828-MaruBuri-SemiBold.woff2) format("woff2"), url(6299516b6940-MaruBuri-SemiBold.woff) format("woff"), url(ee4ca4aafd7a-MaruBuri-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'MaruBuriBold';
+    src: url(52555d33af53-MaruBuri-Bold.eot);
+    src: url(5d9113406bf1-MaruBuri-Bold.eot) format("embedded-opentype"), url(b1a3f6f63ce9-MaruBuri-Bold.woff2) format("woff2"), url(88cc51a34fa6-MaruBuri-Bold.woff) format("woff"), url(ee92a5cd6136-MaruBuri-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'MaruBuriLight';
+    src: url(75310a0d1802-MaruBuri-Light.eot);
+    src: url(3d6a515625b9-MaruBuri-Light.eot) format("embedded-opentype"), url(a7b46e213f1c-MaruBuri-Light.woff2) format("woff2"), url(044cb07f2c9e-MaruBuri-Light.woff) format("woff"), url(55153a447b9b-MaruBuri-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'MaruBuriExtraLight';
+    src: url(ba8bc89c971e-MaruBuri-ExtraLight.eot);
+    src: url(fca53a59d1a5-MaruBuri-ExtraLight.eot) format("embedded-opentype"), url(f2f67593f8a0-MaruBuri-ExtraLight.woff2) format("woff2"), url(a0d77f8f23c5-MaruBuri-ExtraLight.woff) format("woff"), url(849a687907ab-MaruBuri-ExtraLight.ttf) format("truetype");
+}

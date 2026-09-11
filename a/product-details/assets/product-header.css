@@ -1,0 +1,187 @@
+/* Shared product-detail chrome. Keep the existing 390px page and body typography. */
+html.dhgarden2-public,
+html.dhgarden2-public body {
+  overflow-x: clip;
+}
+.dhgarden2-public .pv-page { display: flow-root; }
+.pv-page .pv-detail-promo {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 4px;
+  height: 45px;
+  margin: 12px 16px;
+  padding: 0 10px 0 4px;
+  overflow: hidden;
+  color: #fff;
+  background: #57c86c;
+  border-radius: 12px;
+}
+.pv-page .pv-detail-promo a { color: inherit; text-decoration: none; }
+.pv-page .pv-detail-promo__close {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 42px;
+  padding: 0;
+  color: #fff;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.pv-page .pv-detail-promo__close svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+}
+.pv-page .pv-detail-promo__message {
+  min-width: 0;
+  padding-left: 10px;
+  font-size: min(16px, 4.1vw);
+  font-weight: 800;
+  letter-spacing: -.04em;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+.pv-page .pv-detail-promo__cta {
+  display: grid;
+  place-items: center;
+  height: 32px;
+  padding: 0 10px;
+  color: #287b36 !important;
+  background: #fff;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+/* Only the title/actions and tabs stick; the dismissible banner scrolls away. */
+.dhgarden2-public .pv-page.is-mobile .pv-header.pv-product-header {
+  position: sticky !important;
+  top: 0;
+  z-index: 20 !important;
+  width: 100%;
+  background: #fff;
+}
+.pv-page .pv-product-header__row {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) repeat(2, 44px);
+  align-items: center;
+  height: 58px;
+  margin-top: -12px;
+  padding: 0 8px;
+  gap: 0;
+}
+.pv-page .pv-detail-promo[hidden] + .pv-product-header .pv-product-header__row {
+  margin-top: 0;
+}
+.pv-page .pv-product-header__title {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  color: #262626;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pv-page .pv-product-header__action {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  color: #262626;
+  background: transparent;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+.pv-page .pv-product-header__action svg {
+  display: block;
+  width: 26px;
+  height: 26px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.pv-page .pv-product-header__action [data-cart-count] {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  display: grid;
+  place-items: center;
+  min-width: 17px;
+  height: 17px;
+  padding: 0 4px;
+  color: #fff;
+  background: var(--pv-accent, #5bc930);
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+}
+.pv-page .pv-detail-promo[hidden],
+.pv-page .pv-product-header [hidden] { display: none !important; }
+.pv-page.is-mobile .pv-product-header .pv-detail-tabs {
+  position: static !important;
+  width: 100%;
+  height: 46px;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #e8e8e8;
+  background: #fff;
+}
+.pv-page.is-mobile .pv-product-header .pv-detail-tabs button {
+  min-width: 0;
+  padding: 0 4px;
+  color: #8a9298;
+  font-size: 15px;
+  font-weight: 600;
+}
+.pv-page.is-mobile .pv-product-header .pv-detail-tabs button.is-active {
+  color: var(--pv-accent, #5bc930);
+  font-weight: 700;
+}
+.pv-page.is-mobile .pv-product-header .pv-detail-tabs button[data-detail-target="community"] {
+  white-space: nowrap;
+}
+.pv-page.is-mobile .pv-product-header .pv-detail-tabs .pv-detail-tabs__count {
+  margin-left: 2px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: inherit;
+  vertical-align: baseline;
+}
+.pv-page.is-mobile .pv-product-header .pv-detail-tabs button.is-active::after {
+  left: 8px;
+  right: 8px;
+  bottom: 0;
+  height: 2px;
+}
+.pv-page .pv-detail-divider {
+  width: 100%;
+  height: 12px;
+  margin: 0;
+  background: #f3f4f5;
+}
+.pv-page [data-module="productStory"],
+.pv-page [data-module="specs"],
+.pv-page [data-module="community"],
+.pv-page [data-module="productQuestions"] {
+  scroll-margin-top: calc(var(--pv-header-height, 104px) + 8px);
+}
+.pv-page .pv-product-header a:focus-visible,
+.pv-page .pv-product-header button:focus-visible,
+.pv-page .pv-detail-promo a:focus-visible,
+.pv-page .pv-detail-promo button:focus-visible {
+  outline: 2px solid #287b36;
+  outline-offset: -3px;
+}

@@ -1,0 +1,364 @@
+/* Sangsangtokki Soonakpilyeosa: web embedding permitted; original font unmodified.
+   License: https://www.sandollcloud.com/free-font/822/SSVeryBadHandwriting-OTF */
+@font-face {
+  font-family: 'Soonakpilyeosa';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/SSVeryBadHandwriting.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* Subscription home: editorial flow from the supplied planning document. */
+.subscription-home { --sub-paper: #faf7ef; --sub-ink: #243e2d; --sub-soft: #edf3e8; }
+.subscription-home .subscription-hero { display: block; position: relative; padding: 38px 20px 22px; background: var(--sub-paper); color: var(--sub-ink); overflow: hidden; }
+.subscription-hero__copy { position: relative; z-index: 1; }
+.subscription-kicker { margin: 0 0 16px; color: #607552; font-size: 12px; font-weight: 700; letter-spacing: .035em; }
+.subscription-home .subscription-hero h1 { margin: 0; font-size: clamp(36px,10vw,44px); font-weight: 800; line-height: 1.2; letter-spacing: -.05em; }
+.subscription-hand { margin: 18px 0 24px; font-family: 'MaruBuri', 'AppleMyungjo', serif; font-size: 21px; line-height: 1.55; letter-spacing: -.045em; }
+.subscription-hero__portrait { display: block; width: 100%; height: 300px; object-fit: cover; object-position: center 55%; border-radius: 160px 160px 8px 8px; }
+.subscription-button { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 52px; padding: 14px 20px; border-radius: 9px; background: #32573b; color: #fff; font-size: 16px; font-weight: 700; text-decoration: none; }
+.subscription-hero .subscription-button { margin-top: 16px; }
+.subscription-hero__note { margin: 12px 0 0; text-align: center; font-size: 11px; color: #6e7767; }
+.subscription-section { padding: 60px 22px; color: var(--sub-ink); background: #fff; }
+.subscription-section h2 { margin: 0 0 24px; font-size: 28px; line-height: 1.4; letter-spacing: -.05em; word-break: keep-all; }
+.subscription-section h3 { margin: 12px 0 18px; font-size: 23px; line-height: 1.45; letter-spacing: -.045em; word-break: keep-all; }
+.subscription-section p:not(.subscription-kicker) { font-size: 14px; line-height: 1.85; word-break: keep-all; }
+.subscription-section .subscription-lead { margin-top: 24px; font-size: 18px!important; font-weight: 700; line-height: 1.65; }
+.subscription-section img { display: block; width: 100%; aspect-ratio: 1.15; object-fit: cover; border-radius: 12px; margin: 25px 0; }
+.subscription-three { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); text-align: center; gap: 8px; margin-top: 28px; }
+.subscription-three span { font-size: 11px; color: #78836e; }
+.subscription-three b { display: block; margin-top: 6px; color: var(--sub-ink); font-size: 16px; }
+.subscription-pain { background: var(--sub-paper); }
+.subscription-worries { list-style: none; margin: 28px 0; padding: 0; }
+.subscription-worries li { padding: 16px 14px; margin: 9px 0; background: #fff; border-radius: 9px; font-size: 14px; }
+.subscription-worries li::before { content: '“'; margin-right: 10px; color: #87a377; font-size: 22px; }
+.subscription-principles > article { margin-top: 46px; padding-top: 28px; border-top: 1px solid #dae1d4; }
+.subscription-number { font-size: 14px; color: #73895d; font-weight: 700; }
+.subscription-facts { display: grid; grid-template-columns: 1fr 1.3fr; padding: 20px 0; background: var(--sub-soft); border-radius: 10px; text-align: center; }
+.subscription-facts strong { font-size: 33px; }
+.subscription-facts small { display: block; margin-top: 5px; font-size: 11px; font-weight: 500; }
+.subscription-pairing { margin-top: 20px; padding: 14px; background: var(--sub-soft); border-radius: 8px; font-size: 12px; text-align: center; }
+.subscription-cohort { background: #2e4936; color: #fff; }
+.subscription-cohort .subscription-kicker { color: #c1d4a8; }
+.subscription-cohort ol { margin: 28px 0; padding: 0; list-style: none; }
+.subscription-cohort li { display: flex; gap: 16px; padding: 16px 0; border-top: 1px solid #5c725e; font-size: 13px; }
+.subscription-cohort li b { color: #bfd49f; }
+.subscription-cohort .subscription-button { background: #e8efdb; color: #2e4936; }
+.subscription-composition article { display: flex; gap: 15px; align-items: center; margin-top: 24px; }
+.subscription-composition article img { width: 95px; height: 110px; margin: 0; flex-shrink: 0; }
+.subscription-composition article h3 { font-size: 17px; margin: 5px 0; }
+.subscription-composition article p { margin: 0; font-size: 12px!important; }
+.subscription-composition small { font-size: 11px; color: #718761; }
+.subscription-home .section--plans { padding: 50px 20px; background: var(--sub-paper); }
+.subscription-home .plan-card { box-shadow: none; }
+.subscription-flexible { background: var(--sub-soft); }
+.subscription-flexible > div { background: white; padding: 20px; border-radius: 12px; margin: 14px 0; }
+.subscription-flexible h3 { font-size: 17px; margin: 0 0 8px; }
+.subscription-flexible p { margin: 0; }
+.subscription-note { font-size: 11px!important; color: #6d7869; }
+.subscription-home .faq-list details { border-bottom: 1px solid #dce5d8; }
+.subscription-home .faq-list summary { color: var(--sub-ink); font-size: 15px; line-height: 1.5; padding: 20px 0; }
+.subscription-home .faq-list details p { padding: 0 0 20px; margin: 0; }
+.subscription-final { background: var(--sub-paper); }
+.subscription-final > .subscription-button { margin-top: 25px; }
+.subscription-story { margin-top: 32px; border-top: 1px solid #d8ddcf; }
+.subscription-story summary { padding: 22px 0; display: flex; justify-content: space-between; gap: 8px; font-size: 13px; font-weight: 700; cursor: pointer; list-style: none; }
+.subscription-story summary::-webkit-details-marker { display: none; }
+.subscription-story[open] summary span { transform: rotate(45deg); }
+.subscription-story > div { padding-top: 12px; }
+.subscription-story img { aspect-ratio: 4/5; }
+.subscription-home .subscription-button:focus-visible, .subscription-story summary:focus-visible { outline: 3px solid #87ad65; outline-offset: 4px; }
+
+/* Handwritten section headings, separate from body copy and product names. */
+.subscription-home .subscription-section h2,
+.subscription-home .section--plans > .section-heading h2,
+.subscription-home .subscription-principles h3,
+.subscription-home .subscription-flexible h3,
+.subscription-home .subscription-story h3 {
+  font-family: 'Soonakpilyeosa', 'Apple SD Gothic Neo', sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+/* Full-width portrait intro replaces the former photo and background. */
+.subscription-home .subscription-hero--video { padding: 0; width: 100%; height: auto; aspect-ratio: 9 / 16; background: #000; }
+.subscription-home .subscription-hero--video::before,
+.subscription-home .subscription-hero--video::after { display: none; }
+.subscription-hero__video { display: block; width: 100%; height: 100%; aspect-ratio: 9 / 16; object-fit: cover; }
+
+/* One continuous glass surface for both sticky bars. */
+.app-shell:has(> .subscription-home:not([hidden])) { --subscription-promo-height: 63px; }
+.app-shell:has(> .subscription-home:not([hidden])):has(> .promo.is-closed) { --subscription-promo-height: 0px; }
+.app-shell:has(> .subscription-home:not([hidden])) > .promo {
+  position: sticky; top: 12px; z-index: 32;
+  background: var(--brand);
+  -webkit-backdrop-filter: none; backdrop-filter: none;
+}
+.app-shell:has(> .subscription-home:not([hidden])) > .site-header {
+  top: var(--subscription-promo-height); background: transparent; border-bottom: 0;
+  isolation: isolate;
+  -webkit-backdrop-filter: none; backdrop-filter: none;
+}
+.app-shell:has(> .subscription-home:not([hidden])) > .site-header::before {
+  content: ''; position: absolute; inset: calc(-1 * var(--subscription-promo-height)) 0 0;
+  z-index: -1; pointer-events: none;
+  background: rgba(255,255,255,.45);
+  -webkit-backdrop-filter: blur(16px) saturate(135%);
+  backdrop-filter: blur(16px) saturate(135%);
+}
+.subscription-hero__video { pointer-events: none; }
+.subscription-hero__video::-webkit-media-controls { display: none !important; }
+@supports not (backdrop-filter: blur(16px)) {
+  .app-shell:has(> .subscription-home:not([hidden])) > .site-header::before { background: rgba(255,255,255,.65); }
+}
+
+/* Hand-lettered cover copy and seven small, code-native doodles. */
+.subscription-home .subscription-hero--video { isolation: isolate; container-type: inline-size; }
+.subscription-video-title, .subscription-video-message { position: absolute; z-index: 2; left: 10%; right: 10%; margin: 0; color: #fffdf1; text-align: center; pointer-events: none; }
+.subscription-video-title { top: 5%; transform: rotate(-3deg); }
+.subscription-video-title > p { margin: 0 0 10px; font-size: 13px; font-size: 3.4cqw; font-weight: 700; text-shadow: 0 1px 3px #152019, 0 0 7px #152019; }
+.subscription-home .subscription-hero .subscription-video-title h1 {
+  margin: 0; font-family: 'Soonakpilyeosa', sans-serif; font-size: 47px; font-size: 12cqw;
+  font-weight: 400; line-height: 1.15; letter-spacing: -.015em; color: #fffdf1;
+  -webkit-text-stroke: 5px #18271e; paint-order: stroke fill; text-shadow: 1px 3px 0 #18271e;
+}
+.subscription-video-message {
+  bottom: 8%; font-family: 'Soonakpilyeosa', sans-serif; font-size: 29px; font-size: 7.6cqw; line-height: 1.55;
+  transform: rotate(2deg); -webkit-text-stroke: 4px #18271e; paint-order: stroke fill; text-shadow: 1px 2px 0 #18271e;
+}
+.subscription-video-message span { color: #e6f2b9; }
+.subscription-doodles { position: absolute; inset: 0; z-index: 1; width: 100%; height: 100%; pointer-events: none; filter: drop-shadow(0 1px 1px rgba(0,0,0,.25)); }
+.subscription-doodles__small { paint-order: stroke fill; filter: drop-shadow(1px 1px 1px #18271e); }
+
+/* Shared handwritten section heading scale, matching the opening quote. */
+.subscription-home .subscription-section h2,
+.subscription-home .section--plans > .section-heading h2 { font-size: 35px; line-height: 1.15; }
+
+/* Center the subscription section content at every screen width. */
+.subscription-home > section { text-align: center; }
+.subscription-home .subscription-button,
+.subscription-home .subscription-cohort li,
+.subscription-home .subscription-story summary,
+.subscription-home .faq-list summary { justify-content: center; }
+.subscription-home .faq-list summary { padding-inline: 24px; }
+.subscription-home .subscription-composition article { flex-direction: column; }
+.subscription-home .plan-card > .plan-card__body { text-align: center; }
+.subscription-home .plan-card__body > header { grid-template-columns: 1fr; justify-items: center; }
+.subscription-home .plan-card .plan-card__price { justify-items: center; text-align: center; }
+
+/* Imported opening promise, scoped to the requested guide section. */
+.subscription-promise { background: var(--sub-paper); }
+.subscription-promise__line { display: block; }
+.subscription-roll { display: block; height: 1.15em; overflow: hidden; }
+.subscription-roll__track { display: block; animation: subscription-word-roll 4s cubic-bezier(.76,0,.24,1) infinite; }
+.subscription-roll__track > span { display: block; height: 1.15em; white-space: nowrap; }
+.subscription-roll--delivery { color: #78836e; }
+.subscription-roll--benefit { color: #328043; }
+@keyframes subscription-word-roll {
+  0%,20% { transform: translateY(0); }
+  25%,45% { transform: translateY(-20%); }
+  50%,70% { transform: translateY(-40%); }
+  75%,95% { transform: translateY(-60%); }
+  100% { transform: translateY(-80%); }
+}
+.subscription-promise__visual { position: relative; margin: 28px 0 0; overflow: hidden; border-radius: 12px; }
+.subscription-section .subscription-promise__visual img { margin: 0; aspect-ratio: 390/322; object-position: center 52%; }
+.subscription-promise__visual::after { content: ''; position: absolute; inset: 60% 0 0; background: linear-gradient(transparent,rgba(20,22,20,.68)); }
+.subscription-promise__visual figcaption { position: absolute; z-index: 1; bottom: 18px; left: 12px; right: 12px; display: grid; gap: 3px; color: #fff; font-size: 11px; }
+.subscription-promise__visual figcaption strong { font-size: 14px; }
+@media (prefers-reduced-motion: reduce) { .subscription-roll__track { animation: none; } }
+
+/* The three principles stack in document order as the reader scrolls. */
+.subscription-home .subscription-principles {
+  position: relative;
+  padding-inline: 16px;
+  padding-bottom: 100px;
+  background: #f4f1e9;
+}
+.subscription-home .subscription-principles > article {
+  --card-step: 0;
+  position: sticky;
+  top: calc(var(--subscription-promo-height, 63px) + 71px);
+  z-index: 1;
+  margin: 40px 0 0;
+  padding: 22px 20px;
+  border: 1px solid rgba(36,62,45,.1);
+  border-radius: 24px;
+  background: #fffdf7;
+  box-shadow: 0 -8px 30px rgba(29,48,34,.07), 0 12px 30px rgba(29,48,34,.09);
+}
+.subscription-home .subscription-principles > article:nth-of-type(2) {
+  --card-step: 1; z-index: 2; margin-top: 100px; background: #e9f0df;
+}
+.subscription-home .subscription-principles > article:nth-of-type(3) {
+  --card-step: 2; z-index: 3; margin-top: 100px; background: #e4ebe5;
+}
+.subscription-home .subscription-principles article h3 { margin: 8px 0 14px; font-size: 25px; line-height: 1.2; }
+.subscription-home .subscription-principles article img {
+  height: clamp(120px, 21vh, 190px); aspect-ratio: auto; margin: 14px 0; border-radius: 14px;
+}
+.subscription-home .subscription-principles article p { margin: 14px 0 0; font-size: 13px; line-height: 1.65; }
+.subscription-home .subscription-principles .subscription-facts { padding: 12px 0; }
+.subscription-home .subscription-principles .subscription-facts strong { font-size: 26px; }
+.subscription-home .subscription-principles .subscription-pairing { margin-top: 14px; padding: 10px; }
+/* Short screens and reduced motion retain the same cards without obscuring text. */
+@media (max-height: 740px), (prefers-reduced-motion: reduce) {
+  .subscription-home .subscription-principles > article { position: relative; top: auto; }
+  .subscription-home .subscription-principles > article + article { margin-top: 28px; }
+}
+
+/* Each incoming card replaces the previous card instead of leaving a visible stack. */
+.subscription-home .subscription-principles > article {
+  transform-origin: center top;
+  opacity: var(--principle-opacity, 1);
+  transform: scale(var(--principle-scale, 1));
+}
+
+/* Extend the last card's sticky range beneath the following section. */
+@media (min-height: 741px) and (prefers-reduced-motion: no-preference) {
+  .subscription-home .subscription-principles::after { content: ''; display: block; height: 100vh; }
+  .subscription-home .subscription-principles + .subscription-cohort {
+    position: relative;
+    z-index: 4;
+    margin-top: -100vh;
+  }
+}
+
+/* Quantities already present in the product composition, visualized without inferred nutrition claims. */
+.principle-chart { display: grid; justify-items: center; gap: 18px; margin: 22px 0; }
+.principle-ring { width: 154px; height: 154px; border: 12px solid #50c565; border-radius: 50%; display: flex; flex-direction: column; justify-content: center; background: #fff; box-shadow: inset 0 0 0 5px #edf5e9; }
+.principle-ring strong, .principle-metric strong { display: block; color: #2c713e; font-size: 52px; line-height: 1.1; letter-spacing: -.05em; }
+.principle-ring strong span, .principle-metric strong span { font-size: 24px; margin-left: 3px; }
+.principle-ring small, .principle-metric small { font-size: 12px; }
+.principle-metric strong { margin-top: 14px; font-size: 68px; }
+.principle-zero, .principle-portions, .principle-ferments { display: flex; gap: 8px; width: 100%; }
+.principle-zero > span { flex: 1; display: grid; gap: 5px; padding: 12px 0; background: #eaf1e6; border-radius: 12px; font-size: 11px; }
+.principle-zero b { font-size: 28px; color: #328043; }
+.principle-portions > span { flex: 1; display: grid; place-items: center; height: 68px; border-radius: 10px; background: #50c565; color: #163a20; font-weight: 700; font-size: 16px; }
+.principle-portions > span:nth-child(2) { background: #79d28a; }
+.principle-portions > span:nth-child(3) { background: #a0dfab; }
+.principle-ferments > span { flex: 1; display: grid; place-items: center; gap: 7px; padding: 16px 8px; border-radius: 45px 45px 15px 15px; background: #34583f; color: #fff; font-size: 13px; }
+.principle-ferments b { font-size: 28px; color: #c4dfa9; }
+.principle-chart-note { font-size: 10px; line-height: 1.5; color: #61705e; }
+
+/* Later sections must paint above the extended sticky-card scroll area. */
+.subscription-home .subscription-principles ~ section {
+  position: relative;
+  z-index: 4;
+}
+
+.subscription-cohort__quote {
+  margin: 30px 0; color: #d6e8bc;
+  font-family: 'Soonakpilyeosa', sans-serif;
+  font-size: 28px; line-height: 1.25; font-weight: 400;
+}
+.subscription-cohort__invitation { padding-top: 4px; border-top: 1px solid #5c725e; }
+.subscription-cohort__invitation p:last-child { color: #c1d4a8; margin-top: 24px; }
+.subscription-cohort__invitation + .subscription-button { margin-top: 30px; }
+
+/* Two seamless, opposing rows of market product thumbnails and names. */
+.subscription-home .subscription-composition { padding-inline: 0; overflow: hidden; }
+.subscription-composition > .subscription-kicker,
+.subscription-composition > h2 { margin-inline: 22px; }
+.composition-marquees { display: grid; gap: 22px; margin-top: 32px; }
+.composition-marquee { overflow: hidden; }
+.composition-marquee__track { display: flex; width: max-content; animation: composition-drift 35s linear infinite; }
+.composition-marquee--reverse .composition-marquee__track { animation-direction: reverse; animation-duration: 39s; }
+.composition-marquee__group { display: flex; gap: 12px; padding-right: 12px; }
+.composition-product { flex: 0 0 170px; width: 170px; margin: 0; text-align: left; }
+.subscription-section .composition-product img { width: 170px; height: 170px; aspect-ratio: 1; margin: 0; border-radius: 18px; object-fit: cover; }
+.composition-product figcaption { padding: 10px 4px 0; font-size: 13px; line-height: 1.5; font-weight: 600; word-break: keep-all; }
+
+@keyframes composition-drift { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) {
+  .composition-marquee { overflow-x: auto; }
+  .composition-marquee__track { animation: none; }
+  .composition-marquee__group[aria-hidden="true"] { display: none; }
+}
+
+/* Three ingredient-category cards ahead of the subscription plans. */
+.plan-composition-intro { margin: 36px 0 40px; }
+.plan-composition-cards { display: grid; gap: 14px; }
+.plan-composition-card { overflow: hidden; border: 1px solid #e5e6dc; border-radius: 18px; background: #fff; }
+.plan-composition-card > img { display: block; width: 100%; height: 170px; object-fit: cover; }
+.plan-composition-card > div { padding: 18px 12px 20px; }
+.plan-composition-card p { margin: 0 0 7px; color: #6d7c65; font-size: 12px; line-height: 1.5; }
+.plan-composition-card h3 { margin: 0; color: #243e2d; font-size: 19px; line-height: 1.4; }
+
+/* A fixed rounded crop keeps every thumbnail identical while its image zooms. */
+.composition-product__thumbnail { width: 170px; height: 170px; border-radius: 18px; overflow: hidden; isolation: isolate; }
+.subscription-section .composition-product__thumbnail img { border-radius: 0; transform: scale(var(--thumbnail-crop, 1)); transition: transform .3s ease; }
+.composition-product__thumbnail:has(img[src*="spicy-tofu"]) { --thumbnail-crop: 1.12; }
+@media (hover: hover) and (pointer: fine) {
+  .composition-product__thumbnail:hover img { transform: scale(calc(var(--thumbnail-crop, 1) * 1.055)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .subscription-section .composition-product__thumbnail img { transition: none; }
+}
+
+/* Subscription reassurance, adapted from the supplied reference section. */
+.reassure-usage-benefits { display: grid; gap: 16px; }
+.reassure-usage-benefit { border: 1px solid #dce4d6; border-radius: 20px; background: #fff; overflow: hidden; }
+.reassure-usage-benefit > summary { position: relative; padding: 26px 30px; cursor: pointer; list-style: none; }
+.reassure-usage-benefit > summary::-webkit-details-marker { display: none; }
+.reassure-usage-benefit__eyebrow { margin: 0 0 10px; font-size: 12px; color: #6d7c65; }
+.reassure-usage-benefit summary h3 { margin: 0; font-size: 22px; line-height: 1.35; color: #243e2d; }
+.reassure-usage-benefit__toggle::after { content: '+'; position: absolute; right: 14px; top: 50%; font-size: 22px; }
+.reassure-usage-benefit[open] .reassure-usage-benefit__toggle::after { content: '−'; }
+.reassure-usage-benefit__panel { padding: 0 18px 24px; font-size: 13px; line-height: 1.7; color: #3c5140; }
+.reassure-custom-card { margin-top: 20px; padding: 18px 14px; background: #f1f5eb; border-radius: 14px; }
+.reassure-custom-card h3 { margin: 18px 0 10px; font-size: 17px; }
+.reassure-custom-card__phone { padding: 12px; background: #fff; border-radius: 12px; }
+.reassure-custom-card__phone header { display: grid; gap: 4px; }
+.reassure-custom-card__phone header span { font-size: 11px; color: #71806b; }
+.reassure-custom-card__phone ul { padding: 0; list-style: none; display: flex; gap: 8px; }
+.reassure-custom-card__phone li { flex: 1; min-width: 0; font-size: 10px; }
+.reassure-custom-card__phone img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; margin-bottom: 5px; }
+.reassure-check-list { list-style: none; padding: 0; margin: 0; font-size: 12px; }
+.reassure-check-list li + li { margin-top: 6px; }
+.reassure-mini-calendar { background: #fff; padding: 12px 6px; border-radius: 12px; }
+.reassure-mini-calendar > div { display: grid; grid-template-columns: repeat(7,1fr); margin-top: 12px; }
+.reassure-mini-calendar span { padding: 5px 0; font-size: 11px; }
+.reassure-is-pause { background: #d8ebc4; border-radius: 7px; }
+.reassure-mini-calendar i { display: block; font-size: 8px; font-style: normal; }
+.reassure-timeline { padding: 0; list-style: none; }
+.reassure-timeline li { margin-top: 24px; }
+.reassure-timeline__image { width: 100%; aspect-ratio: 1.5; object-fit: cover; border-radius: 12px; }
+.reassure-timeline__number { display: block; margin-top: 12px; color: #4a9f58; }
+.reassure-timeline h3 { margin: 7px 0; font-size: 17px; }
+.reassure-timeline p { margin: 0; }
+.reassure-primary-button { display: block; padding: 14px; background: #32573b; color: #fff; border-radius: 10px; margin-top: 24px; font-weight: 700; }
+.subscription-home .reassurance-plans-heading { margin-top: 48px; }
+
+/* Compact, left-aligned FAQ rows. */
+.subscription-home #faq .faq-list summary {
+  min-height: 50px; padding: 12px 28px 12px 0;
+  justify-content: flex-start; text-align: left; font-size: 14px; line-height: 1.5;
+}
+.subscription-home #faq .faq-list details p { text-align: left; padding: 0 0 16px; font-size: 13px; line-height: 1.75; }
+
+/* Closing invitation: rounded photographic card with a clear pill CTA. */
+.subscription-home .subscription-final { padding: 28px 20px 48px; background: #fff; }
+.subscription-cta-card {
+  position: relative; isolation: isolate; overflow: hidden; border-radius: 26px;
+  min-height: 390px; padding: 44px 22px; color: #fff;
+  background: #17261d url('./assets/hero-table.jpg') center bottom / cover no-repeat;
+}
+.subscription-cta-card::before {
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(180deg,rgba(9,22,14,.94) 0%,rgba(9,22,14,.8) 46%,rgba(9,22,14,.25) 100%);
+}
+.subscription-home .subscription-cta-card h2 { margin: 0 0 26px; color: #fffdf1; font-size: 35px; line-height: 1.2; }
+.subscription-cta-card__button {
+  display: inline-flex; align-items: center; justify-content: center; gap: 9px;
+  min-height: 48px; padding: 12px 23px; border-radius: 999px;
+  color: #243e2d; background: #fffdf6; font-size: 15px; font-weight: 700;
+}
+.subscription-cta-card__button:focus-visible { outline: 3px solid #50c565; outline-offset: 4px; }
+
+/* Match A's video overlay gradient and shadow-free lettering. */
+.subscription-hero-gradient { display: none; position: absolute; inset: 0; z-index: 0; pointer-events: none; }
+.subscription-video-title > p,
+.subscription-home .subscription-hero .subscription-video-title h1,
+.subscription-video-message { text-shadow: none; }
