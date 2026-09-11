@@ -179,7 +179,7 @@
 .subscription-home .subscription-principles > article {
   --card-step: 0;
   position: sticky;
-  top: calc(var(--subscription-promo-height, 63px) + 71px);
+  top: var(--principle-pin-top, calc(var(--subscription-promo-height, 63px) + 71px));
   z-index: 1;
   margin: 40px 0 0;
   padding: 22px 20px;
@@ -202,8 +202,8 @@
 .subscription-home .subscription-principles .subscription-facts { padding: 12px 0; }
 .subscription-home .subscription-principles .subscription-facts strong { font-size: 26px; }
 .subscription-home .subscription-principles .subscription-pairing { margin-top: 14px; padding: 10px; }
-/* Short screens and reduced motion retain the same cards without obscuring text. */
-@media (max-height: 740px), (prefers-reduced-motion: reduce) {
+/* Reduced motion retains a static, fully readable card layout. */
+@media (prefers-reduced-motion: reduce) {
   .subscription-home .subscription-principles > article { position: relative; top: auto; }
   .subscription-home .subscription-principles > article + article { margin-top: 28px; }
 }
@@ -216,7 +216,7 @@
 }
 
 /* Extend the last card's sticky range beneath the following section. */
-@media (min-height: 741px) and (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {
   .subscription-home .subscription-principles::after { content: ''; display: block; height: 100vh; }
   .subscription-home .subscription-principles + .subscription-cohort {
     position: relative;

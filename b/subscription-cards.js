@@ -3,15 +3,23 @@
   if (!section) return;
   const cards = [...section.querySelectorAll(':scope > article')];
   const followingSection = section.nextElementSibling;
-  const staticLayout = matchMedia('(max-height: 740px), (prefers-reduced-motion: reduce)');
+  const staticLayout = matchMedia('(prefers-reduced-motion: reduce)');
   let pending = false;
   function update() {
     pending = false;
     if (section.closest('[hidden]')) return;
-    const top = parseFloat(getComputedStyle(cards[0]).top) || 0;
+    const headerBottom = Math.max(0, document.querySelector('.site-header')?.getBoundingClientRect().bottom || 0) + 16;
+    const actionTop = document.querySelector('.subscription-island-cta')?.getBoundingClientRect().top;
+    const readingBottom = Number.isFinite(actionTop) ? actionTop - 16 : innerHeight - 100;
+    // Tall cards scroll through the reading area before pinning, even on short screens.
+    cards.forEach(card => {
+      const pinTop = Math.min(headerBottom, readingBottom - card.offsetHeight);
+      card.style.setProperty('--principle-pin-top', `${pinTop}px`);
+    });
     const positions = [...cards, followingSection].map(card => card?.getBoundingClientRect().top);
     cards.forEach((card, index) => {
       const next = cards[index + 1] || followingSection;
+      const top = parseFloat(getComputedStyle(card).top) || 0;
       const progress = !staticLayout.matches && next
         ? Math.min(1, Math.max(0, 1 - (positions[index + 1] - top) / card.offsetHeight))
         : 0;
