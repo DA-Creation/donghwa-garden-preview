@@ -1,0 +1,111 @@
+/* Typography variant: the original intro retains its hand-lettered overlays. */
+.subscription-home > section:not(.subscription-hero) {
+  --clean-font: "Pretendard Local", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif;
+  font-family: var(--clean-font);
+}
+.subscription-home > section:not(.subscription-hero) :is(h2, h3, blockquote) {
+  font-family: var(--clean-font); font-synthesis: none; letter-spacing: -.035em;
+}
+.subscription-home > section:not(.subscription-hero) h2 {
+  font-size: 27px; font-weight: 700; line-height: 1.4; text-wrap: balance;
+}
+.subscription-home > section:not(.subscription-hero) h3 {
+  font-size: 20px; font-weight: 600; line-height: 1.45;
+}
+.subscription-home .subscription-kicker { font-size: 12px; font-weight: 600; line-height: 1.6; letter-spacing: .01em; }
+.subscription-home .subscription-section p:not(.subscription-kicker) { font-size: 14px; line-height: 1.8; letter-spacing: -.015em; }
+.subscription-home .subscription-section .subscription-lead { font-size: 18px!important; line-height: 1.6; font-weight: 600; }
+.subscription-home .subscription-cohort__quote { font-size: 23px; font-weight: 600; line-height: 1.55; }
+.subscription-home .subscription-principles article h3 { font-size: 22px; line-height: 1.4; font-weight: 600; }
+.subscription-home .subscription-principles article p { font-size: 13px; line-height: 1.75; }
+.subscription-home .composition-product figcaption { font-size: 13px; font-weight: 500; line-height: 1.55; letter-spacing: -.02em; }
+.subscription-home .reassure-usage-benefit summary h3 { font-size: 21px; font-weight: 600; line-height: 1.45; }
+.subscription-home .reassure-usage-benefit__panel h3 { font-size: 17px; line-height: 1.5; }
+.subscription-home #faq .faq-list summary { font-size: 14px; line-height: 1.55; font-weight: 600; }
+.subscription-home #faq .faq-list details p { font-size: 13px; line-height: 1.8; }
+.subscription-home .subscription-cta-card h2 { font-size: 28px; font-weight: 700; line-height: 1.4; }
+.subscription-home .subscription-story h3 { font-size: 23px; line-height: 1.45; }
+/* Rolling rows need the same line box as their new sans-serif heading. */
+.subscription-home .subscription-roll, .subscription-home .subscription-roll__track > span { height: 1.4em; }
+.subscription-home .subscription-promise__line { min-height: 1.4em; }
+
+/* B's animated promise uses the brand accent across all rolling phrases. */
+.subscription-home .subscription-promise { text-align: left; background-color: #f8fff8; }
+.subscription-home .subscription-promise .subscription-roll { font-weight: 800; color: var(--brand); text-align: left; }
+
+/* Floating subscription action clears the raised center navigation item. */
+.subscription-island-cta {
+  position: fixed; z-index: 49; left: 50%; bottom: calc(94px + var(--safe-bottom));
+  transform: translateX(-50%); width: calc(min(100%, var(--app-width)) - 32px);
+  min-height: 54px; padding: 15px 18px; display: flex; align-items: center;
+  justify-content: center; gap: 10px; border-radius: 999px;
+  background: var(--brand); color: var(--deep-green); font-size: 15px;
+  font-weight: 800; line-height: 1.4; box-shadow: 0 6px 20px rgba(33,54,42,.2);
+}
+.subscription-island-cta svg { width: 20px; height: 20px; flex: none; fill: none; stroke: currentColor; stroke-width: 2; }
+.subscription-island-cta:focus-visible { outline: 3px solid var(--deep-green); outline-offset: 3px; }
+.app-shell:not(:has(> .subscription-home:not([hidden]))) > .subscription-island-cta,
+.app-shell.is-login-open > .subscription-island-cta,
+body.is-hero-editing .subscription-island-cta { display: none; }
+.app-shell:has(> .subscription-home:not([hidden])) { padding-bottom: calc(164px + var(--safe-bottom)); }
+
+/* Left-align reassurance accordion headings and expanded content. */
+.subscription-home #plans .reassure-usage-benefit { text-align: left; }
+
+/* Three visual cards following the product rows, matching A. */
+.subscription-home .composition-stories { display: grid; gap: 38px; margin: 64px 22px 0; text-align: left; }
+.subscription-home .composition-story { margin: 0; min-width: 0; gap: 0; align-items: stretch; text-align: left; }
+.subscription-home .composition-story :is(img, video) {
+  display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover;
+  margin: 0; border-radius: 12px; background: #f4f1e9;
+}
+.subscription-home .composition-story h3 { margin: calc(28px * 2 / 3) 0 0; text-align: left; font-size: 17px; line-height: 1.55; font-weight: 700; color: #383838; word-break: keep-all; }
+
+/* Preserve the explicit two-line cover title without changing its saved size. */
+.subscription-home .subscription-hero .subscription-video-title h1 {
+  white-space: nowrap;
+  text-wrap: nowrap;
+}
+
+.subscription-home .cohort-route {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 28px 0;
+  padding: 22px 12px 18px;
+  border-radius: 18px;
+  background: #e8efdb;
+  color: #2e4936;
+}
+.subscription-home .cohort-route__step { margin: 0; min-width: 0; text-align: center; }
+.subscription-home .cohort-route__step img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 10px;
+  animation: cohort-route-lift 4.8s ease-in-out infinite;
+  animation-play-state: paused;
+}
+.subscription-home .cohort-route__step:nth-child(2) img { animation-delay: 180ms; }
+.subscription-home .cohort-route__step:nth-child(3) img { animation-delay: 360ms; }
+.subscription-home .cohort-route.is-running img { animation-play-state: running; }
+.subscription-home .cohort-route__step figcaption {
+  display: grid;
+  gap: 5px;
+  margin-top: 12px;
+  font-size: clamp(10px, 3cqw, 13px);
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: -.035em;
+}
+.subscription-home .cohort-route__step figcaption b { font-size: 12px; font-weight: 800; }
+.subscription-home .cohort-route__step figcaption span { white-space: nowrap; }
+@keyframes cohort-route-lift {
+  0%, 16%, 100% { transform: translateY(0); }
+  8% { transform: translateY(-8px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .subscription-home .cohort-route__step img { animation: none; transform: none; }
+}
