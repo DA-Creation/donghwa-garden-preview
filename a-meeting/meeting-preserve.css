@@ -1,0 +1,48 @@
+/* Meeting changes only. The original A stylesheets remain byte-for-byte intact. */
+.app-shell:has(> .subscription-home:not([hidden])) { --subscription-promo-height: 0px; }
+.site-header { height: 52px; }
+html { scroll-padding-top: 68px; }
+.subscription-home #guide.has-scroll-scene .subscription-promise__scene {
+  top: 52px;
+  height: max(240px, calc(100svh - 132px));
+}
+.subscription-home .subscription-principles {
+  background: #181616;
+  padding-top: 88px;
+}
+.subscription-home .subscription-principles.has-card-scene > h2 {
+  background: #181616;
+}
+.cohort-reading-runway.has-cohort-reading > .cohort-shape-card {
+  position: sticky;
+  top: var(--cohort-reading-top);
+}
+.cohort-process {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  padding: 0;
+  margin: 22px 0;
+  list-style: none;
+}
+.cohort-process img { width: 100%; aspect-ratio: 1; object-fit: contain; border-radius: 12px; }
+.cohort-process li > span { display: block; margin: 8px 0 4px; color: #fffdf1; font-size: 12px; font-weight: 700; }
+.subscription-home .cohort-process li > p { font-size: 11px; line-height: 1.5; }
+.subscription-home .cohort-shape-card--reason > .subscription-cohort__quote { margin: 0; }
+@media (prefers-reduced-motion: no-preference) {
+  .subscription-home #guide.has-scroll-scene + .subscription-cohort {
+    position: relative;
+    z-index: 2;
+    margin-top: calc(-1 * max(240px, calc(100svh - 132px)));
+    border-radius: 28px 28px 0 0;
+  }
+  .cohort-process.is-ready img { opacity: 0; transform: translateY(10px); }
+  .cohort-process.is-ready.is-visible img { animation: cohort-prep-enter .55s both; }
+  .cohort-process.is-visible li:nth-child(2) img { animation-delay: .18s; }
+  .cohort-process.is-visible li:nth-child(3) img { animation-delay: .36s; }
+  @keyframes cohort-prep-enter { 0% { opacity: 0; transform: translateY(10px); } 75% { opacity: 1; transform: translateY(-3px); } 100% { opacity: 1; transform: none; } }
+}
+@media (prefers-reduced-motion: reduce) {
+  .subscription-home #guide.has-scroll-scene .subscription-promise__scene { position: static; height: auto; }
+}
+.subscription-home .cohort-process > li { display: block; padding: 0; border: 0; }

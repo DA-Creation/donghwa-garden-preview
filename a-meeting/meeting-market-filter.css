@@ -1,0 +1,40 @@
+/* Search categories use the original market's gutters, type, and brand colors. */
+.market-reference > .meeting-market-filter {
+  display: flex;
+  gap: 4px;
+  margin: -28px 16px 28px;
+  padding: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.meeting-market-filter::-webkit-scrollbar { display: none; }
+.meeting-market-filter button {
+  flex: 0 0 auto;
+  min-height: 40px;
+  padding: 0 11px;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: #777;
+  font: inherit;
+  font-size: 13px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.meeting-market-filter button[aria-pressed="true"] {
+  background: var(--brand-soft);
+  color: var(--brand-dark);
+  font-weight: 700;
+}
+.meeting-market-filter button:focus-visible {
+  outline: 2px solid var(--brand-dark);
+  outline-offset: -2px;
+}
+.subview--market.is-filtering-products > .market-showcase { display: none; }
+.meeting-market-filter-empty {
+  margin: 0;
+  padding: 40px 0;
+  color: #777;
+  font-size: 14px;
+  text-align: center;
+}
