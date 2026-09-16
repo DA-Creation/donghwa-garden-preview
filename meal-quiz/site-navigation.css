@@ -1,0 +1,22 @@
+/* Same bottom navigation as the full Donghwa Garden A meeting site. */
+:root { --footer-height: 190px; --safe-bottom: env(safe-area-inset-bottom, 0px); }
+.header-home { display: flex; align-items: center; gap: 6px; }
+.header-home > a { margin-left: -10px; }
+#app { padding-bottom: calc(var(--footer-height) + 16px); }
+.intro { padding-bottom: 0; }
+.question { padding-bottom: 24px; min-height: 0; }
+.result { padding-bottom: 0; }
+.site-footer { position: fixed; z-index: 10; bottom: 0; left: 50%; width: min(100%,var(--app-width)); transform: translateX(-50%); }
+.site-footer .action-bar { position: static; width: 100%; padding: 12px 20px 28px; transform: none; }
+.bottom-nav { position: relative; display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); height: calc(70px + var(--safe-bottom)); padding: 0 0 calc(8px + var(--safe-bottom)); background: #fff; border-top: 1px solid #f0ece7; border-radius: 20px 20px 0 0; box-shadow: 0 -3px 15px #49303e08; }
+.bottom-nav a { position: relative; display: grid; align-content: center; justify-items: center; gap: 4px; min-width: 0; color: #8a8781; font-size: 11px; font-weight: 500; line-height: 13px; text-decoration: none; white-space: nowrap; }
+.bottom-nav a > svg { width: 27px; height: 27px; }
+.bottom-nav a:active { transform: scale(.94); }
+.bottom-nav a.is-active { color: #d15a94; font-weight: 800; }
+.bottom-nav__main { margin-top: -12px; isolation: isolate; }
+.bottom-nav__main::before { position: absolute; z-index: -1; top: 50%; left: 50%; width: 78px; height: 78px; border-radius: 50%; background: #fff; content: ''; transform: translate(-50%,-50%); pointer-events: none; }
+.bottom-nav__main i { display: grid; grid-template-rows: 26px 12px; align-content: center; justify-items: center; row-gap: 1px; width: 66px; height: 66px; color: #fff; background: var(--brand); border-radius: 50%; box-shadow: 0 5px 12px #2b27213d; font-style: normal; }
+.bottom-nav__main i svg { width: 25px; height: 25px; }
+.bottom-nav__main i span { font-size: 10px; font-weight: 800; line-height: 12px; }
+#toast { bottom: calc(var(--footer-height) + 12px); }
+html { scroll-padding-bottom: calc(var(--footer-height) + 16px); }

@@ -9,19 +9,29 @@
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./lifestyle.css">
+  <link rel="stylesheet" href="./site-navigation.css?v=20260916-nav">
 </head>
 <body>
   <div class="app-shell">
     <header class="site-header">
-      <button class="logo-button" id="home-button" aria-label="테스트 첫 화면"><img src="./assets/logo.png" alt="동화가든" width="82" height="30"></button>
+      <div class="header-home"><a class="icon-button" href="https://da-creation.github.io/donghwa-garden-preview/a-meeting/" aria-label="동화가든 홈으로 돌아가기"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7"/></svg></a><button class="logo-button" id="home-button" aria-label="테스트 첫 화면"><img src="./assets/logo.png" alt="동화가든" width="82" height="30"></button></div>
       <button class="icon-button" id="restart-button" aria-label="처음부터 다시 하기" title="처음부터 다시 하기"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6"/></svg></button>
     </header>
     <main id="app"></main>
-    <div id="action-bar"></div>
+    <div class="site-footer" id="site-footer">
+      <div id="action-bar"></div>
+      <nav class="bottom-nav" aria-label="주요 메뉴">
+        <a href="https://da-creation.github.io/donghwa-garden-preview/a-meeting/index.html?view=ustore"><svg viewBox="0 0 28 28" aria-hidden="true"><rect x="5" y="9" width="18" height="14" rx="3"/><path d="M9 9V7.5a5 5 0 0 1 10 0V9"/></svg><span>마켓</span></a>
+        <a href="https://da-creation.github.io/donghwa-garden-preview/a-meeting/"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M7.5 5.5h13A2.5 2.5 0 0 1 23 8v9.5a2.5 2.5 0 0 1-2.5 2.5H11l-5.5 3.5V8a2.5 2.5 0 0 1 2-2.5Z"/><path d="M10 10.5h8M10 15h6"/></svg><span>정기배송</span></a>
+        <a class="bottom-nav__main" href="https://da-creation.github.io/donghwa-garden-preview/a-meeting/#login"><i><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M5 9h18v14H5zM5 9l4-4h10l4 4M9 5v4M19 5v4"/></svg><span>신청하기</span></i></a>
+        <a class="is-active" href="./" aria-current="page"><svg viewBox="0 0 28 28" aria-hidden="true"><rect x="6" y="5" width="16" height="19" rx="3"/><rect x="10" y="3" width="8" height="5" rx="2"/><path d="m10 13 1.5 1.5L14 12M16 13h3M10 19h9"/></svg><span>생활 리포트</span></a>
+        <a href="https://da-creation.github.io/donghwa-garden-preview/a-meeting/#login"><svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="9" r="4.5"/><path d="M5.5 24c1-5.5 3.9-8 8.5-8s7.5 2.5 8.5 8"/></svg><span>내 정보</span></a>
+      </nav>
+    </div>
   </div>
   <dialog id="detail-dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
   <div id="toast" role="status" aria-live="polite"></div>
   <noscript>테스트를 이용하려면 브라우저에서 JavaScript를 켜주세요.</noscript>
-  <script type="module" src="./app.mjs"></script>
+  <script type="module" src="./app.mjs?v=20260916-nav"></script>
 </body>
 </html>

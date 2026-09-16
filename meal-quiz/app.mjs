@@ -162,3 +162,9 @@ $('#detail-dialog').addEventListener('click',e=>{if(e.target===$('#detail-dialog
 $('#home-button').addEventListener('click',()=>navigate('intro'));
 $('#restart-button').addEventListener('click',()=>showDialog(`${dialogHeader('처음부터 다시 해볼까요?')}<p>지금 고른 답변과 비교 조건이 초기화돼요.</p><div class="dialog-actions"><button class="button-primary" data-action="reset">처음부터 다시 하기</button><button class="button-secondary" data-action="close-dialog">이어서 할게요</button></div>`));
 render();
+// Keep content clear of both the quiz actions and the persistent site menu.
+const footer=$('#site-footer');
+const updateFooterHeight=()=>document.documentElement.style.setProperty('--footer-height',`${footer.getBoundingClientRect().height}px`);
+updateFooterHeight();
+if('ResizeObserver' in window)new ResizeObserver(updateFooterHeight).observe(footer);
+else window.addEventListener('resize',updateFooterHeight);
