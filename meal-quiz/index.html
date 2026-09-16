@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#faf7ef">
+  <meta name="robots" content="noindex,nofollow">
+  <title>밥 잘 챙겨 먹니? · 동화가든</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./lifestyle.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <button class="logo-button" id="home-button" aria-label="테스트 첫 화면"><img src="./assets/logo.png" alt="동화가든" width="82" height="30"></button>
+      <button class="icon-button" id="restart-button" aria-label="처음부터 다시 하기" title="처음부터 다시 하기"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6"/></svg></button>
+    </header>
+    <main id="app"></main>
+    <div id="action-bar"></div>
+  </div>
+  <dialog id="detail-dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>테스트를 이용하려면 브라우저에서 JavaScript를 켜주세요.</noscript>
+  <script type="module" src="./app.mjs"></script>
+</body>
+</html>
