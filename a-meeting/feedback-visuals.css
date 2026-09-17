@@ -1,5 +1,5 @@
 .subscription-hero-invitation > .grandma-invitation {
-  width: 164px; height: 164px; object-fit: contain; object-position: center;
+  width: 144px; height: 144px; object-fit: contain; object-position: center;
   border-radius: 0; transform-origin: 50% 92%;
 }
 @media (prefers-reduced-motion: no-preference) {

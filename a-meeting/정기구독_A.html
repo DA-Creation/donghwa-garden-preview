@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="./subscription-home.css?v=20260911-story-hover">
     <link rel="stylesheet" href="./cohort-ribbon.css?v=20260911-notice">
     <link rel="stylesheet" href="./meeting-preserve.css?v=20260917-cohort-seats">
-    <link rel="stylesheet" href="./feedback-visuals.css?v=20260917-turbulence">
+    <link rel="stylesheet" href="./feedback-visuals.css?v=20260917-soft-turbulence">
     <link rel="stylesheet" href="./meeting-market-filter.css?v=20260911-1">
   </head>
   <body>
@@ -190,7 +190,7 @@
                   <feTurbulence type="fractalNoise" baseFrequency=".025 .055" numOctaves="2" seed="2" result="grandma-grain">
                     <animate attributeName="seed" values="2;7;4;9;3;6" dur="1.8s" calcMode="discrete" repeatCount="indefinite"/>
                   </feTurbulence>
-                  <feDisplacementMap in="SourceGraphic" in2="grandma-grain" scale="7" xChannelSelector="R" yChannelSelector="G"/>
+                  <feDisplacementMap in="SourceGraphic" in2="grandma-grain" scale="2.5" xChannelSelector="R" yChannelSelector="G"/>
                 </filter>
                 <filter id="handdrawn-wiggle" x="-15%" y="-20%" width="130%" height="140%" color-interpolation-filters="sRGB">
                   <feTurbulence type="fractalNoise" baseFrequency=".025 .055" numOctaves="2" seed="2" result="grain">
