@@ -115,6 +115,8 @@
     const headerBottom = Math.max(0, header?.getBoundingClientRect().bottom || 0) + 16;
     const nav = document.querySelector('.bottom-nav');
     const bottom = Math.min(innerHeight - 92, nav?.getBoundingClientRect().top - 20 || innerHeight - 92);
+    // Fill the readable viewport, but allow taller text to expand in normal flow.
+    card.style.setProperty('--cohort-available-height', `${Math.max(0, bottom - headerBottom)}px`);
     const cardHeight = card.offsetHeight;
     const top = Math.max(headerBottom, headerBottom + (bottom - headerBottom - cardHeight) / 2);
     const enabled = !reduced.matches && cardHeight > 0 && top + cardHeight <= bottom;

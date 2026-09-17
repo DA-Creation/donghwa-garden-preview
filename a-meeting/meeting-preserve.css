@@ -62,7 +62,37 @@ html { scroll-padding-top: 68px; }
   border-radius: 12px;
 }
 .subscription-home .subscription-composition > .composition-stories { margin-top: 36px; }
-.subscription-home .subscription-composition > .composition-marquees { margin-top: 56px; }
+.subscription-home .subscription-composition > .composition-marquees { margin-top: 24px; }
+.subscription-home .composition-products-title {
+  margin: 56px 22px 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #49303e;
+  text-align: center;
+  word-break: keep-all;
+}
+
+/* A continuous background keeps the last line inside the pink reading panel. */
+.subscription-home .cohort-shape-card--reason {
+  min-height: var(--cohort-available-height, calc(100svh - 160px));
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #f585bf;
+  border-radius: 48px;
+}
+.cohort-shape-card--reason > .cohort-shape-card__shape { display: none; }
+.subscription-home .cohort-shape-card--invitation h3 { font-size: 30px; }
+.subscription-home .cohort-shape-card .cohort-invitation-note {
+  color: #e5f9e8;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.bottom-nav__main i { grid-template-rows: 22px 24px; }
+.bottom-nav__main i svg { width: 21px; height: 21px; }
+.bottom-nav__main i span { text-align: center; line-height: 12px; }
 
 /* Keep the complete explanation above navigation even in a short preview. */
 @media (max-height: 700px) {
