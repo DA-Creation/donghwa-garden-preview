@@ -49,6 +49,7 @@
       summary.setAttribute('aria-expanded', String(open));
     }
     revealControls.push(reveal);
+    panel.querySelector('.review-detail-close')?.addEventListener('click', () => reveal(false));
     reveal(pinned);
     card.addEventListener('pointerenter', event => { if (hover.matches && event.pointerType !== 'touch') reveal(true); });
     card.addEventListener('pointerleave', () => { if (hover.matches) reveal(false); });

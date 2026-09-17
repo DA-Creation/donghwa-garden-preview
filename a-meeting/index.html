@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./subscription-home.css?v=20260911-story-hover">
     <link rel="stylesheet" href="./cohort-ribbon.css?v=20260911-notice">
     <link rel="stylesheet" href="./meeting-preserve.css?v=20260917-cohort-seats">
+    <link rel="stylesheet" href="./feedback-visuals.css?v=20260917">
     <link rel="stylesheet" href="./meeting-market-filter.css?v=20260911-1">
   </head>
   <body>
@@ -175,7 +176,7 @@
           </div>
         </section>
         <div class="subscription-hero-invitation">
-          <img class="grandma-invitation" src="./assets/grandma-invitation.jpg" alt="분홍 옷을 입고 미소 짓는 할머니 일러스트" width="144" height="144" loading="lazy">
+          <img class="grandma-invitation" src="./assets/grandma-invitation-hq.png" alt="분홍 옷을 입고 미소 짓는 할머니 일러스트" width="144" height="144" loading="lazy">
           <p>좋은 걸로 골라서 보내줄게.</p>
           <a href="#login" data-login>정기배송 대기열 확인하기</a>
         </div>
@@ -249,28 +250,22 @@
             <span class="subscription-number">두 번째 고집</span>
             <h3>우리 아기 바쁘니까,<br><em>밥은 할미가 해 줄게.</em></h3>
             <p class="principle-kimchi-intro">장보고 손질하는 수고 없이,<br>순두부와 국·찌개, 반찬으로 밥상을 차려요.</p>
-            <div class="kimchi-pairing" aria-label="순두부와 국·찌개, 반찬으로 차리는 집밥">
-              <figure class="kimchi-pairing-center"><img src="./assets/kimchi-pairing-stew.png" alt="순두부찌개 일러스트"><figcaption>순두부와 국·찌개, 반찬</figcaption></figure>
-            </div>
+            <figure class="meal-time-chart" aria-label="한 끼 준비 시간 예시: 직접 요리 40분, 배달 주문부터 도착까지 30분, 정기배송 데워 차리기 5분">
+              <figcaption>밥상까지 걸리는 시간 <span>예시</span></figcaption>
+              <div class="meal-time-row"><div><b>직접 요리</b><small>손질부터 조리까지</small></div><div class="meal-time-track"><i style="--time-width:100%"></i></div><strong>40<small>분</small></strong></div>
+              <div class="meal-time-row"><div><b>배달 음식</b><small>주문부터 도착까지</small></div><div class="meal-time-track"><i style="--time-width:75%"></i></div><strong>30<small>분</small></strong></div>
+              <div class="meal-time-row meal-time-row--delivery"><div><b>정기배송</b><small>데워서 상 차리기</small></div><div class="meal-time-track"><i style="--time-width:12.5%"></i></div><strong>5<small>분</small></strong></div>
+              <p class="chart-example-note">이해를 돕기 위한 시간 예시입니다.<br>메뉴·조리 방법·배달 상황에 따라 달라져요.</p>
+            </figure>
           </article>
           <article class="principle-ferment-card">
             <span class="subscription-number">세 번째 고집</span>
             <h3>할미가 키우고 장보고<br><em>직접 만든다.</em></h3>
             <p class="principle-ferment-intro">계약 재배한 콩으로 직접 만드는 두부와 발효 음식,<br>정기배송 식단으로 받아요.</p>
-            <figure class="ferment-process" aria-label="계약 재배부터 직접 제조, 정기배송 식단까지">
-              <div class="ferment-process-track">
-                <div><span class="ferment-process-icon"><span>콩</span></span><b>계약 재배한 콩</b></div>
-                <span class="ferment-process-arrow" aria-hidden="true">→</span>
-                <div><span class="ferment-process-icon ferment-process-icon--culture"><span>제조</span></span><b>직접 제조·발효</b></div>
-                <span class="ferment-process-arrow" aria-hidden="true">→</span>
-                <div><span class="ferment-process-icon ferment-process-icon--flavour"><span>식단</span></span><b>정기배송 식단</b></div>
-              </div>
+            <figure class="making-journey" aria-label="계약 재배한 콩에서 직접 제조와 발효를 거쳐 정기배송 식단으로 이어지는 과정">
+              <figcaption>재료부터 밥상까지, 할머니 손으로</figcaption>
+              <ol><li><span class="making-step">01</span><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 53V28M32 37C13 38 11 25 12 17c14-1 22 8 20 20ZM32 28C32 13 43 8 54 10c0 12-8 21-22 18Z"/></svg><b>재료 선택</b><small>계약 재배한 콩</small></li><li><span class="making-step">02</span><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M12 27h40v17a10 10 0 0 1-10 10H22a10 10 0 0 1-10-10ZM7 28h50M20 20c-5-6 5-8 0-14M33 20c-5-6 5-8 0-14M46 20c-5-6 5-8 0-14"/></svg><b>직접 만들기</b><small>두부 제조·발효</small></li><li><span class="making-step">03</span><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M9 20h46v34H9ZM9 20l9-10h28l9 10M27 10v20h10V10M22 42h20"/></svg><b>밥상으로</b><small>정기배송 식단</small></li></ol>
             </figure>
-            <div class="ferment-products">
-              <figure><img src="./assets/ferment-peppers-illustration.png" alt="된장 고추지 일러스트"><figcaption>된장 고추지</figcaption></figure>
-              <figure><img src="./assets/ferment-cheonggukjang-illustration.png" alt="비법 청국장 일러스트"><figcaption>비법 청국장</figcaption></figure>
-            </div>
-            <p class="ferment-footer">직접 만드는 두부와 발효 음식</p>
           </article>
         </section>
         <section class="subscription-section subscription-composition">
@@ -305,25 +300,11 @@
                 <h3>구성을 먼저 보고<br>필요한 주에만 받아요</h3>
                 
               </summary>
-              <div class="reassure-usage-benefit__panel">
-                <p class="reassure-usage-benefit__lead">배송 전에 구성과 도착 예정일을 확인하고,<br>여행이나 일정이 있는 주에는 한 번 쉬어갈 수 있어요.</p>
-          <article class="reassure-custom-card">
-            <div class="reassure-custom-card__phone">
-              <header><span>도착일 미리 안내</span></header>
-              <ul>
-                <li><img src="./assets/reassure-tofu.jpg" alt="순물 순두부"></li>
-                <li><img src="./assets/reassure-white-kimchi.jpg" alt="순물 백김치"></li>
-                <li><img src="./assets/reassure-soy-milk.jpg" alt="효자 두유"></li>
-              </ul>
-            </div>
-            <h3>이번 주 식단은 미리 확인</h3>
-            <ul class="reassure-check-list"><li>배송 전에 구성과 도착 예정일을 알려드려요.</li><li>추가 상품은 신청할 때 함께 선택할 수 있어요.</li></ul>
-          </article>
-          <article class="reassure-custom-card reassure-custom-card--calendar">
-            <div class="reassure-mini-calendar" aria-hidden="true"><header>배송 일정 예시</header><div><span>18</span><span>19</span><span>20</span><span>21</span><span class="reassure-is-pause">22<i>쉬는 주</i></span><span>23</span><span>24</span></div></div>
-            <h3>일정이 있으면 한 주 쉬어요</h3>
-            <ul class="reassure-check-list"><li>여행이나 일정이 있는 주의 배송만 건너뛸 수 있어요.</li><li>다음 주부터 정해진 일정으로 다시 이어져요.</li></ul>
-          </article>
+              <div class="reassure-usage-benefit__panel review-detail">
+                <button type="button" class="review-detail-close" aria-label="안내 카드 닫기">×</button>
+                <header class="review-detail-heading"><span>내 일정에 맞춘 집밥</span><h4>미리 보고,<br>한 주 쉬어가도 괜찮아요.</h4></header>
+                <div class="review-detail-step"><span class="review-step-number">01</span><div><h4>이번 주 식단 미리 확인</h4><p>배송 전에 구성과 도착 예정일을 알려드려요.</p><div class="review-foods"><img src="./assets/reassure-tofu.jpg" alt="순두부"><img src="./assets/reassure-white-kimchi.jpg" alt="백김치"><img src="./assets/reassure-soy-milk.jpg" alt="두유"></div><small>추가 상품은 신청할 때 함께 선택해요.</small></div></div>
+                <div class="review-detail-step"><span class="review-step-number">02</span><div><h4>바쁜 주에는 배송 한 번 쉬기</h4><p>여행이나 일정이 있는 주는 건너뛰고,<br>다음 주부터 다시 받아요.</p><div class="review-week" aria-label="배송 일정 예시"><span>이번 주 <b>쉬어가기</b></span><i aria-hidden="true">→</i><span>다음 주 <b>다시 받기</b></span></div></div></div>
               </div>
             </details>
             <details class="reassure-usage-benefit reassure-usage-benefit--making">
@@ -910,7 +891,7 @@
     <script src="./subscription-reveal.js?v=20260911-replay"></script>
     <script src="./subscription-promise.js?v=20260911-preserve-meeting"></script>
     <script src="./subscription-cta-hover.js?v=20260911-story-hover"></script>
-  <script src="./subscription-reassurance.js?v=20260911-detail-pin"></script>
+  <script src="./subscription-reassurance.js?v=20260917-visual"></script>
   <script src="./cohort-ribbon.js?v=20260917"></script>
       <dialog id="cohort-notice-dialog" class="cohort-notice" data-theme="a" aria-labelledby="cohort-notice-title">
       <button type="button" class="cohort-notice__close" data-notice-close aria-label="닫기">×</button>
@@ -925,5 +906,6 @@
     <script src="./cohort-notice.js?v=20260917"></script>
       <script src="./meeting-preserve.js?v=20260911-1"></script>
     <script src="./lifestyle-report-entry.js?v=20260916-nav"></script>
-  </body>
+  <script src="./feedback-visuals.js?v=20260917"></script>
+</body>
 </html>
