@@ -97,11 +97,11 @@
 })();
 
 
-// Give the existing pink explanation card one extra reading beat before invitation.
+// Give both cohort cards a reading beat when they fit between navigation bars.
 (() => {
   const cohort = document.querySelector('#cohort');
-  const card = cohort?.querySelector(':scope > .cohort-shape-card--reason');
-  if (!card) return;
+  if (!cohort) return;
+  cohort.querySelectorAll(':scope > .cohort-shape-card').forEach(card => {
   const runway = document.createElement('div');
   runway.className = 'cohort-reading-runway';
   card.before(runway);
@@ -136,6 +136,7 @@
   new ResizeObserver(schedule).observe(card);
   new MutationObserver(schedule).observe(cohort.closest('main'), { attributes: true, attributeFilter: ['hidden'] });
   schedule();
+  });
 })();
 
 

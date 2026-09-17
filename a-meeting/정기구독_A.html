@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./styles.css?v=20260910-hero-no-shadow">
   <link rel="stylesheet" href="./subscription-home.css?v=20260911-story-hover">
     <link rel="stylesheet" href="./cohort-ribbon.css?v=20260911-notice">
-    <link rel="stylesheet" href="./meeting-preserve.css?v=20260917-copy-layout">
+    <link rel="stylesheet" href="./meeting-preserve.css?v=20260917-cohort-seats">
     <link rel="stylesheet" href="./meeting-market-filter.css?v=20260911-1">
   </head>
   <body>
@@ -71,7 +71,6 @@
               <span class="cohort-ribbon__group"><span data-marquee-text>01기 모집 마감 7일 남음</span><i>·</i><span data-marquee-text>01기 모집 마감 7일 남음</span><i>·</i></span>
             </span>
           </a>
-          <button class="cohort-ribbon__pause" type="button" data-ribbon-pause aria-pressed="false" aria-label="모집 띠 움직임 멈추기"><span aria-hidden="true">Ⅱ</span></button>
         </div>
 
         <section class="benefits-hero" data-benefits-hero hidden aria-label="정기배송 혜택 소개">
@@ -176,6 +175,7 @@
           </div>
         </section>
         <div class="subscription-hero-invitation">
+          <img class="grandma-invitation" src="./assets/grandma-invitation.jpg" alt="분홍 옷을 입고 미소 짓는 할머니 일러스트" width="144" height="144" loading="lazy">
           <p>좋은 걸로 골라서 보내줄게.</p>
           <a href="#login" data-login>정기배송 대기열 확인하기</a>
         </div>
@@ -219,6 +219,7 @@
           <article class="cohort-shape-card cohort-shape-card--invitation">
             <div class="subscription-cohort__invitation">
               <h3>매주 결제할 필요 없이<br>정해진 날 알아서 도착해요</h3>
+              <p class="cohort-seats" aria-live="polite"><span>이번 기수 남은 자리</span><strong data-cohort-seats>확인 중</strong></p>
               <p class="cohort-invitation-note">*현 기수 모집 마감시<br>다음 기수까지 기다려주세요.</p>
             </div>
           </article>
@@ -903,14 +904,14 @@
     <div class="toast" role="status" aria-live="polite" data-toast></div>
     <script src="./app.js?v=20260911-market-filter"></script>
   <script src="./subscription-video.js?v=20260910-story-recovery"></script>
-    <script src="./subscription-cards.js?v=20260917-copy-layout"></script>
+    <script src="./subscription-cards.js?v=20260917-cohort-seats"></script>
     <script src="./hero-editor.js?v=20260910-editor-gradient"></script>
     <script src="./composition-marquee.js?v=20260910-hover"></script>
     <script src="./subscription-reveal.js?v=20260911-replay"></script>
     <script src="./subscription-promise.js?v=20260911-preserve-meeting"></script>
     <script src="./subscription-cta-hover.js?v=20260911-story-hover"></script>
   <script src="./subscription-reassurance.js?v=20260911-detail-pin"></script>
-  <script src="./cohort-ribbon.js?v=20260911"></script>
+  <script src="./cohort-ribbon.js?v=20260917"></script>
       <dialog id="cohort-notice-dialog" class="cohort-notice" data-theme="a" aria-labelledby="cohort-notice-title">
       <button type="button" class="cohort-notice__close" data-notice-close aria-label="닫기">×</button>
       <p>동화가든 정기배송</p>
@@ -921,7 +922,7 @@
       <button type="button" class="cohort-notice__action" data-notice-submit>알림 신청 화면 확인</button>
       <button type="button" class="cohort-notice__action" data-notice-cancel hidden>알림 신청 취소</button>
     </dialog>
-    <script src="./cohort-notice.js?v=20260911"></script>
+    <script src="./cohort-notice.js?v=20260917"></script>
       <script src="./meeting-preserve.js?v=20260911-1"></script>
     <script src="./lifestyle-report-entry.js?v=20260916-nav"></script>
   </body>
