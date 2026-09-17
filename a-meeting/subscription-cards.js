@@ -31,18 +31,11 @@
       }, 0));
     });
     const contentHeight = Math.max(...cardHeights);
-    // Center the heading and card in the usable space between fixed navigation.
-    const headingHeight = heading.offsetHeight;
-    const headingGap = innerHeight <= 850 ? 20 : 40;
-    const readingBottom = innerHeight - 92;
-    const headingTop = Math.max(headerBottom, (headerBottom + readingBottom - contentHeight - headingHeight - headingGap) / 2);
-    const groupTopWhenPinned = headingTop + headingHeight + headingGap;
-    // Long cards scroll within the same stage while their shared title stays put.
-    const top = groupTopWhenPinned;
+    // The title scrolls away; long cards read within the clipped stage below it.
+    const top = headerBottom;
     const height = Math.min(contentHeight, Math.max(160, innerHeight - top - 92));
-    section.classList.remove('has-flowing-heading');
+    section.classList.add('has-flowing-heading');
     cards.forEach((card, index) => card.style.setProperty('--card-content-height', `${cardHeights[index]}px`));
-    section.style.setProperty('--principles-heading-top', `${headingTop}px`);
     const enabled = !reduced.matches;
     section.classList.toggle('has-card-scene', enabled);
     // Trigger the title and first card together after two thirds of their group is visible.
@@ -120,13 +113,14 @@
     if (cohort.closest('[hidden]')) return;
     const header = document.querySelector('.site-header');
     const headerBottom = Math.max(0, header?.getBoundingClientRect().bottom || 0) + 16;
-    const bottom = innerHeight - 92;
+    const nav = document.querySelector('.bottom-nav');
+    const bottom = Math.min(innerHeight - 92, nav?.getBoundingClientRect().top - 20 || innerHeight - 92);
     const cardHeight = card.offsetHeight;
     const top = Math.max(headerBottom, headerBottom + (bottom - headerBottom - cardHeight) / 2);
     const enabled = !reduced.matches && cardHeight > 0 && top + cardHeight <= bottom;
     runway.classList.toggle('has-cohort-reading', enabled);
     if (enabled) {
-      const hold = Math.min(260, Math.max(160, innerHeight * .28));
+      const hold = Math.max(480, innerHeight * .9);
       runway.style.setProperty('--cohort-reading-top', `${top}px`);
       runway.style.height = `${cardHeight + hold}px`;
     } else {
@@ -155,8 +149,10 @@
     const rect = card.getBoundingClientRect();
     const headerBottom = Math.max(0, document.querySelector('.site-header')?.getBoundingClientRect().bottom || 0);
     const bottom = innerHeight - 80;
-    const fullyVisible = rect.width > 0 && rect.top >= headerBottom && rect.bottom <= bottom;
-    if (reduced.matches || fullyVisible) card.classList.add('is-protein-filled');
+    const visibleHeight = Math.max(0, Math.min(bottom, rect.bottom) - Math.max(headerBottom, rect.top));
+    const readable = rect.width > 0 && parseFloat(getComputedStyle(card).opacity) > .98
+      && visibleHeight >= Math.min(rect.height, bottom - headerBottom) * .9;
+    if (reduced.matches || readable) card.classList.add('is-protein-filled');
     else if (rect.top >= innerHeight || rect.bottom <= 0) card.classList.remove('is-protein-filled');
   }
   function schedule() {

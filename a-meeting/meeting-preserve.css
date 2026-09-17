@@ -46,3 +46,30 @@ html { scroll-padding-top: 68px; }
   .subscription-home #guide.has-scroll-scene .subscription-promise__scene { position: static; height: auto; }
 }
 .subscription-home .cohort-process > li { display: block; padding: 0; border: 0; }
+
+/* September review: space to read between the banner and the introduction. */
+.subscription-home #empathy { padding-top: clamp(64px, 12svh, 96px); }
+
+/* The shared title leaves with the section introduction, never over the cards. */
+.subscription-home .subscription-principles.has-card-scene > h2 {
+  position: relative;
+  top: auto;
+  z-index: auto;
+  background: transparent;
+}
+.subscription-home .subscription-principles.has-card-scene .principles-stage {
+  overflow: hidden;
+  border-radius: 12px;
+}
+.subscription-home .subscription-composition > .composition-stories { margin-top: 36px; }
+.subscription-home .subscription-composition > .composition-marquees { margin-top: 56px; }
+
+/* Keep the complete explanation above navigation even in a short preview. */
+@media (max-height: 700px) {
+  .subscription-home .cohort-shape-card--reason { padding: 22px 16px; }
+  .subscription-home .cohort-shape-card--reason h2 { font-size: 28px; margin-bottom: 16px; }
+  .subscription-home .cohort-shape-card--reason > p { font-size: 12px; line-height: 1.6; }
+  .subscription-home .cohort-shape-card--reason .cohort-process { margin: 14px 0; }
+  .cohort-shape-card--reason .cohort-process img { max-height: 78px; }
+  .subscription-home .cohort-shape-card--reason > .subscription-cohort__quote { font-size: 22px; line-height: 1.35; }
+}
