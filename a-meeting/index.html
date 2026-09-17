@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="./subscription-home.css?v=20260911-story-hover">
     <link rel="stylesheet" href="./cohort-ribbon.css?v=20260911-notice">
     <link rel="stylesheet" href="./meeting-preserve.css?v=20260917-cohort-seats">
-    <link rel="stylesheet" href="./feedback-visuals.css?v=20260917">
+    <link rel="stylesheet" href="./feedback-visuals.css?v=20260917-turbulence">
     <link rel="stylesheet" href="./meeting-market-filter.css?v=20260911-1">
   </head>
   <body>
@@ -186,6 +186,12 @@
           <h2 id="subscription-promise-title" aria-label="족발이나 떡볶이 딱 한번 참고 3무 순두부 집밥 식단 꾸준히 받는 방법">
 <span class="subscription-roll subscription-roll--delivery" aria-hidden="true"><span class="subscription-roll__track"><span>족발이나 떡볶이</span><span>치킨이나 피자</span><span>마라탕이나 햄버거</span><span>보쌈이나 닭발</span><span>족발이나 떡볶이</span></span></span><span class="subscription-promise__line">딱 한번 참고</span><span class="subscription-roll subscription-roll--benefit" aria-hidden="true"><span class="subscription-roll__track"><span>3무 순두부</span><span>식물성 단백질</span><span>생산지 직송</span><span>국산 식재료</span><span>3무 순두부</span></span></span><span class="subscription-promise__line">집밥 식단 꾸준히 받는 방법</span><svg class="promise-doodles" viewBox="0 0 346 380" fill="none" aria-hidden="true" focusable="false">
               <defs>
+                <filter id="grandma-turbulence" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">
+                  <feTurbulence type="fractalNoise" baseFrequency=".025 .055" numOctaves="2" seed="2" result="grandma-grain">
+                    <animate attributeName="seed" values="2;7;4;9;3;6" dur="1.8s" calcMode="discrete" repeatCount="indefinite"/>
+                  </feTurbulence>
+                  <feDisplacementMap in="SourceGraphic" in2="grandma-grain" scale="7" xChannelSelector="R" yChannelSelector="G"/>
+                </filter>
                 <filter id="handdrawn-wiggle" x="-15%" y="-20%" width="130%" height="140%" color-interpolation-filters="sRGB">
                   <feTurbulence type="fractalNoise" baseFrequency=".025 .055" numOctaves="2" seed="2" result="grain">
                     <animate attributeName="seed" values="2;7;4;9;3;6" dur="1.8s" calcMode="discrete" repeatCount="indefinite"/>

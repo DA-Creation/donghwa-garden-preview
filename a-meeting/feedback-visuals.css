@@ -4,12 +4,7 @@
 }
 @media (prefers-reduced-motion: no-preference) {
   .grandma-invitation.is-illustration-visible {
-    animation: grandma-greeting 3.6s steps(6, end) infinite;
-  }
-  @keyframes grandma-greeting {
-    0%, 100% { transform: rotate(-2deg) translateY(0); }
-    35% { transform: rotate(2deg) translateY(-4px); }
-    65% { transform: rotate(-1deg) translateY(-2px); }
+    filter: url(#grandma-turbulence);
   }
 }
 
