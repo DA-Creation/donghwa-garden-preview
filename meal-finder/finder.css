@@ -1,0 +1,112 @@
+/* Existing meal-quiz visual language, with the survey narrowed to fixed products. */
+fieldset{padding:0;margin:0 0 28px;border:0;min-width:0}
+legend{padding:0;margin-bottom:12px;font-size:13px;font-weight:700;line-height:1.5}
+.finder-intro{padding-top:32px;padding-bottom:14px}
+.finder-intro h1{font-size:41px;line-height:1.2;letter-spacing:-.03em}
+.finder-intro .intro-art{margin:24px auto 17px;width:260px}
+.finder-intro .intro-art img{height:auto}
+.intro-art figcaption{font-size:10px;color:var(--muted);margin-top:7px}
+.intro-meta{display:flex;justify-content:center;gap:9px;align-items:center;font-size:11px;font-weight:600;margin-top:18px}
+.intro-meta i{width:2px;height:2px;background:#b8aeb0;border-radius:50%}
+.intro-foot{font-size:11px;color:var(--muted);margin:13px 0}
+.compact-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.compact-choice{min-height:55px;padding:12px}
+.compact-choice .choice-copy strong{font-size:13px}
+.question-description{margin-bottom:24px}
+.food-card{min-height:116px}
+.food-name{font-size:12px}
+.food-tag{font-size:9px}
+.avoid-list{gap:8px}
+.avoid-list .choice{min-height:51px;padding-block:12px}
+.question fieldset:last-child{margin-bottom:0}
+.allergy-note{margin-top:8px;font-size:10px}
+.site-footer .action-bar{padding-bottom:24px}
+.finder-result-hero{text-align:left;padding:28px 22px 25px}
+.finder-result-hero .eyebrow{margin-top:0}
+.result-context{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:19px}
+.result-context>span{font-size:11px;line-height:1.6}
+.result-context .text-button{flex-shrink:0}
+.finder-result-hero h1{font-size:43px;margin-bottom:8px}
+.result-tagline{font-size:13px;line-height:1.7;margin:0}
+.hero-price{font-size:30px;font-weight:800;letter-spacing:-.045em;margin:21px 0 5px}
+.hero-price span{font-size:12px;font-weight:400;letter-spacing:0}
+.hero-delivery{font-size:12px;margin:0}
+.price-source{font-size:10px;line-height:1.6;color:var(--muted);margin:12px 0 0}
+.finder-result-hero .tag-list{justify-content:flex-start;margin-top:19px}
+.reason-list{list-style:none;padding:0;margin:0;counter-reset:reason}
+.reason-list li{display:flex;gap:10px;counter-increment:reason;font-size:13px;line-height:1.85;margin-top:14px}
+.reason-list li:before{content:counter(reason,decimal-leading-zero);font-size:11px;font-weight:700;color:#a74b7b;padding-top:2px}
+.composition-list{padding:0;margin:20px 0 0;list-style:none;border-top:1px solid #d8ced0}
+.composition-list li{display:flex;justify-content:space-between;gap:8px;align-items:center;padding:13px 0;border-bottom:1px solid var(--line);font-size:13px;line-height:1.5}
+.composition-list li>span:last-child:not(:first-child){font-size:12px;color:#9a6c82}
+.composition{background:#fffdf8}
+.price-comparison{display:grid;grid-template-columns:1fr 1fr;padding:18px 0;border-block:1px solid #ded4d8}
+.price-comparison div{display:grid;gap:9px}
+.price-comparison div+div{padding-left:17px;border-left:1px solid #ded4d8}
+.price-comparison span{font-size:11px;color:var(--muted)}
+.price-comparison strong{font-size:21px;letter-spacing:-.04em}
+.price-comparison div:last-child strong{color:#a54276}
+.saving-copy{font-size:12px;line-height:1.8;margin:14px 0 22px}
+.saving-copy strong{color:#a54276}
+.price-lines{margin:20px 0 0;font-size:12px}
+.price-lines>div{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:8px 0;line-height:1.6}
+.price-lines dt{color:var(--muted)}
+.price-lines dd{margin:0;font-weight:600;text-align:right}
+.price-lines .price-total{border-top:1px solid #dbd1d4;margin-top:8px;padding-top:16px;font-weight:700}
+.price-total dt{color:var(--ink)}
+.price-total dd{font-size:20px;letter-spacing:-.035em}
+.meal-comparison{margin:22px 0;display:grid;gap:10px}
+.meal-comparison>div{display:grid;grid-template-columns:65px 1fr;gap:9px;align-items:baseline}
+.meal-comparison span{font-size:10px;color:var(--muted)}
+.meal-comparison strong{font-size:14px;line-height:1.7}
+.meal-comparison .compare-arrow{margin-left:73px;color:#b46990;font-size:22px;line-height:1}
+.nutrition-basis{border-top:1px solid var(--line);padding-top:15px;font-size:11px;line-height:1.8}
+.nutrition-basis summary{font-size:11px;cursor:pointer;color:var(--muted)}
+.nutrition-basis p{color:var(--muted)}
+.option-row{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;text-align:left;background:transparent;border:0;border-bottom:1px solid #e0d7d9;padding:18px 0}
+.option-row svg{width:16px;flex-shrink:0}
+.option-row-copy{display:grid;gap:7px}
+.option-row-copy small{font-size:10px;color:#9e607e}
+.option-row-copy strong{font-size:16px;font-weight:700}
+.option-row-copy>span{font-size:11px;color:var(--muted);line-height:1.7}
+.option-row-copy b{font-size:13px;font-weight:700;margin-top:2px}
+.option-row-copy em{font-size:10px;font-weight:400;font-style:normal;white-space:normal;color:var(--muted)}
+.catalog-button{margin-top:23px}
+.result-utilities{display:flex;justify-content:center;gap:20px;padding:25px 15px 15px}
+.detail-label{font-size:13px;margin:26px 0 0}
+.dialog-inner .detail-tagline{margin:0 0 13px}
+.dialog-inner .composition-list{margin-top:12px}
+.link-caption{font-size:10px!important;text-align:center;color:var(--muted);margin:14px 0 0}
+.dialog-header h2{font-size:28px}
+.catalog-dialog>p:first-of-type{margin-top:0}
+.catalog-dialog .detail-label{color:#a54276}
+.answer-row{display:flex;justify-content:space-between;align-items:center;gap:14px;border:0;border-bottom:1px solid var(--line);width:100%;background:none;padding:17px 0;text-align:left}
+.answer-row>span:first-child{display:grid;gap:7px}
+.answer-row small{font-size:10px;color:var(--muted)}
+.answer-row strong{font-size:13px;line-height:1.7;font-weight:600}
+.answer-row>span:last-child{font-size:11px;color:#a54276;white-space:nowrap}
+.region-note{font-size:12px;line-height:1.7}
+.no-match h1{font-size:34px}
+.no-match .button-secondary{margin-top:22px}
+.no-match+.result-section{border-bottom:0}
+.food-card:hover{transform:none}
+.bottom-nav a{font-size:10px}
+@media(max-width:350px){
+  .finder-intro{padding-inline:17px}
+  .finder-intro h1{font-size:36px}
+  .finder-intro .intro-art{width:235px}
+  .intro-meta{font-size:10px;gap:7px}
+  .food-name{font-size:11px}
+  .food-tag{font-size:8px;letter-spacing:-.04em}
+  .food-card{min-height:108px}
+  .choice{padding-inline:12px}
+  .finder-result-hero{padding-inline:17px}
+  .finder-result-hero h1{font-size:38px}
+  .price-total dd{font-size:18px}
+}
+@media(max-height:760px){
+  .finder-intro{padding-top:22px}
+  .finder-intro h1{font-size:37px;margin-bottom:14px}
+  .finder-intro .intro-art{width:210px;margin-block:18px 10px}
+  .intro-meta{margin-top:12px}
+}
