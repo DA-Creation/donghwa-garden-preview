@@ -1,14 +1,14 @@
 import {
-  PEOPLE,FREQUENCIES,STYLES,FOODS,AVOIDS,PRODUCTS,blankAnswers,sanitizeAnswers,
+  PEOPLE,FREQUENCIES,STYLES,FOODS,PRODUCTS,blankAnswers,sanitizeAnswers,
   stepValid,isComplete,toggleMulti,recommend,priceBreakdown,compositionComparison
-} from './model.mjs';
+} from './model.mjs?v=20260921';
 
 const app=document.querySelector('#app');
 const actionBar=document.querySelector('#action-bar');
 const dialog=document.querySelector('#detail-dialog');
 const dialogContent=document.querySelector('#dialog-content');
-const storageKey='donghwa-meal-finder-v1';
-const stepNames=['식사 인원·횟수','평소 밥상','좋아하는 음식','피하는 음식'];
+const storageKey='donghwa-meal-finder-v2';
+const stepNames=['식사 인원·횟수','평소 밥상','좋아하는 음식'];
 const money=n=>new Intl.NumberFormat('ko-KR').format(n)+'원';
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const arrow='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>';
@@ -16,9 +16,9 @@ const back='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/
 let answers=blankAnswers(),view='intro',step=0,toastTimer;
 try {
   const saved=JSON.parse(sessionStorage.getItem(storageKey));
-  if(saved?.version===1){answers=sanitizeAnswers(saved.answers||{});view=saved.view==='result'&&isComplete(answers)?'result':saved.view==='quiz'?'quiz':'intro';step=Math.floor(Math.min(3,Math.max(0,Number(saved.step)||0)));}
+  if(saved?.version===2){answers=sanitizeAnswers(saved.answers||{});view=saved.view==='result'&&isComplete(answers)?'result':saved.view==='quiz'?'quiz':'intro';step=Math.floor(Math.min(2,Math.max(0,Number(saved.step)||0)));}
 } catch {}
-const save=()=>{try{sessionStorage.setItem(storageKey,JSON.stringify({version:1,answers,view,step}));}catch{}};
+const save=()=>{try{sessionStorage.setItem(storageKey,JSON.stringify({version:2,answers,view,step}));}catch{}};
 const label=(list,value)=>list.find(item=>item.id===value)?.label||'';
 const labels=(list,values)=>values.map(value=>label(list,value)).join(', ');
 function notify(message) {
@@ -38,7 +38,7 @@ window.addEventListener('popstate',event=>{
   if(!state)return navigate('intro',0,{replace:true});
   view=state.view==='result'&&!isComplete(answers)?'quiz':state.view;
   if(!['intro','quiz','result'].includes(view))view='intro';
-  step=Math.min(3,Math.max(0,state.step||0));save();render();window.scrollTo(0,0);
+  step=Math.min(2,Math.max(0,state.step||0));save();render();window.scrollTo(0,0);
 });
 function radioChoices(name,options,value,compact=false) {
   return '<div class="'+(compact?'compact-choices':'choice-list')+'">'+options.map(option=>`
@@ -54,14 +54,14 @@ function intro() {
     <p class="eyebrow">동화가든 정기배송</p>
     <h1 class="hand" tabindex="-1">나에게 맞는<br><em>정기배송 식단</em> 찾기</h1>
     <p class="intro-description">몇 명이, 어떻게, 무엇을 즐겨 먹는지.<br>평소 식사에 맞는 구성을 골라드릴게요.</p>
-    <div class="intro-meta"><span>4단계</span><i aria-hidden="true"></i><span>약 1분</span><i aria-hidden="true"></i><span>가입 없이 바로 확인</span></div>
+    <div class="intro-meta"><span>3단계</span><i aria-hidden="true"></i><span>약 1분</span><i aria-hidden="true"></i><span>가입 없이 바로 확인</span></div>
     <figure class="intro-art"><img src="./assets/meal-box.png" alt="순두부와 국, 반찬을 함께 차린 동화가든 밥상" width="282" height="282"><figcaption>상차림 예시</figcaption></figure>
   </section>`;
   actionBar.innerHTML='<div class="action-bar"><button class="button-primary" data-action="start">내 식단 찾기 '+arrow+'</button></div>';
 }
 function question() {
-  const titles=['함께 먹는 사람과<br>집밥 횟수를 알려주세요.','평소 집에서는<br>어떻게 차려 드세요?','좋아하거나 자주 먹는<br>음식을 골라주세요.','잘 먹지 않는<br>음식이 있나요?'];
-  const descriptions=['같은 구성으로 함께 식사할 인원을 골라주세요.','가장 가까운 한 가지를 골라주세요.','최대 3개까지 고를 수 있어요.','해당하는 것을 모두 골라주세요.'];
+  const titles=['함께 먹는 사람과<br>집밥 횟수를 알려주세요.','평소 집에서는<br>어떻게 차려 드세요?','좋아하거나 자주 먹는<br>음식을 골라주세요.'];
+  const descriptions=['같은 구성으로 함께 식사할 인원을 골라주세요.','가장 가까운 한 가지를 골라주세요.','최대 3개까지 고를 수 있어요.'];
   let body='';
   if(step===0)body=`<fieldset><legend>몇 명이 함께 드시나요?</legend>${radioChoices('people',PEOPLE,answers.people,true)}</fieldset>
     <fieldset><legend>하루에 몇 끼를 집에서 드시나요?</legend>${radioChoices('frequency',FREQUENCIES,answers.frequency,true)}</fieldset>`;
@@ -72,13 +72,9 @@ function question() {
       <span class="food-check" aria-hidden="true">✓</span><span class="food-emoji" aria-hidden="true">${food.icon}</span>
       <span class="food-name">${food.label}</span><span class="food-tag">${food.detail}</span>
     </label>`).join('')}</div></fieldset><p class="selection-info" id="selection-info" aria-live="polite">${answers.foods.length} / 3 선택</p>`;
-  if(step===3)body=`<fieldset><legend class="sr-only">피하는 음식</legend><div class="choice-list avoid-list">${AVOIDS.map(item=>`
-    <label class="choice multi"><input type="checkbox" name="avoids" value="${item.id}" ${answers.avoids.includes(item.id)?'checked':''}><span class="choice-copy"><strong>${item.label}</strong></span><span class="radio-mark" aria-hidden="true"></span></label>`).join('')}</div></fieldset>
-    <p class="helper">정해진 구성을 고르는 테스트예요. 음식 교체나 맵기 조절은 제공하지 않아요.</p>
-    <p class="helper allergy-note">알레르기가 있다면 상품별 원재료 표시를 꼭 확인해주세요.</p>`;
-  app.innerHTML=`<div class="stepper"><div class="stepper-top"><span>${stepNames[step]}</span><span><b>${step+1}</b> / 4</span></div><div class="progress" role="progressbar" aria-label="테스트 진행" aria-valuemin="0" aria-valuemax="4" aria-valuenow="${step+1}"><span style="width:${(step+1)*25}%"></span></div></div>
+  app.innerHTML=`<div class="stepper"><div class="stepper-top"><span>${stepNames[step]}</span><span><b>${step+1}</b> / 3</span></div><div class="progress" role="progressbar" aria-label="테스트 진행" aria-valuemin="0" aria-valuemax="3" aria-valuenow="${step+1}"><span style="width:${(step+1)/3*100}%"></span></div></div>
     <section class="question fade-in"><h1 class="question-title" tabindex="-1">${titles[step]}</h1><p class="question-description">${descriptions[step]}</p><form id="quiz-form">${body}</form></section>`;
-  actionBar.innerHTML=`<div class="action-bar"><div class="action-row"><button class="back-button" data-action="back" aria-label="이전 단계">${back}</button><button id="next-button" class="button-primary" data-action="next" ${stepValid(step,answers)?'':'disabled'}>${step===3?'내 추천 구성 보기':'다음'} ${arrow}</button></div></div>`;
+  actionBar.innerHTML=`<div class="action-bar"><div class="action-row"><button class="back-button" data-action="back" aria-label="이전 단계">${back}</button><button id="next-button" class="button-primary" data-action="next" ${stepValid(step,answers)?'':'disabled'}>${step===2?'내 추천 구성 보기':'다음'} ${arrow}</button></div></div>`;
 }
 function priceRows(product) {
   const cost=priceBreakdown(product);
@@ -94,12 +90,7 @@ function result() {
   const ranking=recommend(answers);
   const top=ranking[0];
   const summary=label(PEOPLE,answers.people)+' · '+label(FREQUENCIES,answers.frequency)+' · '+label(STYLES,answers.style);
-  if(!top) {
-    app.innerHTML=`<section class="result-hero no-match"><p class="eyebrow">추천 결과</p><h1 tabindex="-1">지금 구성에는<br>두부·콩 음식이 들어 있어요.</h1><p class="result-description">선택하신 기피 음식을 제외하면<br>추천할 수 있는 구성이 없어요.</p><button class="button-secondary" data-action="edit-avoids">피하는 음식 다시 선택하기</button></section>
-      <section class="result-section"><h2>어떤 구성이 있는지 살펴보세요.</h2><p class="section-description">음식을 빼거나 다른 음식으로 바꿀 수는 없어요.</p><button class="button-secondary" data-action="catalog">전체 구성 보기</button></section>`;
-    actionBar.innerHTML='<div class="action-bar"><button class="button-primary" data-action="answers">내 답변 확인하기</button></div>';
-    return;
-  }
+  if(!top)return navigate('quiz',0,{replace:true});
   const product=top.product,cost=priceBreakdown(product),comparison=compositionComparison(product,answers);
   const selectedPreferences=answers.foods.filter(f=>f!=='any').map(f=>label(FOODS,f));
   app.innerHTML=`<article class="result fade-in">
@@ -115,7 +106,6 @@ function result() {
       <ol class="reason-list">${top.reasons.map(reason=>'<li>'+reason+'</li>').join('')}</ol>
       ${answers.people==='4'?'<p class="helper">패밀리의 안내 인원은 3~4인입니다. 5인 이상이라면 양을 확인해주세요.</p>':''}
       ${['3','4'].includes(answers.people)&&product.id!=='family'?'<p class="helper">선호 음식에 맞춘 추천입니다. 여러 명이 드실 양인지는 전체 구성을 확인해주세요.</p>':''}
-      ${answers.avoids.some(a=>a!=='none')?'<p class="helper">표기된 구성에 기피 음식이 있는 옵션은 제외했어요. 국·반찬의 세부 원재료는 회차별로 확인해주세요.</p>':''}
     </section>
     <section class="result-section composition"><p class="section-number">02 · 한 번에 받는 구성</p><h2>이렇게 담아 보내드려요.</h2>
       <ul class="composition-list">${product.items.map(item=>'<li><span>'+item+'</span><span aria-hidden="true">✓</span></li>').join('')}</ul>
@@ -156,6 +146,7 @@ function showProduct(id) {
     <h3 class="detail-label">한 번에 받는 구성</h3><ul class="composition-list">${product.items.map(item=>'<li>'+item+'</li>').join('')}</ul>
     ${priceRows(product)}${product.monthly?'<p class="helper">월 구독 제안가 '+money(product.monthly)+' · 배송 일정은 신청 안내에서 확인</p>':''}
     ${sourceNote}<p class="helper">국·반찬의 세부 메뉴는 회차별로 달라질 수 있어요. 구성 변경과 맵기 조절은 제공하지 않아요.</p>
+    <p class="helper">원재료와 알레르기 표시는 주문 전 상품 안내에서 확인해주세요.</p>
     <div class="dialog-actions"><a class="button-primary" href="https://dacreation.cafe24.com/subscription/apply.html" target="_blank" rel="noopener">정기배송 신청 안내 ${arrow}</a><button class="button-secondary" data-action="catalog">다른 구성과 비교하기</button></div>
     <p class="link-caption">동화가든 신청 안내 페이지로 이동합니다.</p>`);
 }
@@ -166,7 +157,7 @@ function showCatalog() {
 function showAnswers() {
   const values=[
     label(PEOPLE,answers.people)+' · '+label(FREQUENCIES,answers.frequency),
-    label(STYLES,answers.style),labels(FOODS,answers.foods),labels(AVOIDS,answers.avoids)
+    label(STYLES,answers.style),labels(FOODS,answers.foods)
   ];
   openDialog('내가 고른 답변',values.map((value,index)=>`<button class="answer-row" data-edit="${index}"><span><small>${stepNames[index]}</small><strong>${esc(value)||'선택 전'}</strong></span><span>수정</span></button>`).join('')+'<p class="helper">답변을 바꾸면 추천 구성도 다시 계산해드려요.</p>');
 }
@@ -174,9 +165,9 @@ app.addEventListener('submit',event=>event.preventDefault());
 app.addEventListener('change',event=>{
   const input=event.target;if(!(input instanceof HTMLInputElement))return;
   if(['people','frequency','style'].includes(input.name))answers[input.name]=input.value;
-  if(['foods','avoids'].includes(input.name)) {
+  if(input.name==='foods') {
     const name=input.name;
-    const next=toggleMulti(answers[name],input.value,{exclusive:name==='foods'?'any':'none',max:name==='foods'?3:6});
+    const next=toggleMulti(answers[name],input.value,{exclusive:'any',max:3});
     if(next===answers[name])notify('좋아하는 음식은 최대 3개까지 골라주세요.');
     answers[name]=next;
     app.querySelectorAll('input[name="'+name+'"]').forEach(el=>el.checked=next.includes(el.value));
@@ -192,12 +183,11 @@ document.addEventListener('click',event=>{
   switch(button.dataset.action) {
     case 'start':navigate('quiz',0);break;
     case 'back':navigate(step===0?'intro':'quiz',Math.max(0,step-1));break;
-    case 'next':if(stepValid(step,answers)){if(step===3){if(isComplete(answers))navigate('result');else navigate('quiz',[0,1,2,3].find(s=>!stepValid(s,answers)));}else navigate('quiz',step+1);}break;
+    case 'next':if(stepValid(step,answers)){if(step===2){if(isComplete(answers))navigate('result');else navigate('quiz',[0,1,2].find(s=>!stepValid(s,answers)));}else navigate('quiz',step+1);}break;
     case 'restart':answers=blankAnswers();dialog.close();navigate('intro');break;
     case 'answers':showAnswers();break;
     case 'catalog':showCatalog();break;
     case 'close':dialog.close();break;
-    case 'edit-avoids':navigate('quiz',3);break;
   }
 });
 document.querySelector('#home-button').addEventListener('click',()=>navigate('intro'));

@@ -16,10 +16,7 @@ legend{padding:0;margin-bottom:12px;font-size:13px;font-weight:700;line-height:1
 .food-card{min-height:116px}
 .food-name{font-size:12px}
 .food-tag{font-size:9px}
-.avoid-list{gap:8px}
-.avoid-list .choice{min-height:51px;padding-block:12px}
 .question fieldset:last-child{margin-bottom:0}
-.allergy-note{margin-top:8px;font-size:10px}
 .site-footer .action-bar{padding-bottom:24px}
 .finder-result-hero{text-align:left;padding:28px 22px 25px}
 .finder-result-hero .eyebrow{margin-top:0}
@@ -86,9 +83,6 @@ legend{padding:0;margin-bottom:12px;font-size:13px;font-weight:700;line-height:1
 .answer-row strong{font-size:13px;line-height:1.7;font-weight:600}
 .answer-row>span:last-child{font-size:11px;color:#a54276;white-space:nowrap}
 .region-note{font-size:12px;line-height:1.7}
-.no-match h1{font-size:34px}
-.no-match .button-secondary{margin-top:22px}
-.no-match+.result-section{border-bottom:0}
 .food-card:hover{transform:none}
 .bottom-nav a{font-size:10px}
 @media(max-width:350px){

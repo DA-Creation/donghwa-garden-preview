@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {PRODUCTS,blankAnswers,sanitizeAnswers,stepValid,isComplete,toggleMulti,recommend,priceBreakdown,verifiedNutritionComparison} from './model.mjs';
-const answer=(changes={})=>({people:'2',frequency:'2',style:'complete',foods:['any'],avoids:['none'],...changes});
+const answer=(changes={})=>({people:'2',frequency:'2',style:'complete',foods:['any'],...changes});
 const winner=changes=>recommend(answer(changes))[0]?.product.id;
 
 test('혼자 불규칙하게 집밥을 먹는 경우 작은 구성을 먼저 추천',()=>{
@@ -20,20 +20,6 @@ test('평소 식사 방식이 다르면 추천도 달라짐',()=>{
 test('좋아하는 음식 답변이 실제 추천에 반영됨',()=>{
   assert.equal(winner({foods:['spicy']}),'spicy');
   assert.equal(winner({foods:['ferment']}),'ferment');
-});
-test('피하는 음식은 좋아하는 음식보다 우선',()=>{
-  const results=recommend(answer({foods:['spicy'],avoids:['spicy']}));
-  assert.ok(results.length>0);
-  assert.ok(results.every(r=>!['spicy','soup'].includes(r.product.id)));
-  assert.equal(results[0].product.id,'mild');
-});
-test('선택한 기피 음식이 명시된 고정 구성은 추천에서 제외',()=>{
-  for(const avoidance of ['ferment','soymilk','jeotgal']){
-    assert.ok(recommend(answer({avoids:[avoidance]})).every(r=>!r.product.knownFoods.includes(avoidance)));
-  }
-});
-test('모든 옵션에 포함된 콩 음식을 피하면 억지로 추천하지 않음',()=>{
-  assert.deepEqual(recommend(answer({avoids:['soy']})),[]);
 });
 test('강릉 전용 옵션은 지역 확인 전 자동 추천에 포함하지 않음',()=>{
   assert.ok(recommend(answer()).every(r=>r.product.id!=='local'));
@@ -56,7 +42,7 @@ test('저장된 잘못된 값이나 삽입 문자열은 복원하지 않음',()=
   const a=sanitizeAnswers({people:'<script>',frequency:'1',style:'complete',foods:['spicy','spicy','bad','tofu','sides','fish'],avoids:['none','soy']});
   assert.equal(a.people,'');
   assert.deepEqual(a.foods,['spicy','tofu','sides']);
-  assert.deepEqual(a.avoids,['none']);
+  assert.equal('avoids' in a,false);
 });
 test('음식 선택 제한·선택 취소·없음의 상호배제',()=>{
   assert.deepEqual(toggleMulti(['spicy','soup','meat'],'fish',{max:3,exclusive:'any'}),['spicy','soup','meat']);
@@ -81,4 +67,26 @@ test('모든 추천에 고정 상품과 설명이 있고 입력을 변경하지 
     assert.ok(result.every(r=>PRODUCTS.includes(r.product)&&r.reasons.length>0));
     assert.equal(new Set(result.map(r=>r.product.id)).size,result.length);
   }
+});
+
+// Every combination customers can actually submit must reach a recommendation.
+test('3단계의 모든 유효 답변 조합에 추천과 대안이 있음',()=>{
+  const foodIds=['spicy','soup','ferment','meat','fish','sides','noodles','tofu'];
+  const selections=[['any']];
+  for(let mask=1;mask<(1<<foodIds.length);mask++){
+    const selection=foodIds.filter((_,i)=>mask&(1<<i));
+    if(selection.length<=3)selections.push(selection);
+  }
+  let checked=0;
+  for(const people of ['1','2','3','4'])for(const frequency of ['1','2','3','varies'])
+  for(const style of ['complete','sides','soup','simple','varies'])for(const foods of selections){
+    const a={people,frequency,style,foods};
+    assert.equal(isComplete(a),true);
+    assert.equal(stepValid(3,a),false);
+    const results=recommend(a);
+    assert.ok(results.length>=3);
+    assert.ok(results.slice(0,3).every(r=>r.reasons.length>0));
+    checked++;
+  }
+  assert.equal(checked,7440);
 });

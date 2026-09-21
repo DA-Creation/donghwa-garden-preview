@@ -24,14 +24,6 @@ export const FOODS = [
   {id:'tofu',icon:'🍲',label:'두부 요리',detail:'순두부·두부조림'},
   {id:'any',icon:'🍽️',label:'골고루 먹어요',detail:'특별히 가리지 않아요'}
 ];
-export const AVOIDS = [
-  {id:'spicy',label:'매운 국·찌개'},
-  {id:'ferment',label:'청국장'},
-  {id:'jeotgal',label:'젓갈'},
-  {id:'soymilk',label:'두유'},
-  {id:'soy',label:'두부·콩으로 만든 음식'},
-  {id:'none',label:'특별히 없어요'}
-];
 const p = (id,name,tagline,price,retail,items,tags,knownFoods,extra={}) =>
   ({id,name,tagline,price,retail,shipping:price>=29900?0:3500,items,tags,knownFoods:['soy',...knownFoods],...extra});
 export const PRODUCTS = [
@@ -56,29 +48,27 @@ export const PRODUCTS = [
   p('local','강릉 이웃 위클리','강릉 지역 전용 구성',19900,null,
     ['순두부 425g','국·탕 620g × 1','반찬 3종','매장 그날 반찬'],['complete','soup','sides','tofu'],[],{region:'gangneung',shipping:null,monthly:79000})
 ];
-export const blankAnswers = () => ({people:'',frequency:'',style:'',foods:[],avoids:[]});
+export const blankAnswers = () => ({people:'',frequency:'',style:'',foods:[]});
 const has = (options,value) => options.some(o=>o.id===value);
 export function sanitizeAnswers(raw={}) {
   if(!raw||typeof raw!=='object')raw={};
   const safeList = (key,options,max) => Array.isArray(raw[key])
     ? [...new Set(raw[key].filter(v=>has(options,v)))].slice(0,max) : [];
-  const foods=safeList('foods',FOODS,3), avoids=safeList('avoids',AVOIDS,6);
+  const foods=safeList('foods',FOODS,3);
   return {
     people:has(PEOPLE,raw.people)?raw.people:'',
     frequency:has(FREQUENCIES,raw.frequency)?raw.frequency:'',
     style:has(STYLES,raw.style)?raw.style:'',
-    foods:foods.includes('any')?['any']:foods,
-    avoids:avoids.includes('none')?['none']:avoids
+    foods:foods.includes('any')?['any']:foods
   };
 }
 export function stepValid(step,a) {
   if(step===0)return has(PEOPLE,a.people)&&has(FREQUENCIES,a.frequency);
   if(step===1)return has(STYLES,a.style);
   if(step===2)return a.foods.length>0&&a.foods.length<=3&&a.foods.every(v=>has(FOODS,v));
-  if(step===3)return a.avoids.length>0&&a.avoids.every(v=>has(AVOIDS,v));
   return false;
 }
-export const isComplete = a => [0,1,2,3].every(s=>stepValid(s,a));
+export const isComplete = a => [0,1,2].every(s=>stepValid(s,a));
 export function toggleMulti(values,id,{exclusive,max}) {
   if(values.includes(id))return values.filter(x=>x!==id);
   if(id===exclusive)return [id];
@@ -94,7 +84,6 @@ export function recommend(raw,region='unknown') {
   const a=sanitizeAnswers(raw);
   if(!isComplete(a))return [];
   return PRODUCTS.filter(product=>product.region?region===product.region:true)
-    .filter(product=>!a.avoids.some(v=>product.knownFoods.includes(v)))
     .map(product=>{
       let score=0;
       const id=product.id;
@@ -113,7 +102,6 @@ export function recommend(raw,region='unknown') {
         if(food==='ferment'&&id==='ferment')score+=24;
         if(food==='sides'&&id==='sides')score+=9;
       }
-      if(a.avoids.includes('spicy')&&id==='mild')score+=20;
       return {product,score,reasons:recommendationReasons(product,a)};
     }).sort((a,b)=>b.score-a.score||a.product.price-b.product.price);
 }
@@ -127,7 +115,6 @@ export function recommendationReasons(product,a) {
   if(product.id==='soup'&&a.style==='soup')reasons.push('국·찌개를 중심으로 드셔서, 세 가지 국물이 담긴 구성을 골랐어요.');
   if(product.id==='spicy'&&a.foods.includes('spicy'))reasons.push('좋아하시는 얼큰한 찌개에 맞춰, 얼큰순두부와 매콤 반찬을 골랐어요.');
   if(product.id==='ferment'&&a.foods.includes('ferment'))reasons.push('된장·청국장을 좋아하셔서, 청국장찌개가 있는 구성을 골랐어요.');
-  if(product.id==='mild'&&a.avoids.includes('spicy'))reasons.push('매운 국·찌개를 피하셔서, 순한맛으로 기획된 구성을 골랐어요.');
   if(a.foods.includes('tofu')&&product.items.some(i=>i.startsWith('순두부')))reasons.push('좋아하시는 두부 요리로 순두부가 들어 있어요.');
   if(a.frequency==='varies'&&product.id==='solo')reasons.push('집에서 먹는 횟수가 일정하지 않아, 격주 이용을 권하는 옵션부터 보여드려요.');
   if(reasons.length<2&&a.style==='complete'&&product.tags.includes('complete'))reasons.push('평소 드시는 밥·국·반찬 구성을 이어갈 수 있어요. 밥은 별도로 준비해주세요.');
