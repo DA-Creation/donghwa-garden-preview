@@ -1,0 +1,1032 @@
+{
+  "captured_at": "2026-10-30T10:34:01.597682+09:00",
+  "files": [
+    {
+      "product_no": 32,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/38e40a3e51f8b5165c11f5700d73ce40.png",
+      "local": "backups/originals/32/detail_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 723546,
+      "sha256": "4ab2b067f87ae37e4c8ed3911671fdaebce7c6f5011b3373de08eadc65370b12",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 32,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/957d63c544b7b847e6780f2460abac05.png",
+      "local": "backups/originals/32/list_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 723546,
+      "sha256": "4ab2b067f87ae37e4c8ed3911671fdaebce7c6f5011b3373de08eadc65370b12",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 32,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/7630f0dc1e0d921130348c23513b7d8d.png",
+      "local": "backups/originals/32/tiny_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 723546,
+      "sha256": "4ab2b067f87ae37e4c8ed3911671fdaebce7c6f5011b3373de08eadc65370b12",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 32,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/5744d67b35c91dfa272b5053d4ed5f63.png",
+      "local": "backups/originals/32/small_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 723546,
+      "sha256": "4ab2b067f87ae37e4c8ed3911671fdaebce7c6f5011b3373de08eadc65370b12",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 33,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/a1a5e7db5ec4e9ec8574e796c2dc7095.jpg",
+      "local": "backups/originals/33/detail_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 167493,
+      "sha256": "e09365bc3cae356abd5da16767af7ab3555415e08f08cfbd7871d3f84cb8852d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 33,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/c083622661057d3f1ca575cb69c9c81d.jpg",
+      "local": "backups/originals/33/list_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 167493,
+      "sha256": "e09365bc3cae356abd5da16767af7ab3555415e08f08cfbd7871d3f84cb8852d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 33,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/08f59f37a307b6a8ebe186cab07bbd76.jpg",
+      "local": "backups/originals/33/tiny_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 167493,
+      "sha256": "e09365bc3cae356abd5da16767af7ab3555415e08f08cfbd7871d3f84cb8852d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 33,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/1c1978325c238bbbcd3a3423147d5c4e.jpg",
+      "local": "backups/originals/33/small_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 167493,
+      "sha256": "e09365bc3cae356abd5da16767af7ab3555415e08f08cfbd7871d3f84cb8852d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 34,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/893f74a1079ea29db59f78daae950f26.png",
+      "local": "backups/originals/34/detail_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 937562,
+      "sha256": "885c327bbf61312fc1a88607a20a7b0f9cf9da3f81ef342c6f3d988eea665a72",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 34,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/ade754548b47188cbe05bce87ba72234.png",
+      "local": "backups/originals/34/list_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 937598,
+      "sha256": "a509efcd31d4ce0a27ad260bf82b379bc06e9a8e1c566d8e993028691b9343ea",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 34,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/231baa152ef2356dfbe989a5d222f9e8.png",
+      "local": "backups/originals/34/tiny_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 937598,
+      "sha256": "1b031a764a984a3b39e08dcd1b974ed36a4e93e878f6bdfdacad024310f15f22",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 34,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/5e5a3f14fa0a72ce6106599f14c21568.png",
+      "local": "backups/originals/34/small_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 937598,
+      "sha256": "71fe6bafa23e3ae6e971191830216d8883587474c9f617ce47b3a7b73620bceb",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 35,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/ee5f86be2244e46d6a22acef65c773e0.jpg",
+      "local": "backups/originals/35/detail_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 232204,
+      "sha256": "8855cf144a95e5713e0da44017d28a5937dd8ec78792c50ceaebc0e1c900a0a0",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 35,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/2a88ad49070815b248b232d711a2c24e.jpg",
+      "local": "backups/originals/35/list_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 232204,
+      "sha256": "8855cf144a95e5713e0da44017d28a5937dd8ec78792c50ceaebc0e1c900a0a0",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 35,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/2770e2653a454367cd7af708680af0ce.jpg",
+      "local": "backups/originals/35/tiny_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 232204,
+      "sha256": "8855cf144a95e5713e0da44017d28a5937dd8ec78792c50ceaebc0e1c900a0a0",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 35,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/61c5a28bc7a8eefff7cae44c98ebb1d7.jpg",
+      "local": "backups/originals/35/small_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 232204,
+      "sha256": "8855cf144a95e5713e0da44017d28a5937dd8ec78792c50ceaebc0e1c900a0a0",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 36,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/0bde4505a7c7bd5d87c74972e3f86e15.png",
+      "local": "backups/originals/36/detail_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 522228,
+      "sha256": "fd896c4e7ffde04b07918ec571382535799801611dc2e6522bea7b2cdce90123",
+      "dimensions": [
+        1024,
+        756
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 36,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/3f97c732d9e27cafbb72a1801b608621.png",
+      "local": "backups/originals/36/list_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 522228,
+      "sha256": "fd896c4e7ffde04b07918ec571382535799801611dc2e6522bea7b2cdce90123",
+      "dimensions": [
+        1024,
+        756
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 36,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/2169044d4ada99df1b7d3e4935534bf8.png",
+      "local": "backups/originals/36/tiny_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 522228,
+      "sha256": "fd896c4e7ffde04b07918ec571382535799801611dc2e6522bea7b2cdce90123",
+      "dimensions": [
+        1024,
+        756
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 36,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/be17682b89f44ac8909c69cd4e3c929f.png",
+      "local": "backups/originals/36/small_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 522228,
+      "sha256": "fd896c4e7ffde04b07918ec571382535799801611dc2e6522bea7b2cdce90123",
+      "dimensions": [
+        1024,
+        756
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 37,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/74ed4ae649f51f2e70f8498b5bd1a965.jpg",
+      "local": "backups/originals/37/detail_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 70846,
+      "sha256": "631a4c243134fdbf57866e3878bfc412ffc070d967e345fff12785fb23091593",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 37,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/c7375ce25214231f2b27d482ce08b766.jpg",
+      "local": "backups/originals/37/list_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 70846,
+      "sha256": "631a4c243134fdbf57866e3878bfc412ffc070d967e345fff12785fb23091593",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 37,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/9d18810543dd067533b99dc697a9bb87.jpg",
+      "local": "backups/originals/37/tiny_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 70846,
+      "sha256": "631a4c243134fdbf57866e3878bfc412ffc070d967e345fff12785fb23091593",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 37,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/e5bb35d02feb65c7c33cfcd5a3d294e8.jpg",
+      "local": "backups/originals/37/small_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 70846,
+      "sha256": "631a4c243134fdbf57866e3878bfc412ffc070d967e345fff12785fb23091593",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 38,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/e2572a85b6657d549394b0a776020b72.png",
+      "local": "backups/originals/38/detail_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 1600208,
+      "sha256": "2a63e71e963739f0ec82a4b4a7512810122bbaa066c7530a75adc6c4e5603be9",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 38,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/2e4735f2d6b168f1718a31f09eae7649.png",
+      "local": "backups/originals/38/list_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 1600208,
+      "sha256": "2a63e71e963739f0ec82a4b4a7512810122bbaa066c7530a75adc6c4e5603be9",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 38,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/21af37755be5bb55d3468904aa37c65a.png",
+      "local": "backups/originals/38/tiny_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 1600208,
+      "sha256": "2a63e71e963739f0ec82a4b4a7512810122bbaa066c7530a75adc6c4e5603be9",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 38,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/a2fb384dcc49ba268696404492010abd.png",
+      "local": "backups/originals/38/small_image.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 1600208,
+      "sha256": "2a63e71e963739f0ec82a4b4a7512810122bbaa066c7530a75adc6c4e5603be9",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "PNG",
+      "decoded": true
+    },
+    {
+      "product_no": 39,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/ca7de6c8da7097a01e0592e370201c91.jpg",
+      "local": "backups/originals/39/detail_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 230201,
+      "sha256": "033bd65da5e06e705e5d1d0e154c7b7b686024d43325f179bb3ce045802ef1be",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 39,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/38fe342b07c94b09353005d70be593ab.jpg",
+      "local": "backups/originals/39/list_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 230201,
+      "sha256": "033bd65da5e06e705e5d1d0e154c7b7b686024d43325f179bb3ce045802ef1be",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 39,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/610c40df05a6ba0f024394f1de9df849.jpg",
+      "local": "backups/originals/39/tiny_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 230201,
+      "sha256": "033bd65da5e06e705e5d1d0e154c7b7b686024d43325f179bb3ce045802ef1be",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 39,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/5eb47b9a43e0794440cb15aad0c825e3.jpg",
+      "local": "backups/originals/39/small_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 230201,
+      "sha256": "033bd65da5e06e705e5d1d0e154c7b7b686024d43325f179bb3ce045802ef1be",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 40,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/3e8063a121bd776ee34b516cdf436a3f.jpg",
+      "local": "backups/originals/40/detail_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 200346,
+      "sha256": "cb24ee0c2b7bc257209e5b1ce24a00032ac7b21cc0dd314b1f564f301f80f828",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 40,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/c64dbd7bfd5a89a991d2432a0eca26fd.jpg",
+      "local": "backups/originals/40/list_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 200346,
+      "sha256": "cb24ee0c2b7bc257209e5b1ce24a00032ac7b21cc0dd314b1f564f301f80f828",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 40,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/081ba065c7c06256fcecd856d8e67c10.jpg",
+      "local": "backups/originals/40/tiny_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 200346,
+      "sha256": "cb24ee0c2b7bc257209e5b1ce24a00032ac7b21cc0dd314b1f564f301f80f828",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 40,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/35fd3d7c3a0839fbb40e3fa25eefc9e2.jpg",
+      "local": "backups/originals/40/small_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 200346,
+      "sha256": "cb24ee0c2b7bc257209e5b1ce24a00032ac7b21cc0dd314b1f564f301f80f828",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 41,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/38c9b39fd240c6628e6613f5e967bf44.jpg",
+      "local": "backups/originals/41/detail_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 192381,
+      "sha256": "070744cf849189621ec55ca8aa86a72d57cf101c9eaaa330c463ce21ac182d42",
+      "dimensions": [
+        683,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 41,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/69f6e5361999e210c8f01e24f042a841.jpg",
+      "local": "backups/originals/41/list_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 192381,
+      "sha256": "070744cf849189621ec55ca8aa86a72d57cf101c9eaaa330c463ce21ac182d42",
+      "dimensions": [
+        683,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 41,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/8d4437ff5a4f471f107f4ae385adf0b2.jpg",
+      "local": "backups/originals/41/tiny_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 192381,
+      "sha256": "070744cf849189621ec55ca8aa86a72d57cf101c9eaaa330c463ce21ac182d42",
+      "dimensions": [
+        683,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 41,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/0cd302d413dabc097eeb9222b926aa1f.jpg",
+      "local": "backups/originals/41/small_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 192381,
+      "sha256": "070744cf849189621ec55ca8aa86a72d57cf101c9eaaa330c463ce21ac182d42",
+      "dimensions": [
+        683,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 42,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/aa222f23bd43f4fcccc5e19340180df4.jpg",
+      "local": "backups/originals/42/detail_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 223412,
+      "sha256": "7484aa50bbd867b2b4b82a5cad987874c1ec6e44500b84678aedfd36fe4cb72c",
+      "dimensions": [
+        798,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 42,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/85907b46c1fdc55d4b86db64e583e0da.jpg",
+      "local": "backups/originals/42/list_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 223412,
+      "sha256": "7484aa50bbd867b2b4b82a5cad987874c1ec6e44500b84678aedfd36fe4cb72c",
+      "dimensions": [
+        798,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 42,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/b2b7df3ec46a41e0cbb37e64072fb655.jpg",
+      "local": "backups/originals/42/tiny_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 223412,
+      "sha256": "7484aa50bbd867b2b4b82a5cad987874c1ec6e44500b84678aedfd36fe4cb72c",
+      "dimensions": [
+        798,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 42,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/386d568ead657a1b321c6faf9cc67ebf.jpg",
+      "local": "backups/originals/42/small_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 223412,
+      "sha256": "7484aa50bbd867b2b4b82a5cad987874c1ec6e44500b84678aedfd36fe4cb72c",
+      "dimensions": [
+        798,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 43,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/e3237839388c00d974137e201abfaafe.jpg",
+      "local": "backups/originals/43/detail_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 186198,
+      "sha256": "a6476629e015b4e88c0f2555a28e1a505ec4edb118c35abbeb10e5d7881f907a",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 43,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/dc38f15124609920969a04815c253846.jpg",
+      "local": "backups/originals/43/list_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 186198,
+      "sha256": "a6476629e015b4e88c0f2555a28e1a505ec4edb118c35abbeb10e5d7881f907a",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 43,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/eeb23e8dde845409f2d87aa029b126ed.jpg",
+      "local": "backups/originals/43/tiny_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 186198,
+      "sha256": "a6476629e015b4e88c0f2555a28e1a505ec4edb118c35abbeb10e5d7881f907a",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 43,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/ef6b43cbb9693b26b2d8f3b0f6c87243.jpg",
+      "local": "backups/originals/43/small_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 186198,
+      "sha256": "a6476629e015b4e88c0f2555a28e1a505ec4edb118c35abbeb10e5d7881f907a",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 44,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/83a695f769596f06e941bcc55f72302c.jpg",
+      "local": "backups/originals/44/detail_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 161662,
+      "sha256": "412fc742782565507cf609c1a77969c0708691e731f6123226ee80c31413a852",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 44,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/50acc9f525928eb7223b29889dc46e60.jpg",
+      "local": "backups/originals/44/list_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 161662,
+      "sha256": "412fc742782565507cf609c1a77969c0708691e731f6123226ee80c31413a852",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 44,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/106817fefe5521b38f17797c1b0ab98d.jpg",
+      "local": "backups/originals/44/tiny_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 161662,
+      "sha256": "412fc742782565507cf609c1a77969c0708691e731f6123226ee80c31413a852",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 44,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/918f25c617ff94e17d262b46be712aaa.jpg",
+      "local": "backups/originals/44/small_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 161662,
+      "sha256": "412fc742782565507cf609c1a77969c0708691e731f6123226ee80c31413a852",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 45,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/0c2d21988b8fa3b0381740d77dcdcc42.jpg",
+      "local": "backups/originals/45/detail_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 158272,
+      "sha256": "63cc070452e4a499a44b00bbb6597ab66a2d2119b0618b81f32268c0a1da5bf8",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 45,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/2eb2ed1d5b904ac0b6fd2ccee5e5ee06.jpg",
+      "local": "backups/originals/45/list_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 158272,
+      "sha256": "63cc070452e4a499a44b00bbb6597ab66a2d2119b0618b81f32268c0a1da5bf8",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 45,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/24dc99c9e7a1e64096d6dc2d649f8717.jpg",
+      "local": "backups/originals/45/tiny_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 158272,
+      "sha256": "63cc070452e4a499a44b00bbb6597ab66a2d2119b0618b81f32268c0a1da5bf8",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 45,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/8dcfd88678b152c732a8b2c740527ee3.jpg",
+      "local": "backups/originals/45/small_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 158272,
+      "sha256": "63cc070452e4a499a44b00bbb6597ab66a2d2119b0618b81f32268c0a1da5bf8",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 46,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/01aee4b6c10528478c5c031984374b2e.jpg",
+      "local": "backups/originals/46/detail_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 174685,
+      "sha256": "09be1eef0b4124ba0b7aa2ed2afe3bb8797d6d5bd6512dd40ba53c720bd8cce9",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 46,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/497441058d9aec4db1dbef3c4e1e40dd.jpg",
+      "local": "backups/originals/46/list_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 174685,
+      "sha256": "09be1eef0b4124ba0b7aa2ed2afe3bb8797d6d5bd6512dd40ba53c720bd8cce9",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 46,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/56912287a390a7726deab34adfbb0f1b.jpg",
+      "local": "backups/originals/46/tiny_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 174685,
+      "sha256": "09be1eef0b4124ba0b7aa2ed2afe3bb8797d6d5bd6512dd40ba53c720bd8cce9",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 46,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/e82e3ab70429de5c03ad99eda0ba1a68.jpg",
+      "local": "backups/originals/46/small_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 174685,
+      "sha256": "09be1eef0b4124ba0b7aa2ed2afe3bb8797d6d5bd6512dd40ba53c720bd8cce9",
+      "dimensions": [
+        780,
+        1024
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 47,
+      "field": "detail_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/160f9ee6f86e0e6714cacc4e4cfd3fbf.jpg",
+      "local": "backups/originals/47/detail_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 175647,
+      "sha256": "71c16b8f8e7c05055c6d36aa287f8da9f15ef50b14b81b0a905a13fe4bcff11e",
+      "dimensions": [
+        1024,
+        682
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 47,
+      "field": "list_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/5477891b6c88da4fbeccb9d917fd25e7.jpg",
+      "local": "backups/originals/47/list_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 175647,
+      "sha256": "71c16b8f8e7c05055c6d36aa287f8da9f15ef50b14b81b0a905a13fe4bcff11e",
+      "dimensions": [
+        1024,
+        682
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 47,
+      "field": "tiny_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20260826/6aa03811a7cc93aed4a6fef0ab570b8c.jpg",
+      "local": "backups/originals/47/tiny_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 175647,
+      "sha256": "71c16b8f8e7c05055c6d36aa287f8da9f15ef50b14b81b0a905a13fe4bcff11e",
+      "dimensions": [
+        1024,
+        682
+      ],
+      "format": "JPEG",
+      "decoded": true
+    },
+    {
+      "product_no": 47,
+      "field": "small_image",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20260826/392a67efef8b2e510750f3bb3db76d20.jpg",
+      "local": "backups/originals/47/small_image.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": 175647,
+      "sha256": "71c16b8f8e7c05055c6d36aa287f8da9f15ef50b14b81b0a905a13fe4bcff11e",
+      "dimensions": [
+        1024,
+        682
+      ],
+      "format": "JPEG",
+      "decoded": true
+    }
+  ],
+  "verified": 64,
+  "products": 16,
+  "preserve_product": 38
+}

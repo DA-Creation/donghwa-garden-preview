@@ -1,0 +1,39 @@
+{
+  "id": 44,
+  "status": "accepted",
+  "final_path": "hero-revision-20261029/images/product-44-v2.png",
+  "prompt_path": "hero-revision-20261029/prompts/product-44-attempt-1.txt",
+  "source_references": [
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-images/44-native-big.jpg",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/83a695f769596f06e941bcc55f72302c.jpg"
+    },
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-preparation-33-35-37/35-original-panel-11.jpg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20250930/47a76e1ee1c6cf609483682a0cf0e684.jpg"
+    }
+  ],
+  "observations": [
+    "Actual white faceted serving bowl restored rather than old invented stainless cooking pot.",
+    "Small irregular tofu curds, red-orange seasoning and original serving-example egg maintained.",
+    "Spoon grounded at liquid surface; removes showy boiling, exaggerated bubble spectacle and extreme pot lighting. Actual source has vivid orange-red broth."
+  ],
+  "limitations": [
+    "AI-generated concept start frame, not actual photography.",
+    "Video temporal realism is not assessed."
+  ],
+  "shot_note": "Served spicy tofu in ceramic bowl, surface-level spoon movement or camera approach only; no boiling. Egg is a serving example.",
+  "used_reference_paths": [
+    "thumbnail-generation-20261028/evidence/source-images/44-native-big.jpg",
+    "hero-revision-20261029/images/product-42-v2.png"
+  ],
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "independent_review": {
+    "reviewer": "video_audit_c",
+    "verdict": "PASS",
+    "scope": "actual source and generated still comparison, not video"
+  }
+}

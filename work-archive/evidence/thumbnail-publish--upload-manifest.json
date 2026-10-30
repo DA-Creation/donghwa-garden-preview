@@ -1,0 +1,200 @@
+{
+  "created_at": "2026-10-30T10:36:55.231269+09:00",
+  "products": [
+    {
+      "product_no": 32,
+      "selected_version": "natural-v2",
+      "source_sha256": "6283c2c09e85fd11cb38d8a8152bcc746241c06232f77b9c7aa7f0f4206800d1",
+      "upload_path": "uploads/product-32-latest.jpg",
+      "upload_sha256": "d4053957dedbbe636a8e8eaf727f8a8bfe88314a378638e85a3da4f08d6c7279",
+      "bytes": 867281,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    },
+    {
+      "product_no": 33,
+      "selected_version": "natural-v3-sequential",
+      "source_sha256": "42ab46e74ee632f86d96d8509b9ad39159073bca00cdb3911dbda91c4fa65319",
+      "upload_path": "uploads/product-33-latest.jpg",
+      "upload_sha256": "e8bf01e85b83e374498425e360f74633d0c5e2c3d1bcdccb2f0b5b6cbd2f4dad",
+      "bytes": 451179,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    },
+    {
+      "product_no": 34,
+      "selected_version": "natural-v2",
+      "source_sha256": "d7e3360c6a642bb9236bc66f9c4acf51611be64d4fb72ecba4caf4ef51c4cd74",
+      "upload_path": "uploads/product-34-latest.jpg",
+      "upload_sha256": "a8b5e6d6421001c781915b985d4bb5f855c921b8e7639a96f68d70413c35db47",
+      "bytes": 370030,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    },
+    {
+      "product_no": 35,
+      "selected_version": "natural-v2",
+      "source_sha256": "f228bd16acc750711f3f98052623c180a2009cc375982c251c24c41b7362f23a",
+      "upload_path": "uploads/product-35-latest.jpg",
+      "upload_sha256": "805eaefee3a365db1c876feb8a4660c969a520f974706b87da80903e3c3fdb16",
+      "bytes": 695040,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    },
+    {
+      "product_no": 36,
+      "selected_version": "natural-v2",
+      "source_sha256": "117c87e85af5a51e71024a414d645440671adfc901fb5f81af857befafd65af2",
+      "upload_path": "uploads/product-36-latest.jpg",
+      "upload_sha256": "a939e90a803e73c7bac2f32b2ea327b23e844539f2ad23506366a5557a23026b",
+      "bytes": 690986,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    },
+    {
+      "product_no": 37,
+      "selected_version": "natural-v3-sequential",
+      "source_sha256": "5ee02131896409d26d008484931a9d4a0d2313bcc6d50eb21225589030d5aa87",
+      "upload_path": "uploads/product-37-latest.jpg",
+      "upload_sha256": "f3d484fe00b3e5effcd1b03fd9c3fe98fdb9a568144cf9802d643bad69e88718",
+      "bytes": 510333,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    },
+    {
+      "product_no": 39,
+      "selected_version": "natural-v2",
+      "source_sha256": "a563b7b28269172c03d49e018cda3c448ae929cead28776b64eae6a35355ff64",
+      "upload_path": "uploads/product-39-latest.jpg",
+      "upload_sha256": "62b50aa6a6685330936b3282a86200c512290552e781d1308bd409ad274f30e3",
+      "bytes": 790943,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    },
+    {
+      "product_no": 40,
+      "selected_version": "natural-v2",
+      "source_sha256": "4146766ff46b2e79f0ec938f49481b965f88bc9ed31058547d49f81ab7649b63",
+      "upload_path": "uploads/product-40-latest.jpg",
+      "upload_sha256": "99b9cb4ff3114be27b37785cde1445f3279287f6972bf418b6d131bc1207d93b",
+      "bytes": 635174,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    },
+    {
+      "product_no": 41,
+      "selected_version": "natural-v2",
+      "source_sha256": "e605e4480501eb9b68bbbb8ceca19e0bd8c93a453c8dec19f555902e653893d0",
+      "upload_path": "uploads/product-41-latest.jpg",
+      "upload_sha256": "a39110ab5273d7bd3b183577838ca9a2abf948e844af9d87f961729d566fc262",
+      "bytes": 598412,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    },
+    {
+      "product_no": 42,
+      "selected_version": "natural-v2",
+      "source_sha256": "9997d90bfeb986dc7e843c5f99e19252b73e87494d877eac36209cf666f37549",
+      "upload_path": "uploads/product-42-latest.jpg",
+      "upload_sha256": "af82f65d5117a114c331adc481a6388284044750947a8859270dd2ec59f7b0a1",
+      "bytes": 522458,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    },
+    {
+      "product_no": 43,
+      "selected_version": "natural-v2",
+      "source_sha256": "d9dbb458ef0094a87904b053d7cf61b1d8a1ea8dcea26cfad86b94e455200ada",
+      "upload_path": "uploads/product-43-latest.jpg",
+      "upload_sha256": "307841cf9b79164269ac07204c41aaa3b5c3ab20caeb9d239def6bb3fb73634f",
+      "bytes": 624371,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    },
+    {
+      "product_no": 44,
+      "selected_version": "natural-v2",
+      "source_sha256": "c385c4a2083f7f31ac08736a3389a0bdde5aa16e3f197a6a73ac97221886c800",
+      "upload_path": "uploads/product-44-latest.jpg",
+      "upload_sha256": "a0fd00bf81268c268bae395025b3c49c42d26950569730680f2df8559b8186f2",
+      "bytes": 524904,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    },
+    {
+      "product_no": 45,
+      "selected_version": "natural-v2",
+      "source_sha256": "f5864d2dc3511909a0ada0fa0bbb810dfd9c062a94768d198377bbfe31502f2d",
+      "upload_path": "uploads/product-45-latest.jpg",
+      "upload_sha256": "e31280da379d1c4299b9203e6f22d6badb4c2615893446ae807c044f5b5b9799",
+      "bytes": 672415,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    },
+    {
+      "product_no": 46,
+      "selected_version": "natural-v2",
+      "source_sha256": "b512da01149abb87d536330443ca221a578aace239ce0eb4f25e2270f7f0da4f",
+      "upload_path": "uploads/product-46-latest.jpg",
+      "upload_sha256": "265b6e744a17f7a71d61cc71ab2841f6bbfa02378c558959ffc10f36f2f9331a",
+      "bytes": 533562,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    },
+    {
+      "product_no": 47,
+      "selected_version": "natural-v2",
+      "source_sha256": "a19fda0654167ceb7bf3f65cc105102f4c46e8f8e4db6ac9ae5bacc91bd3b1f5",
+      "upload_path": "uploads/product-47-latest.jpg",
+      "upload_sha256": "975540d946699a02a1eb4aca4e69bb5b6f15a9c304ec413538c2f15edd354e3e",
+      "bytes": 748540,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "encoding": "JPEG quality95, no resize/crop/content edits"
+    }
+  ]
+}

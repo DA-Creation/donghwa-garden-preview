@@ -1,0 +1,35 @@
+{
+  "id": 40,
+  "status": "accepted",
+  "final_path": "hero-revision-20261029/images/product-40-v2.png",
+  "prompt_path": "hero-revision-20261029/prompts/product-40-attempt-1.txt",
+  "source_references": [
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-preparation-32-34-36-40/40-original-panel-3.jpg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20250410/EC889CEB9190EBB68020EC889CEBACBC20EC8381EC84B8ED8E98EC9DB4ECA78020EC9984EC84B1.jpg"
+    }
+  ],
+  "observations": [
+    "Actual40 crop compared; same recipe and brine as36, camera lower and leaf folds foregrounded.",
+    "White ribs, yellow/green folded leaves, sparse red-pepper fragments and cloudy yellow-orange brine preserved.",
+    "No suspended leaves, plastic droplet, chopstick intersection, steam or cold-food boiling."
+  ],
+  "limitations": [
+    "AI-generated concept start frame, not actual photography.",
+    "Video temporal realism is not assessed."
+  ],
+  "shot_note": "Cold kimchi lower-angle leaf closeup; tiny camera movement only.",
+  "used_reference_paths": [
+    "video-generation-20261029/qa/reassessment/audit-c-40-actual-source.jpg",
+    "hero-revision-20261029/images/product-36-v2.png"
+  ],
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "independent_review": {
+    "reviewer": "video_audit_c",
+    "verdict": "PASS",
+    "scope": "actual source and generated still comparison, not video"
+  }
+}

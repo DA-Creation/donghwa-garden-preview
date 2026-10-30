@@ -1,0 +1,15 @@
+{
+  "id": 35,
+  "name": "순·얼·비 세트",
+  "baseline": "baseline/product-35.png",
+  "source": "references/product-35-original.jpg",
+  "candidate": "candidates/product-35-attempt-3.png",
+  "scores": [
+    2,
+    2,
+    3,
+    2,
+    4
+  ],
+  "version": "35-3"
+}

@@ -1,0 +1,20 @@
+{
+  "decision": "REJECT_NEW_SHOT02_FOR_MIDDLE_MIXING_ROLE",
+  "review_scope": "Independent visual inspection of parent-generated shot02-root/overview.jpg and oldE-root-grid.jpg. This is a structural comparison, not another all-frame timing audit.",
+  "observations": [
+    "The new clip raises a large heaped spoonful above the soup, then lowers it and exposes an empty spoon. This repeats the serving/lift roles instead of providing the intended submerged folding/stirring action.",
+    "The lifted load looks more stiff, stacked and slab-like than a gentle mixture of fragile sundubu.",
+    "The older E middle section visibly moves the spoon through the soup and folds the contents; it better fills the middle mixing role."
+  ],
+  "recommended_source": {
+    "master": "jjamppong-hero-multicut-20261029/outputs/42-E-hero-multicut-v4.mp4",
+    "master_start_frame": 34,
+    "master_end_frame_exclusive": 97,
+    "frame_count": 63,
+    "raw_source": "jjamppong-hero-multicut-20261029/outputs/42-shot02-stir-v4.mp4",
+    "raw_start_frame": 8,
+    "raw_end_frame_exclusive": 71,
+    "note": "These intervals are from the existing reviewed edit and parent selection. This review independently confirms the action-role advantage, not a fresh all-frame revalidation of that old segment."
+  },
+  "additional_generation": false
+}

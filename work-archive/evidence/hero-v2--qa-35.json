@@ -1,0 +1,39 @@
+{
+  "id": 35,
+  "status": "accepted",
+  "final_path": "hero-revision-20261029/images/product-35-v2.png",
+  "prompt_path": "hero-revision-20261029/prompts/product-35-attempt-1.txt",
+  "source_references": [
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-preparation-33-35-37/35-original-panel-1.jpg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20250930/d159e4a1b9508248d64a0766fc591cf1.jpg"
+    },
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-preparation-33-35-37/35-original-panel-0.jpg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20250930/2c4e8eadf62d29bcb966791ccd097d9a.jpg"
+    }
+  ],
+  "observations": [
+    "Actual olive-gray bowl and white-handled spoon retained.",
+    "Small irregular soft curds and milky whey match actual35 photo more closely than old large sculpted lumps.",
+    "Spoon rests immersed at food level; no lifted mound, drop, boil or implausible steaming serving bowl."
+  ],
+  "limitations": [
+    "AI-generated concept start frame, not actual photography.",
+    "Video temporal realism is not assessed."
+  ],
+  "shot_note": "Plain soft-tofu opening shot of set; spoon begins within tofu, optional shallow scoop without lifting above liquid.",
+  "used_reference_paths": [
+    "thumbnail-generation-20261028/evidence/source-preparation-33-35-37/35-original-panel-1.jpg",
+    "thumbnail-generation-20261028/evidence/source-images/43-original-detail-1.jpg"
+  ],
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "independent_review": {
+    "reviewer": "video_audit_c",
+    "verdict": "PASS",
+    "scope": "actual source and generated still comparison, not video"
+  }
+}

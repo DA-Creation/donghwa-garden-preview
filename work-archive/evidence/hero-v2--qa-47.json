@@ -1,0 +1,38 @@
+{
+  "id": 47,
+  "status": "accepted",
+  "final_path": "hero-revision-20261029/images/product-47-v2.png",
+  "prompt_path": "hero-revision-20261029/prompts/product-47-attempt-1.txt",
+  "source_references": [
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-preparation-43-45-46-47/47-original-panel-22.jpg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20260117/f16de569bd0a8f83869b73afd4dc7c90.jpg"
+    },
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-images/47-native-big.jpg",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/160f9ee6f86e0e6714cacc4e4cfd3fbf.jpg"
+    }
+  ],
+  "observations": [
+    "Actual olive-yellow-brown long peppers, stems, patchy dark soybean paste and shallow speckled plate retained.",
+    "All peppers rest naturally on plate; removed raised chopstick pose and unsupported food movement.",
+    "Uneven wet highlights remain because actual product is moist; no syrup string, droplet, garnish or red-chili color."
+  ],
+  "limitations": [
+    "AI-generated concept start frame, not actual photography.",
+    "Video temporal realism is not assessed."
+  ],
+  "shot_note": "Pickled pepper texture closeup at rest, subtle camera glide only; no lift, steam or dripping.",
+  "used_reference_paths": [
+    "thumbnail-generation-20261028/evidence/source-images/47-native-big.jpg"
+  ],
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "independent_review": {
+    "reviewer": "video_audit_c",
+    "verdict": "PASS",
+    "scope": "actual source and generated still comparison, not video"
+  }
+}

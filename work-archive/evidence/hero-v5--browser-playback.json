@@ -1,0 +1,161 @@
+{
+  "desktop": {
+    "first": [
+      {
+        "autoplay": false,
+        "currentTime": 0,
+        "duration": null,
+        "error": null,
+        "inline": true,
+        "loop": true,
+        "muted": true,
+        "paused": true,
+        "playbackRate": 1,
+        "readyState": 0,
+        "src": ""
+      },
+      {
+        "autoplay": false,
+        "currentTime": 0,
+        "duration": null,
+        "error": null,
+        "inline": true,
+        "loop": true,
+        "muted": true,
+        "paused": true,
+        "playbackRate": 1,
+        "readyState": 0,
+        "src": ""
+      },
+      {
+        "autoplay": true,
+        "currentTime": 0.1989,
+        "duration": 5.880875,
+        "error": null,
+        "inline": true,
+        "loop": true,
+        "muted": true,
+        "paused": false,
+        "playbackRate": 1,
+        "readyState": 4,
+        "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-F-hero-multicut-v5.mp4"
+      }
+    ],
+    "second": [
+      {
+        "currentTime": 0,
+        "paused": true,
+        "readyState": 0,
+        "src": ""
+      },
+      {
+        "currentTime": 0,
+        "paused": true,
+        "readyState": 0,
+        "src": ""
+      },
+      {
+        "currentTime": 5.7021,
+        "paused": false,
+        "readyState": 4,
+        "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-F-hero-multicut-v5.mp4"
+      }
+    ]
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "F": [
+      {
+        "autoplay": false,
+        "duration": null,
+        "error": null,
+        "inline": true,
+        "loop": true,
+        "muted": true,
+        "paused": true,
+        "rate": 1,
+        "ready": 0,
+        "src": "",
+        "time": 0
+      },
+      {
+        "autoplay": false,
+        "duration": null,
+        "error": null,
+        "inline": true,
+        "loop": true,
+        "muted": true,
+        "paused": true,
+        "rate": 1,
+        "ready": 0,
+        "src": "",
+        "time": 0
+      },
+      {
+        "autoplay": true,
+        "duration": 5.880875,
+        "error": null,
+        "inline": true,
+        "loop": true,
+        "muted": true,
+        "paused": false,
+        "rate": 1,
+        "ready": 4,
+        "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-F-hero-multicut-v5.mp4",
+        "time": 5.7073
+      }
+    ],
+    "E": [
+      {
+        "error": null,
+        "paused": true,
+        "ready": 0,
+        "src": "",
+        "time": 0
+      },
+      {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-E-hero-multicut-v4.mp4",
+        "time": 4.6192
+      },
+      {
+        "error": null,
+        "paused": true,
+        "ready": 4,
+        "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-F-hero-multicut-v5.mp4",
+        "time": 2.9588
+      }
+    ],
+    "A": [
+      {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-A-video-v1.mp4",
+        "time": 0.786
+      },
+      {
+        "error": null,
+        "paused": true,
+        "ready": 4,
+        "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-E-hero-multicut-v4.mp4",
+        "time": 4.6369
+      },
+      {
+        "error": null,
+        "paused": true,
+        "ready": 4,
+        "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-F-hero-multicut-v5.mp4",
+        "time": 2.9588
+      }
+    ],
+    "horizontal_scroll_F_to_E": true,
+    "keyboard_Home_End": true
+  },
+  "note": "Browser viewport checks, not physical iOS device tests."
+}

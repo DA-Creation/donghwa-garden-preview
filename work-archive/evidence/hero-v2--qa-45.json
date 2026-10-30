@@ -1,0 +1,38 @@
+{
+  "id": 45,
+  "status": "accepted",
+  "final_path": "hero-revision-20261029/images/product-45-v2.png",
+  "prompt_path": "hero-revision-20261029/prompts/product-45-attempt-1.txt",
+  "source_references": [
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-preparation-43-45-46-47/45-original-panel-2.jpg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20260820/36a510b09a2127768c8563ede53de5e5.jpg"
+    },
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-images/45-native-big.jpg",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/0c2d21988b8fa3b0381740d77dcdcc42.jpg"
+    }
+  ],
+  "observations": [
+    "Actual ivory bowl, tofu, zucchini, shiitake/enoki and sparse peppers preserved.",
+    "Cloudy tan-brown broth carries fine dispersed particles rather than glassy clear pools.",
+    "Wood-handled spoon rests at rim with its bowl at liquid surface; replaces high suspended decorated bite and droplet."
+  ],
+  "limitations": [
+    "AI-generated concept start frame, not actual photography.",
+    "Video temporal realism is not assessed."
+  ],
+  "shot_note": "Serving bowl at rest with one shallow spoon movement; no boil, steam or high lift.",
+  "used_reference_paths": [
+    "video-generation-20261029/qa/reassessment/audit-c-45-actual-source.jpg"
+  ],
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "independent_review": {
+    "reviewer": "video_audit_c",
+    "verdict": "PASS",
+    "scope": "actual source and generated still comparison, not video"
+  }
+}

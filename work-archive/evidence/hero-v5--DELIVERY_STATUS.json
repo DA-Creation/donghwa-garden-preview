@@ -1,0 +1,67 @@
+{
+  "at": "2026-10-29T21:59:33.583909+09:00",
+  "user_scope": "Continue other computer product42 development, improve AI appearance, deploy real autoplay MP4, benchmark Cookat delivery fps and speed.",
+  "sources": {
+    "cookat": "https://cookatmarket.com/ko/product/detail?product_id=1834",
+    "actual_product_photo": "../jjamppong-hero-multicut-20261029/reference/donghwa-42-actual-product.jpg",
+    "latest_other_computer": "../jjamppong-hero-multicut-20261029/"
+  },
+  "reference_verified": {
+    "resolution": "1280x720",
+    "fps": "24000/1001",
+    "frames": 141,
+    "duration_seconds": 5.880875,
+    "playbackRate": 1,
+    "autoplay": true,
+    "muted": true,
+    "loop": true,
+    "playsinline": true,
+    "capture_fps": "unknown; delivered media does not establish capture fps",
+    "cuts_frames": [
+      34,
+      97
+    ]
+  },
+  "candidate_F": {
+    "status": "Published comparison candidate; desktop and mobile viewport autoplay, candidate navigation verified",
+    "recipe": "new01[35,69) + oldE[34,97) + new03[14,58)",
+    "improvements": [
+      "Smaller portion stays in contact while placed",
+      "Low lift begins from soup surface instead of floating held pose",
+      "Real MP4 with source sound removed and browser playbackRate1",
+      "Same frame count and edit cut rhythm as verified Cookat detail hero"
+    ],
+    "limitations": [
+      "Fine tofu microtexture and several planar faces still look generated",
+      "Third shot has a solid leaf releasing from spoon; no liquid string or falling liquid detected in selected frames",
+      "Three separate camera shots have garnish rearrangement; not continuous action"
+    ],
+    "rejections": [
+      "Whole new01 contains droplet f75 and ripple f76–77; use only f35–68",
+      "New02 performs heaped lift rather than submerged stir; omitted from published hero"
+    ]
+  },
+  "publishing": {
+    "github_commit": "71e985a0a4d43fc6b1f712d6fb1e4fe2698342dd",
+    "mp4": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-F-hero-multicut-v5.mp4",
+    "live_product": "https://dacreation.cafe24.com/product/detail.html?product_no=42",
+    "product42_default": "F / 6 of 6; numeric only counter preserved",
+    "other_products": "Existing image selection and file labels preserved; all previous A video candidates now reference original MP4 sources",
+    "backups": "deploy/remote-before, deploy/snapshot.json",
+    "plan": "deploy/publish-plan.json",
+    "ftp_result": "deploy/publish-result.json: 19 files verified by SHA256"
+  },
+  "completed_at": "2026-10-29T22:11:47.139075+09:00",
+  "browser_verification": {
+    "native_product42_desktop": "1280x720: MP4 autoplay, readyState4, currentTime advancing, muted, loop, playsinline, playbackRate1, no error",
+    "native_product42_mobile": "390x844: same playback properties, F→E via actual horizontal scroll, Home→A and End→F, inactive videos paused",
+    "generic_product43": "A candidate actual MP4 loaded and playing, readyState4, muted/loop, no error",
+    "scope": "Real public pages in browser viewport; no claim of physical iOS testing",
+    "evidence": [
+      "qa/browser-playback.json",
+      "qa/generic-product43-playback.json",
+      "qa/live-mobile-F.jpg",
+      "qa/live-desktop-F.jpg"
+    ]
+  }
+}

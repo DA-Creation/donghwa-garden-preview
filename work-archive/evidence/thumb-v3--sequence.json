@@ -1,0 +1,25 @@
+{
+  "adopted": [
+    33,
+    37
+  ],
+  "current": 35,
+  "generated_sequence": [
+    {
+      "id": 33,
+      "attempt": 1,
+      "result": "adopted",
+      "next_allowed": 37
+    },
+    {
+      "id": 37,
+      "attempt": 1,
+      "result": "adopted",
+      "next_allowed": 35
+    }
+  ],
+  "kept_by_user": [
+    38
+  ],
+  "current_status": "35 rejected after three generations; awaiting user choice on non-generative original-photo composite"
+}

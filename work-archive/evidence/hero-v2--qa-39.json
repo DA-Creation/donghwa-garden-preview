@@ -1,0 +1,34 @@
+{
+  "id": 39,
+  "status": "accepted",
+  "final_path": "hero-revision-20261029/images/product-39-v2.png",
+  "prompt_path": "hero-revision-20261029/prompts/product-39-attempt-1.txt",
+  "source_references": [
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-preparation-38-39/39-original-plate.jpeg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20250331/1743377078242.jpeg"
+    }
+  ],
+  "observations": [
+    "Actual compressed fermented-bean block and ivory square plate retained.",
+    "Removed spoon taking a bite so ingredient is not staged as ready-to-eat dessert.",
+    "Irregular flattened bean fragments and natural surface fissures follow actual product, without natto strings or glaze."
+  ],
+  "limitations": [
+    "AI-generated concept start frame, not actual photography.",
+    "Video temporal realism is not assessed."
+  ],
+  "shot_note": "Cooking-ingredient macro, slight camera glide only; no scoop-as-eating or invented stew.",
+  "used_reference_paths": [
+    "thumbnail-generation-20261028/evidence/source-preparation-38-39/39-original-plate.jpeg"
+  ],
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "independent_review": {
+    "reviewer": "video_audit_c",
+    "verdict": "PASS",
+    "scope": "actual source and generated still comparison, not video"
+  }
+}

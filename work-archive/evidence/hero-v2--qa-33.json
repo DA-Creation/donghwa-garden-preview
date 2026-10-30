@@ -1,0 +1,40 @@
+{
+  "id": 33,
+  "status": "accepted",
+  "final_path": "hero-revision-20261029/images/product-33-v2.png",
+  "prompt_path": "hero-revision-20261029/prompts/product-33-attempt-1.txt",
+  "source_references": [
+    {
+      "path": "thumbnail-generation-20261028/evidence/root-source-images/33-detail-4.jpeg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20260326/1774476328990.jpeg"
+    },
+    {
+      "path": "thumbnail-generation-20261028/evidence/root-source-images/33-detail-6.jpeg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20260326/1774476329837.jpeg"
+    }
+  ],
+  "observations": [
+    "Compared actual paste and stirred brown liquid with old posed spoon mound.",
+    "New spoon is immersed and supported at pot rim; no hovering paste ball, droplets or gel-like concentric rings.",
+    "Cloudy brown mixture has dispersed irregular particles and restrained highlights; no added recipe ingredients."
+  ],
+  "limitations": [
+    "AI-generated concept start frame, not actual photography.",
+    "Video temporal realism is not assessed."
+  ],
+  "shot_note": "Small black cooking pot with spoon resting in seasoning mixture; at most one shallow slow stir.",
+  "used_reference_paths": [
+    "thumbnail-generation-20261028/evidence/root-source-images/33-detail-4.jpeg",
+    "thumbnail-generation-20261028/evidence/root-source-images/33-detail-6.jpeg",
+    "hero-revision-20261029/images/product-42-v2.png"
+  ],
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "independent_review": {
+    "reviewer": "video_audit_c",
+    "verdict": "PASS",
+    "scope": "actual source and generated still comparison, not video"
+  }
+}

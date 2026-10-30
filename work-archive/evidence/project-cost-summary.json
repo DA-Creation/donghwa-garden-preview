@@ -1,0 +1,11 @@
+{
+  "currency": "USD",
+  "budget": 8,
+  "previous_job_spend": 5.28,
+  "model": "bytedance/seedance-2.0",
+  "pricing": "720p image-only $0.18 per output second",
+  "new_estimated_cost": 2.16,
+  "total_estimated_spend": 7.44,
+  "estimated_budget_remaining": 0.56,
+  "note": "Calculated from official output duration pricing and returned metrics, not account invoice verification. Do not spend remaining funds automatically."
+}

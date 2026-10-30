@@ -1,0 +1,43 @@
+{
+  "id": 37,
+  "attempt": 1,
+  "root_scores": [
+    4,
+    4,
+    3,
+    4,
+    4
+  ],
+  "independent_scores": [
+    4,
+    4,
+    3,
+    4,
+    3
+  ],
+  "hard_gate": "pass",
+  "reason": "실제 조리 원본의 재료와 배치를 유지하면서 128px에서도 청국장 찌개의 쓰임이 읽힙니다.",
+  "limitations": "브랜드가 제시한 조리 예시이며 양념 2팩 배송 구성 자체를 보여주는 사진은 아닙니다.",
+  "compared_sizes": [
+    128,
+    264,
+    "full-resolution"
+  ],
+  "source_image": "product-media-plan-20261021/evidence/original-store/product-23-image-4.jpg",
+  "prompt": "prompts/product-37-attempt-1.txt",
+  "status": "adopted",
+  "candidate": "candidates/product-37-attempt-1.png",
+  "baseline": [
+    3,
+    2,
+    2,
+    3,
+    4
+  ],
+  "baseline_total": 14,
+  "root_total": 19,
+  "independent_total": 18,
+  "sha256": "5ee02131896409d26d008484931a9d4a0d2313bcc6d50eb21225589030d5aa87",
+  "adopted_at": "2026-10-28T17:23:36.028742+09:00",
+  "generator": "builtin image_gen"
+}

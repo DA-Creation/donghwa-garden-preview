@@ -1,0 +1,41 @@
+{
+  "id": 32,
+  "status": "accepted",
+  "final_path": "hero-revision-20261029/images/product-32-v2.png",
+  "prompt_path": "hero-revision-20261029/prompts/product-32-attempt-1.txt",
+  "source_references": [
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-images/32-original-detail-2.jpg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20260707/e2707cd8c8a6ecd4d517579e49c228e6.jpg"
+    },
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-images/32-original-detail-1.jpg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20260707/0d05a5b77f0146b6ccf9c6adf4a6f42c.jpg"
+    }
+  ],
+  "observations": [
+    "Compared actual complete pan and ladled ingredients with previous and approved42 direction.",
+    "New image keeps black cooking pan, muddy brown broth with visible dispersed particles and irregular cooked leaves/beef.",
+    "Food is lower and distributed rather than a central heap; no floating utensils or drops; bubbles restrained compared with old."
+  ],
+  "limitations": [
+    "Generated start still, not actual product photography.",
+    "Video temporal realism is not assessed here.",
+    "Wet highlights remain but no uniform varnish or clear amber broth."
+  ],
+  "shot_note": "Static shallow black cooking pan; at most subtle edge simmer. No lifting or droplets.",
+  "used_reference_paths": [
+    "thumbnail-generation-20261028/evidence/source-images/32-original-detail-1.jpg",
+    "thumbnail-generation-20261028/evidence/source-images/32-original-detail-2.jpg",
+    "hero-revision-20261029/images/product-42-v2.png"
+  ],
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "independent_review": {
+    "reviewer": "video_audit_c",
+    "verdict": "PASS",
+    "scope": "actual source and generated still comparison, not video"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "raw_clip_decision": "REJECT_AS_WHOLE_CLIP_DUE_TO_LATE_DROPLET",
+  "selection_decision": "PASS_SELECTED_CONTINUOUS_SEGMENT_FOR_COMPARISON_EDIT",
+  "source": "hero-motion-development-20261029/outputs/shot01-place-v5.mp4",
+  "source_sha256": "5d0ab3d35efe5e82ad3938bf685e1676beab18eb887a29905db0073a54ce6ebd",
+  "source_bytes": 2026657,
+  "stream": {
+    "codec_name": "h264",
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "24/1",
+    "avg_frame_rate": "24/1",
+    "duration": "4.041667",
+    "nb_frames": "97"
+  },
+  "all_frames_reviewed": 97,
+  "review_method": "All 97 decoded frames inspected in 5 contact sheets; native 1280x720 critical frames 38,40,43,48,54,60,66,71,73,75; source-pixel ROI sequence 60 through 80 inspected. No browser playback performed.",
+  "selection": {
+    "start_frame": 35,
+    "end_frame_exclusive": 69,
+    "frame_count": 34,
+    "source_fps": "24/1",
+    "source_start_s": 1.4583333333333333,
+    "source_end_s": 2.875,
+    "duration_s": 1.4166666666666667,
+    "reason": "Starts with the loaded wooden spoon at food contact, retains the slide into soup, and ends with the spoon empty and beginning withdrawal. Ends before ambiguous wet separation and the later visible hanging droplet.",
+    "limit": "The spoon head has not fully left the frame by the end. This shows the start of empty withdrawal rather than complete exit."
+  },
+  "defects": [
+    {
+      "frame": 75,
+      "time_s": 3.125,
+      "type": "yellow_hanging_drop_or_short_liquid_thread",
+      "location": "undersideofwoodenspoon,center-rightabovebroth",
+      "severity": "hard-failoutsideproposedselection"
+    },
+    {
+      "frames": [
+        76,
+        77
+      ],
+      "type": "impact/ripplefollowingdrop",
+      "severity": "excluded"
+    }
+  ],
+  "conservative_exclusion": "Frames 69–96 excluded. Frame 75 is an unequivocal hanging drop; earlier wet separation in 69–74 is ambiguous and unnecessary.",
+  "selected_segment_observations": [
+    "No detached droplet, hanging liquid thread, steam, boil or abrupt utensil deformation observed within35–68.",
+    "Food remains supported while sliding into soup at contact;noairbornefall.",
+    "Spoonshapeandwoodgrainstaystable;smallwetreflectionsremainonthewood.",
+    "Bowl/backgroundremainstableandfoodmotionislocal.",
+    "Somefronttofuangularityandrepetitivegrainremain;notphotorealism-certification."
+  ],
+  "comparison_to_previous_E": "Smaller,lowercontactspoonloadreducesstagedairbornefoodpose. Broaderopenbrothandlesscauliflower-likeinitialloadareimprovements;slab-likecurdfaceandstilldecorativechivesremain.",
+  "selected_source_frames": [
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68
+  ],
+  "evidence": [
+    "qa/video-shot01/allframes-000-023.jpg",
+    "qa/video-shot01/allframes-024-047.jpg",
+    "qa/video-shot01/allframes-048-071.jpg",
+    "qa/video-shot01/allframes-072-095.jpg",
+    "qa/video-shot01/allframes-096-096.jpg",
+    "qa/video-shot01/critical60-80-native-crop.jpg"
+  ]
+}

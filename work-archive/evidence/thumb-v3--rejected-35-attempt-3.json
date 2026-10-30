@@ -1,0 +1,22 @@
+{
+  "id": 35,
+  "attempt": 3,
+  "status": "rejected",
+  "root_scores": [
+    3,
+    3,
+    3,
+    4,
+    4
+  ],
+  "independent_scores": [
+    2,
+    3,
+    3,
+    4,
+    4
+  ],
+  "reason": "Independent full-resolution comparison still finds repeated segmented spicy-tofu particles; dual-review gate not met.",
+  "next_product_generation_allowed": false,
+  "pending_user_method_choice": "Allow actual food pixels preserved through non-generative photo compositing, or retry image generation."
+}

@@ -1,0 +1,120 @@
+{
+  "output": "hero-motion-development-20261029/outputs/42-F-hero-multicut-v5.mp4",
+  "sha256": "b417a686676270fd901c796fd8ac336c8111f77002549e1b25315b3e759ec05c",
+  "bytes": 3096693,
+  "frames": 141,
+  "fps": "24000/1001",
+  "duration_seconds": 5.880875,
+  "cuts_at_frames": [
+    34,
+    97
+  ],
+  "motion_interpolation": false,
+  "retime": "0.1% longer timestamps to conform 24fps sources to Cookat delivery 23.976fps",
+  "audio": false,
+  "clips": [
+    {
+      "source": "hero-motion-development-20261029/outputs/shot01-place-v5.mp4",
+      "start_inclusive": 35,
+      "end_exclusive": 69,
+      "reason": "New small contact placement; exclude late droplet f75"
+    },
+    {
+      "source": "jjamppong-hero-multicut-20261029/outputs/42-E-hero-multicut-v4.mp4",
+      "start_inclusive": 34,
+      "end_exclusive": 97,
+      "reason": "Keep previous gentle submerged stir; new v5 shot02 rejected for heaped lift"
+    },
+    {
+      "source": "hero-motion-development-20261029/outputs/shot03-lift-v5.mp4",
+      "start_inclusive": 14,
+      "end_exclusive": 58,
+      "reason": "New contact-to-low-lift; small solid leaf releases naturally, no liquid drop"
+    }
+  ],
+  "quality": "Comparison candidate: improved contact actions; microtexture and some planar tofu faces still look generated. Not certified photographic.",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001f",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 31,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24000/1001",
+        "avg_frame_rate": "24000/1001",
+        "time_base": "1/24000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 141141,
+        "duration": "5.880875",
+        "bit_rate": "4209093",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "141",
+        "extradata_size": 45,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.101 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "hero-motion-development-20261029/outputs/42-F-hero-multicut-v5.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "5.880875",
+      "size": "3096693",
+      "bit_rate": "4212560",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.101"
+      }
+    }
+  }
+}

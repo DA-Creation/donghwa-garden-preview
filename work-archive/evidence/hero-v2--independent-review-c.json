@@ -1,0 +1,27 @@
+{
+  "reviewer": "video_audit_c",
+  "scope": "Independent actual-photo comparison and generated-start-still visual realism only, not video temporal behavior.",
+  "verdict": "PASS - no required still-image corrections identified",
+  "ids": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    39,
+    40,
+    41,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "special_notes": {
+    "34": "Exact soy milk shade has limited actual liquid reference; visual plausibility passed, not exact colorimetry.",
+    "37": "Thin white mushroom stems/caps also occur in actual source; not an invented ingredient.",
+    "44": "Actual white faceted serving vessel and original egg serving example restored; no boiling.",
+    "47": "Actual source also has strong wet highlights; natural wet sheen retained instead of forcing an artificial matte surface. Do not amplify highlights in video."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-29",
+  "scope": "Independent starting-still visual QA only. Does not approve generatedvideo or finalpublication.",
+  "actual_source": "jjamppong-hero-multicut-20261029/reference/donghwa-42-actual-product.jpg",
+  "baseline": "E-v4 nativeframes0,34,97,122 and4fpsmontage previouslyreviewed",
+  "decision": "Improved inputs for motion trial, with moderate residualAI texture; do notclaim completephotorealism.",
+  "shots": [
+    {
+      "shot": "01",
+      "file": "shot01-place-v5.png",
+      "relative_to_E": "better",
+      "identity": "Mostly retained: brass bowl, orange-red broth, irregular tofu/chives/sesame and seafood/softvegetables; portion not quantifiable from reference alone.",
+      "improvements": [
+        "Spoon is grounded at broth surface rather than holding a round decorative mound far above it.",
+        "Less cauliflower-like spherical curd silhouette than E shot1.",
+        "Food footprint/garnish and brothspace align with newshot2."
+      ],
+      "residual": [
+        "Some tofu faces are broad and angular, with uniformly crisp ricegrain-like microtexture.",
+        "Wood grain and droplets of adherent liquid on spoon are highly crisp; ensure video does not turn these into falling droplets.",
+        "Chives/sesame still look deliberately arranged; not fully candid."
+      ],
+      "sha256": "952b3df3639d3f4ef41754bc8683483fae8d389203839c49a5294911436acd1f"
+    },
+    {
+      "shot": "02",
+      "file": "shot02-stir-v5.png",
+      "relative_to_E": "better",
+      "identity": "Brassbowl and dish identity retained; relative garnish/fooddistribution consistent withnewshot1.",
+      "improvements": [
+        "Compared with E cut2 crowded round tofu lumps, wider clear composition with more stable layout and natural spoon immersion.",
+        "Continuity across01/02 much stronger.",
+        "Spoon can push localfood ratherthan a whole model moving."
+      ],
+      "residual": [
+        "Left-front tofu continues to show repeated sharp microbeads.",
+        "Nearly every ingredient has an even warm wet highlight, more polished than actual reference.",
+        "Spoon underside atliquid should be monitored for morphing or soup-glue during stir."
+      ],
+      "sha256": "f122390d3bce86de8b74977718eafc65063d67a11ddc545be646ceef6c80faf5"
+    },
+    {
+      "shot": "03",
+      "file": "shot03-lift-v5.png",
+      "relative_to_E": "better grounding; mixed texture",
+      "identity": "Oyster/softtofu/spoon/brassbowl visible and consistent with source; some red foreground pieces visually ambiguous.",
+      "improvements": [
+        "Biggestactionimprovement: spoon edge touches soup instead of beginning with completed airborne mound.",
+        "Spoonload is lower/wider and less spherical than E.",
+        "Actual foreground-to-background depth is plausible."
+      ],
+      "residual": [
+        "Several broadwhite pieces still look more angular/firm than source soft torn folds.",
+        "Microcurd contours remain uniformly detailed.",
+        "Some redforeground chunks may read astomato rather than actualreference brown collapsed vegetable; this is visualambiguity, not a verifiedaddedingredient.",
+        "Orange sheen remains uniform and slightly illustrative."
+      ],
+      "sha256": "810d9e1c6ba00c243b58bf16f69bcb3290cf2984674c6830cf4c4d0939f96a21"
+    }
+  ],
+  "highest_value_checks_for_video": [
+    "Watch tofu morphology: broadsoftfolds must not turn into expanding/beaded solid lumps.",
+    "Ensure stir islocal spooncontact, with no spontaneouswholebowlswimming or untouchedgarnishrotation.",
+    "Thirdshot must visibly begin connected tobroth and makeonecoherentlift, withoutdrip/string/steam/bubbleeffects.",
+    "Compare garnish/ingredientamount atcuts; do not approveframes with suddenlyduplicatedfood or changedoyster."
+  ]
+}

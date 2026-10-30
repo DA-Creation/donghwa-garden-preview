@@ -1,0 +1,35 @@
+{
+  "id": 37,
+  "status": "accepted",
+  "final_path": "hero-revision-20261029/images/product-37-v2.png",
+  "prompt_path": "hero-revision-20261029/prompts/product-37-attempt-2.txt",
+  "source_references": [
+    {
+      "path": "product-media-plan-20261021/evidence/original-store/product-23-image-4.jpg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20250523/7664cbd41fbdaf5da792c097eca8184e.jpg"
+    }
+  ],
+  "observations": [
+    "Actual cooked photo reviewed via direct evidence crop, x110 y440 w780 h530 from product23-image4.",
+    "First candidate rejected for overabundant bean clusters and too-thick creamy body; second restores thinner cloudy brown-orange broth and source-like ingredient ratios.",
+    "Black pot, partially submerged tofu/zucchini/mushrooms and sparse pepper preserve actual serving example; no center bubble explosion, utensils or droplets."
+  ],
+  "limitations": [
+    "AI-generated concept start frame, not actual photography.",
+    "Video temporal realism is not assessed."
+  ],
+  "shot_note": "Actual cooked serving example in black pot; gentle irregular edge simmer only.",
+  "used_reference_paths": [
+    "hero-revision-20261029/evidence/37-actual-food-crop.jpg",
+    "<LOCAL_CODEX_ASSET>"
+  ],
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "independent_review": {
+    "reviewer": "video_audit_c",
+    "verdict": "PASS",
+    "scope": "actual source and generated still comparison, not video"
+  }
+}

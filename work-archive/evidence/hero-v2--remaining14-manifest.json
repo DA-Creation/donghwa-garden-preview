@@ -1,0 +1,183 @@
+{
+  "ids": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    39,
+    40,
+    41,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "excluded": [
+    38
+  ],
+  "approved_prior": 42,
+  "method": "built-in image_gen only, source-first sequential inspection; no Replicate calls",
+  "products": [
+    {
+      "id": 32,
+      "path": "hero-revision-20261029/images/product-32-v2.png",
+      "bytes": 2956991,
+      "status": "accepted",
+      "prompt_path": "hero-revision-20261029/prompts/product-32-attempt-1.txt",
+      "shot_note": "Static shallow black cooking pan; at most subtle edge simmer. No lifting or droplets.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4193fb9599624db6c95f46809d724c91651711fd93ce2fd09240b0550644727b"
+    },
+    {
+      "id": 33,
+      "path": "hero-revision-20261029/images/product-33-v2.png",
+      "bytes": 2266467,
+      "status": "accepted",
+      "prompt_path": "hero-revision-20261029/prompts/product-33-attempt-1.txt",
+      "shot_note": "Small black cooking pot with spoon resting in seasoning mixture; at most one shallow slow stir.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e4d9721394d697524a177c6733663938892668f12d4d197543af38626f1aa9f3"
+    },
+    {
+      "id": 34,
+      "path": "hero-revision-20261029/images/product-34-v2.png",
+      "bytes": 1699367,
+      "status": "accepted",
+      "prompt_path": "hero-revision-20261029/prompts/product-34-attempt-1.txt",
+      "shot_note": "Quiet glass closeup; slight camera approach only, no pouring or looped ripple gimmick.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "87de0c63bbb413afb0a97e4ef8a9b7c9a2db6dcb81599597d2f633640a25af73"
+    },
+    {
+      "id": 35,
+      "path": "hero-revision-20261029/images/product-35-v2.png",
+      "bytes": 2349664,
+      "status": "accepted",
+      "prompt_path": "hero-revision-20261029/prompts/product-35-attempt-1.txt",
+      "shot_note": "Plain soft-tofu opening shot of set; spoon begins within tofu, optional shallow scoop without lifting above liquid.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1d967d47443c0c3321d263938ea131fd5a700a115b170c5cd0f426f0d389205b"
+    },
+    {
+      "id": 36,
+      "path": "hero-revision-20261029/images/product-36-v2.png",
+      "bytes": 2248614,
+      "status": "accepted",
+      "prompt_path": "hero-revision-20261029/prompts/product-36-attempt-1.txt",
+      "shot_note": "Cold white-kimchi close-up, restrained camera slide only; never boil or steam.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e7bbb1c4e6bd27ddd554b480fa3794906217eedc960a8c5efefb66e2be15df3c"
+    },
+    {
+      "id": 37,
+      "path": "hero-revision-20261029/images/product-37-v2.png",
+      "bytes": 2213596,
+      "status": "accepted",
+      "prompt_path": "hero-revision-20261029/prompts/product-37-attempt-2.txt",
+      "shot_note": "Actual cooked serving example in black pot; gentle irregular edge simmer only.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ffa27621a387c23baf2f899c47d0586598df20a531c57dbf55f3be1f765ed56c"
+    },
+    {
+      "id": 39,
+      "path": "hero-revision-20261029/images/product-39-v2.png",
+      "bytes": 2028697,
+      "status": "accepted",
+      "prompt_path": "hero-revision-20261029/prompts/product-39-attempt-1.txt",
+      "shot_note": "Cooking-ingredient macro, slight camera glide only; no scoop-as-eating or invented stew.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1ef3bcccdf52bf7e5a33493012e28acca20658abaee673bb8fe211f5b5b80c1d"
+    },
+    {
+      "id": 40,
+      "path": "hero-revision-20261029/images/product-40-v2.png",
+      "bytes": 2247919,
+      "status": "accepted",
+      "prompt_path": "hero-revision-20261029/prompts/product-40-attempt-1.txt",
+      "shot_note": "Cold kimchi lower-angle leaf closeup; tiny camera movement only.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b819da3a77432ad23634ee021505a471723598e26757aca828de9343c95f6d52"
+    },
+    {
+      "id": 41,
+      "path": "hero-revision-20261029/images/product-41-v2.png",
+      "bytes": 2403030,
+      "status": "accepted",
+      "prompt_path": "hero-revision-20261029/prompts/product-41-attempt-1.txt",
+      "shot_note": "Served biji dish with shallow surface spoon movement; no boil, steam or high lift.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2e859f3947fb8df2ececca23e8081d058d917a505a552ca42ec2b2638119072e"
+    },
+    {
+      "id": 43,
+      "path": "hero-revision-20261029/images/product-43-v2.png",
+      "bytes": 2221878,
+      "status": "accepted",
+      "prompt_path": "hero-revision-20261029/prompts/product-43-attempt-1.txt",
+      "shot_note": "Plain soft tofu at rest; slight macro camera approach only.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0f0c9c95ae13702aead14b9b3e3231924b0b468069e9507e29252832e951797c"
+    },
+    {
+      "id": 44,
+      "path": "hero-revision-20261029/images/product-44-v2.png",
+      "bytes": 2260433,
+      "status": "accepted",
+      "prompt_path": "hero-revision-20261029/prompts/product-44-attempt-1.txt",
+      "shot_note": "Served spicy tofu in ceramic bowl, surface-level spoon movement or camera approach only; no boiling. Egg is a serving example.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8604adbbb7043d4e635e99c752bf1c0eaadcca8898eccd7122f08bf585428fe7"
+    },
+    {
+      "id": 45,
+      "path": "hero-revision-20261029/images/product-45-v2.png",
+      "bytes": 2405995,
+      "status": "accepted",
+      "prompt_path": "hero-revision-20261029/prompts/product-45-attempt-1.txt",
+      "shot_note": "Serving bowl at rest with one shallow spoon movement; no boil, steam or high lift.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0295493ccf2f08cc54a1c9c2f28a6ae5e7253f090bfb94a08b5e806ee796241e"
+    },
+    {
+      "id": 46,
+      "path": "hero-revision-20261029/images/product-46-v2.png",
+      "bytes": 2496445,
+      "status": "accepted",
+      "prompt_path": "hero-revision-20261029/prompts/product-46-attempt-1.txt",
+      "shot_note": "Biji surface texture macro, tiny camera slide only; no boil or lifted spoon.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0350536faf93376d640ff50bd9b36567810bebe89ff944d997990bbf9ee47aaa"
+    },
+    {
+      "id": 47,
+      "path": "hero-revision-20261029/images/product-47-v2.png",
+      "bytes": 2478822,
+      "status": "accepted",
+      "prompt_path": "hero-revision-20261029/prompts/product-47-attempt-1.txt",
+      "shot_note": "Pickled pepper texture closeup at rest, subtle camera glide only; no lift, steam or dripping.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "cbd790857d092a28b97209b93a6ae5d4d831f5034305bc300c18ba7e693e822d"
+    }
+  ],
+  "independent_review_status": "All14 passed video_audit_c source/still review",
+  "review_path": "hero-revision-20261029/evidence/independent-review-c.json",
+  "generation_calls": 15,
+  "paid_replicate_calls": 0
+}

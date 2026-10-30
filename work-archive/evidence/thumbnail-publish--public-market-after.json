@@ -1,0 +1,457 @@
+{
+  "captured_at": "2026-10-30T10:46:12.634957+09:00",
+  "url": "https://dacreation.cafe24.com/skin-skin5/product/list.html?cate_no=42",
+  "request_method": "GET",
+  "http_status": 200,
+  "inspection_method": "Read-only HTTP HTML response parsed with BeautifulSoup; no browser, API mutation or deployment.",
+  "html_snapshot": "evidence/public-market-after.html",
+  "html_sha256": "b95d410543e33ba4d455429864422ef08e879bb1bad8a0d085f64722f78c81af",
+  "html_bytes": 183730,
+  "cards_found": 18,
+  "product_nos_found": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "additional_pages_required": false,
+  "products": [
+    {
+      "product_no": 32,
+      "name": "안송자 소고기 우거지 된장찌개",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/5acd936223312aebcafb8fdf4c3d989a.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage32_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/5acd936223312aebcafb8fdf4c3d989a.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/ffc344a944f1ee8b6815b2d2801d4f47.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/f1bc5d066aaa149eae4209d6e454de24.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    },
+    {
+      "product_no": 33,
+      "name": "[동화가든] 육수가 필요 없는 안송자 토속 강된장 원액",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/056d40d71dba4714ebe941c6f839ffbc.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage33_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/056d40d71dba4714ebe941c6f839ffbc.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/0cbde1bd65ed01e57bafe06ce20243fe.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/3e94c25449b7d6fc2d6921f9082dffc4.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    },
+    {
+      "product_no": 34,
+      "name": "[안송자 빅 딜]  효자두유 연중 최고할인 15팩 1박스 190ml",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/795b981e30e2122068a33179e9b22cb1.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage34_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/795b981e30e2122068a33179e9b22cb1.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/d7a409c86c3cceff3a2d391415f8e678.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/57188d185a6296a8b845a4c16c27ae2f.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    },
+    {
+      "product_no": 35,
+      "name": "[타임특가,무료배송][순.얼.비 set] 순물순두부,얼큰순두부,국산콩비지",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/bee5157ecc325dddeae3e79b94bad2c1.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage35_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/bee5157ecc325dddeae3e79b94bad2c1.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/9ff4477b0eedae64468a53c2c62fb3c8.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/e900b93ca9a833233a1925ac4ce856d7.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    },
+    {
+      "product_no": 36,
+      "name": "[대용량] 동화가든 순물백 김치 5kg (2.5kg x 2개) [무료배송]",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/d420e9d502ab58b49b78d33d9e41d26e.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage36_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/d420e9d502ab58b49b78d33d9e41d26e.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/0b249b6d5270eae1116e4723d21870d2.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/265e6f5aa50109279b13a55d4bbaaf86.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    },
+    {
+      "product_no": 37,
+      "name": "안송자 청국장 키트 (육수가 필요 없는 맛집의 비법 양념)",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/bfc5b98ec03fef11d0b8f003cac1afd3.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage37_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/bfc5b98ec03fef11d0b8f003cac1afd3.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/58efbf8959cc8e77ca14ebe98b912519.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/273966ac0a2989e00d60b8d005a2a882.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    },
+    {
+      "product_no": 39,
+      "name": "100% 국산콩 안송자 청국장 1kg",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/bb3301b3d76ddbcdffd3d78999545bfa.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage39_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/bb3301b3d76ddbcdffd3d78999545bfa.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/824aac175ce1161473a8ead7f9260394.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/f142d57dfd8d607064d654fa06cef279.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    },
+    {
+      "product_no": 40,
+      "name": "순두부 순물 백김치 1kg (new)",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/b5de2f1c7c614ee80589396de94cff15.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage40_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/b5de2f1c7c614ee80589396de94cff15.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/477d1fa87ecabd3b9d87d7761272cbae.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/2de39bf13c960d49b4c0a3933166399d.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    },
+    {
+      "product_no": 41,
+      "name": "국산콩 비지찌개",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/bbd554dcf91c9c5ef2101398f9f81067.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage41_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/bbd554dcf91c9c5ef2101398f9f81067.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/97512505f457745a4a55339630850a76.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/856a7b15ad41071621f4286e8dea980f.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    },
+    {
+      "product_no": 42,
+      "name": "원조짬뽕순두부 세트",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/9185683cc92375e087c30aeef823dd4e.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage42_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/9185683cc92375e087c30aeef823dd4e.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/dfca07f778134e3f952e19eec99c45ac.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/b206f61d95e032a076878e78dd0e300e.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    },
+    {
+      "product_no": 43,
+      "name": "명품 순두부 (무첨가)",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/221b77bc56f787965c9c8c3ff90173e8.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage43_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/221b77bc56f787965c9c8c3ff90173e8.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/50b5a71f69593a0c85dedd128bfd24da.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/dd40b7bed6d0366e3d5fde8de3901689.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    },
+    {
+      "product_no": 44,
+      "name": "얼큰 순두부",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/8a28cf26fefe81598a69deabfe099ec7.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage44_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/8a28cf26fefe81598a69deabfe099ec7.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/e41eb15af49a15eb7ea43f7060959808.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/06654b0b1187e3cb940d421eb202ea0e.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    },
+    {
+      "product_no": 45,
+      "name": "안송자 청국장찌개",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/05797b68fc752f5a83c65a7a59430dd3.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage45_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/05797b68fc752f5a83c65a7a59430dd3.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/c30fd5beb487dd59bcd00877d46f5058.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/80eb81d1c30ef6937abe3d5d310c6edf.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    },
+    {
+      "product_no": 46,
+      "name": "[5+1+무료배송] 국산콩 비지찌개",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/8958bcf760a1e23a1e27fddc41430226.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage46_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/8958bcf760a1e23a1e27fddc41430226.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/a4d410f9fd19222af73d26bd05c7a9b5.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/3338e462934532de92281f74b662dff9.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    },
+    {
+      "product_no": 47,
+      "name": "된장 고추지",
+      "present_in_public_html": true,
+      "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/994b61d0afc69f3f7bfc677e9082458b.jpg",
+      "matches_new_list_image": true,
+      "matches_old_list_image": false,
+      "image_id": "eListPrdImage47_1",
+      "new_api_url_checks": {
+        "list_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/994b61d0afc69f3f7bfc677e9082458b.jpg",
+          "url_present_anywhere_in_response_html": true,
+          "actual_card_src_matches": true
+        },
+        "tiny_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/01b7f873e9c4668b8a84783ffac5a1bd.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        },
+        "small_image": {
+          "expected_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/56f165c8c1e591335ccfedc70c641747.jpg",
+          "url_present_anywhere_in_response_html": false,
+          "actual_card_src_matches": false
+        }
+      },
+      "old_list_url_present_anywhere": false
+    }
+  ],
+  "preserve_control": {
+    "product_no": 38,
+    "present_in_public_html": true,
+    "actual_card_src": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/2e4735f2d6b168f1718a31f09eae7649.png",
+    "expected_unchanged_list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/2e4735f2d6b168f1718a31f09eae7649.png",
+    "matches_before": true
+  },
+  "summary": {
+    "updated_thumbnail_cards_checked": 15,
+    "updated_thumbnail_cards_match": 15,
+    "old_list_image_still_used_by_updated_cards": 0,
+    "product38_list_thumbnail_unchanged": true,
+    "pass": true
+  },
+  "limitations": [
+    "This public market template uses list_image for its product card img src. tiny_image and small_image are not rendered in these cards; their API/image integrity is checked separately by live_video_integration_audit.",
+    "HTML source URL verification only; no claim of browser rendering or runtime interaction verification."
+  ]
+}

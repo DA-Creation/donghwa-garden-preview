@@ -1,0 +1,44 @@
+{
+  "id": 33,
+  "status": "adopted",
+  "attempt": 1,
+  "baseline": [
+    3,
+    2,
+    2,
+    3,
+    3
+  ],
+  "root_scores": [
+    3,
+    3,
+    4,
+    4,
+    3
+  ],
+  "independent_scores": [
+    4,
+    3,
+    3,
+    4,
+    3
+  ],
+  "baseline_total": 13,
+  "root_total": 17,
+  "independent_total": 17,
+  "hard_gate": "pass",
+  "primary_axis": "small_card_product_recognition",
+  "reason": "Actual spoonful and blurred saucepan communicate a cooking concentrate; larger food hierarchy without enlarging the actual portion. Original ingredients and quantity retained.",
+  "limitations": "Highlights remain strong; exact product name still requires adjacent product title.",
+  "compared_sizes": [
+    128,
+    264,
+    "full-resolution"
+  ],
+  "source_image": "thumbnail-generation-20261028/evidence/root-source-images/33-detail-4.jpeg",
+  "candidate": "candidates/product-33-attempt-1.png",
+  "prompt": "prompts/product-33-attempt-1.txt",
+  "generator": "builtin image_gen",
+  "sha256": "42ab46e74ee632f86d96d8509b9ad39159073bca00cdb3911dbda91c4fa65319",
+  "adopted_at": "2026-10-28T17:09:19.715771+09:00"
+}

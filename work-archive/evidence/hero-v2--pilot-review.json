@@ -1,0 +1,79 @@
+{
+  "product_id": 42,
+  "date": "2026-10-29",
+  "generation_tool": "built-in image_gen",
+  "selected": "images/product-42-v2.png",
+  "candidate_attempts": 2,
+  "paid_replicate_predictions": 0,
+  "source_product_url": "https://www.donghwagarden.com/product/detail.html?product_no=16",
+  "source_image_url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20260202/4c57efc5f8793bfe82d6e1270ce20214.jpg",
+  "composition_reference": {
+    "url": "https://cookatmarket.com/ko/product/detail?product_id=1834",
+    "inspected_local_capture": "hero-generation-20261028/evidence/references/cookat-sundubu-motion-2.png",
+    "borrowed": "Food-first oblique close view and spoon entering soup surface; retain Donghwa food and brass serving vessel"
+  },
+  "criteria": [
+    "Actual ingredient identity and proportions",
+    "Irregular soft tofu curds without repeated bead surfaces",
+    "Actual broth colour, opacity and broken oil film",
+    "Food remains supported by soup; no suspended spoon or drops",
+    "Ordinary restrained lighting, no waxy gloss",
+    "Plausible first frame in a serving bowl, no boiling foam"
+  ],
+  "review": {
+    "candidate1": "Improved composition and liquid; held for repeated cauliflower-like microtexture",
+    "candidate2": "Passed as a starting image for video testing, not approval of a video or final publication",
+    "improvements": [
+      "Pendant drop removed",
+      "Spoon enters broth rather than floating above it",
+      "Soup depth, particles and irregular oil layer replace clear golden glaze",
+      "Broader soft curd faces mixed with smaller broken particles"
+    ],
+    "remaining_notes": [
+      "Warm orange tone and foreground seafood emphasis remain stronger than source; not blocking a video test",
+      "Future video must still pass motion and loop checks"
+    ]
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8950/review-42.html",
+    "desktop_render_verified": true,
+    "390px_image_render_verified": true,
+    "actual_device_viewport_tested": false,
+    "screenshot": "evidence/comparison-desktop.jpg"
+  },
+  "scope_status": "One-product pilot complete; user comparison feedback requested before expansion. Existing 15 videos and stills not replaced.",
+  "files": {
+    "actual": {
+      "path": "thumbnail-generation-20261028/evidence/source-images/42-original-detail-4.jpg",
+      "size": [
+        1000,
+        1300
+      ],
+      "sha256": "9f6c6eeb0f8bf5a2de773f1d5cd3790faffebe8db4ba31b9908d61d548d937db"
+    },
+    "old": {
+      "path": "hero-generation-20261028/images/product-42.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "5e75cbe38365e896828ba2c61d04a4bc58dcd6d2a45166ca3bc93bf018c317f2"
+    },
+    "candidate1": {
+      "path": "hero-revision-20261029/images/product-42-v2-candidate1.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "cc03dbacf428b7dfd5dfa74fb9a34160c0a0a812881c0d78be9e8741577add40"
+    },
+    "candidate2": {
+      "path": "hero-revision-20261029/images/product-42-v2-candidate2.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "4dc0b517a5e23dc4c27882ff9de25c4ebb55425e54f8ed13a6d625936e8f9672"
+    }
+  }
+}

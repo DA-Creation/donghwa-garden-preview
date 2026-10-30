@@ -1,0 +1,42 @@
+{
+  "decision": "PASS_FOR_PRODUCT42_PUBLICATION",
+  "date": "2026-10-29T10:02:24.979347+00:00",
+  "independent_frame_review": "final-v4/INDEPENDENT_FINAL_DECISION.json",
+  "parent_review": "Source texture, native critical images, final overview, normal/half-speed browser playback and selected converted WebP frames inspected. Three distinct serving/stir/lift shots; no prohibited liquid/steam effects observed in selected final frames.",
+  "playback": {
+    "duration_seconds": 5.875,
+    "normal_rate": 1.0,
+    "half_rate": 0.5,
+    "loop": true,
+    "browser_media_error": null,
+    "loop_style": "Intentional hard-cut montage restart; not a seamless continuous single take."
+  },
+  "source_selection": "final-edit-decision.json",
+  "master_sha256": "8a85712db0ca9dd15d003c5a86d304246ce5b629ad9f8ecd872955c755fb95bf",
+  "publish_asset": {
+    "filename": "42-E-hero-multicut-v4-960.webp",
+    "sha256": "dd7bb2c9bac02dde07b1bf5efb674d8d2ff80e8c02660d6dd9d1796959a63aed",
+    "bytes": 5876404,
+    "format": "WEBP",
+    "size": [
+      960,
+      540
+    ],
+    "frames": 141,
+    "riff_animation_frame_count": 141,
+    "duration_ms": 5874,
+    "frame_durations_ms": [
+      41,
+      42
+    ],
+    "loop": 0,
+    "decoded_all_frames": true,
+    "desktop_css_width_measured": 800,
+    "no_generation_api_used_for_encoding": true
+  },
+  "limits": [
+    "Subjective food realism remains a creative judgment.",
+    "Shot03 starts after surface separation, continuing a real lift for about one second before a brief hold.",
+    "Raw V3 shot03 contains rejected earlier frames; only the reviewed selected interval is included."
+  ]
+}

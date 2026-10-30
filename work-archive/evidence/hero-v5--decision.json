@@ -1,0 +1,59 @@
+{
+  "decision": "PASS_FOR_TRIAL_EDIT_WITH_SOLID_LEAF_RELEASE_LIMITATION",
+  "scope": "All97frames examined in consecutive contact grids; nativefullframes14,31,43,57 and nativecropf30–41 examined. Not browserplayback. Parent decides finalpublishacceptance.",
+  "source": "동화가든 홈페이지 및 상세페이지 디자인 시스템 구축/hero-motion-development-20261029/outputs/shot03-lift-v5.mp4",
+  "source_sha256": "5f4f6ce5762da37983f48c98041576d85756aef8052256650374d8404b36102d",
+  "metadata": {
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "frames": 97,
+    "duration_seconds": 4.041667
+  },
+  "recommended_selection": {
+    "start_frame_inclusive": 14,
+    "end_frame_exclusive": 58,
+    "frames": 44,
+    "source_start_seconds": 0.5833333333333334,
+    "source_end_exclusive_seconds": 2.4166666666666665,
+    "duration_at24fps": 1.8333333333333333,
+    "duration_at24000_1001": 1.8351666666666666,
+    "rationale": "Trim earlystaticwaiting while still beginningwithspooncontact; preservevisibleseparationandmodestlift. Noalready-airbornestart.",
+    "preview": "동화가든 홈페이지 및 상세페이지 디자인 시스템 구축/hero-motion-development-20261029/qa/shot03-v5-independent/selected-f14-58.mp4"
+  },
+  "findings": {
+    "no_detected_hard_liquid_defects": [
+      "No detached liquid droplets or long liquidstrings",
+      "No artificialsteam,haze,bubbles,boiling",
+      "No floatingunsupportedtofu fragments",
+      "No catastrophicspoon geometrycollapse or oysteridentityswap"
+    ],
+    "motion": "Spoon edge remains nearliquiduntilaboutf30; supportedtofu/oysterload liftsgradually. Backgroundsmallverticalmotion alignswithgentleupwardcamera-follow.",
+    "solid_leaf_release": {
+      "frames": [
+        30,
+        44
+      ],
+      "seconds": [
+        1.25,
+        1.8333333333333333
+      ],
+      "description": "A darkleafadheringtoleftspoonedge is pulledslightlyup, thenloosensbacktowardbowl aroundf41–43. Appears solidleaf andplausiblecontactrelease, notliquidstring.",
+      "strict_constraint": "If latest no-fall instruction means absolutelynosolidfoodrelease, this is residualviolation; not markunqualifiedclean.",
+      "evidence": "separation-native-crops-f30-41.jpg"
+    },
+    "food_identity": "Brass bowl, orangecloudybroth,chives,sesame,tofu,oyster preserved; uniformfinecurdtextureandangularlargerpieces remain somewhatAI-looking.",
+    "comparison_E": "Bettergroundedstart than oldEalreadyairbornecut; no newliquidornamentalaction. Stillmoderatefoodrealismresidue."
+  },
+  "alternative": {
+    "range": [
+      42,
+      86
+    ],
+    "reason_not_preferred": "Avoidssolidleafreleasebutstartsafterclearairborne separation; reintroducesoldEproblem."
+  },
+  "hard_fail": false,
+  "hard_fail_scope": "No observed catastrophicmorphing or prohibitedliquid effects. Strict zero-solid-fallconditionnotfullymet.",
+  "cost": 0,
+  "generated_video_calls": 0
+}

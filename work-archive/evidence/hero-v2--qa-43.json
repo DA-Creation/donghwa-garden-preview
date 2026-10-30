@@ -1,0 +1,39 @@
+{
+  "id": 43,
+  "status": "accepted",
+  "final_path": "hero-revision-20261029/images/product-43-v2.png",
+  "prompt_path": "hero-revision-20261029/prompts/product-43-attempt-1.txt",
+  "source_references": [
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-preparation-33-35-37/35-original-panel-1.jpg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20250930/d159e4a1b9508248d64a0766fc591cf1.jpg"
+    },
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-images/43-original-detail-1.jpg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20260130/7a3d518d3f0eec36754f7070cd1697be.jpg"
+    }
+  ],
+  "observations": [
+    "Actual plain tofu small irregular curds, milky whey and olive-gray bowl retained.",
+    "Removed raised spoon, oversized scoop and dangling thick droplet from previous hero.",
+    "Quiet food-at-rest closeup with restrained highlights; no added garnish or boiling serving bowl."
+  ],
+  "limitations": [
+    "AI-generated concept start frame, not actual photography.",
+    "Video temporal realism is not assessed."
+  ],
+  "shot_note": "Plain soft tofu at rest; slight macro camera approach only.",
+  "used_reference_paths": [
+    "thumbnail-generation-20261028/evidence/source-images/43-original-detail-1.jpg",
+    "hero-revision-20261029/images/product-35-v2.png"
+  ],
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "independent_review": {
+    "reviewer": "video_audit_c",
+    "verdict": "PASS",
+    "scope": "actual source and generated still comparison, not video"
+  }
+}

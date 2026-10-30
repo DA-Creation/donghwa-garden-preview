@@ -1,0 +1,39 @@
+{
+  "id": 41,
+  "status": "accepted",
+  "final_path": "hero-revision-20261029/images/product-41-v2.png",
+  "prompt_path": "hero-revision-20261029/prompts/product-41-attempt-1.txt",
+  "source_references": [
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-images/41-native-big.jpg",
+      "url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/38c9b39fd240c6628e6613f5e967bf44.jpg"
+    },
+    {
+      "path": "thumbnail-generation-20261028/evidence/source-preparation-43-45-46-47/46-original-panel-7.jpg",
+      "url": "https://ecimg.cafe24img.com/pg1657b98181965031/dongwha7112/web/upload/NNEditor/20250314/02_ECBDA9EBB984ECA78020EC9BB9EAB8B0EC88A0EC849C20EC8898ECA095.jpg"
+    }
+  ],
+  "observations": [
+    "Actual pale gray oval dish, off-white ground soybean pulp, small cabbage and sparse scallion retained.",
+    "New spoon rests at food surface; no hovering heap or clear pendant droplet.",
+    "Cloudy broth contains fine dispersed particles and irregular mashed pulp rather than a clear liquid pool."
+  ],
+  "limitations": [
+    "AI-generated concept start frame, not actual photography.",
+    "Video temporal realism is not assessed."
+  ],
+  "shot_note": "Served biji dish with shallow surface spoon movement; no boil, steam or high lift.",
+  "used_reference_paths": [
+    "thumbnail-generation-20261028/evidence/source-images/41-native-big.jpg",
+    "hero-revision-20261029/images/product-42-v2.png"
+  ],
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "independent_review": {
+    "reviewer": "video_audit_c",
+    "verdict": "PASS",
+    "scope": "actual source and generated still comparison, not video"
+  }
+}

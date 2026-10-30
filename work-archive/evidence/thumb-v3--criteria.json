@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-28",
+  "workflow": "Sequential only. Generate one current product; compare and adopt only if improved before generating the next product.",
+  "generator": "builtin image_gen",
+  "axes": [
+    "natural_texture",
+    "appetizing",
+    "small_card_product_recognition",
+    "composition_focus",
+    "market_color_coherence"
+  ],
+  "score_scale": "0 unusable; 1 clearly poor; 2 insufficient; 3 reviewable for practical use; 4 good; 5 excellent. Subjective visual judgments, not measured conversion performance.",
+  "hard_gate": [
+    "Actual ingredients, amounts and cooking state preserved",
+    "No invented packaging, claims or readable fake text",
+    "No new physical inconsistencies"
+  ],
+  "adoption_rule": {
+    "total_gain_at_least": 3,
+    "primary_issue_gain_at_least": 1,
+    "no_regression": [
+      "natural_texture",
+      "small_card_product_recognition"
+    ],
+    "all_hard_gates": true
+  },
+  "baseline_scores": {
+    "32": [
+      4,
+      3,
+      3,
+      4,
+      3
+    ],
+    "33": [
+      3,
+      2,
+      2,
+      3,
+      3
+    ],
+    "34": [
+      4,
+      3,
+      3,
+      4,
+      4
+    ],
+    "35": [
+      2,
+      2,
+      3,
+      2,
+      4
+    ],
+    "36": [
+      3,
+      3,
+      4,
+      4,
+      3
+    ],
+    "37": [
+      3,
+      2,
+      2,
+      3,
+      4
+    ],
+    "38": [
+      3,
+      3,
+      1,
+      2,
+      3
+    ],
+    "39": [
+      3,
+      2,
+      2,
+      3,
+      3
+    ],
+    "40": [
+      3,
+      3,
+      4,
+      4,
+      3
+    ],
+    "41": [
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "42": [
+      2,
+      3,
+      4,
+      4,
+      3
+    ],
+    "43": [
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "44": [
+      2,
+      2,
+      3,
+      3,
+      4
+    ],
+    "45": [
+      3,
+      4,
+      4,
+      4,
+      4
+    ],
+    "46": [
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "47": [
+      3,
+      3,
+      4,
+      4,
+      3
+    ]
+  },
+  "baseline_note": "Baseline recognition initially reviewed in existing 174px mobile card. Before each generation, recheck the baseline at 128px in the comparison page without seeing candidate scores. Do not lower baseline after generation to justify adoption.",
+  "primary_axis": {
+    "32": 1,
+    "33": 2,
+    "34": 2,
+    "35": 0,
+    "36": 0,
+    "37": 2,
+    "38": 2,
+    "39": 2,
+    "40": 0,
+    "41": 1,
+    "42": 0,
+    "43": 0,
+    "44": 0,
+    "45": 0,
+    "46": 1,
+    "47": 0
+  },
+  "order": [
+    33,
+    37,
+    35,
+    42,
+    44,
+    36,
+    40,
+    34,
+    39,
+    32,
+    41,
+    43,
+    45,
+    46,
+    47
+  ],
+  "user_scope_amendment": {
+    "excluded": [
+      38
+    ],
+    "reason": "User explicitly chose to keep existing 38 thumbnail and improve remaining 15."
+  }
+}

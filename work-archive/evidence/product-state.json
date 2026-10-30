@@ -1,0 +1,873 @@
+{
+  "as_of": "2026-10-30",
+  "products": [
+    {
+      "product_no": 32,
+      "name": "안송자 소고기 우거지 된장찌개",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=32",
+      "detail_template": "dg-01",
+      "hero_selected": "C",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "32-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/32-A-video-v1.mp4",
+          "poster": "media/32-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "32-B-image-v1.png",
+          "type": "image",
+          "src": "media/32-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "32-C-image-v2.png",
+          "type": "image",
+          "src": "media/32-C-image-v2.png"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-32.png",
+      "thumbnail_before_publish_sha256": "6283c2c09e85fd11cb38d8a8152bcc746241c06232f77b9c7aa7f0f4206800d1",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/957d63c544b7b847e6780f2460abac05.png",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [],
+      "thumbnail_selected_version": "natural-v2",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/38e40a3e51f8b5165c11f5700d73ce40.png",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/5acd936223312aebcafb8fdf4c3d989a.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/ffc344a944f1ee8b6815b2d2801d4f47.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/f1bc5d066aaa149eae4209d6e454de24.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:38:45.896179+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    },
+    {
+      "product_no": 33,
+      "name": "육수가 필요 없는 안송자 토속 강된장 원액",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=33",
+      "detail_template": "dg-02",
+      "hero_selected": "C",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "33-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/33-A-video-v1.mp4",
+          "poster": "media/33-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "33-B-image-v1.png",
+          "type": "image",
+          "src": "media/33-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "33-C-image-v2.png",
+          "type": "image",
+          "src": "media/33-C-image-v2.png"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-33.png",
+      "thumbnail_before_publish_sha256": "42ab46e74ee632f86d96d8509b9ad39159073bca00cdb3911dbda91c4fa65319",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/c083622661057d3f1ca575cb69c9c81d.jpg",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [],
+      "thumbnail_selected_version": "natural-v3-sequential",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/a1a5e7db5ec4e9ec8574e796c2dc7095.jpg",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/056d40d71dba4714ebe941c6f839ffbc.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/0cbde1bd65ed01e57bafe06ce20243fe.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/3e94c25449b7d6fc2d6921f9082dffc4.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:43:12.291971+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    },
+    {
+      "product_no": 34,
+      "name": "효자두유 190ml 15팩",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=34",
+      "detail_template": "dg-03",
+      "hero_selected": "C",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "34-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/34-A-video-v1.mp4",
+          "poster": "media/34-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "34-B-image-v1.png",
+          "type": "image",
+          "src": "media/34-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "34-C-image-v2.png",
+          "type": "image",
+          "src": "media/34-C-image-v2.png"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-34.png",
+      "thumbnail_before_publish_sha256": "d7e3360c6a642bb9236bc66f9c4acf51611be64d4fb72ecba4caf4ef51c4cd74",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/ade754548b47188cbe05bce87ba72234.png",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [],
+      "thumbnail_selected_version": "natural-v2",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/893f74a1079ea29db59f78daae950f26.png",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/795b981e30e2122068a33179e9b22cb1.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/d7a409c86c3cceff3a2d391415f8e678.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/57188d185a6296a8b845a4c16c27ae2f.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:43:14.345765+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    },
+    {
+      "product_no": 35,
+      "name": "순·얼·비 세트",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=35",
+      "detail_template": "dg-04",
+      "hero_selected": "C",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "35-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/35-A-video-v1.mp4",
+          "poster": "media/35-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "35-B-image-v1.png",
+          "type": "image",
+          "src": "media/35-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "35-C-image-v2.png",
+          "type": "image",
+          "src": "media/35-C-image-v2.png"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-35.png",
+      "thumbnail_before_publish_sha256": "f228bd16acc750711f3f98052623c180a2009cc375982c251c24c41b7362f23a",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/2a88ad49070815b248b232d711a2c24e.jpg",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [],
+      "thumbnail_selected_version": "natural-v2",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/ee5f86be2244e46d6a22acef65c773e0.jpg",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/bee5157ecc325dddeae3e79b94bad2c1.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/9ff4477b0eedae64468a53c2c62fb3c8.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/e900b93ca9a833233a1925ac4ce856d7.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:43:18.146526+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    },
+    {
+      "product_no": 36,
+      "name": "순물 백김치 5kg",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=36",
+      "detail_template": "dg-09",
+      "hero_selected": "C",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "36-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/36-A-video-v1.mp4",
+          "poster": "media/36-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "36-B-image-v1.png",
+          "type": "image",
+          "src": "media/36-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "36-C-image-v2.png",
+          "type": "image",
+          "src": "media/36-C-image-v2.png"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-36.png",
+      "thumbnail_before_publish_sha256": "117c87e85af5a51e71024a414d645440671adfc901fb5f81af857befafd65af2",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/3f97c732d9e27cafbb72a1801b608621.png",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [
+        "Shared template: choose hero by product_no, not by template ID"
+      ],
+      "thumbnail_selected_version": "natural-v2",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/0bde4505a7c7bd5d87c74972e3f86e15.png",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/d420e9d502ab58b49b78d33d9e41d26e.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/0b249b6d5270eae1116e4723d21870d2.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/265e6f5aa50109279b13a55d4bbaaf86.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:43:20.282083+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    },
+    {
+      "product_no": 37,
+      "name": "안송자 청국장 키트 (육수가 필요 없는 맛집의 비법 양념)",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=37",
+      "detail_template": "dg-06",
+      "hero_selected": "C",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "37-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/37-A-video-v1.mp4",
+          "poster": "media/37-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "37-B-image-v1.png",
+          "type": "image",
+          "src": "media/37-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "37-C-image-v2.png",
+          "type": "image",
+          "src": "media/37-C-image-v2.png"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-37.png",
+      "thumbnail_before_publish_sha256": "5ee02131896409d26d008484931a9d4a0d2313bcc6d50eb21225589030d5aa87",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/c7375ce25214231f2b27d482ce08b766.jpg",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [],
+      "thumbnail_selected_version": "natural-v3-sequential",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/74ed4ae649f51f2e70f8498b5bd1a965.jpg",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/bfc5b98ec03fef11d0b8f003cac1afd3.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/58efbf8959cc8e77ca14ebe98b912519.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/273966ac0a2989e00d60b8d005a2a882.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:43:29.891857+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    },
+    {
+      "product_no": 38,
+      "name": "[추석 선물세트] 효자두유가 포함 된 선물세트",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=38",
+      "detail_template": "dg-07",
+      "hero_selected": null,
+      "hero_candidates": [],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-38.png",
+      "thumbnail_before_publish_sha256": "515795335dc056628b7fc1d92d06b9fe888b61c59db5e44cee1762201bc2e2a8",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/2e4735f2d6b168f1718a31f09eae7649.png",
+      "thumbnail_publication_status": "preserved-and-unchanged-verified",
+      "notes": []
+    },
+    {
+      "product_no": 39,
+      "name": "100% 국산콩 안송자 청국장 1kg",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=39",
+      "detail_template": null,
+      "hero_selected": "C",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "39-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/39-A-video-v1.mp4",
+          "poster": "media/39-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "39-B-image-v1.png",
+          "type": "image",
+          "src": "media/39-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "39-C-image-v2.png",
+          "type": "image",
+          "src": "media/39-C-image-v2.png"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-39.png",
+      "thumbnail_before_publish_sha256": "a563b7b28269172c03d49e018cda3c448ae929cead28776b64eae6a35355ff64",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/38fe342b07c94b09353005d70be593ab.jpg",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [
+        "Native39 conditional loader; body was sample, full detail design not published in this work"
+      ],
+      "thumbnail_selected_version": "natural-v2",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/ca7de6c8da7097a01e0592e370201c91.jpg",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/bb3301b3d76ddbcdffd3d78999545bfa.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/824aac175ce1161473a8ead7f9260394.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/f142d57dfd8d607064d654fa06cef279.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:43:32.167199+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    },
+    {
+      "product_no": 40,
+      "name": "순물 백김치 1kg",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=40",
+      "detail_template": "dg-09",
+      "hero_selected": "C",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "40-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/40-A-video-v1.mp4",
+          "poster": "media/40-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "40-B-image-v1.png",
+          "type": "image",
+          "src": "media/40-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "40-C-image-v2.png",
+          "type": "image",
+          "src": "media/40-C-image-v2.png"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-40.png",
+      "thumbnail_before_publish_sha256": "4146766ff46b2e79f0ec938f49481b965f88bc9ed31058547d49f81ab7649b63",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/c64dbd7bfd5a89a991d2432a0eca26fd.jpg",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [
+        "Shared template: choose hero by product_no, not by template ID"
+      ],
+      "thumbnail_selected_version": "natural-v2",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/3e8063a121bd776ee34b516cdf436a3f.jpg",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/b5de2f1c7c614ee80589396de94cff15.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/477d1fa87ecabd3b9d87d7761272cbae.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/2de39bf13c960d49b4c0a3933166399d.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:43:34.589545+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    },
+    {
+      "product_no": 41,
+      "name": "국산콩 비지찌개",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=41",
+      "detail_template": "dg-10",
+      "hero_selected": "C",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "41-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/41-A-video-v1.mp4",
+          "poster": "media/41-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "41-B-image-v1.png",
+          "type": "image",
+          "src": "media/41-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "41-C-image-v2.png",
+          "type": "image",
+          "src": "media/41-C-image-v2.png"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-41.png",
+      "thumbnail_before_publish_sha256": "e605e4480501eb9b68bbbb8ceca19e0bd8c93a453c8dec19f555902e653893d0",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/69f6e5361999e210c8f01e24f042a841.jpg",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [
+        "Shared template: choose hero by product_no, not by template ID"
+      ],
+      "thumbnail_selected_version": "natural-v2",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/38c9b39fd240c6628e6613f5e967bf44.jpg",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/bbd554dcf91c9c5ef2101398f9f81067.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/97512505f457745a4a55339630850a76.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/856a7b15ad41071621f4286e8dea980f.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:43:37.436897+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    },
+    {
+      "product_no": 42,
+      "name": "원조짬뽕순두부 세트",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=42",
+      "detail_template": "dg-11",
+      "hero_selected": "F",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "42-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-A-video-v1.mp4",
+          "poster": "media/42-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "42-B-image-v1.png",
+          "type": "image",
+          "src": "media/42-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "42-C-image-v2-1.png",
+          "type": "image",
+          "src": "media/42-C-image-v2-1.png"
+        },
+        {
+          "id": "D",
+          "filename": "42-D-image-v2-2.png",
+          "type": "image",
+          "src": "media/42-D-image-v2-2.png"
+        },
+        {
+          "id": "E",
+          "filename": "42-E-hero-multicut-v4.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-E-hero-multicut-v4.mp4",
+          "poster": "media/42-E-poster.jpg"
+        },
+        {
+          "id": "F",
+          "filename": "42-F-hero-multicut-v5.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-F-hero-multicut-v5.mp4",
+          "poster": "media/42-F-poster.jpg"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-42.png",
+      "thumbnail_before_publish_sha256": "9997d90bfeb986dc7e843c5f99e19252b73e87494d877eac36209cf666f37549",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/85907b46c1fdc55d4b86db64e583e0da.jpg",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [],
+      "thumbnail_selected_version": "natural-v2",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/aa222f23bd43f4fcccc5e19340180df4.jpg",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/9185683cc92375e087c30aeef823dd4e.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/dfca07f778134e3f952e19eec99c45ac.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/b206f61d95e032a076878e78dd0e300e.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:38:06.114325+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    },
+    {
+      "product_no": 43,
+      "name": "명품 순두부 (무첨가)",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=43",
+      "detail_template": "dg-12",
+      "hero_selected": "C",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "43-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/43-A-video-v1.mp4",
+          "poster": "media/43-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "43-B-image-v1.png",
+          "type": "image",
+          "src": "media/43-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "43-C-image-v2.png",
+          "type": "image",
+          "src": "media/43-C-image-v2.png"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-43.png",
+      "thumbnail_before_publish_sha256": "d9dbb458ef0094a87904b053d7cf61b1d8a1ea8dcea26cfad86b94e455200ada",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/dc38f15124609920969a04815c253846.jpg",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [],
+      "thumbnail_selected_version": "natural-v2",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/e3237839388c00d974137e201abfaafe.jpg",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/221b77bc56f787965c9c8c3ff90173e8.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/50b5a71f69593a0c85dedd128bfd24da.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/dd40b7bed6d0366e3d5fde8de3901689.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:43:40.364842+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    },
+    {
+      "product_no": 44,
+      "name": "얼큰 순두부",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=44",
+      "detail_template": "dg-13",
+      "hero_selected": "C",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "44-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/44-A-video-v1.mp4",
+          "poster": "media/44-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "44-B-image-v1.png",
+          "type": "image",
+          "src": "media/44-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "44-C-image-v2.png",
+          "type": "image",
+          "src": "media/44-C-image-v2.png"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-44.png",
+      "thumbnail_before_publish_sha256": "c385c4a2083f7f31ac08736a3389a0bdde5aa16e3f197a6a73ac97221886c800",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/50acc9f525928eb7223b29889dc46e60.jpg",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [],
+      "thumbnail_selected_version": "natural-v2",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/83a695f769596f06e941bcc55f72302c.jpg",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/8a28cf26fefe81598a69deabfe099ec7.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/e41eb15af49a15eb7ea43f7060959808.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/06654b0b1187e3cb940d421eb202ea0e.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:43:43.076439+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    },
+    {
+      "product_no": 45,
+      "name": "안송자 청국장찌개",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=45",
+      "detail_template": "dg-14",
+      "hero_selected": "C",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "45-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/45-A-video-v1.mp4",
+          "poster": "media/45-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "45-B-image-v1.png",
+          "type": "image",
+          "src": "media/45-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "45-C-image-v2.png",
+          "type": "image",
+          "src": "media/45-C-image-v2.png"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-45.png",
+      "thumbnail_before_publish_sha256": "f5864d2dc3511909a0ada0fa0bbb810dfd9c062a94768d198377bbfe31502f2d",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/2eb2ed1d5b904ac0b6fd2ccee5e5ee06.jpg",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [],
+      "thumbnail_selected_version": "natural-v2",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/0c2d21988b8fa3b0381740d77dcdcc42.jpg",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/05797b68fc752f5a83c65a7a59430dd3.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/c30fd5beb487dd59bcd00877d46f5058.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/80eb81d1c30ef6937abe3d5d310c6edf.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:43:46.724663+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    },
+    {
+      "product_no": 46,
+      "name": "국산콩 비지찌개 5+1",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=46",
+      "detail_template": "dg-10",
+      "hero_selected": "C",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "46-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/46-A-video-v1.mp4",
+          "poster": "media/46-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "46-B-image-v1.png",
+          "type": "image",
+          "src": "media/46-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "46-C-image-v2.png",
+          "type": "image",
+          "src": "media/46-C-image-v2.png"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-46.png",
+      "thumbnail_before_publish_sha256": "b512da01149abb87d536330443ca221a578aace239ce0eb4f25e2270f7f0da4f",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/497441058d9aec4db1dbef3c4e1e40dd.jpg",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [
+        "Shared template: choose hero by product_no, not by template ID"
+      ],
+      "thumbnail_selected_version": "natural-v2",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/01aee4b6c10528478c5c031984374b2e.jpg",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/8958bcf760a1e23a1e27fddc41430226.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/a4d410f9fd19222af73d26bd05c7a9b5.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/3338e462934532de92281f74b662dff9.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:43:48.648685+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    },
+    {
+      "product_no": 47,
+      "name": "된장 고추지",
+      "product_url": "https://dacreation.cafe24.com/product/detail.html?product_no=47",
+      "detail_template": "dg-16",
+      "hero_selected": "C",
+      "hero_candidates": [
+        {
+          "id": "A",
+          "filename": "47-A-video-v1.mp4",
+          "type": "video",
+          "src": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/47-A-video-v1.mp4",
+          "poster": "media/47-B-image-v1.png"
+        },
+        {
+          "id": "B",
+          "filename": "47-B-image-v1.png",
+          "type": "image",
+          "src": "media/47-B-image-v1.png"
+        },
+        {
+          "id": "C",
+          "filename": "47-C-image-v2.png",
+          "type": "image",
+          "src": "media/47-C-image-v2.png"
+        }
+      ],
+      "thumbnail_before_publish_source": "thumbnail-generation-20261028/preview/thumbnails/product-47.png",
+      "thumbnail_before_publish_sha256": "a19fda0654167ceb7bf3f65cc105102f4c46e8f8e4db6ac9ae5bacc91bd3b1f5",
+      "thumbnail_previous_public_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/5477891b6c88da4fbeccb9d917fd25e7.jpg",
+      "thumbnail_publication_status": "published-and-api-image-verified-20261030",
+      "notes": [],
+      "thumbnail_selected_version": "natural-v2",
+      "thumbnail_live_images": {
+        "detail_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/big/20260826/160f9ee6f86e0e6714cacc4e4cfd3fbf.jpg",
+        "list_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20261030/994b61d0afc69f3f7bfc677e9082458b.jpg",
+        "tiny_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/tiny/20261030/01b7f873e9c4668b8a84783ffac5a1bd.jpg",
+        "small_image": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/small/20261030/56f165c8c1e591335ccfedc70c641747.jpg"
+      },
+      "thumbnail_published_at": "2026-10-30T10:44:06.934036+09:00",
+      "thumbnail_changed_fields": [
+        "list_image",
+        "tiny_image",
+        "small_image"
+      ],
+      "thumbnail_unchanged_fields": [
+        "detail_image",
+        "product_name",
+        "display",
+        "selling",
+        "price",
+        "description",
+        "mobile_description"
+      ]
+    }
+  ]
+}

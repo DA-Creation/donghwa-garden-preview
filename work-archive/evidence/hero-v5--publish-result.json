@@ -1,0 +1,100 @@
+{
+  "at": "2026-10-29T22:01:04.963031+09:00",
+  "files": [
+    {
+      "remote": "/skin5/product-full/hero-review-20261029/media/42-E-poster.jpg",
+      "sha256": "4e12b53a024129c711526e9b45ae178a9d4fa148dbb118a396cb1077e02eaadc",
+      "bytes": 165412
+    },
+    {
+      "remote": "/skin5/product-full/hero-review-20261029/media/42-F-poster.jpg",
+      "sha256": "6c5be964da6892f3201652bbec733a32d20fae199a9f5b222f7d3e17125b4c2a",
+      "bytes": 198619
+    },
+    {
+      "remote": "/skin5/product-full/hero-review-20261029/hero-candidates-mp4-v5.js",
+      "sha256": "1c172dcef7672cc136803925a664acd72ef9d7f4a618262053b84e2f3e1869fe",
+      "bytes": 17500
+    },
+    {
+      "remote": "/skin5/product-full/hero-review-20261029/hero-candidates-42-multicut-v5.js",
+      "sha256": "98927945ef49d2de900af02aabf4041a4a9a7dcd1e4dcaa4439ccb02f9a065cb",
+      "bytes": 17433
+    },
+    {
+      "remote": "/skin5/product-full/hero-review-20261029/manifest.js",
+      "sha256": "d2a355398fe1528fb9a886ee8ee75646499df1a4b488d0e4c5c81184b196d3d2",
+      "bytes": 11451
+    },
+    {
+      "remote": "/skin5/product-full/dg-01.html",
+      "sha256": "cac036fcb4e772254b49c34049a292f112a9375a663f09be7b153e94adc21a8b",
+      "bytes": 319953
+    },
+    {
+      "remote": "/skin5/product-full/dg-02.html",
+      "sha256": "561eb2e72cfe5f3e5f55f36acf3fd696b0436d6b12543c2e6aa03b77d30a33b2",
+      "bytes": 325138
+    },
+    {
+      "remote": "/skin5/product-full/dg-03.html",
+      "sha256": "76846b2e3fd82c3052802aa8beccee55a854b612749f4664755c2f6c235e57d7",
+      "bytes": 317715
+    },
+    {
+      "remote": "/skin5/product-full/dg-04.html",
+      "sha256": "e4c9d76fc880a6da9c7847bacf6eda2d29ceaa3bd0f40d2859572eea27396692",
+      "bytes": 323286
+    },
+    {
+      "remote": "/skin5/product-full/dg-06.html",
+      "sha256": "df5a671f9c2c7c69a801e216bd4114e5aa7bb41578d30a2518cca67450640a9b",
+      "bytes": 322062
+    },
+    {
+      "remote": "/skin5/product-full/dg-09.html",
+      "sha256": "c4f5777e6714ef95fab2658f64eb0ab8693a92654ad6c77bf984eda562952619",
+      "bytes": 323672
+    },
+    {
+      "remote": "/skin5/product-full/dg-10.html",
+      "sha256": "50743a1eb49c18186d51a0e7f9878fa0bcbc47de556f0c0a8019e45a13c08c45",
+      "bytes": 321287
+    },
+    {
+      "remote": "/skin5/product-full/dg-11.html",
+      "sha256": "074c5bf1505000afe47754d05a10285662baa5404e8083744a73f6a0547f983b",
+      "bytes": 322418
+    },
+    {
+      "remote": "/skin5/product-full/dg-12.html",
+      "sha256": "5dcb1c760a159d1e6155eb679267c885a3ef0cd7c833eaab22f33c09cd353977",
+      "bytes": 320986
+    },
+    {
+      "remote": "/skin5/product-full/dg-13.html",
+      "sha256": "f08fc25a67743155a1765b02e3c23ccda035ca9105bfb20f76786961376cf0f9",
+      "bytes": 320971
+    },
+    {
+      "remote": "/skin5/product-full/dg-14.html",
+      "sha256": "b1983324eb0bfc0d5e3ce3c07edde09eaed2da18e70a6b2d8f22eeefeff2a6db",
+      "bytes": 321148
+    },
+    {
+      "remote": "/skin5/product-full/dg-16.html",
+      "sha256": "56f22011f675228477351785ae3880745ab9bb156e36171ac552310ee4cebf1e",
+      "bytes": 322560
+    },
+    {
+      "remote": "/skin5/product-full/full-detail-host.js",
+      "sha256": "24808c544a083e681944c9da44aa8f4c9851411056ffe0b9b610adf82da7149e",
+      "bytes": 2460
+    },
+    {
+      "remote": "/skin5/product/detail.html",
+      "sha256": "f3c509652ba5bbe7c37f3de360d034f6ba275384c375521c7cb12a36bdf06360",
+      "bytes": 115861
+    }
+  ]
+}

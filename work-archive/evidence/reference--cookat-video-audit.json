@@ -1,0 +1,177 @@
+{
+  "checked_at": "2026-10-29",
+  "scope": "Two currently accessible official Cookat product pages. Media creation dates in URLs are2024/2025; audited live page inclusion in2026.",
+  "references": [
+    {
+      "product_id": 1834,
+      "name": "원팩쿠캣 순두부찌개500g",
+      "page": "https://cookatmarket.com/ko/product/detail?product_id=1834",
+      "media": [
+        {
+          "url": "https://crcf.cookatmarket.com/video/product_thumbnail/2025/02/wosi_1738630604_2691/MP4/wosi_1738630604_2691.mp4",
+          "path": "hero-motion-development-20261029/evidence/cookat/product-1834-thumbnail.mp4",
+          "streams": [
+            {
+              "codec_name": "h264",
+              "width": 720,
+              "height": 720,
+              "r_frame_rate": "30000/1001",
+              "avg_frame_rate": "30000/1001",
+              "duration": "13.113100",
+              "nb_frames": "393",
+              "pix_fmt": "yuv420p",
+              "bit_rate": "2002841"
+            },
+            {
+              "codec_name": "aac",
+              "width": null,
+              "height": null,
+              "r_frame_rate": "0/0",
+              "avg_frame_rate": "0/0",
+              "duration": "13.086667",
+              "nb_frames": "615",
+              "pix_fmt": null,
+              "bit_rate": "96000"
+            }
+          ]
+        },
+        {
+          "url": "https://crcf.cookatmarket.com/video/product_detail/2025/01/bano_1737509650_7367/MP4/bano_1737509650_7367.mp4",
+          "path": "hero-motion-development-20261029/evidence/cookat/product-1834-hero.mp4",
+          "streams": [
+            {
+              "codec_name": "h264",
+              "width": 1280,
+              "height": 720,
+              "r_frame_rate": "24000/1001",
+              "avg_frame_rate": "24000/1001",
+              "duration": "5.880875",
+              "nb_frames": "141",
+              "pix_fmt": "yuv420p",
+              "bit_rate": "1983502"
+            },
+            {
+              "codec_name": "aac",
+              "width": null,
+              "height": null,
+              "r_frame_rate": "0/0",
+              "avg_frame_rate": "0/0",
+              "duration": "5.854667",
+              "nb_frames": "276",
+              "pix_fmt": null,
+              "bit_rate": "96000"
+            }
+          ]
+        }
+      ],
+      "visual_observations": [
+        "Detail movie is a sequence of tight locked-camera views: egg placed into visibly boiling soup, spoon stirs, loaded spoon lifts toward viewer.",
+        "Cloudy orange broth and tangible irregular tofu; bubbles appear locally and change shape.",
+        "Editing rhythm comes from2-3short shots; a held spoon ending feels slower. Capture frame rate/speed ramp cannot be proven from renderedclip."
+      ],
+      "montage": "product-1834-hero-frames.jpg"
+    },
+    {
+      "product_id": 2118,
+      "name": "원팩쿠캣 우삼겹 한우대창전골660g",
+      "page": "https://www.cookatmarket.com/ko/product/detail?product_id=2118",
+      "media": [
+        {
+          "url": "https://crcf.cookatmarket.com/video/product_thumbnail/2024/09/papo_1726019374_1785/MP4/papo_1726019374_1785.mp4",
+          "path": "hero-motion-development-20261029/evidence/cookat/product-2118-media-0.mp4",
+          "streams": [
+            {
+              "codec_name": "h264",
+              "width": 720,
+              "height": 720,
+              "r_frame_rate": "30000/1001",
+              "avg_frame_rate": "30000/1001",
+              "duration": "12.979633",
+              "nb_frames": "389",
+              "pix_fmt": "yuv420p",
+              "bit_rate": "1924090"
+            },
+            {
+              "codec_name": "aac",
+              "width": null,
+              "height": null,
+              "r_frame_rate": "0/0",
+              "avg_frame_rate": "0/0",
+              "duration": "12.958667",
+              "nb_frames": "609",
+              "pix_fmt": null,
+              "bit_rate": "96000"
+            }
+          ]
+        },
+        {
+          "url": "https://crcf.cookatmarket.com/video/product_detail/2024/09/famo_1726019269_6892/MP4/famo_1726019269_6892.mp4",
+          "path": "hero-motion-development-20261029/evidence/cookat/product-2118-media-1.mp4",
+          "streams": [
+            {
+              "codec_name": "h264",
+              "width": 1280,
+              "height": 720,
+              "r_frame_rate": "30000/1001",
+              "avg_frame_rate": "30000/1001",
+              "duration": "3.636967",
+              "nb_frames": "109",
+              "pix_fmt": "yuv420p",
+              "bit_rate": "1952789"
+            },
+            {
+              "codec_name": "aac",
+              "width": null,
+              "height": null,
+              "r_frame_rate": "0/0",
+              "avg_frame_rate": "0/0",
+              "duration": "3.614667",
+              "nb_frames": "171",
+              "pix_fmt": null,
+              "bit_rate": "96000"
+            }
+          ]
+        }
+      ],
+      "visual_observations": [
+        "Opening boiling pot at low three-quarter angle then a hard cut to a slightly higher angle and one scoop lift.",
+        "Ingredients remain fixed in identity and location apart from displaced soup/scooped portion.",
+        "3.64second detail loop. No ornamental floating droplets or camera swoop."
+      ],
+      "montage": "product-2118-hero-frames.jpg"
+    }
+  ],
+  "html_playback": {
+    "attributes": [
+      "autoplay",
+      "muted",
+      "loop",
+      "playsinline"
+    ],
+    "thumbnail_preload": "auto",
+    "detail_controls": "absent",
+    "detail_controlslist": "nodownload",
+    "inline_style": "max-width:100%;width:100%;height:auto;"
+  },
+  "script_audit": {
+    "files": "scripts-audit.json",
+    "playbackRate_occurrences": 0,
+    "scope": "PageHTML and4relevant first-partyJS product.js/common.js/html_product.js/scroll_event_product.js; notallsiteJS and notruntime inspection",
+    "behavior": "Play/pause on active slide and visible viewport; no speed override in inspected code."
+  },
+  "conclusions": [
+    "Delivered MP4 frame rates are23.976/29.97fps, not120fps.",
+    "Original camera recordingfps is unknown; cannot claim120fps capture.",
+    "A baked-in speed change is possible but cannot be inferred as exact multiplier from one render.",
+    "Match an actual24or30fps H.264720p loop and shot rhythm, rather than frame-duplicate to120fps.",
+    "ForJjamppong preserve actual dish/tofu form and cloudy broth; do notaddCookat egg or ingredients not in ownproduct."
+  ],
+  "recommended_target": {
+    "encoding": "H.264,yuv420p,faststart MP4",
+    "dimensions": "1280x720",
+    "frame_rate": "24000/1001 to match examined sundubu detail, or30000/1001 ifsource motion isnative30",
+    "duration": "about4–6seconds",
+    "motion": "One coherent boiling action or one connected scoop; briefactioncuts onlywhen independentlycoherent source exists",
+    "playback": "autoplay muted loop playsinline; viewportpause; browserplaybackRate1"
+  }
+}

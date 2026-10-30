@@ -1,0 +1,382 @@
+{
+  "created_at": "2026-10-30T10:32:15.582844+09:00",
+  "selection_scope": "Latest intentionally selected local-preview thumbnails, 15 authorized products; no remote mutation by this manifest creator.",
+  "product_nos": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "keep_unchanged": [
+    38
+  ],
+  "excluded_not_authorized": [
+    30,
+    31
+  ],
+  "selection_policy": "Honor adopted verdicts and current preview bytes. Do not select by newest mtime or use rejected candidates. Preserve existing quality caveats; new publish authorization is not a claim of final photographic realism.",
+  "products": [
+    {
+      "product_no": 32,
+      "name": "안송자 소고기 우거지 된장찌개",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v2/images/product-32.png",
+      "sha256": "6283c2c09e85fd11cb38d8a8152bcc746241c06232f77b9c7aa7f0f4206800d1",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 3069864,
+      "selected_version": "natural-v2",
+      "selection_reason": "Latest selected natural-v2 thumbnail; hash matches currently served local preview.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v2/generation-manifest-v2.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-32.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/957d63c544b7b847e6780f2460abac05.png",
+      "historical_qa_status": "pass",
+      "known_limitations": "",
+      "actual_product_reference_paths": [
+        "thumbnail-generation-20261028/evidence/source-images/32-original-detail-1.jpg"
+      ]
+    },
+    {
+      "product_no": 33,
+      "name": "[동화가든] 육수가 필요 없는 안송자 토속 강된장 원액",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/candidates/product-33-attempt-1.png",
+      "sha256": "42ab46e74ee632f86d96d8509b9ad39159073bca00cdb3911dbda91c4fa65319",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2016625,
+      "selected_version": "natural-v3-sequential",
+      "selection_reason": "v3 attempt 1 explicitly adopted; current preview hash matches adopted verdict and candidate. Actual spoonful and blurred saucepan communicate a cooking concentrate; larger food hierarchy without enlarging the actual portion. Original ingredients and quantity retained.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/evidence/verdict-33.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-33.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/c083622661057d3f1ca575cb69c9c81d.jpg",
+      "historical_qa_status": "adopted_dual_review",
+      "known_limitations": "Highlights remain strong; exact product name still requires adjacent product title.",
+      "actual_product_reference_paths": [
+        "thumbnail-generation-20261028/evidence/root-source-images/33-detail-4.jpeg"
+      ]
+    },
+    {
+      "product_no": 34,
+      "name": "[안송자 빅 딜]  효자두유 연중 최고할인 15팩 1박스 190ml",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v2/images/product-34.png",
+      "sha256": "d7e3360c6a642bb9236bc66f9c4acf51611be64d4fb72ecba4caf4ef51c4cd74",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2044700,
+      "selected_version": "natural-v2",
+      "selection_reason": "Latest selected natural-v2 thumbnail; hash matches currently served local preview.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v2/generation-manifest-v2.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-34.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/ade754548b47188cbe05bce87ba72234.png",
+      "historical_qa_status": "pass",
+      "known_limitations": "",
+      "actual_product_reference_paths": [
+        "product-media-plan-20261021/evidence/original-store/product-40-image-0.jpg",
+        "thumbnail-generation-20261028/evidence/references/wingeat-drinks.png"
+      ]
+    },
+    {
+      "product_no": 35,
+      "name": "[타임특가,무료배송][순.얼.비 set] 순물순두부,얼큰순두부,국산콩비지",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v2/images/product-35.png",
+      "sha256": "f228bd16acc750711f3f98052623c180a2009cc375982c251c24c41b7362f23a",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2576718,
+      "selected_version": "natural-v2",
+      "selection_reason": "Latest selected natural-v2 thumbnail; hash matches currently served local preview. Later v3 attempts 1, 2 and 3 were explicitly rejected; do not deploy them. v2 remains the last selected preview, with existing needs_review quality limitation.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v2/generation-manifest-v2.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-35.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/2a88ad49070815b248b232d711a2c24e.jpg",
+      "historical_qa_status": "needs_review",
+      "known_limitations": "얼큰순두부 부분에 반복적인 작은 두부 입자가 남음. 원본의 계란은 연출이며 동봉 확정 정보가 아님.",
+      "actual_product_reference_paths": [
+        "thumbnail-generation-20261028/evidence/source-images/35-native-big.jpg"
+      ]
+    },
+    {
+      "product_no": 36,
+      "name": "[대용량] 동화가든 순물백 김치 5kg (2.5kg x 2개) [무료배송]",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v2/images/product-36.png",
+      "sha256": "117c87e85af5a51e71024a414d645440671adfc901fb5f81af857befafd65af2",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2546157,
+      "selected_version": "natural-v2",
+      "selection_reason": "Latest selected natural-v2 thumbnail; hash matches currently served local preview.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v2/generation-manifest-v2.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-36.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/3f97c732d9e27cafbb72a1801b608621.png",
+      "historical_qa_status": "pass",
+      "known_limitations": "",
+      "actual_product_reference_paths": [
+        "thumbnail-generation-20261028/evidence/references/products/product-36-original.jpg",
+        "thumbnail-generation-20261028/evidence/references/products/product-40-original.jpg"
+      ]
+    },
+    {
+      "product_no": 37,
+      "name": "안송자 청국장 키트 (육수가 필요 없는 맛집의 비법 양념)",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/candidates/product-37-attempt-1.png",
+      "sha256": "5ee02131896409d26d008484931a9d4a0d2313bcc6d50eb21225589030d5aa87",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2043395,
+      "selected_version": "natural-v3-sequential",
+      "selection_reason": "v3 attempt 1 explicitly adopted; current preview hash matches adopted verdict and candidate. 실제 조리 원본의 재료와 배치를 유지하면서 128px에서도 청국장 찌개의 쓰임이 읽힙니다.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/evidence/verdict-37.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-37.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/c7375ce25214231f2b27d482ce08b766.jpg",
+      "historical_qa_status": "adopted_dual_review",
+      "known_limitations": "브랜드가 제시한 조리 예시이며 양념 2팩 배송 구성 자체를 보여주는 사진은 아닙니다.",
+      "actual_product_reference_paths": [
+        "product-media-plan-20261021/evidence/original-store/product-23-image-4.jpg"
+      ]
+    },
+    {
+      "product_no": 39,
+      "name": "100% 국산콩 안송자 청국장 1kg",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v2/images/product-39.png",
+      "sha256": "a563b7b28269172c03d49e018cda3c448ae929cead28776b64eae6a35355ff64",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2843845,
+      "selected_version": "natural-v2",
+      "selection_reason": "Latest selected natural-v2 thumbnail; hash matches currently served local preview.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v2/generation-manifest-v2.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-39.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/38fe342b07c94b09353005d70be593ab.jpg",
+      "historical_qa_status": "pass",
+      "known_limitations": "",
+      "actual_product_reference_paths": [
+        "product-39-detail-20261028/evidence/source-images/01-board-product.jpeg"
+      ]
+    },
+    {
+      "product_no": 40,
+      "name": "순두부 순물 백김치 1kg (new)",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v2/images/product-40.png",
+      "sha256": "4146766ff46b2e79f0ec938f49481b965f88bc9ed31058547d49f81ab7649b63",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2405298,
+      "selected_version": "natural-v2",
+      "selection_reason": "Latest selected natural-v2 thumbnail; hash matches currently served local preview.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v2/generation-manifest-v2.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-40.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/c64dbd7bfd5a89a991d2432a0eca26fd.jpg",
+      "historical_qa_status": "pass",
+      "known_limitations": "",
+      "actual_product_reference_paths": [
+        "thumbnail-generation-20261028/evidence/references/products/product-40-original.jpg"
+      ]
+    },
+    {
+      "product_no": 41,
+      "name": "국산콩 비지찌개",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v2/images/product-41.png",
+      "sha256": "e605e4480501eb9b68bbbb8ceca19e0bd8c93a453c8dec19f555902e653893d0",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2470005,
+      "selected_version": "natural-v2",
+      "selection_reason": "Latest selected natural-v2 thumbnail; hash matches currently served local preview.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v2/generation-manifest-v2.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-41.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/69f6e5361999e210c8f01e24f042a841.jpg",
+      "historical_qa_status": "pass",
+      "known_limitations": "",
+      "actual_product_reference_paths": [
+        "thumbnail-generation-20261028/evidence/references/products/product-41-original.jpg"
+      ]
+    },
+    {
+      "product_no": 42,
+      "name": "원조짬뽕순두부 세트",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v2/images/product-42.png",
+      "sha256": "9997d90bfeb986dc7e843c5f99e19252b73e87494d877eac36209cf666f37549",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2127743,
+      "selected_version": "natural-v2",
+      "selection_reason": "Latest selected natural-v2 thumbnail; hash matches currently served local preview. v3 has only a prepared job-42-attempt-1.json; no candidate output or adopted verdict. Hero-video/keyframe files are a separate asset class and must not replace this thumbnail implicitly.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v2/generation-manifest-v2.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-42.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/85907b46c1fdc55d4b86db64e583e0da.jpg",
+      "historical_qa_status": "needs_review",
+      "known_limitations": "순두부 미세 입자가 원본보다 선명하고 균일한 부분이 남음.",
+      "actual_product_reference_paths": [
+        "thumbnail-generation-20261028/evidence/source-images/42-original-detail-4.jpg"
+      ]
+    },
+    {
+      "product_no": 43,
+      "name": "명품 순두부 (무첨가)",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v2/images/product-43.png",
+      "sha256": "d9dbb458ef0094a87904b053d7cf61b1d8a1ea8dcea26cfad86b94e455200ada",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2501365,
+      "selected_version": "natural-v2",
+      "selection_reason": "Latest selected natural-v2 thumbnail; hash matches currently served local preview.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v2/generation-manifest-v2.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-43.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/dc38f15124609920969a04815c253846.jpg",
+      "historical_qa_status": "pass",
+      "known_limitations": "",
+      "actual_product_reference_paths": [
+        "thumbnail-generation-20261028/evidence/references/products/product-43-original.jpg"
+      ]
+    },
+    {
+      "product_no": 44,
+      "name": "얼큰 순두부",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v2/images/product-44.png",
+      "sha256": "c385c4a2083f7f31ac08736a3389a0bdde5aa16e3f197a6a73ac97221886c800",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2263361,
+      "selected_version": "natural-v2",
+      "selection_reason": "Latest selected natural-v2 thumbnail; hash matches currently served local preview.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v2/generation-manifest-v2.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-44.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/50acc9f525928eb7223b29889dc46e60.jpg",
+      "historical_qa_status": "needs_review",
+      "known_limitations": "5개 생성 결과를 비교했으나 작은 구슬/사슬 같은 두부 표면이 완전히 해소되지 않음. 원본 구도와 계란 연출을 보존한 5차 결과 선택.",
+      "actual_product_reference_paths": [
+        "thumbnail-generation-20261028/evidence/references/products/product-44-original.jpg"
+      ]
+    },
+    {
+      "product_no": 45,
+      "name": "안송자 청국장찌개",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v2/images/product-45.png",
+      "sha256": "f5864d2dc3511909a0ada0fa0bbb810dfd9c062a94768d198377bbfe31502f2d",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2589911,
+      "selected_version": "natural-v2",
+      "selection_reason": "Latest selected natural-v2 thumbnail; hash matches currently served local preview.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v2/generation-manifest-v2.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-45.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/2eb2ed1d5b904ac0b6fd2ccee5e5ee06.jpg",
+      "historical_qa_status": "pass",
+      "known_limitations": "",
+      "actual_product_reference_paths": [
+        "thumbnail-generation-20261028/evidence/source-images/45-native-big.jpg"
+      ]
+    },
+    {
+      "product_no": 46,
+      "name": "[5+1+무료배송] 국산콩 비지찌개",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v2/images/product-46.png",
+      "sha256": "b512da01149abb87d536330443ca221a578aace239ce0eb4f25e2270f7f0da4f",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2324431,
+      "selected_version": "natural-v2",
+      "selection_reason": "Latest selected natural-v2 thumbnail; hash matches currently served local preview.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v2/generation-manifest-v2.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-46.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/497441058d9aec4db1dbef3c4e1e40dd.jpg",
+      "historical_qa_status": "pass",
+      "known_limitations": "",
+      "actual_product_reference_paths": [
+        "thumbnail-generation-20261028/evidence/references/products/product-46-original.jpg"
+      ]
+    },
+    {
+      "product_no": 47,
+      "name": "된장 고추지",
+      "source_path": "thumbnail-generation-20261028/revision-natural-v2/images/product-47.png",
+      "sha256": "a19fda0654167ceb7bf3f65cc105102f4c46e8f8e4db6ac9ae5bacc91bd3b1f5",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2702957,
+      "selected_version": "natural-v2",
+      "selection_reason": "Latest selected natural-v2 thumbnail; hash matches currently served local preview.",
+      "selection_evidence_path": "thumbnail-generation-20261028/revision-natural-v2/generation-manifest-v2.json",
+      "local_preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-47.png",
+      "local_preview_sha256_matches": true,
+      "original_thumbnail_url": "https://ecimg.cafe24img.com/pg2944b10854126078/dacreation/web/product/medium/20260826/5477891b6c88da4fbeccb9d917fd25e7.jpg",
+      "historical_qa_status": "pass",
+      "known_limitations": "",
+      "actual_product_reference_paths": [
+        "thumbnail-generation-20261028/evidence/source-images/47-native-big.jpg"
+      ]
+    }
+  ],
+  "summary": {
+    "natural_v3_adopted": [
+      33,
+      37
+    ],
+    "natural_v2_retained": [
+      32,
+      34,
+      35,
+      36,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "historical_needs_review": [
+      35,
+      42,
+      44
+    ],
+    "rejected_candidates_excluded": [
+      "revision-natural-v3-sequential/candidates/product-35-attempt-1.png",
+      "revision-natural-v3-sequential/candidates/product-35-attempt-2.png",
+      "revision-natural-v3-sequential/candidates/product-35-attempt-3.png"
+    ],
+    "42_v3_status": "Prepared prompt/job only. No output/adoption evidence found; current preview remains v2."
+  },
+  "visual_evidence": {
+    "selected_contactsheet": "thumbnail-publish-20261030/selection-contactsheet.jpg",
+    "actual_reference_contactsheet": "thumbnail-publish-20261030/actual-source-contactsheet.jpg"
+  },
+  "visual_review": {
+    "method": "Viewed all 15 selected thumbnails in a 320px-cell contact sheet and viewed their actual product source reference contact sheet. Read v3 adopted verdicts for33/37 and v3 rejection decisions for35. SHA-256 comparison verifies selection integrity; this is not a new generation quality approval.",
+    "reviewer": "icloud_update_audit",
+    "observations": [
+      "33 and37 match the explicitly adopted v3 candidates.",
+      "35 remains the three-panel meal collage; none of the rejected v3 composite attempts is selected.",
+      "42 retains the square orange-broth/brass-bowl/spoon thumbnail matching v2; no hero video frame substituted.",
+      "35,42,44 still have known repetitive tofu texture concerns recorded in historical QA.",
+      "Other selected images visually preserve the intended product type and original documented dish/serving presentation.",
+      "Source37 is a long detail-page image; prior adopted verdict provides the recorded full-resolution comparison."
+    ],
+    "remote_changes_performed": false
+  }
+}

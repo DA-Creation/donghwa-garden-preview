@@ -1,0 +1,419 @@
+{
+  "verified_at": "2026-10-28T16:33:51.474848+09:00",
+  "scope": "Local natural-v2 review preview only. No Cafe24/FTP changes.",
+  "preview_urls": {
+    "desktop": "http://127.0.0.1:8940/skin-skin5/product/list.html?cate_no=42",
+    "mobile": "http://127.0.0.1:8940/mobile.html"
+  },
+  "generated_product_ids": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "generated_image_count": 16,
+  "held_product_ids": [
+    30,
+    31
+  ],
+  "hold_behavior": "Original no-image fallbacks retained; product 31 COMING SOON retained.",
+  "visual_quality_summary": {
+    "pass": 12,
+    "pass_with_limitations": 1,
+    "needs_review": 3,
+    "needs_review_ids": [
+      35,
+      42,
+      44
+    ],
+    "qualified_pass_ids": [
+      38
+    ]
+  },
+  "visual_quality_note": "Naturalness is subjective. Repeated fine curd texture and oversharpening remain in 35,42,44; card-size rendering makes it less prominent but does not resolve it. These are review candidates, not final texture approval.",
+  "desktop_checks": {
+    "all_16_unique_generated_images_loaded": true,
+    "natural_dimensions": [
+      1254,
+      1254
+    ],
+    "fallback_30_31_loaded": true,
+    "console_errors": [],
+    "categories_visually_checked": [
+      "popular",
+      "soup",
+      "side",
+      "soy",
+      "gift"
+    ],
+    "dom_evidence": "thumbnail-generation-20261028/preview/qa-v2-dom-desktop.json"
+  },
+  "mobile_checks": {
+    "method": "Actual Chrome rendered 390x844 iframe from mobile.html; all 16 unique generated images observed while scrolling soup, side and soy category grids. Desktop DOM checks verify source URLs; no cross-frame DOM load assertion is made.",
+    "viewport": [
+      390,
+      844
+    ],
+    "all_16_unique_generated_images_visually_present": true,
+    "console_errors": [],
+    "categories_visually_checked": [
+      "soup",
+      "side",
+      "soy"
+    ],
+    "gift_image_visible_in_soy": true
+  },
+  "product_34_crop": {
+    "old_50_80_override_removed": true,
+    "square_glass_rim_and_base_visible_desktop_and_mobile": true
+  },
+  "product_39_link": "http://127.0.0.1:8939/skin-skin5/product-full/dg-08.html?product_no=39",
+  "product_39_link_verification": "Preserved source HTML and visible mobile accessibility link verified; not re-clicked because no change.",
+  "unchanged_checks": {
+    "index.html": true,
+    "mobile.html": true,
+    "verification.json": true
+  },
+  "code_change": "Removed only product-34-specific object-position assignment from assets/thumbnail-preview.js.",
+  "image_files": [
+    {
+      "product_no": 32,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-32.png",
+      "sha256": "6283c2c09e85fd11cb38d8a8152bcc746241c06232f77b9c7aa7f0f4206800d1",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 33,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-33.png",
+      "sha256": "1a9291e7bee0ff2bb6e2763c31036234d627ac83daafae039574294816a908b9",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 34,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-34.png",
+      "sha256": "d7e3360c6a642bb9236bc66f9c4acf51611be64d4fb72ecba4caf4ef51c4cd74",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 35,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-35.png",
+      "sha256": "f228bd16acc750711f3f98052623c180a2009cc375982c251c24c41b7362f23a",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 36,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-36.png",
+      "sha256": "117c87e85af5a51e71024a414d645440671adfc901fb5f81af857befafd65af2",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 37,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-37.png",
+      "sha256": "ceffaa3383a03e6f1cb68c46e95c41b77b0d21f58fb15638993a8cc4021d3f95",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 38,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-38.png",
+      "sha256": "515795335dc056628b7fc1d92d06b9fe888b61c59db5e44cee1762201bc2e2a8",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 39,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-39.png",
+      "sha256": "a563b7b28269172c03d49e018cda3c448ae929cead28776b64eae6a35355ff64",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 40,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-40.png",
+      "sha256": "4146766ff46b2e79f0ec938f49481b965f88bc9ed31058547d49f81ab7649b63",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 41,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-41.png",
+      "sha256": "e605e4480501eb9b68bbbb8ceca19e0bd8c93a453c8dec19f555902e653893d0",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 42,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-42.png",
+      "sha256": "9997d90bfeb986dc7e843c5f99e19252b73e87494d877eac36209cf666f37549",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 43,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-43.png",
+      "sha256": "d9dbb458ef0094a87904b053d7cf61b1d8a1ea8dcea26cfad86b94e455200ada",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 44,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-44.png",
+      "sha256": "c385c4a2083f7f31ac08736a3389a0bdde5aa16e3f197a6a73ac97221886c800",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 45,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-45.png",
+      "sha256": "f5864d2dc3511909a0ada0fa0bbb810dfd9c062a94768d198377bbfe31502f2d",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 46,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-46.png",
+      "sha256": "b512da01149abb87d536330443ca221a578aace239ce0eb4f25e2270f7f0da4f",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "product_no": 47,
+      "preview_path": "thumbnail-generation-20261028/preview/thumbnails/product-47.png",
+      "sha256": "a19fda0654167ceb7bf3f65cc105102f4c46e8f8e4db6ac9ae5bacc91bd3b1f5",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "thumbnail-generation-20261028/preview/qa-v2-desktop-gift.png",
+      "dimensions": [
+        65536,
+        4292542531
+      ]
+    },
+    {
+      "path": "thumbnail-generation-20261028/preview/qa-v2-desktop-popular.png",
+      "dimensions": [
+        65536,
+        4292542531
+      ]
+    },
+    {
+      "path": "thumbnail-generation-20261028/preview/qa-v2-desktop-side.png",
+      "dimensions": [
+        65536,
+        4292542531
+      ]
+    },
+    {
+      "path": "thumbnail-generation-20261028/preview/qa-v2-desktop-soup.png",
+      "dimensions": [
+        65536,
+        4292542531
+      ]
+    },
+    {
+      "path": "thumbnail-generation-20261028/preview/qa-v2-desktop-soy.png",
+      "dimensions": [
+        65536,
+        4292542531
+      ]
+    },
+    {
+      "path": "thumbnail-generation-20261028/preview/qa-v2-mobile-side.png",
+      "dimensions": [
+        65536,
+        4293001768
+      ]
+    },
+    {
+      "path": "thumbnail-generation-20261028/preview/qa-v2-mobile-soup-core.png",
+      "dimensions": [
+        65536,
+        4293001768
+      ]
+    },
+    {
+      "path": "thumbnail-generation-20261028/preview/qa-v2-mobile-soup-lower.png",
+      "dimensions": [
+        65536,
+        4293001768
+      ]
+    },
+    {
+      "path": "thumbnail-generation-20261028/preview/qa-v2-mobile-soup-middle.png",
+      "dimensions": [
+        65536,
+        4293001768
+      ]
+    },
+    {
+      "path": "thumbnail-generation-20261028/preview/qa-v2-mobile-soup-upper.png",
+      "dimensions": [
+        65536,
+        4293001768
+      ]
+    },
+    {
+      "path": "thumbnail-generation-20261028/preview/qa-v2-mobile-soy-gift.png",
+      "dimensions": [
+        65536,
+        4293001768
+      ]
+    }
+  ],
+  "independent_visual_reviews": [
+    {
+      "product_no": 32,
+      "sha256": "6283c2c09e85fd11cb38d8a8152bcc746241c06232f77b9c7aa7f0f4206800d1",
+      "result": "pass",
+      "notes": "Original large black pan, foamy broth and scallion arrangement retained; repeated spoon/steam staging removed. Foam verified in original detail photo."
+    },
+    {
+      "product_no": 33,
+      "sha256": "1a9291e7bee0ff2bb6e2763c31036234d627ac83daafae039574294816a908b9",
+      "result": "pass",
+      "notes": "Small paste portion and actual leaf visible in original detail-5 retained; overflowing bowl staging removed. Wet paste sheen remains plausible."
+    },
+    {
+      "product_no": 34,
+      "sha256": "d7e3360c6a642bb9236bc66f9c4acf51611be64d4fb72ecba4caf4ef51c4cd74",
+      "result": "pass",
+      "notes": "Gray-brown soy milk in one still glass. Rim and base fully inside square. No generated package text or excessive pouring swirl."
+    },
+    {
+      "product_no": 35,
+      "sha256": "f228bd16acc750711f3f98052623c180a2009cc375982c251c24c41b7362f23a",
+      "result": "needs_review",
+      "notes": "Correction 2 restores original three-panel composition and egg styling. Red curd still has repeated bead/brain-like clusters, and upper white curd has linked particles. Food types remain consistent; natural texture objective not fully met."
+    },
+    {
+      "product_no": 36,
+      "sha256": "117c87e85af5a51e71024a414d645440671adfc901fb5f81af857befafd65af2",
+      "result": "pass",
+      "notes": "Original white kimchi arrangement retained; pinpoint gloss reduced. Similar composition to 40 is nonblocking because these are quantity variants."
+    },
+    {
+      "product_no": 37,
+      "sha256": "ceffaa3383a03e6f1cb68c46e95c41b77b0d21f58fb15638993a8cc4021d3f95",
+      "result": "pass",
+      "notes": "Two transparent vacuum-packed portions retained without false package text. Flattened paste texture closer to original."
+    },
+    {
+      "product_no": 38,
+      "sha256": "515795335dc056628b7fc1d92d06b9fe888b61c59db5e44cee1762201bc2e2a8",
+      "result": "pass_with_limitations",
+      "notes": "Seven original dishes and glass retained. Readable false package text now hidden. Rice and bibimbap texture remains sharper than source. Registered meal styling does not confirm gift contents."
+    },
+    {
+      "product_no": 39,
+      "sha256": "a563b7b28269172c03d49e018cda3c448ae929cead28776b64eae6a35355ff64",
+      "result": "pass",
+      "notes": "Original board, leaf and two bricks retained. Unrequested scattered soybeans removed; no apparent change of food type."
+    },
+    {
+      "product_no": 40,
+      "sha256": "4146766ff46b2e79f0ec938f49481b965f88bc9ed31058547d49f81ab7649b63",
+      "result": "pass",
+      "notes": "White kimchi bowl close to original. Chopsticks removed and pinpoint gloss reduced. Similar composition to 36."
+    },
+    {
+      "product_no": 41,
+      "sha256": "e605e4480501eb9b68bbbb8ceca19e0bd8c93a453c8dec19f555902e653893d0",
+      "result": "pass",
+      "notes": "Original oval plate and tray restored. Fine biji/cabbage texture calmer; black pot and floating spoon motif removed."
+    },
+    {
+      "product_no": 42,
+      "sha256": "9997d90bfeb986dc7e843c5f99e19252b73e87494d877eac36209cf666f37549",
+      "result": "needs_review",
+      "notes": "Correction 2 retains original brass bowl and seafood spoon. Uniform fine curd particles are still oversharpened on and below spoon, with faint steam. Food types remain consistent; natural texture objective not fully met."
+    },
+    {
+      "product_no": 43,
+      "sha256": "d9dbb458ef0094a87904b053d7cf61b1d8a1ea8dcea26cfad86b94e455200ada",
+      "result": "pass",
+      "notes": "Plain soft curd in white bowl; floating spoon removed and texture less overdrawn. No obvious invented food."
+    },
+    {
+      "product_no": 44,
+      "sha256": "c385c4a2083f7f31ac08736a3389a0bdde5aa16e3f197a6a73ac97221886c800",
+      "result": "needs_review",
+      "notes": "Attempt 5 selected. Original octagonal plate, utensils, small ingredient bowls and egg styling retained. Smaller food framing reduces card-scale impact but bead-chain curd texture remains. Egg is presentation styling, not confirmed kit contents."
+    },
+    {
+      "product_no": 45,
+      "sha256": "f5864d2dc3511909a0ada0fa0bbb810dfd9c062a94768d198377bbfe31502f2d",
+      "result": "pass",
+      "notes": "Original ivory bowl, tofu, zucchini, mushrooms and scallion/chili retained. Black pot, floating spoon and steam motif removed."
+    },
+    {
+      "product_no": 46,
+      "sha256": "b512da01149abb87d536330443ca221a578aace239ce0eb4f25e2270f7f0da4f",
+      "result": "pass",
+      "notes": "Original oval plate and tray restored with one low left spoon. Texture and gloss reduced; distinct from common v1 upper-right spoon motif."
+    },
+    {
+      "product_no": 47,
+      "sha256": "a19fda0654167ceb7bf3f65cc105102f4c46e8f8e4db6ac9ae5bacc91bd3b1f5",
+      "result": "pass",
+      "notes": "Original plate/tray and pepper arrangement restored; chopsticks removed. Sauce gloss remains as in real source, but is lower than v1."
+    }
+  ],
+  "source_styling_limits": [
+    "35 and 44 preserve original egg plating; egg inclusion in shipment is not asserted.",
+    "38 preserves the registered styled meal; exact gift set contents and counts remain unconfirmed.",
+    "36/40 and 41/46 are quantity variants and intentionally share similar food compositions."
+  ],
+  "v1_verification_preserved": "thumbnail-generation-20261028/preview/verification.json"
+}

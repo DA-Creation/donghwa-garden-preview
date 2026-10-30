@@ -1,0 +1,40 @@
+{
+  "id": 34,
+  "status": "accepted",
+  "final_path": "hero-revision-20261029/images/product-34-v2.png",
+  "prompt_path": "hero-revision-20261029/prompts/product-34-attempt-1.txt",
+  "source_references": [
+    {
+      "path": "product-media-plan-20261021/evidence/original-store/product-40-image-0.jpg",
+      "url": "https://www.donghwagarden.com/product/detail.html?product_no=40"
+    },
+    {
+      "path": "product-media-plan-20261021/evidence/original-store/product-40-image-1.png",
+      "url": "https://www.donghwagarden.com/product/detail.html?product_no=40"
+    }
+  ],
+  "observations": [
+    "Opaque gray-beige liquid matches actual glass color reference; no white dairy or chocolate color.",
+    "Glass is partially filled rather than brim-full; no stream, concentric waves or overflow risk.",
+    "Restrained everyday reflections and irregular small edge bubbles replace synthetic pouring spectacle."
+  ],
+  "limitations": [
+    "AI-generated concept start frame, not actual photography.",
+    "Video temporal realism is not assessed.",
+    "Actual liquid color reference is limited to a small glass area in product40-image0; exact shade is not independently established."
+  ],
+  "shot_note": "Quiet glass closeup; slight camera approach only, no pouring or looped ripple gimmick.",
+  "used_reference_paths": [
+    "product-media-plan-20261021/evidence/original-store/product-40-image-0.jpg",
+    "hero-revision-20261029/images/product-42-v2.png"
+  ],
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "independent_review": {
+    "reviewer": "video_audit_c",
+    "verdict": "PASS",
+    "scope": "actual source and generated still comparison, not video"
+  }
+}
