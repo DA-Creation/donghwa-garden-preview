@@ -1,0 +1,27 @@
+{
+  "result": "pass",
+  "thumbnail_http_routes": [
+    "market",
+    "mobile",
+    "manifest",
+    "price-sort"
+  ],
+  "local_css_js_200_count": 34,
+  "selected_thumbnail_count": 15,
+  "hero_pages_metadata_reference_200_count": 8,
+  "included_current_C_200_count": 14,
+  "F_assembly": {
+    "sha256": "b417a686676270fd901c796fd8ac336c8111f77002549e1b25315b3e759ec05c",
+    "bytes": 3096693,
+    "frames": 141,
+    "fps": "24000/1001",
+    "duration_seconds": 5.880875
+  },
+  "qa_helpers": "analyze_video --help plus MP4 timing parser executed",
+  "limits": [
+    "HTTP/source smoke test; no new visual redesign/browser rendering claim",
+    "Existing E master supplied locally as already-versioned public media",
+    "No paid generation, API publication, or remote mutation"
+  ],
+  "clone_repository_media_reuse": "Passed: existing public E MP4 copied from cloned repository path to preview/edit aliases with0 remote downloads."
+}

@@ -1,0 +1,985 @@
+{
+  "version": 2,
+  "scope": "All local-only work media including thumbnails, backups, hero stills/clips and screenshots; no blobs belong in GitHub work-archive.",
+  "project_root_name": "동화가든 홈페이지 및 상세페이지 디자인 시스템 구축",
+  "base_project_path": ".",
+  "local_directory_hint": "thumbnail-publish-20261030/local-only-assets",
+  "local_directory_relative_to_archive": "../local-only-assets",
+  "assets": [
+    {
+      "local_file": "video-source--shot01-place-v5.mp4",
+      "sha256": "5d0ab3d35efe5e82ad3938bf685e1676beab18eb887a29905db0073a54ce6ebd",
+      "bytes": 2026657,
+      "restore_paths": [
+        "hero-motion-development-20261029/outputs/shot01-place-v5.mp4"
+      ],
+      "source_project_relative_paths": [
+        "hero-motion-development-20261029/outputs/shot01-place-v5.mp4"
+      ]
+    },
+    {
+      "local_file": "keyframe--shot01-place-v5.png",
+      "sha256": "952b3df3639d3f4ef41754bc8683483fae8d389203839c49a5294911436acd1f",
+      "bytes": 2423324,
+      "restore_paths": [
+        "hero-motion-development-20261029/keyframes/shot01-place-v5.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-motion-development-20261029/keyframes/shot01-place-v5.png"
+      ]
+    },
+    {
+      "local_file": "video-source--shot02-stir-v5.mp4",
+      "sha256": "bb9da77da57ba01c8feb94ab5c72f3e73d08b7b56506ad4fddc5ed40403964fe",
+      "bytes": 2163379,
+      "restore_paths": [
+        "hero-motion-development-20261029/outputs/shot02-stir-v5.mp4"
+      ],
+      "source_project_relative_paths": [
+        "hero-motion-development-20261029/outputs/shot02-stir-v5.mp4"
+      ]
+    },
+    {
+      "local_file": "keyframe--shot02-stir-v5.png",
+      "sha256": "f122390d3bce86de8b74977718eafc65063d67a11ddc545be646ceef6c80faf5",
+      "bytes": 2471811,
+      "restore_paths": [
+        "hero-motion-development-20261029/keyframes/shot02-stir-v5.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-motion-development-20261029/keyframes/shot02-stir-v5.png"
+      ]
+    },
+    {
+      "local_file": "video-source--shot03-lift-v5.mp4",
+      "sha256": "5f4f6ce5762da37983f48c98041576d85756aef8052256650374d8404b36102d",
+      "bytes": 1967927,
+      "restore_paths": [
+        "hero-motion-development-20261029/outputs/shot03-lift-v5.mp4"
+      ],
+      "source_project_relative_paths": [
+        "hero-motion-development-20261029/outputs/shot03-lift-v5.mp4"
+      ]
+    },
+    {
+      "local_file": "keyframe--shot03-lift-v5.png",
+      "sha256": "810d9e1c6ba00c243b58bf16f69bcb3290cf2984674c6830cf4c4d0939f96a21",
+      "bytes": 2149794,
+      "restore_paths": [
+        "hero-motion-development-20261029/keyframes/shot03-lift-v5.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-motion-development-20261029/keyframes/shot03-lift-v5.png"
+      ]
+    },
+    {
+      "local_file": "reference--donghwa-42-actual-product.jpg",
+      "sha256": "9f6c6eeb0f8bf5a2de773f1d5cd3790faffebe8db4ba31b9908d61d548d937db",
+      "bytes": 666517,
+      "restore_paths": [
+        "hero-generation-20261028/evidence/product-42-actual-reference.jpg",
+        "jjamppong-hero-multicut-20261029/reference/donghwa-42-actual-product.jpg"
+      ],
+      "source_project_relative_paths": [
+        "jjamppong-hero-multicut-20261029/reference/donghwa-42-actual-product.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-32.png",
+      "sha256": "6283c2c09e85fd11cb38d8a8152bcc746241c06232f77b9c7aa7f0f4206800d1",
+      "bytes": 3069864,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-32.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-32.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-32.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-32.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-32.jpg",
+      "sha256": "d4053957dedbbe636a8e8eaf727f8a8bfe88314a378638e85a3da4f08d6c7279",
+      "bytes": 867281,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-32-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-32-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-33.png",
+      "sha256": "42ab46e74ee632f86d96d8509b9ad39159073bca00cdb3911dbda91c4fa65319",
+      "bytes": 2016625,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-33.png",
+        "thumbnail-generation-20261028/revision-natural-v3-sequential/candidates/product-33-attempt-1.png",
+        "thumbnail-generation-20261028/revision-natural-v3-sequential/images/product-33.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-33.png",
+        "thumbnail-generation-20261028/revision-natural-v3-sequential/candidates/product-33-attempt-1.png",
+        "thumbnail-generation-20261028/revision-natural-v3-sequential/images/product-33.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-33.jpg",
+      "sha256": "e8bf01e85b83e374498425e360f74633d0c5e2c3d1bcdccb2f0b5b6cbd2f4dad",
+      "bytes": 451179,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-33-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-33-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-34.png",
+      "sha256": "d7e3360c6a642bb9236bc66f9c4acf51611be64d4fb72ecba4caf4ef51c4cd74",
+      "bytes": 2044700,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-34.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-34.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-34.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-34.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-34.jpg",
+      "sha256": "a8b5e6d6421001c781915b985d4bb5f855c921b8e7639a96f68d70413c35db47",
+      "bytes": 370030,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-34-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-34-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-35.png",
+      "sha256": "f228bd16acc750711f3f98052623c180a2009cc375982c251c24c41b7362f23a",
+      "bytes": 2576718,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-35.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-35.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-35.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-35.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-35.jpg",
+      "sha256": "805eaefee3a365db1c876feb8a4660c969a520f974706b87da80903e3c3fdb16",
+      "bytes": 695040,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-35-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-35-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-36.png",
+      "sha256": "117c87e85af5a51e71024a414d645440671adfc901fb5f81af857befafd65af2",
+      "bytes": 2546157,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-36.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-36.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-36.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-36.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-36.jpg",
+      "sha256": "a939e90a803e73c7bac2f32b2ea327b23e844539f2ad23506366a5557a23026b",
+      "bytes": 690986,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-36-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-36-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-37.png",
+      "sha256": "5ee02131896409d26d008484931a9d4a0d2313bcc6d50eb21225589030d5aa87",
+      "bytes": 2043395,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-37.png",
+        "thumbnail-generation-20261028/revision-natural-v3-sequential/candidates/product-37-attempt-1.png",
+        "thumbnail-generation-20261028/revision-natural-v3-sequential/images/product-37.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-37.png",
+        "thumbnail-generation-20261028/revision-natural-v3-sequential/candidates/product-37-attempt-1.png",
+        "thumbnail-generation-20261028/revision-natural-v3-sequential/images/product-37.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-37.jpg",
+      "sha256": "f3d484fe00b3e5effcd1b03fd9c3fe98fdb9a568144cf9802d643bad69e88718",
+      "bytes": 510333,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-37-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-37-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-39.png",
+      "sha256": "a563b7b28269172c03d49e018cda3c448ae929cead28776b64eae6a35355ff64",
+      "bytes": 2843845,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-39.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-39.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-39.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-39.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-39.jpg",
+      "sha256": "62b50aa6a6685330936b3282a86200c512290552e781d1308bd409ad274f30e3",
+      "bytes": 790943,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-39-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-39-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-40.png",
+      "sha256": "4146766ff46b2e79f0ec938f49481b965f88bc9ed31058547d49f81ab7649b63",
+      "bytes": 2405298,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-40.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-40.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-40.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-40.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-40.jpg",
+      "sha256": "99b9cb4ff3114be27b37785cde1445f3279287f6972bf418b6d131bc1207d93b",
+      "bytes": 635174,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-40-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-40-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-41.png",
+      "sha256": "e605e4480501eb9b68bbbb8ceca19e0bd8c93a453c8dec19f555902e653893d0",
+      "bytes": 2470005,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-41.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-41.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-41.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-41.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-41.jpg",
+      "sha256": "a39110ab5273d7bd3b183577838ca9a2abf948e844af9d87f961729d566fc262",
+      "bytes": 598412,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-41-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-41-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-42.png",
+      "sha256": "9997d90bfeb986dc7e843c5f99e19252b73e87494d877eac36209cf666f37549",
+      "bytes": 2127743,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-42.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-42.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-42.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-42.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-42.jpg",
+      "sha256": "af82f65d5117a114c331adc481a6388284044750947a8859270dd2ec59f7b0a1",
+      "bytes": 522458,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-42-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-42-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-43.png",
+      "sha256": "d9dbb458ef0094a87904b053d7cf61b1d8a1ea8dcea26cfad86b94e455200ada",
+      "bytes": 2501365,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-43.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-43.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-43.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-43.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-43.jpg",
+      "sha256": "307841cf9b79164269ac07204c41aaa3b5c3ab20caeb9d239def6bb3fb73634f",
+      "bytes": 624371,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-43-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-43-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-44.png",
+      "sha256": "c385c4a2083f7f31ac08736a3389a0bdde5aa16e3f197a6a73ac97221886c800",
+      "bytes": 2263361,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-44.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-44.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-44.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-44.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-44.jpg",
+      "sha256": "a0fd00bf81268c268bae395025b3c49c42d26950569730680f2df8559b8186f2",
+      "bytes": 524904,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-44-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-44-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-45.png",
+      "sha256": "f5864d2dc3511909a0ada0fa0bbb810dfd9c062a94768d198377bbfe31502f2d",
+      "bytes": 2589911,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-45.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-45.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-45.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-45.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-45.jpg",
+      "sha256": "e31280da379d1c4299b9203e6f22d6badb4c2615893446ae807c044f5b5b9799",
+      "bytes": 672415,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-45-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-45-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-46.png",
+      "sha256": "b512da01149abb87d536330443ca221a578aace239ce0eb4f25e2270f7f0da4f",
+      "bytes": 2324431,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-46.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-46.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-46.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-46.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-46.jpg",
+      "sha256": "265b6e744a17f7a71d61cc71ab2841f6bbfa02378c558959ffc10f36f2f9331a",
+      "bytes": 533562,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-46-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-46-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-source-47.png",
+      "sha256": "a19fda0654167ceb7bf3f65cc105102f4c46e8f8e4db6ac9ae5bacc91bd3b1f5",
+      "bytes": 2702957,
+      "restore_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-47.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-47.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-generation-20261028/preview/thumbnails/product-47.png",
+        "thumbnail-generation-20261028/revision-natural-v2/images/product-47.png"
+      ]
+    },
+    {
+      "local_file": "thumbnail-upload-47.jpg",
+      "sha256": "975540d946699a02a1eb4aca4e69bb5b6f15a9c304ec413538c2f15edd354e3e",
+      "bytes": 748540,
+      "restore_paths": [
+        "thumbnail-publish-20261030/uploads/product-47-latest.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/uploads/product-47-latest.jpg"
+      ]
+    },
+    {
+      "local_file": "original-4ab2b067f87a.png",
+      "sha256": "4ab2b067f87ae37e4c8ed3911671fdaebce7c6f5011b3373de08eadc65370b12",
+      "bytes": 723546,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/32/detail_image.png",
+        "thumbnail-publish-20261030/backups/originals/32/list_image.png",
+        "thumbnail-publish-20261030/backups/originals/32/small_image.png",
+        "thumbnail-publish-20261030/backups/originals/32/tiny_image.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/32/detail_image.png",
+        "thumbnail-publish-20261030/backups/originals/32/list_image.png",
+        "thumbnail-publish-20261030/backups/originals/32/small_image.png",
+        "thumbnail-publish-20261030/backups/originals/32/tiny_image.png"
+      ]
+    },
+    {
+      "local_file": "original-e09365bc3cae.jpg",
+      "sha256": "e09365bc3cae356abd5da16767af7ab3555415e08f08cfbd7871d3f84cb8852d",
+      "bytes": 167493,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/33/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/33/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/33/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/33/tiny_image.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/33/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/33/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/33/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/33/tiny_image.jpg"
+      ]
+    },
+    {
+      "local_file": "original-885c327bbf61.png",
+      "sha256": "885c327bbf61312fc1a88607a20a7b0f9cf9da3f81ef342c6f3d988eea665a72",
+      "bytes": 937562,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/34/detail_image.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/34/detail_image.png"
+      ]
+    },
+    {
+      "local_file": "original-a509efcd31d4.png",
+      "sha256": "a509efcd31d4ce0a27ad260bf82b379bc06e9a8e1c566d8e993028691b9343ea",
+      "bytes": 937598,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/34/list_image.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/34/list_image.png"
+      ]
+    },
+    {
+      "local_file": "original-1b031a764a98.png",
+      "sha256": "1b031a764a984a3b39e08dcd1b974ed36a4e93e878f6bdfdacad024310f15f22",
+      "bytes": 937598,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/34/tiny_image.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/34/tiny_image.png"
+      ]
+    },
+    {
+      "local_file": "original-71fe6bafa23e.png",
+      "sha256": "71fe6bafa23e3ae6e971191830216d8883587474c9f617ce47b3a7b73620bceb",
+      "bytes": 937598,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/34/small_image.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/34/small_image.png"
+      ]
+    },
+    {
+      "local_file": "original-8855cf144a95.jpg",
+      "sha256": "8855cf144a95e5713e0da44017d28a5937dd8ec78792c50ceaebc0e1c900a0a0",
+      "bytes": 232204,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/35/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/35/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/35/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/35/tiny_image.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/35/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/35/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/35/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/35/tiny_image.jpg"
+      ]
+    },
+    {
+      "local_file": "original-fd896c4e7ffd.png",
+      "sha256": "fd896c4e7ffde04b07918ec571382535799801611dc2e6522bea7b2cdce90123",
+      "bytes": 522228,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/36/detail_image.png",
+        "thumbnail-publish-20261030/backups/originals/36/list_image.png",
+        "thumbnail-publish-20261030/backups/originals/36/small_image.png",
+        "thumbnail-publish-20261030/backups/originals/36/tiny_image.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/36/detail_image.png",
+        "thumbnail-publish-20261030/backups/originals/36/list_image.png",
+        "thumbnail-publish-20261030/backups/originals/36/small_image.png",
+        "thumbnail-publish-20261030/backups/originals/36/tiny_image.png"
+      ]
+    },
+    {
+      "local_file": "original-631a4c243134.jpg",
+      "sha256": "631a4c243134fdbf57866e3878bfc412ffc070d967e345fff12785fb23091593",
+      "bytes": 70846,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/37/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/37/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/37/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/37/tiny_image.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/37/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/37/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/37/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/37/tiny_image.jpg"
+      ]
+    },
+    {
+      "local_file": "original-2a63e71e9637.png",
+      "sha256": "2a63e71e963739f0ec82a4b4a7512810122bbaa066c7530a75adc6c4e5603be9",
+      "bytes": 1600208,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/38/detail_image.png",
+        "thumbnail-publish-20261030/backups/originals/38/list_image.png",
+        "thumbnail-publish-20261030/backups/originals/38/small_image.png",
+        "thumbnail-publish-20261030/backups/originals/38/tiny_image.png"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/38/detail_image.png",
+        "thumbnail-publish-20261030/backups/originals/38/list_image.png",
+        "thumbnail-publish-20261030/backups/originals/38/small_image.png",
+        "thumbnail-publish-20261030/backups/originals/38/tiny_image.png"
+      ]
+    },
+    {
+      "local_file": "original-033bd65da5e0.jpg",
+      "sha256": "033bd65da5e06e705e5d1d0e154c7b7b686024d43325f179bb3ce045802ef1be",
+      "bytes": 230201,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/39/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/39/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/39/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/39/tiny_image.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/39/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/39/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/39/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/39/tiny_image.jpg"
+      ]
+    },
+    {
+      "local_file": "original-cb24ee0c2b7b.jpg",
+      "sha256": "cb24ee0c2b7bc257209e5b1ce24a00032ac7b21cc0dd314b1f564f301f80f828",
+      "bytes": 200346,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/40/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/40/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/40/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/40/tiny_image.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/40/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/40/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/40/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/40/tiny_image.jpg"
+      ]
+    },
+    {
+      "local_file": "original-070744cf8491.jpg",
+      "sha256": "070744cf849189621ec55ca8aa86a72d57cf101c9eaaa330c463ce21ac182d42",
+      "bytes": 192381,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/41/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/41/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/41/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/41/tiny_image.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/41/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/41/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/41/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/41/tiny_image.jpg"
+      ]
+    },
+    {
+      "local_file": "original-7484aa50bbd8.jpg",
+      "sha256": "7484aa50bbd867b2b4b82a5cad987874c1ec6e44500b84678aedfd36fe4cb72c",
+      "bytes": 223412,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/42/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/42/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/42/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/42/tiny_image.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/42/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/42/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/42/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/42/tiny_image.jpg"
+      ]
+    },
+    {
+      "local_file": "original-a6476629e015.jpg",
+      "sha256": "a6476629e015b4e88c0f2555a28e1a505ec4edb118c35abbeb10e5d7881f907a",
+      "bytes": 186198,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/43/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/43/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/43/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/43/tiny_image.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/43/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/43/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/43/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/43/tiny_image.jpg"
+      ]
+    },
+    {
+      "local_file": "original-412fc7427825.jpg",
+      "sha256": "412fc742782565507cf609c1a77969c0708691e731f6123226ee80c31413a852",
+      "bytes": 161662,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/44/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/44/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/44/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/44/tiny_image.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/44/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/44/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/44/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/44/tiny_image.jpg"
+      ]
+    },
+    {
+      "local_file": "original-63cc070452e4.jpg",
+      "sha256": "63cc070452e4a499a44b00bbb6597ab66a2d2119b0618b81f32268c0a1da5bf8",
+      "bytes": 158272,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/45/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/45/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/45/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/45/tiny_image.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/45/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/45/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/45/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/45/tiny_image.jpg"
+      ]
+    },
+    {
+      "local_file": "original-09be1eef0b41.jpg",
+      "sha256": "09be1eef0b4124ba0b7aa2ed2afe3bb8797d6d5bd6512dd40ba53c720bd8cce9",
+      "bytes": 174685,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/46/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/46/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/46/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/46/tiny_image.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/46/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/46/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/46/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/46/tiny_image.jpg"
+      ]
+    },
+    {
+      "local_file": "original-71c16b8f8e7c.jpg",
+      "sha256": "71c16b8f8e7c05055c6d36aa287f8da9f15ef50b14b81b0a905a13fe4bcff11e",
+      "bytes": 175647,
+      "restore_paths": [
+        "thumbnail-publish-20261030/backups/originals/47/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/47/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/47/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/47/tiny_image.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/backups/originals/47/detail_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/47/list_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/47/small_image.jpg",
+        "thumbnail-publish-20261030/backups/originals/47/tiny_image.jpg"
+      ]
+    },
+    {
+      "local_file": "thumbnail-publish--after-contact-sheet.jpg",
+      "sha256": "fb4a26458d29feb74aa5c2d484db9279bc8261fdb50750aaa0caf0a40e600d87",
+      "bytes": 631959,
+      "restore_paths": [
+        "thumbnail-publish-20261030/evidence/after-contact-sheet.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/evidence/after-contact-sheet.jpg"
+      ]
+    },
+    {
+      "local_file": "browser-qa--market-desktop-after.jpg",
+      "sha256": "72ed5edac5f25c6dc971770e681f7e93357743f2e5f6fc84b9153c21ea906b06",
+      "bytes": 104180,
+      "restore_paths": [
+        "thumbnail-publish-20261030/qa/market-desktop-after.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/qa/market-desktop-after.jpg"
+      ]
+    },
+    {
+      "local_file": "browser-qa--market-mobile-after.jpg",
+      "sha256": "55888936ab46c81f83ec60da80b24fc082f32c381e10d41dff0a5919b5e3f452",
+      "bytes": 43782,
+      "restore_paths": [
+        "thumbnail-publish-20261030/qa/market-mobile-after.jpg"
+      ],
+      "source_project_relative_paths": [
+        "thumbnail-publish-20261030/qa/market-mobile-after.jpg"
+      ]
+    },
+    {
+      "local_file": "hero-current-C-32.png",
+      "sha256": "4193fb9599624db6c95f46809d724c91651711fd93ce2fd09240b0550644727b",
+      "bytes": 2956991,
+      "restore_paths": [
+        "hero-generation-20261028/candidates/product-32-v2.png",
+        "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/32-C-image-v2.png",
+        "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/32-C-image-v2.png",
+        "hero-revision-20261029/images/product-32-v2.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-revision-20261029/images/product-32-v2.png"
+      ]
+    },
+    {
+      "local_file": "hero-current-C-33.png",
+      "sha256": "e4d9721394d697524a177c6733663938892668f12d4d197543af38626f1aa9f3",
+      "bytes": 2266467,
+      "restore_paths": [
+        "hero-generation-20261028/candidates/product-33-v2.png",
+        "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/33-C-image-v2.png",
+        "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/33-C-image-v2.png",
+        "hero-revision-20261029/images/product-33-v2.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-revision-20261029/images/product-33-v2.png"
+      ]
+    },
+    {
+      "local_file": "hero-current-C-34.png",
+      "sha256": "87de0c63bbb413afb0a97e4ef8a9b7c9a2db6dcb81599597d2f633640a25af73",
+      "bytes": 1699367,
+      "restore_paths": [
+        "hero-generation-20261028/candidates/product-34-v2.png",
+        "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/34-C-image-v2.png",
+        "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/34-C-image-v2.png",
+        "hero-revision-20261029/images/product-34-v2.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-revision-20261029/images/product-34-v2.png"
+      ]
+    },
+    {
+      "local_file": "hero-current-C-35.png",
+      "sha256": "1d967d47443c0c3321d263938ea131fd5a700a115b170c5cd0f426f0d389205b",
+      "bytes": 2349664,
+      "restore_paths": [
+        "hero-generation-20261028/candidates/product-35-v2.png",
+        "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/35-C-image-v2.png",
+        "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/35-C-image-v2.png",
+        "hero-revision-20261029/images/product-35-v2.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-revision-20261029/images/product-35-v2.png"
+      ]
+    },
+    {
+      "local_file": "hero-current-C-36.png",
+      "sha256": "e7bbb1c4e6bd27ddd554b480fa3794906217eedc960a8c5efefb66e2be15df3c",
+      "bytes": 2248614,
+      "restore_paths": [
+        "hero-generation-20261028/candidates/product-36-v2.png",
+        "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/36-C-image-v2.png",
+        "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/36-C-image-v2.png",
+        "hero-revision-20261029/images/product-36-v2.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-revision-20261029/images/product-36-v2.png"
+      ]
+    },
+    {
+      "local_file": "hero-current-C-37.png",
+      "sha256": "ffa27621a387c23baf2f899c47d0586598df20a531c57dbf55f3be1f765ed56c",
+      "bytes": 2213596,
+      "restore_paths": [
+        "hero-generation-20261028/candidates/product-37-v2.png",
+        "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/37-C-image-v2.png",
+        "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/37-C-image-v2.png",
+        "hero-revision-20261029/images/product-37-v2.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-revision-20261029/images/product-37-v2.png"
+      ]
+    },
+    {
+      "local_file": "hero-current-C-39.png",
+      "sha256": "1ef3bcccdf52bf7e5a33493012e28acca20658abaee673bb8fe211f5b5b80c1d",
+      "bytes": 2028697,
+      "restore_paths": [
+        "hero-generation-20261028/candidates/product-39-v2.png",
+        "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/39-C-image-v2.png",
+        "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/39-C-image-v2.png",
+        "hero-revision-20261029/images/product-39-v2.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-revision-20261029/images/product-39-v2.png"
+      ]
+    },
+    {
+      "local_file": "hero-current-C-40.png",
+      "sha256": "b819da3a77432ad23634ee021505a471723598e26757aca828de9343c95f6d52",
+      "bytes": 2247919,
+      "restore_paths": [
+        "hero-generation-20261028/candidates/product-40-v2.png",
+        "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/40-C-image-v2.png",
+        "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/40-C-image-v2.png",
+        "hero-revision-20261029/images/product-40-v2.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-revision-20261029/images/product-40-v2.png"
+      ]
+    },
+    {
+      "local_file": "hero-current-C-41.png",
+      "sha256": "2e859f3947fb8df2ececca23e8081d058d917a505a552ca42ec2b2638119072e",
+      "bytes": 2403030,
+      "restore_paths": [
+        "hero-generation-20261028/candidates/product-41-v2.png",
+        "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/41-C-image-v2.png",
+        "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/41-C-image-v2.png",
+        "hero-revision-20261029/images/product-41-v2.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-revision-20261029/images/product-41-v2.png"
+      ]
+    },
+    {
+      "local_file": "hero-current-C-43.png",
+      "sha256": "0f0c9c95ae13702aead14b9b3e3231924b0b468069e9507e29252832e951797c",
+      "bytes": 2221878,
+      "restore_paths": [
+        "hero-generation-20261028/candidates/product-43-v2.png",
+        "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/43-C-image-v2.png",
+        "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/43-C-image-v2.png",
+        "hero-revision-20261029/images/product-43-v2.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-revision-20261029/images/product-43-v2.png"
+      ]
+    },
+    {
+      "local_file": "hero-current-C-44.png",
+      "sha256": "8604adbbb7043d4e635e99c752bf1c0eaadcca8898eccd7122f08bf585428fe7",
+      "bytes": 2260433,
+      "restore_paths": [
+        "hero-generation-20261028/candidates/product-44-v2.png",
+        "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/44-C-image-v2.png",
+        "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/44-C-image-v2.png",
+        "hero-revision-20261029/images/product-44-v2.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-revision-20261029/images/product-44-v2.png"
+      ]
+    },
+    {
+      "local_file": "hero-current-C-45.png",
+      "sha256": "0295493ccf2f08cc54a1c9c2f28a6ae5e7253f090bfb94a08b5e806ee796241e",
+      "bytes": 2405995,
+      "restore_paths": [
+        "hero-generation-20261028/candidates/product-45-v2.png",
+        "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/45-C-image-v2.png",
+        "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/45-C-image-v2.png",
+        "hero-revision-20261029/images/product-45-v2.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-revision-20261029/images/product-45-v2.png"
+      ]
+    },
+    {
+      "local_file": "hero-current-C-46.png",
+      "sha256": "0350536faf93376d640ff50bd9b36567810bebe89ff944d997990bbf9ee47aaa",
+      "bytes": 2496445,
+      "restore_paths": [
+        "hero-generation-20261028/candidates/product-46-v2.png",
+        "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/46-C-image-v2.png",
+        "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/46-C-image-v2.png",
+        "hero-revision-20261029/images/product-46-v2.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-revision-20261029/images/product-46-v2.png"
+      ]
+    },
+    {
+      "local_file": "hero-current-C-47.png",
+      "sha256": "cbd790857d092a28b97209b93a6ae5d4d831f5034305bc300c18ba7e693e822d",
+      "bytes": 2478822,
+      "restore_paths": [
+        "hero-generation-20261028/candidates/product-47-v2.png",
+        "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/47-C-image-v2.png",
+        "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/47-C-image-v2.png",
+        "hero-revision-20261029/images/product-47-v2.png"
+      ],
+      "source_project_relative_paths": [
+        "hero-revision-20261029/images/product-47-v2.png"
+      ]
+    }
+  ],
+  "summary": {
+    "unique_media_files": 73,
+    "bytes": 101458936,
+    "restore_paths": 178
+  }
+}

@@ -1,0 +1,2030 @@
+{
+  "version": 1,
+  "restore_base": "Donghwa project directory of your choice",
+  "files": [
+    {
+      "archive_path": "source/current--skin5--product--detail.html",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product/detail.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product/detail.html",
+      "sha256": "f3c509652ba5bbe7c37f3de360d034f6ba275384c375521c7cb12a36bdf06360",
+      "bytes": 115861,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--dg-01.html",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-01.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-01.html",
+      "sha256": "cac036fcb4e772254b49c34049a292f112a9375a663f09be7b153e94adc21a8b",
+      "bytes": 319953,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--dg-02.html",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-02.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-02.html",
+      "sha256": "561eb2e72cfe5f3e5f55f36acf3fd696b0436d6b12543c2e6aa03b77d30a33b2",
+      "bytes": 325138,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--dg-03.html",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-03.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-03.html",
+      "sha256": "76846b2e3fd82c3052802aa8beccee55a854b612749f4664755c2f6c235e57d7",
+      "bytes": 317715,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--dg-04.html",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-04.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-04.html",
+      "sha256": "e4c9d76fc880a6da9c7847bacf6eda2d29ceaa3bd0f40d2859572eea27396692",
+      "bytes": 323286,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--dg-06.html",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-06.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-06.html",
+      "sha256": "df5a671f9c2c7c69a801e216bd4114e5aa7bb41578d30a2518cca67450640a9b",
+      "bytes": 322062,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--dg-09.html",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-09.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-09.html",
+      "sha256": "c4f5777e6714ef95fab2658f64eb0ab8693a92654ad6c77bf984eda562952619",
+      "bytes": 323672,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--dg-10.html",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-10.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-10.html",
+      "sha256": "50743a1eb49c18186d51a0e7f9878fa0bcbc47de556f0c0a8019e45a13c08c45",
+      "bytes": 321287,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--dg-11.html",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-11.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-11.html",
+      "sha256": "074c5bf1505000afe47754d05a10285662baa5404e8083744a73f6a0547f983b",
+      "bytes": 322418,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--dg-12.html",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-12.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-12.html",
+      "sha256": "5dcb1c760a159d1e6155eb679267c885a3ef0cd7c833eaab22f33c09cd353977",
+      "bytes": 320986,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--dg-13.html",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-13.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-13.html",
+      "sha256": "f08fc25a67743155a1765b02e3c23ccda035ca9105bfb20f76786961376cf0f9",
+      "bytes": 320971,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--dg-14.html",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-14.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-14.html",
+      "sha256": "b1983324eb0bfc0d5e3ce3c07edde09eaed2da18e70a6b2d8f22eeefeff2a6db",
+      "bytes": 321148,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--dg-16.html",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-16.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/dg-16.html",
+      "sha256": "56f22011f675228477351785ae3880745ab9bb156e36171ac552310ee4cebf1e",
+      "bytes": 322560,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--full-detail-host.js",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/full-detail-host.js",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/full-detail-host.js",
+      "sha256": "24808c544a083e681944c9da44aa8f4c9851411056ffe0b9b610adf82da7149e",
+      "bytes": 2460,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--hero-review-20261029--hero-candidates-42-multicut-v5.js",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/hero-candidates-42-multicut-v5.js",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/hero-candidates-42-multicut-v5.js",
+      "sha256": "98927945ef49d2de900af02aabf4041a4a9a7dcd1e4dcaa4439ccb02f9a065cb",
+      "bytes": 17433,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--hero-review-20261029--hero-candidates-mp4-v5.js",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/hero-candidates-mp4-v5.js",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/hero-candidates-mp4-v5.js",
+      "sha256": "1c172dcef7672cc136803925a664acd72ef9d7f4a618262053b84e2f3e1869fe",
+      "bytes": 17500,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/current--skin5--product-full--hero-review-20261029--manifest.js",
+      "restore_path": "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/manifest.js",
+      "source_project_relative": "hero-motion-development-20261029/deploy/staged/skin5/product-full/hero-review-20261029/manifest.js",
+      "sha256": "d2a355398fe1528fb9a886ee8ee75646499df1a4b488d0e4c5c81184b196d3d2",
+      "bytes": 11451,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product--detail.html",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product/detail.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product/detail.html",
+      "sha256": "6aa7558d09fa8b9bb7276f720385fb46a34844fd58a22d3b6041cb4340e04c7a",
+      "bytes": 115853,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--dg-01.html",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-01.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-01.html",
+      "sha256": "bfd799a1d07803aa394e70f783c253282cd9873fb936cd46d06752461b5bf4d4",
+      "bytes": 319945,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--dg-02.html",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-02.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-02.html",
+      "sha256": "a39527c9d27db9d30542e2f63271caafc1d1a076222ba4add82151fdbcb559b2",
+      "bytes": 325130,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--dg-03.html",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-03.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-03.html",
+      "sha256": "eb8d1dcf11ce404b066e2f1aab9a1de40200731206b1781b7d8db25ff5e995a0",
+      "bytes": 317707,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--dg-04.html",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-04.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-04.html",
+      "sha256": "b353f85994289152884fc902538d07363b7964ae8702b76b190545363e370535",
+      "bytes": 323278,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--dg-06.html",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-06.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-06.html",
+      "sha256": "05de5052f99faf87dd351162efe42a2e0123b3ff5f4d899f0c655ab4d85f8caa",
+      "bytes": 322054,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--dg-09.html",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-09.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-09.html",
+      "sha256": "241807ef515ec3c807151ef904a1b3a69c04ff87b58d6791e91d6af415b88906",
+      "bytes": 323664,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--dg-10.html",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-10.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-10.html",
+      "sha256": "c0b1acd3b6099ce12bf88ba60eccffcabad9d8f99c20403a58cbd3f55ce73315",
+      "bytes": 321279,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--dg-11.html",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-11.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-11.html",
+      "sha256": "6142124ddd5e04dd48c9369ea7df70128138efdac6c67ce02b64c9f9d7baaf78",
+      "bytes": 322425,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--dg-12.html",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-12.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-12.html",
+      "sha256": "79d119926aea703012306b38535a0689e65e6e9cb4313069db2a21ea51274b57",
+      "bytes": 320978,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--dg-13.html",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-13.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-13.html",
+      "sha256": "4b328f7c7626f6aa01bf855fdcfee7134c0ae1b4b6ef48de61ed4274b676f728",
+      "bytes": 320963,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--dg-14.html",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-14.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-14.html",
+      "sha256": "5649376035697bdffe958826bdc9bfdccfaa2419988732dfa990642834d41b1e",
+      "bytes": 321140,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--dg-16.html",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-16.html",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/dg-16.html",
+      "sha256": "58ea7a9c9c688bd2ea640e4d0cbdf441276c660f9cb2abd6e8f92711f5289edf",
+      "bytes": 322552,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--full-detail-host.js",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/full-detail-host.js",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/full-detail-host.js",
+      "sha256": "630b9e9298eb6e69faf03bfb85e79b7002440b225c4b4b41f9434e753089f513",
+      "bytes": 2460,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--hero-review-20261029--hero-candidates-42-multicut.js",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/hero-review-20261029/hero-candidates-42-multicut.js",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/hero-review-20261029/hero-candidates-42-multicut.js",
+      "sha256": "ec866204b71433dae560a8e91ebb882bb9f8804e81fe24b7997788270871a578",
+      "bytes": 17042,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--hero-review-20261029--hero-candidates.js",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/hero-review-20261029/hero-candidates.js",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/hero-review-20261029/hero-candidates.js",
+      "sha256": "b6dd08734abbf3846b873c507ffa18685cc028cc465d9d19feec58d2776589da",
+      "bytes": 17109,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/before-mp4--skin5--product-full--hero-review-20261029--manifest.js",
+      "restore_path": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/hero-review-20261029/manifest.js",
+      "source_project_relative": "hero-motion-development-20261029/deploy/remote-before/skin5/product-full/hero-review-20261029/manifest.js",
+      "sha256": "0f5fd0d224504b24ee52ab407ea1a3f0def67f4b49689caef8f0ba857b809ec7",
+      "bytes": 9701,
+      "sanitized": false
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-32.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-32.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-32.txt",
+      "sha256": "de87cf8e30217f1e484eada934f957498b340317a0b4beb3c10fc9cfb3d4e865",
+      "bytes": 2039,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-33.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-33.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-33.txt",
+      "sha256": "78cf0ea2f6b07373438517accc57b1d48f77fe6d1e204d20792dbd1a48fa5e8d",
+      "bytes": 2042,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-34.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-34.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-34.txt",
+      "sha256": "58610ec0acb5278dfb4e45711130594ed7fef36474d4b10ba7ad82c1211d5785",
+      "bytes": 1618,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-35-attempt-1.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-35-attempt-1.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-35-attempt-1.txt",
+      "sha256": "5f3a5b002e3613db43457836df0fb0c0be5a76897375ce6c4739fc2baee0f717",
+      "bytes": 1913,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-35-correction-2.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-35-correction-2.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-35-correction-2.txt",
+      "sha256": "050f0e1198e3a133a9058f91fe77569b5bede6c19e18f623297fd13ee02595e1",
+      "bytes": 1537,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-35.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-35.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-35.txt",
+      "sha256": "050f0e1198e3a133a9058f91fe77569b5bede6c19e18f623297fd13ee02595e1",
+      "bytes": 1537,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-36.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-36.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-36.txt",
+      "sha256": "756131da16c838085aaa84017c17129a2d18edc2ac9d66525783faf68f3636cc",
+      "bytes": 2099,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-37.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-37.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-37.txt",
+      "sha256": "d8697f7561af0a4bc00f091fdc7b62a82c6105f7702547372dd642dfb68d77ff",
+      "bytes": 2179,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-38-attempt-1.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-38-attempt-1.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-38-attempt-1.txt",
+      "sha256": "061442242271ba659fb04271a81e6398b138438e535f257a025650756033b7df",
+      "bytes": 1929,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-38-correction-2.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-38-correction-2.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-38-correction-2.txt",
+      "sha256": "dde62c372dbb6174b06965a7a844a02c0c8ef704c8bad8b2ed6f24101495e258",
+      "bytes": 1758,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-38.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-38.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-38.txt",
+      "sha256": "dde62c372dbb6174b06965a7a844a02c0c8ef704c8bad8b2ed6f24101495e258",
+      "bytes": 1758,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-39.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-39.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-39.txt",
+      "sha256": "6733c8e3c91d2892789149d20e5c51760b8ad94df42192902d402c370075b465",
+      "bytes": 2117,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-40.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-40.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-40.txt",
+      "sha256": "c67ac737d1d24b6c0cd8f4d91c171665e7abc47b6f5c574db43d06d5a942ce6a",
+      "bytes": 1863,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-41.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-41.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-41.txt",
+      "sha256": "da55a0cd94a4bc2978817458b57174b702a6e81b366facc4955b5669e6d6e188",
+      "bytes": 1916,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-42-attempt-1.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-42-attempt-1.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-42-attempt-1.txt",
+      "sha256": "4ea256fc01db15bc4b9f8c7e400b280206050a19a9bb3a5c121ad4c8fe2073c3",
+      "bytes": 1960,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-42-correction-2.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-42-correction-2.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-42-correction-2.txt",
+      "sha256": "10303acb10a036536d56c88e658f15cf8fa8afdf742d9935e086f36efc03712c",
+      "bytes": 1433,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-42.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-42.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-42.txt",
+      "sha256": "10303acb10a036536d56c88e658f15cf8fa8afdf742d9935e086f36efc03712c",
+      "bytes": 1433,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-43.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-43.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-43.txt",
+      "sha256": "f9e8ec3624fa9ada7b228976fefe30783f64db46d7ae8a06bb2d3f4711abdc55",
+      "bytes": 1958,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-44-attempt-1.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-44-attempt-1.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-44-attempt-1.txt",
+      "sha256": "2fc26052353ede603e3c359f32c1891cd4e26758ca63163bba4654e77351829a",
+      "bytes": 1994,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-44-attempt-2.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-44-attempt-2.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-44-attempt-2.txt",
+      "sha256": "9ee8440eae5582b4b58bbffd3c529b0224a5a8084cf115bdeab5d531d0f7611f",
+      "bytes": 1564,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-44-attempt-3.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-44-attempt-3.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-44-attempt-3.txt",
+      "sha256": "289313383619d9c4b7daed5a9c4320b38e494443367b3103bc9a5ee32b985dc0",
+      "bytes": 1583,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-44-attempt-4.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-44-attempt-4.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-44-attempt-4.txt",
+      "sha256": "c6336262c9977810c591173a8600adbd4caa97256e06033f770a55b71d11e0ad",
+      "bytes": 699,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-44-attempt-5.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-44-attempt-5.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-44-attempt-5.txt",
+      "sha256": "d544044458e12b29b0dd07e4c2edda258f470b116d8d6e687a2fad1fca1a0c96",
+      "bytes": 968,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-44.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-44.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-44.txt",
+      "sha256": "d544044458e12b29b0dd07e4c2edda258f470b116d8d6e687a2fad1fca1a0c96",
+      "bytes": 968,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-45.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-45.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-45.txt",
+      "sha256": "a143818b5132c232c26766c74746c3193fccf31a76a97a8774166a753e22b705",
+      "bytes": 2135,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-46.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-46.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-46.txt",
+      "sha256": "05b4a41da7dfaf3f06b87f081b29fba83a281572fc383bee1b5f48a62015c5b2",
+      "bytes": 2162,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v2--product-47.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-47.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v2/prompts/product-47.txt",
+      "sha256": "d2f98a1b6dc5d71d001c1a202704519eaa28e86142cdd10c5fbf7839888e5085",
+      "bytes": 2113,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v3--product-33-attempt-1.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/prompts/product-33-attempt-1.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v3-sequential/prompts/product-33-attempt-1.txt",
+      "sha256": "888ed4b7cffe7e4d92942de7d080ffc0b5db66b9be49542982b51aed2df03c2e",
+      "bytes": 1266,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v3--product-35-attempt-1.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/prompts/product-35-attempt-1.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v3-sequential/prompts/product-35-attempt-1.txt",
+      "sha256": "216d6b0098a90733e28bf0b376e0458364abc35331d8c5e28cc358e01d5b5a7a",
+      "bytes": 1942,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v3--product-35-attempt-2.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/prompts/product-35-attempt-2.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v3-sequential/prompts/product-35-attempt-2.txt",
+      "sha256": "25c10588e9fb1dc1b85c125fc4abc28b38b19aa9475c39383f7c8083675373a5",
+      "bytes": 1812,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v3--product-35-attempt-3.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/prompts/product-35-attempt-3.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v3-sequential/prompts/product-35-attempt-3.txt",
+      "sha256": "704a2445e1f2f6e67ef4276ffc3ee4df375cc9abdfdaf4b9327efaee8b9bfb53",
+      "bytes": 1373,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/thumb-v3--product-37-attempt-1.txt",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/prompts/product-37-attempt-1.txt",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v3-sequential/prompts/product-37-attempt-1.txt",
+      "sha256": "765b6c870676c63354fb8883c6d0ccdeb4919c255d7e4a4e73815ef9a70dde3a",
+      "bytes": 1433,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-32-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-32-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-32-attempt-1.txt",
+      "sha256": "c0da0445a258964fa310821a5655d6b1b994e1ddc5840ef3e41e8fd1fe9395d9",
+      "bytes": 1445,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-33-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-33-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-33-attempt-1.txt",
+      "sha256": "0f7bddda31325ba70575f41c563f7ae464d747aec3c04853ab5116b945a4ff43",
+      "bytes": 1403,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-34-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-34-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-34-attempt-1.txt",
+      "sha256": "2f4d9caa916bc97ab24a62510afaa5c6443fe9cf8fd5a897662014812bf07df6",
+      "bytes": 1505,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-34-attempt-2.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-34-attempt-2.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-34-attempt-2.txt",
+      "sha256": "b3142f49e183166f2d4a26e05d5206d8fe236605d5964b146073a03694322328",
+      "bytes": 1033,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-35-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-35-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-35-attempt-1.txt",
+      "sha256": "51828b87986370812d94138ba7875e4f7c64273b3baedd9c6b814bd954afdae9",
+      "bytes": 1504,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-36-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-36-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-36-attempt-1.txt",
+      "sha256": "a4700819afb8aa1d61ed50be39c16ea63841d1fca0300c0b78bd38de5178a3af",
+      "bytes": 1541,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-37-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-37-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-37-attempt-1.txt",
+      "sha256": "ff6d2f32d8d255a5bf12e4faab0842b7ab11ca7d233997426f8bb72bc8c76e3a",
+      "bytes": 1451,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-39-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-39-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-39-attempt-1.txt",
+      "sha256": "a18a80668a02656ceeab7745176aa93df3daccb9785bf768726143da8c1ee40b",
+      "bytes": 1559,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-40-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-40-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-40-attempt-1.txt",
+      "sha256": "4cde1ea620f85bc3c9dae18df12a0e494fabb84d77b38c512f4ea0947fe908bb",
+      "bytes": 1458,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-41-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-41-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-41-attempt-1.txt",
+      "sha256": "37b817ac97891f4c9fb6a725e3a025bc5a52c266f70306800224c633a26bbfc2",
+      "bytes": 1496,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-42-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-42-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-42-attempt-1.txt",
+      "sha256": "cf9d05c43b6d7855918e834332735653775ff63f690624a66ce8f4bf0394ab44",
+      "bytes": 1545,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-42-v2-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-42-v2-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-42-v2-attempt-1.txt",
+      "sha256": "2b2f68c35941155580ace4724ac9617fa53938c9be6cb5199f6924ce2cd2e2b8",
+      "bytes": 2426,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-42-v2-attempt-2.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-42-v2-attempt-2.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-42-v2-attempt-2.txt",
+      "sha256": "03be1117cf6c447246c7e66b3bf14f42c042a76e2462d05740112e35b42b12ff",
+      "bytes": 1417,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-43-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-43-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-43-attempt-1.txt",
+      "sha256": "157fd976e3fd43f494d5d5e82ce8adb7497428c458e218742d75919e8ecfe9fc",
+      "bytes": 1478,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-44-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-44-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-44-attempt-1.txt",
+      "sha256": "7f2fb41baa37c2db594298424a9e1b89a128cb9712e985cb44c09f581f14d500",
+      "bytes": 1579,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-45-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-45-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-45-attempt-1.txt",
+      "sha256": "a5104fa01441a0da39f95bc916cc312aa0f2d0a44e7df0fae62b759f80515c63",
+      "bytes": 1424,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-46-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-46-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-46-attempt-1.txt",
+      "sha256": "369430a2d078ffb07385872774c6549c43807c7c4e1d49bd5996b6d4d69d7478",
+      "bytes": 1512,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v1--product-47-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-47-attempt-1.txt",
+      "source_project_relative": "hero-generation-20261028/prompts/product-47-attempt-1.txt",
+      "sha256": "5b17e67779ab63c3654318dd88793e747dd43343dd495f6c9a0a2edacdd2f9de",
+      "bytes": 1504,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-32-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-32-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-32-attempt-1.txt",
+      "sha256": "f853d64394c4d4ec5eee67ba7037e739360f65dff3310b9ad016210fb8a4aeb3",
+      "bytes": 1756,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-33-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-33-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-33-attempt-1.txt",
+      "sha256": "404db96ed6a1a6584f0a75d7e25305966ab860aee6f581a6a8cac7da22ccc951",
+      "bytes": 1699,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-34-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-34-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-34-attempt-1.txt",
+      "sha256": "8e9a3e711407d618e18a88f935f94a8645d2c922bf8726cf425cb99ae487bdce",
+      "bytes": 1373,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-35-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-35-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-35-attempt-1.txt",
+      "sha256": "807bcb1a2236ece2653f7417e2a67675765111ee0878b31445a13cb63aabb793",
+      "bytes": 1601,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-36-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-36-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-36-attempt-1.txt",
+      "sha256": "ff56ade9cc3b93d310ee66923ce5a952e4c041146cd141ae0ee9af09159ce086",
+      "bytes": 1548,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-37-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-37-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-37-attempt-1.txt",
+      "sha256": "f4457298418db5eb71fb2f81def970ac88536a64dcb2992c1087fb5c75b8a9d4",
+      "bytes": 1656,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-37-attempt-2.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-37-attempt-2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-37-attempt-2.txt",
+      "sha256": "ca9a798423433857bf567d56e07036b7b52b3782691138f3e17ccd9d6092c4d6",
+      "bytes": 1417,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-39-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-39-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-39-attempt-1.txt",
+      "sha256": "c2ad864789d3f96d9151a11b3da23072ed7f599c31abaf3f6d46c5aec745e8b4",
+      "bytes": 1362,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-40-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-40-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-40-attempt-1.txt",
+      "sha256": "a010d140d17fbb9e23cb9c8ff9cc9cf42bb775ec3e7875a3e805e4257e761ae3",
+      "bytes": 1531,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-41-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-41-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-41-attempt-1.txt",
+      "sha256": "ffb9894d7b06142b250045b82fa2505da541682b487148ca05cb2d060aea2344",
+      "bytes": 1495,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-42-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-42-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-42-attempt-1.txt",
+      "sha256": "2b2f68c35941155580ace4724ac9617fa53938c9be6cb5199f6924ce2cd2e2b8",
+      "bytes": 2426,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-42-attempt-2.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-42-attempt-2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-42-attempt-2.txt",
+      "sha256": "03be1117cf6c447246c7e66b3bf14f42c042a76e2462d05740112e35b42b12ff",
+      "bytes": 1417,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-43-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-43-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-43-attempt-1.txt",
+      "sha256": "98bbc2be6b0522cd269340877f71ff75c3e6b8d02d9eaa4e2f69883883e79eb0",
+      "bytes": 1369,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-44-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-44-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-44-attempt-1.txt",
+      "sha256": "e96b0fc4a156d042f72c255ef0aa5c592a5e41558a29b50d5f40d8ffa205ef15",
+      "bytes": 1665,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-45-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-45-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-45-attempt-1.txt",
+      "sha256": "7a184b958b2bbdac53e340e880b40ff92c5d96d368b5aead618c3d04f7b3a115",
+      "bytes": 1590,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-46-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-46-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-46-attempt-1.txt",
+      "sha256": "d787bc4d26117f85a6e5d1fb9193609f3b73032ac781a5d6089d58ecd626d2df",
+      "bytes": 1409,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-47-attempt-1.txt",
+      "restore_path": "hero-revision-20261029/prompts/product-47-attempt-1.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-47-attempt-1.txt",
+      "sha256": "1ba2439916f219502d745de8dabc1d071a961f4faa3f9343aaf75346f1fd3e7e",
+      "bytes": 1460,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v5--shot01-place-v5-attempt1.txt",
+      "restore_path": "hero-motion-development-20261029/prompts/shot01-place-v5-attempt1.txt",
+      "source_project_relative": "hero-motion-development-20261029/prompts/shot01-place-v5-attempt1.txt",
+      "sha256": "4095b407cc2cd29227edbf4961b8be1f67a9dc80c9bf1f60ccf9aabe8b1d95c2",
+      "bytes": 2717,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v5--shot01-place-v5-attempt2.txt",
+      "restore_path": "hero-motion-development-20261029/prompts/shot01-place-v5-attempt2.txt",
+      "source_project_relative": "hero-motion-development-20261029/prompts/shot01-place-v5-attempt2.txt",
+      "sha256": "b44dc30b6c09614c64964051a3f9c05672d9de201adbfd0efe965bd9aa94fe8a",
+      "bytes": 1499,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v5--shot02-stir-v5-attempt1.txt",
+      "restore_path": "hero-motion-development-20261029/prompts/shot02-stir-v5-attempt1.txt",
+      "source_project_relative": "hero-motion-development-20261029/prompts/shot02-stir-v5-attempt1.txt",
+      "sha256": "27012aac42173f0cb39854112660c1a5ba6087e77e1cbe38843cd9cdb66d9399",
+      "bytes": 2775,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v5--shot03-lift-v5-attempt1.txt",
+      "restore_path": "hero-motion-development-20261029/prompts/shot03-lift-v5-attempt1.txt",
+      "source_project_relative": "hero-motion-development-20261029/prompts/shot03-lift-v5-attempt1.txt",
+      "sha256": "4bc321cf41ac28fa49ece0daf9f5e6fe478c064380205db3743eb7bbaf44c906",
+      "bytes": 2453,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v5--shot03-lift-v5-attempt2.txt",
+      "restore_path": "hero-motion-development-20261029/prompts/shot03-lift-v5-attempt2.txt",
+      "source_project_relative": "hero-motion-development-20261029/prompts/shot03-lift-v5-attempt2.txt",
+      "sha256": "596be15fbd3a1a393dcfa82a4f344db168f83f53951d9e5589618f84ff23d1da",
+      "bytes": 2048,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-32.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-32.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-32.txt",
+      "sha256": "4f9ff35bccbb25036287ed6a4a6776337c3b8005368f824ae22541632e7fd748",
+      "bytes": 1014,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-33.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-33.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-33.txt",
+      "sha256": "859ad2727d99163f9f4b726f852244646f1464cd6a6252c1ae4534cc29c74d93",
+      "bytes": 1123,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-34.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-34.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-34.txt",
+      "sha256": "9fba43678745f818c091b0e76d7927bc9582e77b9edb389fe0904308dd68d5f1",
+      "bytes": 1114,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-35.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-35.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-35.txt",
+      "sha256": "a349cc01b9e737dd75a3cae5246f9f9413cbdcdf0e575ad17520b69c39090ac9",
+      "bytes": 1118,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-36.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-36.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-36.txt",
+      "sha256": "f1d5ba7470f1a55685e81ed39922acfbba966923f3ee140334e560142104a4c9",
+      "bytes": 1090,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-37.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-37.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-37.txt",
+      "sha256": "2580d1679751d129311beb5bfd265f7688bd226f9f1706bbc22d57765fcc0bf0",
+      "bytes": 1059,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-39.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-39.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-39.txt",
+      "sha256": "69a01ae0b6cebc9f0e3f0f7195f8b8fd8f2a5e68debd3145d033840e1fb7e39d",
+      "bytes": 1158,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-40.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-40.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-40.txt",
+      "sha256": "a930de8962e0d1dc05a4b4ebb37c5b7b5a2b88a8def0964bfbd530815f377dce",
+      "bytes": 1122,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-41.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-41.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-41.txt",
+      "sha256": "5f4131f8ca25fa39e671080f235e920e030de11ee45d389de81ea9ea53732ed6",
+      "bytes": 1108,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-42.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-42.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-42.txt",
+      "sha256": "b5ce5e2db6f512e6ed5f7a49350daaea785bdcb4ef2f2c2754c73c3ca9428d19",
+      "bytes": 1159,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-43.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-43.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-43.txt",
+      "sha256": "2c2d5218f04ba4bba7608c14417ae539729ca822b5e9d6878b84f049c3325ccf",
+      "bytes": 1144,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-44.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-44.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-44.txt",
+      "sha256": "61f1b52ecd62fe272dd0f6a6edaa90ed0bc01fb5a13aac99c9ad4c65b45d050b",
+      "bytes": 1117,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-45.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-45.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-45.txt",
+      "sha256": "cbb264a416d619e389d250d95d7a27e28a16774c0fbb983351f9df6a4f5c9f11",
+      "bytes": 1112,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-46.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-46.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-46.txt",
+      "sha256": "3e74c2dec310ba936df39508cd5d9933f838c141d1aaea550cdc0c8960d12828",
+      "bytes": 1137,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v1--product-47.txt",
+      "restore_path": "hero-generation-20261028/video-prompts/product-47.txt",
+      "source_project_relative": "hero-generation-20261028/video-prompts/product-47.txt",
+      "sha256": "2d44343946528350b8abdd86f9aaf5bb63a8c05f21c1f713750705152386e0f3",
+      "bytes": 1115,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v3-v4--v3-keyframe-prompts.json",
+      "restore_path": "jjamppong-hero-multicut-20261029/prompts/v3-keyframe-prompts.json",
+      "source_project_relative": "jjamppong-hero-multicut-20261029/prompts/v3-keyframe-prompts.json",
+      "sha256": "400dc9c7945e1f39fe72966ac6022d14942427fc94809908c65056bfe086f3a2",
+      "bytes": 6587,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v3-v4--42-shot01-place-v3.json",
+      "restore_path": "jjamppong-hero-multicut-20261029/prompts/42-shot01-place-v3.json",
+      "source_project_relative": "jjamppong-hero-multicut-20261029/prompts/42-shot01-place-v3.json",
+      "sha256": "66a7bfddd24823a98f38438e691fb3086e350caa066a638d5a2a32667c57876c",
+      "bytes": 1624,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v3-v4--42-shot02-stir-v4.json",
+      "restore_path": "jjamppong-hero-multicut-20261029/prompts/42-shot02-stir-v4.json",
+      "source_project_relative": "jjamppong-hero-multicut-20261029/prompts/42-shot02-stir-v4.json",
+      "sha256": "897075df084264be720fbfe8782d2f678fba3654c1e14e18916c5475341d4418",
+      "bytes": 1643,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v3-v4--42-shot03-lift-v3.json",
+      "restore_path": "jjamppong-hero-multicut-20261029/prompts/42-shot03-lift-v3.json",
+      "source_project_relative": "jjamppong-hero-multicut-20261029/prompts/42-shot03-lift-v3.json",
+      "sha256": "5bd89b6e01d7ba8989b0eb27aa0f0225d265f56aa41d95cc8b20cf3fb9aca142",
+      "bytes": 1593,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v5--shot01-place-v5.json",
+      "restore_path": "hero-motion-development-20261029/prompts/shot01-place-v5.json",
+      "source_project_relative": "hero-motion-development-20261029/prompts/shot01-place-v5.json",
+      "sha256": "8d18df984aa52240d0005cff02d1fb9c514b93d965b6dfceba6cf821a9e61f4c",
+      "bytes": 1697,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v5--shot02-stir-v5.json",
+      "restore_path": "hero-motion-development-20261029/prompts/shot02-stir-v5.json",
+      "source_project_relative": "hero-motion-development-20261029/prompts/shot02-stir-v5.json",
+      "sha256": "0dd1a0dd227299b11efd129728603754286e45754bc6f9df5243d0783ed35082",
+      "bytes": 1828,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/video-v5--shot03-lift-v5.json",
+      "restore_path": "hero-motion-development-20261029/prompts/shot03-lift-v5.json",
+      "source_project_relative": "hero-motion-development-20261029/prompts/shot03-lift-v5.json",
+      "sha256": "53c7a14a8ec732d5531b1a629be33cbac6b43784971d2cadb584dfec0e3bfa77",
+      "bytes": 1784,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/thumb-v2--verification-natural-v2.json",
+      "restore_path": "thumbnail-generation-20261028/preview/verification-natural-v2.json",
+      "source_project_relative": "thumbnail-generation-20261028/preview/verification-natural-v2.json",
+      "sha256": "a2913e1eba1445bca4e89dcd75cd6d192a6af68e830f7963f24772ad7f7159b7",
+      "bytes": 14161,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/thumb-v3--criteria.json",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/criteria.json",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v3-sequential/criteria.json",
+      "sha256": "7607d37740ae567d3e88b7a9d6e484659037884dc465f7722a5c26221fcffca6",
+      "bytes": 2756,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/thumb-v3--sequence.json",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/sequence.json",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v3-sequential/sequence.json",
+      "sha256": "75fc4c3cc6da4dc3056620a7d9f4d9a1ba893820fd4012b3cc8d7314c0904d98",
+      "bytes": 443,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/thumb-v3--current.json",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/current.json",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v3-sequential/current.json",
+      "sha256": "320f4346f930865615a60aae7bbe8aac4930fc7d513a499dcca3b6eea3cc95f3",
+      "bytes": 268,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/thumb-v3--verdict-33.json",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/evidence/verdict-33.json",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v3-sequential/evidence/verdict-33.json",
+      "sha256": "bde4a92c921a3026a848e0b6c8105cdead5f5f738a1b260a17fd618a04a82cae",
+      "bytes": 1106,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/thumb-v3--verdict-37.json",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/evidence/verdict-37.json",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v3-sequential/evidence/verdict-37.json",
+      "sha256": "feb5a92b326b5c35e11af82a35c641c96fca468f1514dfe7bcd7a4f04720ffc3",
+      "bytes": 1029,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/thumb-v3--rejected-35-attempt-3.json",
+      "restore_path": "thumbnail-generation-20261028/revision-natural-v3-sequential/evidence/rejected-35-attempt-3.json",
+      "source_project_relative": "thumbnail-generation-20261028/revision-natural-v3-sequential/evidence/rejected-35-attempt-3.json",
+      "sha256": "8080b40fc3fe599af378611562650ce4cabc2064c7d7c9dcd606a500b2ff37fe",
+      "bytes": 494,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--remaining14-manifest.json",
+      "restore_path": "hero-revision-20261029/evidence/remaining14-manifest.json",
+      "source_project_relative": "hero-revision-20261029/evidence/remaining14-manifest.json",
+      "sha256": "787584720eb46d987737ca0ff5197db467df41745aa4c18af97d61cd3d48b69c",
+      "bytes": 6954,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--independent-review-c.json",
+      "restore_path": "hero-revision-20261029/evidence/independent-review-c.json",
+      "source_project_relative": "hero-revision-20261029/evidence/independent-review-c.json",
+      "sha256": "ad99856f5b4cfcde3aa9d3a84236b590688dfce856487fcf00f08e386f91e8f0",
+      "bytes": 879,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--pilot-review.json",
+      "restore_path": "hero-revision-20261029/evidence/pilot-review.json",
+      "source_project_relative": "hero-revision-20261029/evidence/pilot-review.json",
+      "sha256": "db4ca909db5c57a92e7b0fddbd5e065835b18c1a73f0d71d82ba6244d33331c6",
+      "bytes": 3204,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v5--DELIVERY_STATUS.json",
+      "restore_path": "hero-motion-development-20261029/DELIVERY_STATUS.json",
+      "source_project_relative": "hero-motion-development-20261029/DELIVERY_STATUS.json",
+      "sha256": "31cd6fc168b538c37ab5f3f333d7aec160fc10cae1eeac3eeeefafebba3ff12c",
+      "bytes": 3283,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v5--final-edit.json",
+      "restore_path": "hero-motion-development-20261029/qa/final-edit.json",
+      "source_project_relative": "hero-motion-development-20261029/qa/final-edit.json",
+      "sha256": "104831f68aeec7ea782153af57878772e570e2350a475328a2023e0c371f4586",
+      "bytes": 3725,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v5--browser-playback.json",
+      "restore_path": "hero-motion-development-20261029/qa/browser-playback.json",
+      "source_project_relative": "hero-motion-development-20261029/qa/browser-playback.json",
+      "sha256": "d3a758cc2fdcf4c68fbf175a7b724406753c39beb6645d056be83acb788f3334",
+      "bytes": 3907,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v5--generic-product43-playback.json",
+      "restore_path": "hero-motion-development-20261029/qa/generic-product43-playback.json",
+      "source_project_relative": "hero-motion-development-20261029/qa/generic-product43-playback.json",
+      "sha256": "a80a3821d2af4ab04b27558e2610c1a0b148794ac2b75dd06b0e3cb304f12770",
+      "bytes": 236,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v5--video-shot01.json",
+      "restore_path": "hero-motion-development-20261029/qa/video-shot01.json",
+      "source_project_relative": "hero-motion-development-20261029/qa/video-shot01.json",
+      "sha256": "b9d0d7b4e8ed727d838a1a4f241465bd79cf5ab2825adea401063a3d9ceb0cb4",
+      "bytes": 3203,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v5--video-shot02-independent.json",
+      "restore_path": "hero-motion-development-20261029/qa/video-shot02-independent.json",
+      "source_project_relative": "hero-motion-development-20261029/qa/video-shot02-independent.json",
+      "sha256": "aad798b012578e78e54901204face96b002c4ff4307fd8eb78e61aaf8e1e4649",
+      "bytes": 1324,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v5--independent-v5-image-review.json",
+      "restore_path": "hero-motion-development-20261029/qa/keyframes/independent-v5-image-review.json",
+      "source_project_relative": "hero-motion-development-20261029/qa/keyframes/independent-v5-image-review.json",
+      "sha256": "6b96f03c77f2ab79041ed5afc261470ef69971c9a4360cdbe8a897ed977ee0cd",
+      "bytes": 3822,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v5--decision.json",
+      "restore_path": "hero-motion-development-20261029/qa/shot03-v5-independent/decision.json",
+      "source_project_relative": "hero-motion-development-20261029/qa/shot03-v5-independent/decision.json",
+      "sha256": "dbefd9625969c58b778e2a4e6b1743df9d71508ac8227c19730635109b62e1cf",
+      "bytes": 2930,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v5--publish-result.json",
+      "restore_path": "hero-motion-development-20261029/deploy/publish-result.json",
+      "source_project_relative": "hero-motion-development-20261029/deploy/publish-result.json",
+      "sha256": "c40633cf9e499821ccad6b6432f5b9cedad2827f1d90369c608aba847bff66cc",
+      "bytes": 3441,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v5--snapshot.json",
+      "restore_path": "hero-motion-development-20261029/deploy/snapshot.json",
+      "source_project_relative": "hero-motion-development-20261029/deploy/snapshot.json",
+      "sha256": "27be312ac291e93eb5d4b98f4ca1f2cbef3fb045525040eddb99c0fb8fb264d8",
+      "bytes": 2756,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/reference--cookat-video-audit.json",
+      "restore_path": "hero-motion-development-20261029/evidence/cookat/cookat-video-audit.json",
+      "source_project_relative": "hero-motion-development-20261029/evidence/cookat/cookat-video-audit.json",
+      "sha256": "679b4779e7054d9a2afd14812cbbbf50f1fbffd4bec0dcdeecfe54e1477545c1",
+      "bytes": 6984,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/reference--seedance2-pricing-live.json",
+      "restore_path": "hero-motion-development-20261029/evidence/cookat/seedance2-pricing-live.json",
+      "source_project_relative": "hero-motion-development-20261029/evidence/cookat/seedance2-pricing-live.json",
+      "sha256": "5f3000dee4052edb158a7fdd53c287194c919c6b47f8b1199d035fd3c1bb1ec5",
+      "bytes": 14473,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-E--FINAL_ACCEPTANCE.json",
+      "restore_path": "jjamppong-hero-multicut-20261029/qa/FINAL_ACCEPTANCE.json",
+      "source_project_relative": "jjamppong-hero-multicut-20261029/qa/FINAL_ACCEPTANCE.json",
+      "sha256": "af9a45cceadea62a5723114b197b79fe12250ca2e62fc1e92c968017812b31c4",
+      "bytes": 1632,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-E--final-edit-decision.json",
+      "restore_path": "jjamppong-hero-multicut-20261029/qa/final-edit-decision.json",
+      "source_project_relative": "jjamppong-hero-multicut-20261029/qa/final-edit-decision.json",
+      "sha256": "bcd37ee3f54829229fda7c73d1f77abacd68a4ffbb87321f6d3011707083842e",
+      "bytes": 3123,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--qa-32.json",
+      "restore_path": "hero-revision-20261029/evidence/qa-32.json",
+      "source_project_relative": "hero-revision-20261029/evidence/qa-32.json",
+      "sha256": "ef1071802732a8bda95ed538cdef3ef30443e4652c613ba2d6520443ab3097b5",
+      "bytes": 1881,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--qa-33.json",
+      "restore_path": "hero-revision-20261029/evidence/qa-33.json",
+      "source_project_relative": "hero-revision-20261029/evidence/qa-33.json",
+      "sha256": "b8da10e363d56ea3e7d708c3c261bc7dadcb79ea420627515831cbdda0ba590a",
+      "bytes": 1725,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--qa-34.json",
+      "restore_path": "hero-revision-20261029/evidence/qa-34.json",
+      "source_project_relative": "hero-revision-20261029/evidence/qa-34.json",
+      "sha256": "3fb58a57c3af8cb037acdd85401310edd13134174860f9c1a1b8a5fe4c5ee8a0",
+      "bytes": 1683,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--qa-35.json",
+      "restore_path": "hero-revision-20261029/evidence/qa-35.json",
+      "source_project_relative": "hero-revision-20261029/evidence/qa-35.json",
+      "sha256": "37b9d6a9e52fbeacc9d5e634992bfe3e674ec10622c936e44e63e4ad992d2f71",
+      "bytes": 1746,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--qa-36.json",
+      "restore_path": "hero-revision-20261029/evidence/qa-36.json",
+      "source_project_relative": "hero-revision-20261029/evidence/qa-36.json",
+      "sha256": "5a3464c7c5ecbecc18d0cf98635e958044c242e98c4607cef826d837f527f235",
+      "bytes": 1705,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--qa-37.json",
+      "restore_path": "hero-revision-20261029/evidence/qa-37.json",
+      "source_project_relative": "hero-revision-20261029/evidence/qa-37.json",
+      "sha256": "6bc2bcb7dd60a327a0a72aa816b403c43d72b4105a5847852c414efe96724012",
+      "bytes": 1495,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--qa-39.json",
+      "restore_path": "hero-revision-20261029/evidence/qa-39.json",
+      "source_project_relative": "hero-revision-20261029/evidence/qa-39.json",
+      "sha256": "94cf2d89e38f73a89972e89d763a3456a8f5c2aae7dabd5b5813fbc49a9cb46b",
+      "bytes": 1353,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--qa-40.json",
+      "restore_path": "hero-revision-20261029/evidence/qa-40.json",
+      "source_project_relative": "hero-revision-20261029/evidence/qa-40.json",
+      "sha256": "13ca92d7719aee40153598f72a65a345bcaf9e8e048a17b9b5be9452f8a57603",
+      "bytes": 1461,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--qa-41.json",
+      "restore_path": "hero-revision-20261029/evidence/qa-41.json",
+      "source_project_relative": "hero-revision-20261029/evidence/qa-41.json",
+      "sha256": "f88d522a8f2c692e3518b3d84ff054a928109549c74b94d022e34af0c0abea20",
+      "bytes": 1689,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--qa-43.json",
+      "restore_path": "hero-revision-20261029/evidence/qa-43.json",
+      "source_project_relative": "hero-revision-20261029/evidence/qa-43.json",
+      "sha256": "e1135d7dae4446c5db6587cad9047e0b63131ae960137e6181106e9aa13d0a3f",
+      "bytes": 1632,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--qa-44.json",
+      "restore_path": "hero-revision-20261029/evidence/qa-44.json",
+      "source_project_relative": "hero-revision-20261029/evidence/qa-44.json",
+      "sha256": "a7bb63060d2e63f87b2fc5869304e7dd7d05405d9a85f4cc9f104f89fae8a229",
+      "bytes": 1756,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--qa-45.json",
+      "restore_path": "hero-revision-20261029/evidence/qa-45.json",
+      "source_project_relative": "hero-revision-20261029/evidence/qa-45.json",
+      "sha256": "40574e1d006c110568f58c79fd9a61574963eec6156fa814d813ba8ac72de9be",
+      "bytes": 1605,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--qa-46.json",
+      "restore_path": "hero-revision-20261029/evidence/qa-46.json",
+      "source_project_relative": "hero-revision-20261029/evidence/qa-46.json",
+      "sha256": "ab660ee15e099f9342e0951ca70eb51b89670534cd135cf9f8a0335e8fe9efc8",
+      "bytes": 1703,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-v2--qa-47.json",
+      "restore_path": "hero-revision-20261029/evidence/qa-47.json",
+      "source_project_relative": "hero-revision-20261029/evidence/qa-47.json",
+      "sha256": "80f1e653eeb14bc40842111eed0458e1ff733ce79833ace3b3391ef362b63006",
+      "bytes": 1656,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-E-guidance--LATEST_USER_STEERING.md",
+      "restore_path": "jjamppong-hero-multicut-20261029/LATEST_USER_STEERING.md",
+      "source_project_relative": "jjamppong-hero-multicut-20261029/LATEST_USER_STEERING.md",
+      "sha256": "0c8b5dc2b9ee85beed16656aac966ef5fc375de7ce57fa37ab748adfec3f925b",
+      "bytes": 5492,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-E-guidance--GENERATION_GUIDELINES.md",
+      "restore_path": "jjamppong-hero-multicut-20261029/GENERATION_GUIDELINES.md",
+      "source_project_relative": "jjamppong-hero-multicut-20261029/GENERATION_GUIDELINES.md",
+      "sha256": "591f23c345519ef7d02853bd229f0e967ca5663d30de0d4c10f49e1c0951fe65",
+      "bytes": 34778,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/hero-E-guidance--SHOT_PLAN.md",
+      "restore_path": "jjamppong-hero-multicut-20261029/SHOT_PLAN.md",
+      "source_project_relative": "jjamppong-hero-multicut-20261029/SHOT_PLAN.md",
+      "sha256": "8eabfc4da7e695c36a71b560890e9a8c7b1bd3ee90f4586c72839c614d32deef",
+      "bytes": 12655,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/product-state.json",
+      "restore_path": "thumbnail-publish-20261030/portable-product-state.json",
+      "source_project_relative": "thumbnail-publish-20261030/portable-product-state.json",
+      "sha256": "6718c401a07f5f1c2cfefb825b855990f61c29a12f48157d84d81ecb0ca0ebc5",
+      "bytes": 38017,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/project-cost-summary.json",
+      "restore_path": "hero-motion-development-20261029/generation/COST_SUMMARY_PORTABLE.json",
+      "source_project_relative": "hero-motion-development-20261029/generation/COST_SUMMARY_PORTABLE.json",
+      "sha256": "de1a2ff971fb9bda7ab6b804b56657f6f96d4d7a4329c472373ab9306f2af0f8",
+      "bytes": 425,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/local-tools--publish_thumbnails.py",
+      "restore_path": "thumbnail-publish-20261030/publish_thumbnails.py",
+      "source_project_relative": "thumbnail-publish-20261030/publish_thumbnails.py",
+      "sha256": "251d28387569a583750cd63f34fd10b8d19f61e54d37c17671124292efb6a326",
+      "bytes": 7233,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/local-tools--cafe24_local.py",
+      "restore_path": "cafe24-local-tools/cafe24_local.py",
+      "source_project_relative": "cafe24-local-tools/cafe24_local.py",
+      "sha256": "ec4db1850f7510f756ad0a19254d4d5fb849997cc94ae6196d01099436f709a3",
+      "bytes": 16044,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/local-tools--environment.example",
+      "restore_path": "cafe24-local-tools/.env.example",
+      "source_project_relative": "cafe24-local-tools/.env.example",
+      "sha256": "b256cce1ea151066050d1a106200f082e30febe1e1dc88125b19c35073c27b41",
+      "bytes": 375,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/thumbnail-publish--deployment-selection.json",
+      "restore_path": "thumbnail-publish-20261030/deployment-selection.json",
+      "source_project_relative": "thumbnail-publish-20261030/deployment-selection.json",
+      "sha256": "b29b6b6b71eed95d8d826ce1355d30fadf24e53d1c5c44d3749b34803a4355e3",
+      "bytes": 20981,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/thumbnail-publish--upload-manifest.json",
+      "restore_path": "thumbnail-publish-20261030/upload-manifest.json",
+      "source_project_relative": "thumbnail-publish-20261030/upload-manifest.json",
+      "sha256": "90507ab71fd66dfb42e3ff3b314bc181891a67aec1d7bdc01abfc5454a3b2d5d",
+      "bytes": 6982,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/thumbnail-publish--product-images-before.json",
+      "restore_path": "thumbnail-publish-20261030/backups/product-images-before.json",
+      "source_project_relative": "thumbnail-publish-20261030/backups/product-images-before.json",
+      "sha256": "896c2abc50b926d0bafa1018c32c0ec1894580eb39677a16d4a87dcdd4bdca7b",
+      "bytes": 17110,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/thumbnail-publish--original-image-manifest.json",
+      "restore_path": "thumbnail-publish-20261030/backups/original-image-manifest.json",
+      "source_project_relative": "thumbnail-publish-20261030/backups/original-image-manifest.json",
+      "sha256": "4ac29c63b40d5ba19d51dd1ee02cc57cbdc4d1bb8c5651dbf5d44f70ba36f706",
+      "bytes": 33271,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/thumbnail-publish--publish-result.json",
+      "restore_path": "thumbnail-publish-20261030/publish-result.json",
+      "source_project_relative": "thumbnail-publish-20261030/publish-result.json",
+      "sha256": "f0d0a0b48dc4c5d16388b47eba81d41924f354cdc9e38db0533b8d5a345be7cd",
+      "bytes": 39583,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/product-state.json",
+      "restore_path": "archive-handoff/product-state.json",
+      "source_project_relative": "archive-handoff/product-state.json",
+      "sha256": "6718c401a07f5f1c2cfefb825b855990f61c29a12f48157d84d81ecb0ca0ebc5",
+      "bytes": 38017,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/local-tools--requirements.txt",
+      "restore_path": "thumbnail-publish-20261030/requirements.txt",
+      "sha256": "6503189834e2578014b7e02295b08e03a05ff1619d284b0d61ae46e95dc4a98b",
+      "bytes": 69,
+      "sanitized": false
+    },
+    {
+      "archive_path": "evidence/thumbnail-publish--public-market-after.json",
+      "restore_path": "thumbnail-publish-20261030/evidence/public-market-after.json",
+      "source_project_relative": "thumbnail-publish-20261030/evidence/public-market-after.json",
+      "sha256": "79daaee1ec99e5524e2598730e7735977572a656cfe0dfaa4ec1cf3f7624c63a",
+      "bytes": 21953,
+      "sanitized": true
+    },
+    {
+      "archive_path": "evidence/thumbnail-publish--public-market-after.html",
+      "restore_path": "thumbnail-publish-20261030/evidence/public-market-after.html",
+      "source_project_relative": "thumbnail-publish-20261030/evidence/public-market-after.html",
+      "sha256": "b95d410543e33ba4d455429864422ef08e879bb1bad8a0d085f64722f78c81af",
+      "bytes": 183730,
+      "sanitized": false
+    },
+    {
+      "archive_path": "evidence/thumbnail-publish--verification-after.json",
+      "restore_path": "thumbnail-publish-20261030/verification-after.json",
+      "source_project_relative": "thumbnail-publish-20261030/verification-after.json",
+      "sha256": "d9df7c22cc28a01e1ec9be4639540fb29edc4bebf22d505ef6c6e3f03ec98ad8",
+      "bytes": 81534,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/thumbnail-publish--verify_thumbnails_readonly.py",
+      "restore_path": "thumbnail-publish-20261030/verify_thumbnails_readonly.py",
+      "source_project_relative": "thumbnail-publish-20261030/verify_thumbnails_readonly.py",
+      "sha256": "77fc67a1b6d3e294e17e89e18a7a0bf7a3b4099781106d51f25a604a0e7c6dd4",
+      "bytes": 9592,
+      "sanitized": false
+    },
+    {
+      "archive_path": "AGENTS.md",
+      "restore_path": "AGENTS.md",
+      "sha256": "e4b33a336382ffdabc4a3c38eaf17aa7ae3b02895d0d5d4704d93251cb4a6e75",
+      "bytes": 3452,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/preview8940--index.html",
+      "restore_path": "thumbnail-generation-20261028/preview/index.html",
+      "source_project_relative": "thumbnail-generation-20261028/preview/index.html",
+      "sha256": "7663ffa1ba4bd705f4ab17f2209fba3d43613483007919c1625bf92cce147eed",
+      "bytes": 138293,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940--mobile.html",
+      "restore_path": "thumbnail-generation-20261028/preview/mobile.html",
+      "source_project_relative": "thumbnail-generation-20261028/preview/mobile.html",
+      "sha256": "af0256d8025ce8ffa93cadca8eb817fb4937015f63dc10cb9801905e22977f26",
+      "bytes": 453,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940--products.json",
+      "restore_path": "thumbnail-generation-20261028/preview/products.json",
+      "source_project_relative": "thumbnail-generation-20261028/preview/products.json",
+      "sha256": "73d9a0ebb1d6d435a9365af6ea27d6ef9ff6153c5f99c11b5f65e0c2bfcc8997",
+      "bytes": 5455,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940--serve_preview.py",
+      "restore_path": "thumbnail-generation-20261028/preview/serve_preview.py",
+      "source_project_relative": "thumbnail-generation-20261028/preview/serve_preview.py",
+      "sha256": "bbb2bda3f4a50eeeaf342ab7d48e67b407a1a5455f5cac4e66f033b1be591bed",
+      "bytes": 2101,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940--build_preview.py",
+      "restore_path": "thumbnail-generation-20261028/preview/build_preview.py",
+      "source_project_relative": "thumbnail-generation-20261028/preview/build_preview.py",
+      "sha256": "359def0be49ef9358ba52dd7f3bb88b9f2654efd7131ae4d770d2217c7ae6d1c",
+      "bytes": 4668,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940--source-market.html",
+      "restore_path": "thumbnail-generation-20261028/preview/source-market.html",
+      "source_project_relative": "thumbnail-generation-20261028/preview/source-market.html",
+      "sha256": "13baa89d0e244e6ff983d9883520a5c5ce411ce9eb3c7de4ecfcb653f6f1ff82",
+      "bytes": 183730,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--cafe24-a.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/cafe24-a.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/cafe24-a.css",
+      "sha256": "7c1c2f156a0a42851154498927840e41a9e2d8ff420989f83060119d44e89b0b",
+      "bytes": 2263,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--cafe24-market.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/cafe24-market.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/cafe24-market.css",
+      "sha256": "383efe87e593a255071a3c99069e99bd99d7d0a2a1a5caf811737495121b7cc1",
+      "bytes": 6019,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--cafe24-market.js",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/cafe24-market.js",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/cafe24-market.js",
+      "sha256": "776f9deb6eb6f37ad07e79439d41916ccca8daa993625b01fe368352d43fa755",
+      "bytes": 10222,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--cohort-ribbon.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/cohort-ribbon.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/cohort-ribbon.css",
+      "sha256": "01e7c7cf0e5ade9dde8d766098c371770a9fced441e6d28bc9af6edd9f8811b9",
+      "bytes": 2840,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-cart-badge.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-cart-badge.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-cart-badge.css",
+      "sha256": "44884422e43b46a428179512dd34a94d94c407d37dfc175978ff1384060ad1ee",
+      "bytes": 1821,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-desktop-market-options.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-desktop-market-options.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-desktop-market-options.css",
+      "sha256": "29398c33c03058794ea3d1be8fa931df1f7ff5678bf44cc3b0d4b7aaa97e19d1",
+      "bytes": 6847,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-desktop-refinement.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-desktop-refinement.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-desktop-refinement.css",
+      "sha256": "c6e43777087424835d58b38ae7aa1dac1f50c11571c5e6236de4c5d0c3deb700",
+      "bytes": 3765,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-desktop-refinement.js",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-desktop-refinement.js",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-desktop-refinement.js",
+      "sha256": "30650ae2b4c9dca66ae36fc552931ab1e0c3c6582601d444c23fd154ad04f042",
+      "bytes": 2761,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-desktop-wide-header.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-desktop-wide-header.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-desktop-wide-header.css",
+      "sha256": "84309ff0040dbc21fce924662bf99205ff7c02253fba561853ffa4800a694998",
+      "bytes": 6982,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-header-sizing.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-header-sizing.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-header-sizing.css",
+      "sha256": "57b13dd299e9f388b6781d05b975d0ea361c7f33f1186f91d801321777e66832",
+      "bytes": 5713,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-home-desktop-actions.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-home-desktop-actions.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-home-desktop-actions.css",
+      "sha256": "2dc2f9f95e685fdd8b542d5f72224b0758e2bda5c073d87f2363446fa6373c04",
+      "bytes": 8759,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-market-cart.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-market-cart.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-market-cart.css",
+      "sha256": "4652d66fe71cf53a9cb696a176d78332106360c37ccf002163451f68fea8bc14",
+      "bytes": 2510,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-market-desktop.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-market-desktop.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-market-desktop.css",
+      "sha256": "fde33a63cf43aaff1b2acec7885b9f905fdf3072e325eaaed0a185bd7981959d",
+      "bytes": 12262,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-market-header-edge.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-market-header-edge.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-market-header-edge.css",
+      "sha256": "211ccf6d0ccd2d0e122a61311a79efe2bc9a4075bc8364afd43dcac05714cb07",
+      "bytes": 861,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-market-header-motion.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-market-header-motion.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-market-header-motion.css",
+      "sha256": "ddd5cd04d4797eba878471412aa3db116cff62f6a731dd36ae68a7ec2002970d",
+      "bytes": 4074,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-market-options.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-market-options.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-market-options.css",
+      "sha256": "e195d5cbcd5738db67cf5f0d427bfa35c8e87a74905a6331fcaaf219342b689d",
+      "bytes": 2147,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-market-prices.js",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-market-prices.js",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-market-prices.js",
+      "sha256": "6ddfbdcd203ff75cc519652132727830f76078508685fa55d85939bae5485ecb",
+      "bytes": 1989,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-page-canvas.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-page-canvas.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-page-canvas.css",
+      "sha256": "efc4d1a3d7c59ccdbb0ac4e54e75d8dd77a771025013df69409ae102c7ae2066",
+      "bytes": 932,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-secondary-header.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-secondary-header.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-secondary-header.css",
+      "sha256": "057136902da15cd701e8528265facad56396819191b9665477a883c3d49f5338",
+      "bytes": 4752,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-secondary-header.js",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-secondary-header.js",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-secondary-header.js",
+      "sha256": "8055061a52abf5161c1d3e710c6173965ee7ce0e0333ec68f7f382f8bf6e5966",
+      "bytes": 1208,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-shared-footer.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-shared-footer.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-shared-footer.css",
+      "sha256": "88f1bdab432f203ee38ff2f038d632deee6e21ca4c144def6c379f85d02d92d2",
+      "bytes": 10790,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-shared-shell.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-shared-shell.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-shared-shell.css",
+      "sha256": "dad86e145d56dc5a89220bbb092527974037bf7fc64c169fc90f7a3e3187d650",
+      "bytes": 13070,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-shared-shell.js",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-shared-shell.js",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-shared-shell.js",
+      "sha256": "ed13f1745aac2f83fa86ea21c9c27998dcf59a75e349e991f87b4371abe907c5",
+      "bytes": 1973,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-signup-bar.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-signup-bar.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-signup-bar.css",
+      "sha256": "a7985749ab2e8f98989ac40220b7d16a390d1f09eb68988e93977e7992c761c5",
+      "bytes": 1017,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-signup-bar.js",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-signup-bar.js",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-signup-bar.js",
+      "sha256": "7027279dbbdaf2fd349bb2011b9ec68e9055a7d890cb81be6b8d0fbfcf0aa785",
+      "bytes": 262,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-ui-details.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-ui-details.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-ui-details.css",
+      "sha256": "699b4ef0840e89e91fbf95ebb9033e97b2f297be5380e471535da1ce42d28995",
+      "bytes": 10767,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-wide-event-v2.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-wide-event-v2.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-wide-event-v2.css",
+      "sha256": "c25ee239b476863524802dbef88add1ac307a0655de4c12f9b67781534ae5b6e",
+      "bytes": 3277,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--dhg-wide-event-v2.js",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/dhg-wide-event-v2.js",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/dhg-wide-event-v2.js",
+      "sha256": "635f4f0d7ba74bce81c860f7e29d05cf8afbfdc1e3a0dba902e40730eb36f674",
+      "bytes": 4472,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--meeting-market-filter.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/meeting-market-filter.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/meeting-market-filter.css",
+      "sha256": "74498bafc7fcc4d90544fd07c9c40b11b98678500389ab334b4f379b375abf74",
+      "bytes": 998,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--meeting-preserve.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/meeting-preserve.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/meeting-preserve.css",
+      "sha256": "70ecffc7361312f85f2fa5f8ac2fae9b6ab0a2d422405dc55fd938cdba4624b7",
+      "bytes": 7177,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--optimized-7968b5e2a6.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/optimized-7968b5e2a6.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/optimized-7968b5e2a6.css",
+      "sha256": "cb558b9957d2e0fefe15c69503df804a1164e58ca210e78fe54e583f8b6bf382",
+      "bytes": 9618,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--styles.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/styles.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/styles.css",
+      "sha256": "d6e4b9fa71af0ec6d17fc9e67a5f9514eaeccf87fc68eea0581ac3e2bb78b4fd",
+      "bytes": 159367,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--subscription-home.css",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/subscription-home.css",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/subscription-home.css",
+      "sha256": "2a6d14260ac753b95ea399534a10773c5c925dafa9a8cfa1177766bfd74233e3",
+      "bytes": 83819,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8940-assets--thumbnail-preview.js",
+      "restore_path": "thumbnail-generation-20261028/preview/assets/thumbnail-preview.js",
+      "source_project_relative": "thumbnail-generation-20261028/preview/assets/thumbnail-preview.js",
+      "sha256": "64e7e28e8d47af71a1845a63b41a726ce490038a91150ea7699a973e8a3f6526",
+      "bytes": 1720,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8950--index.html",
+      "restore_path": "hero-generation-20261028/index.html",
+      "source_project_relative": "hero-generation-20261028/index.html",
+      "sha256": "67a908a936916f648f0706dc1f91e1707b21fc59bb5d0d683417c871073f75f0",
+      "bytes": 9459,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8950--manifest.json",
+      "restore_path": "hero-generation-20261028/manifest.json",
+      "source_project_relative": "hero-generation-20261028/manifest.json",
+      "sha256": "81edd1f7b94a3d51f47fe6cc634c3927cb0ee0322e9929fb4d974ade9fe95a1a",
+      "bytes": 6489,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8950--video-manifest.json",
+      "restore_path": "hero-generation-20261028/video-manifest.json",
+      "source_project_relative": "hero-generation-20261028/video-manifest.json",
+      "sha256": "16a729dfa6e584293abc740f9ed39c40c55a63a40c9ca8d660cfe48a45915290",
+      "bytes": 3457,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8950--review-42.html",
+      "restore_path": "hero-generation-20261028/review-42.html",
+      "source_project_relative": "hero-generation-20261028/review-42.html",
+      "sha256": "cd7b60ef969c04f65232590c732ccd2e20009d3dbda69cf58fa60c171519886f",
+      "bytes": 4736,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8950--review-all.html",
+      "restore_path": "hero-generation-20261028/review-all.html",
+      "source_project_relative": "hero-generation-20261028/review-all.html",
+      "sha256": "bad4438703e8ee7c607041aba5b9a7e0fa527b4605282506c941e06eab5140f1",
+      "bytes": 9878,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8950--shooting-notes.txt",
+      "restore_path": "hero-generation-20261028/shooting-notes.txt",
+      "source_project_relative": "hero-generation-20261028/shooting-notes.txt",
+      "sha256": "bca1847e12773831d0596b7358dbde33118b615e41b0f2ee2c9068e1cb58487a",
+      "bytes": 11652,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8950--existing-captions.json",
+      "restore_path": "hero-generation-20261028/evidence/existing-captions.json",
+      "source_project_relative": "hero-generation-20261028/evidence/existing-captions.json",
+      "sha256": "bc4995700bcd7076cb907e417dd6dcfa8bbb955394c13b2141bc0528b658dd94",
+      "bytes": 2584,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-32-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-32-v2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-32-attempt-1.txt",
+      "sha256": "f853d64394c4d4ec5eee67ba7037e739360f65dff3310b9ad016210fb8a4aeb3",
+      "bytes": 1756,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-33-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-33-v2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-33-attempt-1.txt",
+      "sha256": "404db96ed6a1a6584f0a75d7e25305966ab860aee6f581a6a8cac7da22ccc951",
+      "bytes": 1699,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-34-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-34-v2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-34-attempt-1.txt",
+      "sha256": "8e9a3e711407d618e18a88f935f94a8645d2c922bf8726cf425cb99ae487bdce",
+      "bytes": 1373,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-35-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-35-v2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-35-attempt-1.txt",
+      "sha256": "807bcb1a2236ece2653f7417e2a67675765111ee0878b31445a13cb63aabb793",
+      "bytes": 1601,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-36-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-36-v2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-36-attempt-1.txt",
+      "sha256": "ff56ade9cc3b93d310ee66923ce5a952e4c041146cd141ae0ee9af09159ce086",
+      "bytes": 1548,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-37-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-37-v2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-37-attempt-1.txt",
+      "sha256": "f4457298418db5eb71fb2f81def970ac88536a64dcb2992c1087fb5c75b8a9d4",
+      "bytes": 1656,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-39-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-39-v2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-39-attempt-1.txt",
+      "sha256": "c2ad864789d3f96d9151a11b3da23072ed7f599c31abaf3f6d46c5aec745e8b4",
+      "bytes": 1362,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-40-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-40-v2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-40-attempt-1.txt",
+      "sha256": "a010d140d17fbb9e23cb9c8ff9cc9cf42bb775ec3e7875a3e805e4257e761ae3",
+      "bytes": 1531,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-41-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-41-v2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-41-attempt-1.txt",
+      "sha256": "ffb9894d7b06142b250045b82fa2505da541682b487148ca05cb2d060aea2344",
+      "bytes": 1495,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-43-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-43-v2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-43-attempt-1.txt",
+      "sha256": "98bbc2be6b0522cd269340877f71ff75c3e6b8d02d9eaa4e2f69883883e79eb0",
+      "bytes": 1369,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-44-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-44-v2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-44-attempt-1.txt",
+      "sha256": "e96b0fc4a156d042f72c255ef0aa5c592a5e41558a29b50d5f40d8ffa205ef15",
+      "bytes": 1665,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-45-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-45-v2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-45-attempt-1.txt",
+      "sha256": "7a184b958b2bbdac53e340e880b40ff92c5d96d368b5aead618c3d04f7b3a115",
+      "bytes": 1590,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-46-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-46-v2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-46-attempt-1.txt",
+      "sha256": "d787bc4d26117f85a6e5d1fb9193609f3b73032ac781a5d6089d58ecd626d2df",
+      "bytes": 1409,
+      "sanitized": true
+    },
+    {
+      "archive_path": "prompts/hero-v2--product-47-attempt-1.txt",
+      "restore_path": "hero-generation-20261028/prompts/product-47-v2.txt",
+      "source_project_relative": "hero-revision-20261029/prompts/product-47-attempt-1.txt",
+      "sha256": "1ba2439916f219502d745de8dabc1d071a961f4faa3f9343aaf75346f1fd3e7e",
+      "bytes": 1460,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/preview8950--revision-manifest.json",
+      "restore_path": "hero-generation-20261028/revision-manifest.json",
+      "source_project_relative": "hero-generation-20261028/revision-manifest.json",
+      "sha256": "1692d1a46c2639298be70712b69191c502c570a9e2f7ff5c6ed299d7d1b9ba02",
+      "bytes": 5918,
+      "sanitized": true
+    },
+    {
+      "archive_path": "source/hero-edit--build_final.py",
+      "restore_path": "hero-motion-development-20261029/build_final.py",
+      "source_project_relative": "hero-motion-development-20261029/build_final.py",
+      "sha256": "ee86308cad71de92d7b7f7f27ccd10eed5c103939e0bc1cbd0309588f6150ff1",
+      "bytes": 2826,
+      "sanitized": true,
+      "portable_note": "Creates local output folders; edit ranges and encode settings unchanged."
+    },
+    {
+      "archive_path": "source/hero-edit--analyze_video.py",
+      "restore_path": "jjamppong-hero-multicut-20261029/generation/analyze_video.py",
+      "source_project_relative": "jjamppong-hero-multicut-20261029/generation/analyze_video.py",
+      "sha256": "3b624ad8be0272f711cdaa84fdf89a9d6a3d7bf8fcd480f6ea70b7fef19feb71",
+      "bytes": 14725,
+      "sanitized": true,
+      "portable_note": "Uses ffmpeg from PATH instead of a previous computer temporary binary."
+    },
+    {
+      "archive_path": "source/hero-edit--inspect_timing.py",
+      "restore_path": "jjamppong-hero-multicut-20261029/qa/encoding-check/inspect_timing.py",
+      "source_project_relative": "jjamppong-hero-multicut-20261029/qa/encoding-check/inspect_timing.py",
+      "sha256": "0c717288d7a4f04ba2353b011fcec690c9cf0b361cd9b685a8847fa50ebf493b",
+      "bytes": 2808,
+      "sanitized": false
+    },
+    {
+      "archive_path": "source/local-preview--requirements.txt",
+      "restore_path": "preview-tools/requirements.txt",
+      "source_project_relative": "preview-tools/requirements.txt",
+      "sha256": "303f426d4d189f186038e6474da9bc880d6d99151cbf2258c45d0320980a8404",
+      "bytes": 104,
+      "sanitized": false
+    },
+    {
+      "archive_path": "PREVIEW_VERIFICATION.json",
+      "restore_path": "thumbnail-publish-20261030/preview-source-smoke-check.json",
+      "sha256": "c5d9023b1e47e5e0ac08066799bae8be71491492b3d50dd5db632985dd5960aa",
+      "bytes": 931,
+      "sanitized": false
+    }
+  ],
+  "media_policy": "Text-only GitHub archive. Media maps are local iCloud references in thumbnail-assets-map.json; missing media never blocks source restore."
+}

@@ -1,0 +1,171 @@
+{
+  "as_of": "2026-10-30",
+  "archive_scope": "Code, prompts and records on GitHub; actual working media and old thumbnail backups remain in local iCloud only.",
+  "archive_status": "versioned-text-only-work-snapshot",
+  "repository": "https://github.com/DA-Creation/donghwa-garden-preview",
+  "public_media_commit": "71e985a0a4d43fc6b1f712d6fb1e4fe2698342dd",
+  "local_hosting_checkout_observed": "main at 2a1640b; stale with media untracked. Do not overwrite newer remote from that checkout.",
+  "live_site": "https://dacreation.cafe24.com",
+  "active_skin": "skin5",
+  "hero": {
+    "products": 15,
+    "candidates": 48,
+    "mp4_candidates": 17,
+    "product42_default": "F /6of6",
+    "other_default": "C still",
+    "gift38": "preserved, no herochange",
+    "status": "Published comparison candidates; not final photographic approval"
+  },
+  "thumbnail": {
+    "published_products": 15,
+    "product_nos": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "changed_fields": [
+      "list_image",
+      "tiny_image",
+      "small_image"
+    ],
+    "product38_unchanged": true,
+    "last_verified": "2026-10-30T10:44:07.068082+09:00",
+    "source_selection": "evidence/thumbnail-publish--deployment-selection.json",
+    "publication_evidence": "evidence/thumbnail-publish--publish-result.json",
+    "historical_note": "Historical v3 accepted only33/37;35 v3 rejected. See per-product selected version.",
+    "browser_review": {
+      "status": "desktop-and-mobile-viewport-checked",
+      "source": "Parent browser QA and supplied rendered page screenshots",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product/list.html?cate_no=42",
+      "mobile_viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshots": [
+        {
+          "kind": "desktop",
+          "archive_path": "assets/browser-qa--market-desktop-after.jpg",
+          "screenshot_pixels": [
+            1265,
+            712
+          ]
+        },
+        {
+          "kind": "mobile",
+          "archive_path": "assets/browser-qa--market-mobile-after.jpg",
+          "screenshot_pixels": [
+            375,
+            812
+          ]
+        }
+      ],
+      "observations": [
+        "Updated food thumbnails render in the public product cards",
+        "Desktop and mobile layouts visually checked"
+      ],
+      "image_checks": {
+        "changed_cdn_fields": 45,
+        "changed_cdn_fields_passed": 45,
+        "preserved_cdn_fields": 19,
+        "preserved_cdn_fields_passed": 19,
+        "method": "Independent GET/image comparison; separate from visual browser screenshots"
+      },
+      "limits": [
+        "Physical iPhone was not tested",
+        "Screenshot pixel dimensions are recorded separately; viewport dimensions follow the parent browser QA report."
+      ]
+    },
+    "public_market_html_verification": "18 public cards found;15 target list images match publication;38 original preserved. evidence/thumbnail-publish--public-market-after.json",
+    "independent_api_cdn_verification": {
+      "api_products": 16,
+      "api_products_passed": 16,
+      "replacement_image_fields": 45,
+      "replacement_image_fields_passed": 45,
+      "preserved_image_fields": 19,
+      "preserved_image_fields_passed": 19,
+      "replacement_exact_byte_matches": 37,
+      "maximum_normalized_channel_mae": 0.5961151123046875,
+      "maximum_normalized_channel_rms": 0.8625208755399416,
+      "product38_unchanged": true,
+      "all_detail_images_unchanged_by_url_and_bytes": true,
+      "all_nonimage_guards_unchanged": true
+    },
+    "independent_evidence": "evidence/thumbnail-publish--verification-after.json",
+    "contact_sheet": "assets/thumbnail-publish--after-contact-sheet.jpg"
+  },
+  "budget": {
+    "currency": "USD",
+    "budget": 8,
+    "previous_job_spend": 5.28,
+    "model": "bytedance/seedance-2.0",
+    "pricing": "720p image-only $0.18 per output second",
+    "new_estimated_cost": 2.16,
+    "total_estimated_spend": 7.44,
+    "estimated_budget_remaining": 0.56,
+    "note": "Calculated from official output duration pricing and returned metrics, not account invoice verification. Do not spend remaining funds automatically."
+  },
+  "resume_order": [
+    "README.md",
+    "evidence/product-state.json",
+    "evidence/hero-v5--DELIVERY_STATUS.json",
+    "evidence/hero-v5--final-edit.json",
+    "source/current--skin5--product-full--hero-review-20261029--manifest.js"
+  ],
+  "active_constraints": [
+    "Referencefirst: inspectrealproductphoto and approved reference beforegeneration.",
+    "Keep existingcopy and functionalflow unless specifically asked.",
+    "42 no newsteam,liquiddrops,strings,boiling,bubbles or ornamentalripples.",
+    "38preserved; noproductdeletion.",
+    "F is comparisoncandidatewithremainingAItexture andsolidleafrelease.",
+    "Use actualMP4autoplay/muted/loop/playsinline; noGIFsubstitute.",
+    "120fpscapture unknown; actualCookatdelivery24000/1001fps141frames5.880875s.",
+    "Do notspendremaininggenerationbudget automatically."
+  ],
+  "exclusions": [
+    "Credentials,envfiles,authconfigs andcookie/sessiondata",
+    "Rawadmin/customerAPIresponses andprivatecustomerrecords",
+    "Fullbrowsercaptures andbrowserstate",
+    "RawReplicateAPIresponses,predictionIDs andaccountbillingbalance",
+    "Competitorcopiedmedia/HTML; retain citation andprobe summariesonly",
+    "DuplicatedpublicMP4s andmostframegrids"
+  ],
+  "archive_tools": {
+    "verify": "python3 verify.py",
+    "restore": "python3 restore.py --output ../../donghwa-work",
+    "collect": "python3 collect.py --workspace ../../donghwa-work --dry-run",
+    "optional_local_media": "--local-media PATH_TO_ICLOUD_PROJECT/thumbnail-publish-20261030/local-only-assets"
+  },
+  "archive_source_commit": "7dc8107",
+  "local_previews": {
+    "thumbnail": "thumbnail-generation-20261028/preview/serve_preview.py →127.0.0.1:8940/mobile.html",
+    "hero": "python3 -m http.server 8950 --bind 127.0.0.1 --directory hero-generation-20261028",
+    "historical_ui_note": "8950 preserves historical single-shot A video and B/revised still comparison; latest F is not substituted into that old UI. See current live42 detail/outputF.",
+    "current_C_stills_included": false,
+    "optional_old_media": "Media remains in local iCloud;use --local-media when available. Public URLs/hashes are references only;existing17liveMP4s unchanged.",
+    "dependencies": "preview-tools/requirements.txt plus ffmpeg/ffprobe onPATH",
+    "new_source_files": 52,
+    "verification": "PREVIEW_VERIFICATION.json",
+    "assembly": "hero-motion-development-20261029/build_final.py",
+    "reassembled_F_matches_deployed_sha256": "b417a686676270fd901c796fd8ac336c8111f77002549e1b25315b3e759ec05c",
+    "current_C_stills_local_only": 14
+  },
+  "media_storage": {
+    "policy": "Do not upload images/videos/backups to GitHub work-archive",
+    "local_directory": "thumbnail-publish-20261030/local-only-assets",
+    "manifest": "thumbnail-assets-map.json",
+    "missing_local_media": "Source restore continues without media",
+    "existing_public17MP4": "Remain unchanged for current live storefront pages"
+  }
+}

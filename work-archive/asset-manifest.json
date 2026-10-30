@@ -1,0 +1,734 @@
+{
+  "version": 1,
+  "purpose": "Reference-only media URLs/hashes and local iCloud locations. No media files are uploaded with this text archive. The already-hosted17 live MP4s are untouched.",
+  "assets": [
+    {
+      "id": "hero-32-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/32-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/32-A-video-v1.mp4",
+      "sha256": "e0b887296a67eab1b01964f49ca807d6137fc8adfee73426b5a1f12aa10b6b7e",
+      "bytes": 4765990,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-32.mp4",
+        "video-generation-20261029/videos/product-32.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/32-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-32-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/32-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/32-B-image-v1.png",
+      "sha256": "f883ffa799292e97d68a878977908792a8f214ab7c3f5c6536c66a84a8f1bb50",
+      "bytes": 2769829,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-32.png"
+      ]
+    },
+    {
+      "id": "hero-32-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/32-C-image-v2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/32-C-image-v2.png",
+      "sha256": "4193fb9599624db6c95f46809d724c91651711fd93ce2fd09240b0550644727b",
+      "bytes": 2956991,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-32-v2.png",
+        "hero-revision-20261029/images/product-32-v2.png"
+      ],
+      "included_note": "Current media is preserved in local iCloud only; see thumbnail-assets-map.json.",
+      "local_file_reference": "thumbnail-publish-20261030/local-only-assets/hero-current-C-32.png"
+    },
+    {
+      "id": "hero-33-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/33-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/33-A-video-v1.mp4",
+      "sha256": "aee63ab68cd2a5f1ad9c22912d8fa71ff50493ac42a8d2401d6f9258b48618f3",
+      "bytes": 4594289,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-33.mp4",
+        "video-generation-20261029/videos/product-33.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/33-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-33-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/33-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/33-B-image-v1.png",
+      "sha256": "d1aa06cba15de564c469467663c97df414e365a0c1cd52980c7231b1ed9275f6",
+      "bytes": 2379962,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-33.png"
+      ]
+    },
+    {
+      "id": "hero-33-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/33-C-image-v2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/33-C-image-v2.png",
+      "sha256": "e4d9721394d697524a177c6733663938892668f12d4d197543af38626f1aa9f3",
+      "bytes": 2266467,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-33-v2.png",
+        "hero-revision-20261029/images/product-33-v2.png"
+      ],
+      "included_note": "Current media is preserved in local iCloud only; see thumbnail-assets-map.json.",
+      "local_file_reference": "thumbnail-publish-20261030/local-only-assets/hero-current-C-33.png"
+    },
+    {
+      "id": "hero-34-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/34-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/34-A-video-v1.mp4",
+      "sha256": "087509c062e420d642f86dc636686dc4790be7a345adaff1def34cc554aa1c64",
+      "bytes": 1364134,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-34.mp4",
+        "video-generation-20261029/videos/product-34.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/34-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-34-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/34-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/34-B-image-v1.png",
+      "sha256": "3a6d62bba159bd58f8179f6e4f1ab1625be2cdf63dd706a5c81987f574574ff0",
+      "bytes": 1823875,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-34.png"
+      ]
+    },
+    {
+      "id": "hero-34-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/34-C-image-v2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/34-C-image-v2.png",
+      "sha256": "87de0c63bbb413afb0a97e4ef8a9b7c9a2db6dcb81599597d2f633640a25af73",
+      "bytes": 1699367,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-34-v2.png",
+        "hero-revision-20261029/images/product-34-v2.png"
+      ],
+      "included_note": "Current media is preserved in local iCloud only; see thumbnail-assets-map.json.",
+      "local_file_reference": "thumbnail-publish-20261030/local-only-assets/hero-current-C-34.png"
+    },
+    {
+      "id": "hero-35-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/35-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/35-A-video-v1.mp4",
+      "sha256": "5fda4094c4a609c27227e4253693102f8a8fb75c331e854fa18e20a828441a0d",
+      "bytes": 1213940,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-35.mp4",
+        "video-generation-20261029/videos/product-35.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/35-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-35-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/35-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/35-B-image-v1.png",
+      "sha256": "de08488651f0772684bdf76860b288d911c1be10fdbf4beec24944976edbb0f0",
+      "bytes": 2117962,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-35.png"
+      ]
+    },
+    {
+      "id": "hero-35-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/35-C-image-v2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/35-C-image-v2.png",
+      "sha256": "1d967d47443c0c3321d263938ea131fd5a700a115b170c5cd0f426f0d389205b",
+      "bytes": 2349664,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-35-v2.png",
+        "hero-revision-20261029/images/product-35-v2.png"
+      ],
+      "included_note": "Current media is preserved in local iCloud only; see thumbnail-assets-map.json.",
+      "local_file_reference": "thumbnail-publish-20261030/local-only-assets/hero-current-C-35.png"
+    },
+    {
+      "id": "hero-36-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/36-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/36-A-video-v1.mp4",
+      "sha256": "84bca1b06173a221b34687cb259aa0c1506b219cb90b78dab5f0ca22b6cf7544",
+      "bytes": 2114507,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-36.mp4",
+        "video-generation-20261029/videos/product-36.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/36-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-36-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/36-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/36-B-image-v1.png",
+      "sha256": "074813742fe81f422a354e34a8ff87efd1d9d03c22f5effe9baf1680eafdf5e8",
+      "bytes": 2085093,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-36.png"
+      ]
+    },
+    {
+      "id": "hero-36-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/36-C-image-v2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/36-C-image-v2.png",
+      "sha256": "e7bbb1c4e6bd27ddd554b480fa3794906217eedc960a8c5efefb66e2be15df3c",
+      "bytes": 2248614,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-36-v2.png",
+        "hero-revision-20261029/images/product-36-v2.png"
+      ],
+      "included_note": "Current media is preserved in local iCloud only; see thumbnail-assets-map.json.",
+      "local_file_reference": "thumbnail-publish-20261030/local-only-assets/hero-current-C-36.png"
+    },
+    {
+      "id": "hero-37-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/37-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/37-A-video-v1.mp4",
+      "sha256": "01799e3129fedf8c45fc9cf14a3d019bf9f58d5fed5871ba2208a3449ddb6663",
+      "bytes": 2570180,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-37.mp4",
+        "video-generation-20261029/videos/product-37.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/37-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-37-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/37-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/37-B-image-v1.png",
+      "sha256": "b1d7e3cd97d826f32d527e576f18ccf70b61931d81108e3c63f2c5544e3289b4",
+      "bytes": 2288323,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-37.png"
+      ]
+    },
+    {
+      "id": "hero-37-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/37-C-image-v2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/37-C-image-v2.png",
+      "sha256": "ffa27621a387c23baf2f899c47d0586598df20a531c57dbf55f3be1f765ed56c",
+      "bytes": 2213596,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-37-v2.png",
+        "hero-revision-20261029/images/product-37-v2.png"
+      ],
+      "included_note": "Current media is preserved in local iCloud only; see thumbnail-assets-map.json.",
+      "local_file_reference": "thumbnail-publish-20261030/local-only-assets/hero-current-C-37.png"
+    },
+    {
+      "id": "hero-39-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/39-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/39-A-video-v1.mp4",
+      "sha256": "6b1b5ee8070960f13295c476a65baf6a260c1cc6ecbf0f4cea3eacb91c2c9d63",
+      "bytes": 2613051,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-39.mp4",
+        "video-generation-20261029/videos/product-39.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/39-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-39-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/39-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/39-B-image-v1.png",
+      "sha256": "b127a23226622713864136fdba2f35de4af8e577e41223196b4ba453a2373c2c",
+      "bytes": 2227112,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-39.png"
+      ]
+    },
+    {
+      "id": "hero-39-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/39-C-image-v2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/39-C-image-v2.png",
+      "sha256": "1ef3bcccdf52bf7e5a33493012e28acca20658abaee673bb8fe211f5b5b80c1d",
+      "bytes": 2028697,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-39-v2.png",
+        "hero-revision-20261029/images/product-39-v2.png"
+      ],
+      "included_note": "Current media is preserved in local iCloud only; see thumbnail-assets-map.json.",
+      "local_file_reference": "thumbnail-publish-20261030/local-only-assets/hero-current-C-39.png"
+    },
+    {
+      "id": "hero-40-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/40-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/40-A-video-v1.mp4",
+      "sha256": "3d420012ff77b552bd299ed454bc1af6f096b73aefef789885037aff3ffe19d1",
+      "bytes": 1676913,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-40.mp4",
+        "video-generation-20261029/videos/product-40.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/40-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-40-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/40-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/40-B-image-v1.png",
+      "sha256": "097fcfc0b0fc4b3c53e8d0f29036e6e2a058c398b2f014a08d0fa35f3ff09ba9",
+      "bytes": 2079733,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-40.png"
+      ]
+    },
+    {
+      "id": "hero-40-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/40-C-image-v2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/40-C-image-v2.png",
+      "sha256": "b819da3a77432ad23634ee021505a471723598e26757aca828de9343c95f6d52",
+      "bytes": 2247919,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-40-v2.png",
+        "hero-revision-20261029/images/product-40-v2.png"
+      ],
+      "included_note": "Current media is preserved in local iCloud only; see thumbnail-assets-map.json.",
+      "local_file_reference": "thumbnail-publish-20261030/local-only-assets/hero-current-C-40.png"
+    },
+    {
+      "id": "hero-41-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/41-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/41-A-video-v1.mp4",
+      "sha256": "89cdce95686e7895682426e8fc707c288c53676a4547dfd3c0db9284fe2ceaa5",
+      "bytes": 962995,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-41.mp4",
+        "video-generation-20261029/videos/product-41.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/41-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-41-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/41-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/41-B-image-v1.png",
+      "sha256": "3c8d4a8cd765e3d6591209f4f3acd18daee287cb2395fe03ce343af060b44850",
+      "bytes": 2015145,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-41.png"
+      ]
+    },
+    {
+      "id": "hero-41-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/41-C-image-v2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/41-C-image-v2.png",
+      "sha256": "2e859f3947fb8df2ececca23e8081d058d917a505a552ca42ec2b2638119072e",
+      "bytes": 2403030,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-41-v2.png",
+        "hero-revision-20261029/images/product-41-v2.png"
+      ],
+      "included_note": "Current media is preserved in local iCloud only; see thumbnail-assets-map.json.",
+      "local_file_reference": "thumbnail-publish-20261030/local-only-assets/hero-current-C-41.png"
+    },
+    {
+      "id": "hero-42-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/42-A-video-v1.mp4",
+      "sha256": "86bce99037c125d2ff785a9049699a2f88a3391f70114f439a87c75f060135c9",
+      "bytes": 1652838,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-42.mp4",
+        "video-generation-20261029/videos/product-42.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/42-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-42-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/42-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/42-B-image-v1.png",
+      "sha256": "5e75cbe38365e896828ba2c61d04a4bc58dcd6d2a45166ca3bc93bf018c317f2",
+      "bytes": 2270490,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-42.png"
+      ]
+    },
+    {
+      "id": "hero-42-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/42-C-image-v2-1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/42-C-image-v2-1.png",
+      "sha256": "cc03dbacf428b7dfd5dfa74fb9a34160c0a0a812881c0d78be9e8741577add40",
+      "bytes": 2287928,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-42-v2-candidate1.png"
+      ]
+    },
+    {
+      "id": "hero-42-D",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/42-D-image-v2-2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/42-D-image-v2-2.png",
+      "sha256": "4dc0b517a5e23dc4c27882ff9de25c4ebb55425e54f8ed13a6d625936e8f9672",
+      "bytes": 2324323,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-42-v2-candidate2.png"
+      ]
+    },
+    {
+      "id": "hero-42-E",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-E-hero-multicut-v4.mp4",
+      "restore_path": "media/hero-review-20261029/42-E-hero-multicut-v4.mp4",
+      "sha256": "8a85712db0ca9dd15d003c5a86d304246ce5b629ad9f8ecd872955c755fb95bf",
+      "bytes": 3197565,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "jjamppong-hero-multicut-20261029/outputs/42-E-hero-multicut-v4.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/42-E-hero-multicut-v4.mp4"
+    },
+    {
+      "id": "hero-42-F",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/42-F-hero-multicut-v5.mp4",
+      "restore_path": "media/hero-review-20261029/42-F-hero-multicut-v5.mp4",
+      "sha256": "b417a686676270fd901c796fd8ac336c8111f77002549e1b25315b3e759ec05c",
+      "bytes": 3096693,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-motion-development-20261029/outputs/42-F-hero-multicut-v5.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/42-F-hero-multicut-v5.mp4"
+    },
+    {
+      "id": "hero-43-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/43-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/43-A-video-v1.mp4",
+      "sha256": "834abe5e281af51892006c822a674fb3948b247bc51cb66c0eec9f1f42a54efd",
+      "bytes": 1394266,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-43.mp4",
+        "video-generation-20261029/videos/product-43.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/43-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-43-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/43-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/43-B-image-v1.png",
+      "sha256": "74ec590be5721c0b2fc8f8d5812192fc1739c07a83d53a6ddf595e0e9acf892e",
+      "bytes": 2085572,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-43.png"
+      ]
+    },
+    {
+      "id": "hero-43-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/43-C-image-v2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/43-C-image-v2.png",
+      "sha256": "0f0c9c95ae13702aead14b9b3e3231924b0b468069e9507e29252832e951797c",
+      "bytes": 2221878,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-43-v2.png",
+        "hero-revision-20261029/images/product-43-v2.png"
+      ],
+      "included_note": "Current media is preserved in local iCloud only; see thumbnail-assets-map.json.",
+      "local_file_reference": "thumbnail-publish-20261030/local-only-assets/hero-current-C-43.png"
+    },
+    {
+      "id": "hero-44-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/44-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/44-A-video-v1.mp4",
+      "sha256": "48b31577591115ab07387293330a165c14ee372a028cc81ba3904812552bf96f",
+      "bytes": 2373070,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-44.mp4",
+        "video-generation-20261029/videos/product-44.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/44-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-44-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/44-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/44-B-image-v1.png",
+      "sha256": "2e5238ce837c2bead3c9e1219305c0bbf7647edc94ba77d197824e1fde51ab6e",
+      "bytes": 2355690,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-44.png"
+      ]
+    },
+    {
+      "id": "hero-44-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/44-C-image-v2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/44-C-image-v2.png",
+      "sha256": "8604adbbb7043d4e635e99c752bf1c0eaadcca8898eccd7122f08bf585428fe7",
+      "bytes": 2260433,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-44-v2.png",
+        "hero-revision-20261029/images/product-44-v2.png"
+      ],
+      "included_note": "Current media is preserved in local iCloud only; see thumbnail-assets-map.json.",
+      "local_file_reference": "thumbnail-publish-20261030/local-only-assets/hero-current-C-44.png"
+    },
+    {
+      "id": "hero-45-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/45-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/45-A-video-v1.mp4",
+      "sha256": "768579c0b2c1e5860cd8dc10c84146fd3fab99bf1df3fd38ebf7dbeb17a940be",
+      "bytes": 1740222,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-45.mp4",
+        "video-generation-20261029/videos/product-45.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/45-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-45-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/45-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/45-B-image-v1.png",
+      "sha256": "03ffac4adbef833776e68e9ac44caa9473dc84e95872f93c0f4125cffad70af2",
+      "bytes": 2043087,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-45.png"
+      ]
+    },
+    {
+      "id": "hero-45-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/45-C-image-v2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/45-C-image-v2.png",
+      "sha256": "0295493ccf2f08cc54a1c9c2f28a6ae5e7253f090bfb94a08b5e806ee796241e",
+      "bytes": 2405995,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-45-v2.png",
+        "hero-revision-20261029/images/product-45-v2.png"
+      ],
+      "included_note": "Current media is preserved in local iCloud only; see thumbnail-assets-map.json.",
+      "local_file_reference": "thumbnail-publish-20261030/local-only-assets/hero-current-C-45.png"
+    },
+    {
+      "id": "hero-46-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/46-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/46-A-video-v1.mp4",
+      "sha256": "ce46e2a2866f97cc4a16a74f1b2ba04ce9338fb5513cfb62db6e526a9ce2e8e0",
+      "bytes": 1529755,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-46.mp4",
+        "video-generation-20261029/videos/product-46.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/46-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-46-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/46-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/46-B-image-v1.png",
+      "sha256": "edc6dd469a6598284df7767cdc861fb4d3ee2b326f5503dc55f930aca60aedb6",
+      "bytes": 2121736,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-46.png"
+      ]
+    },
+    {
+      "id": "hero-46-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/46-C-image-v2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/46-C-image-v2.png",
+      "sha256": "0350536faf93376d640ff50bd9b36567810bebe89ff944d997990bbf9ee47aaa",
+      "bytes": 2496445,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-46-v2.png",
+        "hero-revision-20261029/images/product-46-v2.png"
+      ],
+      "included_note": "Current media is preserved in local iCloud only; see thumbnail-assets-map.json.",
+      "local_file_reference": "thumbnail-publish-20261030/local-only-assets/hero-current-C-46.png"
+    },
+    {
+      "id": "hero-47-A",
+      "kind": "video",
+      "url": "https://da-creation.github.io/donghwa-garden-preview/media/hero-review-20261029/47-A-video-v1.mp4",
+      "restore_path": "media/hero-review-20261029/47-A-video-v1.mp4",
+      "sha256": "6fdd6f7134eaaebf76c46261999fdb23d7a49c961965e2082249472adb9b94aa",
+      "bytes": 2522262,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/videos/product-47.mp4",
+        "video-generation-20261029/videos/product-47.mp4"
+      ],
+      "repository_path": "media/hero-review-20261029/47-A-video-v1.mp4"
+    },
+    {
+      "id": "hero-47-B",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/47-B-image-v1.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/47-B-image-v1.png",
+      "sha256": "ca36b3d5370dda3a5f70b28fddb574e60418df5ca3264268880c031dde008688",
+      "bytes": 2045102,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/images/product-47.png"
+      ]
+    },
+    {
+      "id": "hero-47-C",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/47-C-image-v2.png",
+      "restore_path": "hero-revision-20261029/deploy/staged/skin5/product-full/hero-review-20261029/media/47-C-image-v2.png",
+      "sha256": "cbd790857d092a28b97209b93a6ae5d4d831f5034305bc300c18ba7e693e822d",
+      "bytes": 2478822,
+      "already_public": true,
+      "download_default": false,
+      "restore_aliases": [
+        "hero-generation-20261028/candidates/product-47-v2.png",
+        "hero-revision-20261029/images/product-47-v2.png"
+      ],
+      "included_note": "Current media is preserved in local iCloud only; see thumbnail-assets-map.json.",
+      "local_file_reference": "thumbnail-publish-20261030/local-only-assets/hero-current-C-47.png"
+    },
+    {
+      "id": "input-shot01-place-v5",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/v5-inputs/shot01-place-v5-dd0b2bfcef.jpg",
+      "restore_path": "hero-motion-development-20261029/keyframes/shot01-place-v5.jpg",
+      "sha256": "dd0b2bfcef64cb6be8681e01004366ab04de9e147fc69b46dd9c9f0525bd49f6",
+      "bytes": 664849,
+      "already_public": true,
+      "download_default": false
+    },
+    {
+      "id": "input-shot02-stir-v5",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/v5-inputs/shot02-stir-v5-70b58d875c.jpg",
+      "restore_path": "hero-motion-development-20261029/keyframes/shot02-stir-v5.jpg",
+      "sha256": "70b58d875c55e91acf4169d5199875d3323e0ee034941854296b477f7888b904",
+      "bytes": 677978,
+      "already_public": true,
+      "download_default": false
+    },
+    {
+      "id": "input-shot03-lift-v5",
+      "kind": "image",
+      "url": "https://dacreation.cafe24.com/skin-skin5/product-full/hero-review-20261029/media/v5-inputs/shot03-lift-v5-113c98a236.jpg",
+      "restore_path": "hero-motion-development-20261029/keyframes/shot03-lift-v5.jpg",
+      "sha256": "113c98a236fc03cbb81a4b53d04701aed7590c1379a88ae78863dde844624b19",
+      "bytes": 585197,
+      "already_public": true,
+      "download_default": false
+    }
+  ]
+}

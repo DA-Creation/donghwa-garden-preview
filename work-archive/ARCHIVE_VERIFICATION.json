@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-10-30T11:25:24.453340+09:00",
+  "result": "Prior checks retained; text-only policy update completed without repeated broad checks",
+  "included_file_count_before_this_report": 251,
+  "included_bytes_before_this_report": 9856203,
+  "largest_file_bytes": 3069864,
+  "flat_folder_counts": {
+    "evidence": 52,
+    "source": 92,
+    "prompts": 95
+  },
+  "mapped_restore_count": 253,
+  "checks": [
+    "All mapped SHA256/byte sizes match",
+    "All restore targets relative with no traversal",
+    "No conflicting destination hashes",
+    "All Python sources parse",
+    "Full offline restore of included files then independent restored hash checks",
+    "Collect dry-run reports no changes after restore",
+    "Credential-shaped token/private-key scan passes",
+    "Absolute local home path and literal secret assignment scan passes",
+    "Final public market JSON/HTML added with SHA256;public HTML evidence supplied by independent read-only audit",
+    "Independent final API/CDN QA added:16products,45replacementimages and19preservedimages passed;GET-only verifier source parses",
+    "Final docs and two public browser screenshots added; source and prompt files unchanged; no repeated full restore needed for additive docs/assets update",
+    "Portable previews:34localCSS/JS and thumbnail routes/price-sort passed;hero pages and14includedC media return200",
+    "RebuiltF from restored sources;SHA256 exactlymatches deployed b417a686676270fd901c796fd8ac336c8111f77002549e1b25315b3e759ec05c",
+    "Local cloned-repository MP4 reuse/aliases verified without remote download",
+    "Added52sourcefiles and14Cblobs;original40source/95prompt/60assetfiles retained unchanged",
+    "User correction: moved staging assets out to local-only-assets;converted media mappings to references;no new roundtrip/browser/broad verification performed for this documentation change"
+  ],
+  "scope_limits": [
+    "No remote GitHub write performed by archive preparation",
+    "No real credentials or OAuth executed for restore test",
+    "Optional public media network download not exercised in full",
+    "Static scanners do not constitute a guarantee against every possible secret form"
+  ],
+  "excluded": [
+    "env/token/state files and SFTP config",
+    "raw admin/customer API responses",
+    "private customer records",
+    "browser captures/cookies/session state",
+    "raw Replicate job responses/IDs/account balance",
+    "competitor page or video copies"
+  ],
+  "portable_patch": "publish_thumbnails.py resolves relative source_path from restored project root; image upload logic preserved",
+  "archive_policy": "Text-only after user correction;local media moved reversibly out of staging",
+  "media_move": {
+    "destination": "../local-only-assets",
+    "files": 74,
+    "deleted": false,
+    "original_source_media_and_backups": "unchanged"
+  }
+}
