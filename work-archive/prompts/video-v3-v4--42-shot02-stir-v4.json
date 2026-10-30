@@ -1,0 +1,8 @@
+{
+  "prompt": "One continuous food demonstration shot, four seconds, normal serving speed. Animate the provided image while preserving the same actual Donghwa Garden dish, brass bowl, wider table framing, lighting and ingredient quantities. The spoon bowl starts mostly UNDER the broth. Only its handle and upper steel edge remain visible. Make ONE continuous small horizontal C-shaped mixing arc during the first 2.6 seconds: slide the submerged spoon through the existing soft tofu from front-center toward center-left, then across the center toward the right. Let the existing soft tofu gently fold and shift with contact and let broth fill those small gaps. The spoon travels ONLY horizontally at a constant submerged depth. Its underside never enters the air. Never scoop, turn its bowl upward, lift it, withdraw it, or make an aerial return stroke. The spoon stays immersed when the mixing stops and rests there for the remainder. No second action. Camera is completely locked. Preserve source photographic softness, broad creamy torn curds and mixed small irregular connected fragments. No regular grains, beads, cauliflower patterns, crispy textures, food morphing or new ingredients. Clear air with no steam, smoke or haze. Off-heat soup: no boiling, bubbles or foam. Absolutely no hanging liquid, falling drops, strings, splash, spout, impact rings or decorative ripples. Every bit of liquid stays inside the bowl and at its surface. Stable spoon and bowl geometry. No scene change, cut, text or graphics. Silent.",
+  "duration": 4,
+  "resolution": "720p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "seed": 2026102947
+}

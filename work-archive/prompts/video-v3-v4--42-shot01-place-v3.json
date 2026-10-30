@@ -1,0 +1,8 @@
+{
+  "prompt": "Animate the supplied photograph as ONE continuous shot for a food montage. Keep the actual Donghwa Garden dish, brass bowl, soft irregular tofu, existing shellfish, vegetables and chives exactly consistent with the input. Preserve source-level photographic softness: mixed larger torn curds and small soft fragments, broad creamy broken faces and broth-filled gaps, with modest local moisture. No invented sharp grain, regular beads, cauliflower-like clusters or changing ingredient quantities. Stable utensil and bowl geometry, realistic support and contact. Clear air for the entire clip: no steam, smoke or haze. Soup is off the heat; only utensil contact moves it. No boiling or foam. Absolutely no hanging or falling droplets, liquid strings, pouring, splashes or concentric ripple effects. No new food, eggs, mushrooms, noodles, garnish, text or graphics. No scene change or cut within this shot. Silent.\nDuration four seconds. Start with the wooden spoon already low above the center as in the image. At ordinary brisk serving speed, lower the spoon until its front edge and the soft tofu touch the soup, gently slide that supported tofu off at the contact point, then withdraw the now empty wooden spoon toward the upper right. Complete this single placement and withdrawal within the FIRST 1.3 seconds. The tofu never free-falls and no liquid drops through the air. The remaining time shows the same quiet soup after the spoon leaves. No second action. Camera and exposure fixed.",
+  "duration": 4,
+  "resolution": "720p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "seed": 2026102943
+}

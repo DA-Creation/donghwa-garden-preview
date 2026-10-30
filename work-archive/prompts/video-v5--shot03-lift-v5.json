@@ -1,0 +1,13 @@
+{
+  "model": "bytedance/seedance-2.0",
+  "input": {
+    "image": "https://raw.githubusercontent.com/DA-Creation/donghwa-garden-preview/1746fc600b1758ae10f855c1acf183c13e00e246/media/hero-review-20261029/42-input-shot03-lift-v5.jpg",
+    "prompt": "One continuous four-second food demonstration, natural serving speed. Start from the supplied image with the metal spoon just touching the soup surface. During the first 1.6 seconds lift this SAME modest spoonful smoothly only 2 centimetres above the broth, keeping the contents level and stable. The wet contact separates cleanly with no draining or droplet animation. Hold briefly, then remain still. Do not lift a large mound, change the food volume, tilt, pour, or return the spoon into the bowl. The camera follows upwards only a few millimetres to keep the spoon at the same natural framing; no zoom. Preserve the supplied real-product appearance, brass bowl, exact portion, ingredient placement, irregular fragile soft-tofu curds and folds, reddish orange broth, natural optical softness and existing light. This is freshly served soup off the heat. The bowl and all food outside the local spoon contact stay still. Keep the same amount of food: nothing appears, grows, duplicates or changes ingredient. No steam, haze, boiling, bubbles, foam, splashing, drops, dangling liquid, liquid strings or decorative rings. No artificial micrograin texture, sharpening, glossy varnish, wax or morphing. Stable spoon and bowl geometry. No camera orbit, zoom, cut, slow-motion effect, text or sound.",
+    "duration": 4,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": false,
+    "seed": 2026102953
+  },
+  "note": "Documented historical input. Do not submit automatically; project budget is nearly exhausted."
+}
