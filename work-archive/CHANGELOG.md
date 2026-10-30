@@ -24,3 +24,9 @@
 ## 2026-10-30 — Common food-video prompt
 
 Analyzed Cookat2094's two live MP4s frame by frame: 6-shot representative and4-shot hero,29.97fps; all observed boundaries use hard cuts. Recorded subject motion separately from framing and transitions, and kept capture-rate/retiming uncertainty explicit. Added canonical common prompt, conditional heat/pour rules, per-shot template and editing/QA instructions. No paid generation, storefront changes or media uploads.
+
+## 2026-10-30 — 된장찌개 히어로 시작 이미지4컷
+
+- 실제 상품32 원본과 쿠캣2094의4컷 구성을 대조해 A냄비/B국자/C덜기전/D근접 시작 이미지를 각각 생성했다. 선택본은 A-v1, B-v1, C-v1, D-v3이다.
+- D-v1/v2는 반복적인 고기 표면 무늬 때문에 미채택하고 실제 사진을 질감 기준으로 재생성했다. 총6회 내장 이미지 생성이며 Replicate 영상 생성/상세페이지 배포는 하지 않았다.
+- 전체 프롬프트6개, 컷 계획, 실제 참조, 선택·제외 이유와 파일 경로/해시를 DOENJANG_HERO_4CUTS_20261030.md에 기록했다. 이미지/영상은 iCloud에만 보관한다.

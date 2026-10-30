@@ -175,5 +175,87 @@
     "scope": "Shot-by-shot motion, framing, hard cuts, conditional food physics, per-shot English prompt and edit/QA rules",
     "generation_or_deployment_performed": false,
     "media_archived": false
+  },
+  "doenjang_hero_4cuts": {
+    "as_of": "2026-10-30",
+    "product_no": 32,
+    "name": "안송자 소고기 우거지 된장찌개",
+    "status": "4컷 시작 이미지 초안 제작·시각 검토 완료; 사용자 확인 전; 영상 생성/배포 안함",
+    "archive_file": "DOENJANG_HERO_4CUTS_20261030.md",
+    "source_directory": "doenjang-hero-4cuts-20261030",
+    "scope": "Four separate 16:9 image start frames; current shot plan, actual references and prompt snapshot only",
+    "prompt_snapshot_sha256": {
+      "prompts/01-pot.txt": "b797fbd57395aee822a50abe2e96f0264efe8950998f6d70d5b77d348cfc4982",
+      "prompts/02-ladle.txt": "56f6555a4df9d825f453335726ca36641809db92b40d614587210406408f70a0",
+      "prompts/03-serve-wide.txt": "339580ce24243274e7ea15a88e689cb918258db537f94b2cd4ceac90d3a6e7ea",
+      "prompts/04-serve-close.txt": "ea9e0d692f7909087b1aa1a0174e5eea2e043906644acaa83a10772f2987f31f",
+      "prompts/04b-serve-close-texture-edit.txt": "e595599bce40982309ccdc4df37978ffc216a044ce88093442d72c1afd6faec7",
+      "prompts/04c-serve-close-real-beef.txt": "c3222c261982d13f6ab94f2560f092419f8003143b143358737840add237d1d7"
+    },
+    "final_prompts_confirmed": true,
+    "generation_note": "Six built-in image generation calls. Selected A-v1/B-v1/C-v1/D-v3; D-v1 and D-v2 rejected for repetitive beef texture. Still-image draft review is separate from future video QA.",
+    "video_generation_performed": false,
+    "storefront_deployment_performed": false,
+    "media_archived": false,
+    "media_storage": "Local iCloud only; no image, video or reference-media files in this text archive.",
+    "generation_progress": {
+      "source": "Images inspected against actual product photographs and Cookat shot reference",
+      "image_qa_status": "draft start-frame visual review complete; user approval pending",
+      "image_dimensions": [
+        1672,
+        941
+      ],
+      "aspect_ratio": "approximately 16:9",
+      "cuts": [
+        {
+          "id": "A",
+          "path": "images/A-pot-v1.png",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "e8ece93a8eaddd8e5bf14af1a26e6ea034aa21245562d1ef607846bee3b512f3",
+          "bytes": 2778296,
+          "local_path": "doenjang-hero-4cuts-20261030/images/A-pot-v1.png",
+          "status": "selected draft"
+        },
+        {
+          "id": "B",
+          "path": "images/B-ladle-v1.png",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "72437da01698bded4ea75061530f6235d1e0590156599d9e652f928f4c8046b3",
+          "bytes": 2637921,
+          "local_path": "doenjang-hero-4cuts-20261030/images/B-ladle-v1.png",
+          "status": "selected draft"
+        },
+        {
+          "id": "C",
+          "path": "images/C-serve-wide-v1.png",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "92c821fb07e7108176f75f45eb4c1d2216a04380ad7dcf419d7493298402c729",
+          "bytes": 2278146,
+          "local_path": "doenjang-hero-4cuts-20261030/images/C-serve-wide-v1.png",
+          "status": "selected draft"
+        },
+        {
+          "id": "D",
+          "path": "images/D-serve-close-v3.png",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "dc99c7e5d22ad52bb1d71765c93ef0fc9e632371068e951555ec840c15f30884",
+          "bytes": 2275661,
+          "local_path": "doenjang-hero-4cuts-20261030/images/D-serve-close-v3.png",
+          "status": "selected draft"
+        }
+      ]
+    }
   }
 }
