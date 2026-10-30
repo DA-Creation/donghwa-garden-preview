@@ -1,0 +1,25 @@
+/* Outer canvas only. Specificity also overrides the Cafe24 shell color. */
+html:root:root, html:root:root body { background-color: #fff !important; }
+
+/* Modal dimming covers the viewport, independently of the content column. */
+@media (min-width: 1024px) {
+  html body :is(.app-modal, .market-cart-modal) {
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    transform: none !important;
+    box-sizing: border-box;
+    justify-items: center;
+  }
+  html body .app-modal__dialog { width: min(100%, var(--app-width, 480px)); }
+  html body .market-cart-sheet { width: min(100%, var(--app-width, 480px)); box-sizing: border-box; }
+  html body :is(#layoutDimmed, #modalBackpanel) {
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    height: 100dvh !important;
+    transform: none !important;
+  }
+}

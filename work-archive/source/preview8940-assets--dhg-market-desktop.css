@@ -1,0 +1,118 @@
+@media (min-width:1024px) {
+ html body .app-shell.is-market-view > .site-header.dhg-shared-header {height:auto!important;min-height:126px!important;display:grid!important;grid-template-columns:96px auto minmax(160px,1fr);grid-template-rows:74px 52px;gap:0 18px!important;padding:0 24px!important;position:sticky!important;top:0;overflow:visible;}
+ html body .is-market-view .dhg-shared-header .site-logo {grid-column:1;grid-row:1;display:flex!important;}
+ html body .is-market-view .dhg-shared-header .site-header__market-search {display:none!important;}
+ html body .is-market-view .dhg-shared-header > .bottom-nav.dhg-shared-bottom-nav {grid-column:2;grid-row:1;position:static!important;transform:none!important;display:flex!important;gap:16px!important;padding:0!important;width:auto!important;min-height:0!important;height:auto!important;border:0!important;box-shadow:none!important;background:none!important;}
+ html body .is-market-view .dhg-shared-header > .bottom-nav > a {padding:0!important;height:auto!important;border:0!important;font-size:15px!important;font-weight:700!important;color:#aaa!important;white-space:nowrap;}
+ html body .is-market-view .dhg-shared-header > .bottom-nav > a::after,html body .is-market-view .dhg-shared-header > .bottom-nav > a::before {display:none!important;}
+ html body .is-market-view .dhg-shared-header > .bottom-nav > [data-dhg-nav="market"] {color:#f27bbb!important;}
+ html body .is-market-view .dhg-shared-header > .bottom-nav > [data-dhg-nav="apply"],html body .is-market-view .dhg-shared-header > .bottom-nav > [data-dhg-nav="account"] {display:none!important;}
+ html body .is-market-view .dhg-shared-header > #market-search {grid-column:3;grid-row:1;display:flex!important;position:static!important;width:100%!important;max-width:440px;justify-self:center;box-sizing:border-box;margin:0!important;height:42px;padding:0 12px!important;border:1px solid #f27bbb;border-radius:6px;background:white;}
+ html body .is-market-view .dhg-shared-header > #market-search input {width:100%;min-width:0;font-size:14px!important;}
+ html body .is-market-view .dhg-shared-header > .meeting-market-filter {grid-column:1/-1;grid-row:2;position:static!important;display:flex!important;justify-content:flex-start!important;gap:22px!important;margin:0!important;padding:0!important;width:100%;overflow-x:auto;background:white;border:0;}
+ html body .is-market-view .dhg-shared-header > .meeting-market-filter button {flex:none;padding:12px 0!important;background:none!important;border:0!important;border-radius:0!important;font-size:14px;color:#555;}
+ html body .is-market-view .dhg-shared-header > .meeting-market-filter button[aria-pressed="true"] {color:#f27bbb!important;font-weight:700;}
+ html body .is-market-view .dhg-shared-header .dhg-desktop-apply {display:flex!important;}
+ @media(max-width:1199px) {
+ html body .app-shell.is-market-view > .site-header.dhg-shared-header {grid-template-columns:96px 1fr;grid-template-rows:64px 52px 48px;}
+ html body .is-market-view .dhg-shared-header > #market-search {grid-column:1/-1;grid-row:2;max-width:none;}
+ html body .is-market-view .dhg-shared-header > .meeting-market-filter {grid-row:3;gap:16px!important;}
+ }
+}
+@media(min-width:1024px){
+ html body .app-shell.is-market-view .dhg-shared-header .site-header__actions .login-button {display:flex!important;border:0!important;background:transparent!important;}
+}
+@media(min-width:1024px){
+ html body .is-market-view .dhg-shared-header > .bottom-nav > a {position:relative;color:#bcbcbc!important;}
+ html body .is-market-view .dhg-shared-header > .bottom-nav > [data-dhg-nav="market"] {color:#f27bbb!important;}
+ html body .is-market-view .dhg-shared-header > .bottom-nav > :is([data-dhg-nav="subscription"],[data-dhg-nav="test"])::before {content:'';display:block!important;position:absolute;left:-8px;top:50%;transform:translateY(-50%);width:1px;height:14px;background:#dedede;border:0;}
+}
+@media(min-width:1024px){
+ html body .market-reference .market-product h3 {height:auto!important;min-height:0!important;max-height:none!important;display:block!important;-webkit-line-clamp:unset!important;overflow:visible!important;margin-bottom:0!important;flex:none!important;}
+ html body .market-reference .market-product .dhg-native-spec,html body .market-reference .market-product h3 + strong {margin-top:8px!important;flex:none!important;}
+ html body .market-reference .dhg-price-label,html body .market-reference .dhg-price-replaced {display:none!important;}
+ html body .market-reference .dhg-price-original {color:#aaa;font-size:13px;line-height:1.4;}
+ html body .market-reference .dhg-price-row {display:flex;align-items:baseline;gap:6px;}
+ html body .market-reference .dhg-price-rate {color:#f27bbb;font-weight:700;}
+}
+@media(max-width:1023px){.dhg-price-original,.dhg-price-rate {display:none!important;}}
+@media(min-width:1024px){
+ html body .app-shell.is-market-view > .site-header.dhg-shared-header {top:-74px!important;z-index:60;background:#fff!important;}
+ html body .is-market-view .dhg-shared-header > #market-search {position:absolute!important;left:50%;top:16px;transform:translateX(-50%);width:min(280px,calc(100% - 660px))!important;max-width:none;}
+ html body .is-market-view.dhg-market-scrolled .dhg-shared-header > :is(.site-logo,.bottom-nav.dhg-shared-bottom-nav) {visibility:hidden;pointer-events:none;}
+ html body .is-market-view.dhg-market-scrolled .dhg-shared-header > #market-search {top:auto;bottom:5px;left:auto;right:24px;transform:none;width:220px!important;height:42px;background:#f7f7f7;border-color:transparent;}
+ html body .is-market-view.dhg-market-scrolled .dhg-shared-header > .meeting-market-filter {width:calc(100% - 240px)!important;gap:18px!important;}
+}
+@media(min-width:1024px) and (max-width:1359px){
+ html body .app-shell.is-market-view > .site-header.dhg-shared-header {grid-template-columns:96px 1fr;grid-template-rows:64px 52px 52px;top:-116px!important;}
+ html body .is-market-view .dhg-shared-header > #market-search {top:64px;width:calc(100% - 48px)!important;max-width:440px;}
+ html body .is-market-view .dhg-shared-header > .meeting-market-filter {grid-row:3;}
+ html body .is-market-view.dhg-market-scrolled .dhg-shared-header > #market-search {top:auto;width:180px!important;}
+ html body .is-market-view.dhg-market-scrolled .dhg-shared-header > .meeting-market-filter {width:calc(100% - 200px)!important;}
+}
+@media(min-width:1024px){html body .is-market-view .dhg-shared-header > #market-search {grid-area:auto!important;justify-self:auto;}}
+@media(min-width:1024px){html body .is-market-view .dhg-shared-header > #market-search input::placeholder {color:#b5b5b5!important;}}
+/* Reference card rhythm: image/button 12:498, button/title 20:498,
+   title/price 20:498. Percent margins follow each card's width. */
+@media(min-width:1024px){
+ html body .market-reference .market-product {row-gap:0!important;}
+ html body .market-reference .market-product .market-product__visual {margin-bottom:0!important;}
+ html body .market-reference .market-product .dhg-native-product-choose {margin:2.4% 0 4%!important;flex:none;}
+ html body .market-reference .market-product h3 {margin:0!important;}
+ html body .market-reference .market-product .dhg-native-spec,html body .market-reference .market-product h3 + strong {margin-top:4%!important;}
+}
+/* Reference typography: title/cart 32, price 34, original price 28. */
+@media(min-width:1024px){
+ html body .market-reference .market-product h3,
+ html body .market-reference .market-product h3 a,
+ html body .market-reference .market-product h3 a span {font-size:15px!important;font-weight:400!important;line-height:1.5!important;letter-spacing:-.025em;}
+ html body .market-reference .market-product .dhg-native-product-choose {font-size:15px!important;font-weight:400!important;line-height:1.5;}
+ html body .market-reference .market-product .dhg-native-product-choose svg {width:18px;height:18px;}
+ html body .market-reference .market-product .dhg-price-row,
+ html body .market-reference .market-product .dhg-price-row :is(span,strong),
+ html body .market-reference .market-product h3 + strong {font-size:16px!important;font-weight:700!important;line-height:1.4!important;}
+ html body .market-reference .market-product .dhg-price-original,
+ html body .market-reference .market-product .dhg-price-original del {font-size:13px!important;font-weight:400!important;line-height:1.4!important;color:#b7bfc7;}
+}
+.market-heading-desktop,.market-heading-description,.market-heading-emoji {display:none;}
+@media(min-width:1024px){
+ html body .market-reference .market-heading-featured {display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;margin:16px 0 28px;text-align:center;}
+ html body .market-reference .market-heading-featured h2 {display:block;margin:0;padding:0;font-size:26px;line-height:1.4;font-weight:700;}
+ html body .market-reference .market-heading-featured h2::before {display:none;}
+ html body .market-reference .market-heading-featured .market-heading-desktop {display:inline;font:inherit;color:inherit;}
+ html body .market-reference .market-heading-featured :is(.market-heading-mobile,[data-market-shelf-count]) {display:none;}
+ html body .market-reference .market-heading-featured .market-heading-description {display:block;margin:0;font-size:15px;line-height:1.6;font-weight:400;color:#999;}
+ html body .market-reference .market-heading-emoji {display:inline;margin-right:7px;font-size:inherit;}
+ html body .market-reference :is(#market-soup-title,#market-side-title)::before {display:none;}
+}
+html body .market-reference .market-heading-featured h2 .market-heading-mobile {font:inherit;color:inherit;}
+/* All product sections share the same heading hierarchy. */
+@media(min-width:1024px){
+ html body .market-reference .market-category-shelf__heading {display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;margin:16px 0 28px;text-align:center;}
+ html body .market-reference .market-category-shelf__heading h2 {display:block;margin:0;padding:0;font-size:26px;line-height:1.4;font-weight:700;}
+ html body .market-reference .market-category-shelf__heading h2::before {display:none;}
+ html body .market-reference .market-category-shelf__heading [data-market-shelf-count] {display:none;}
+ html body .market-reference .market-category-shelf__heading .market-heading-emoji {font:inherit;color:inherit;}
+}
+/* Keep desktop search on the upper right, including narrow desktop panels. */
+@media(min-width:1024px){
+ html body .app-shell.is-market-view > .site-header.dhg-shared-header {grid-template-columns:96px auto 1fr;grid-template-rows:74px 52px;top:-74px!important;}
+ html body .is-market-view .dhg-shared-header > #market-search {top:16px;left:auto;right:24px;transform:none;width:clamp(140px,calc(100% - 360px),280px)!important;max-width:none;}
+ html body .is-market-view .dhg-shared-header > .meeting-market-filter {grid-row:2;}
+}
+@media(min-width:1024px) and (max-width:1199px){
+ html body .app-shell.is-market-view > .site-header.dhg-shared-header {padding-left:16px!important;padding-right:16px!important;column-gap:12px!important;grid-template-columns:80px auto 1fr;}
+ html body .is-market-view .dhg-shared-header .site-logo,html body .is-market-view .dhg-shared-header .site-logo img {width:80px!important;}
+ html body .is-market-view .dhg-shared-header > .bottom-nav.dhg-shared-bottom-nav {gap:12px!important;}
+ html body .is-market-view .dhg-shared-header > .bottom-nav > a {font-size:13px!important;}
+ html body .is-market-view .dhg-shared-header > #market-search {right:16px;width:calc(100% - 300px)!important;}
+}
+/* Desktop navigation typography, matching the reference hierarchy. */
+@media(min-width:1024px){
+ html body .is-market-view .dhg-shared-header > .bottom-nav > a {font-size:18px!important;font-weight:700!important;line-height:1.4!important;}
+ html body .is-market-view .dhg-shared-header > .meeting-market-filter button {font-size:16px!important;font-weight:600!important;line-height:1.5!important;}
+ html body .is-market-view .dhg-shared-header > #market-search input {font-size:16px!important;}
+}
+@media(min-width:1024px) and (max-width:1199px){
+ html body .is-market-view .dhg-shared-header > #market-search {width:calc(100% - 350px)!important;}
+}

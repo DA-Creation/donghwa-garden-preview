@@ -1,0 +1,19 @@
+.dhg-market-options { box-sizing: border-box; width: min(420px, calc(100vw - 32px)); height: min(var(--dhg-options-height, 560px), calc(100dvh - 48px)); max-width: none; max-height: none; padding: 0; margin: auto; border: 0; border-radius: 20px; background: #fff; color: #202622; overflow: hidden; box-shadow: 0 16px 60px rgb(0 0 0 / 18%); font-family: "Pretendard Local", Pretendard, -apple-system, BlinkMacSystemFont, sans-serif; }
+.dhg-market-options[open] { display: flex; flex-direction: column; }
+.dhg-market-options::backdrop { background: rgb(20 26 22 / 38%); }
+.dhg-market-options__header { display: flex; flex: 0 0 auto; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 18px 16px 22px; border-bottom: 1px solid #eceeeb; }
+.dhg-market-options__header h2 { margin: 0; font-family: inherit; font-size: 18px; font-weight: 700; line-height: 1.5; }
+.dhg-market-options__close { display: grid; place-items: center; width: 36px; height: 36px; flex: 0 0 auto; margin: 0; padding: 0; border: 0; border-radius: 50%; background: #f5f6f4; color: #353b36; font: 25px/1 Arial, sans-serif; cursor: pointer; }
+.dhg-market-options__close:focus-visible { outline: 2px solid #f585bf; outline-offset: 3px; }
+.dhg-market-options__frame { display: block; flex: 1 1 auto; width: 100%; height: 100%; min-height: 0; border: 0; background: #fff; }
+.dhg-market-options__status { padding: 24px 22px; color: #686e68; font-size: 14px; line-height: 1.65; }
+.dhg-market-options__status a { display: inline-block; margin-top: 16px; color: #b72d75; text-underline-offset: 4px; }
+.dhg-market-options [hidden] { display: none !important; }
+@media (max-width: 600px) {
+  .dhg-market-options { width: 100%; height: min(var(--dhg-options-height, 560px), calc(100dvh - 28px)); margin: auto 0 0; border-radius: 22px 22px 0 0; }
+}
+
+.dhg-market-options__fallback { padding: 24px 22px; font-size: 14px; line-height: 1.65; }
+.dhg-market-options__fallback p { margin: 0 0 16px; }
+.dhg-market-options__fallback a { color: #b72d75; text-decoration: underline; text-underline-offset: 4px; }
+.dhg-market-options__close:disabled { opacity: .5; cursor: wait; }

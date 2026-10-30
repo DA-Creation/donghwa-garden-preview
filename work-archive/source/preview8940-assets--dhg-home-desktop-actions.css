@@ -1,0 +1,100 @@
+/* Skin5 home: compact header and existing account actions in the right gutter. */
+@media (min-width:1024px) {
+  html body:has(.subscription-home, .is-market-view) {
+    --dhg-home-width: min(1040px, calc(100vw - 496px));
+    --dhg-home-left: calc((100vw - var(--dhg-home-width)) / 2);
+  }
+  html body:has(.subscription-home, .is-market-view) .app-shell {
+    width:var(--dhg-home-width)!important;max-width:1040px!important;
+    margin-left:var(--dhg-home-left)!important;margin-right:var(--dhg-home-left)!important;
+  }
+  html body:has(.subscription-home, .is-market-view) .site-header.dhg-shared-header {
+    height:64px!important;min-height:64px!important;padding:0 24px!important;
+  }
+  html body:has(.subscription-home, .is-market-view) .dhg-shared-header .site-logo {
+    width:100px!important;flex-basis:100px!important;height:52px!important;
+  }
+  html body:has(.subscription-home, .is-market-view) .dhg-shared-header .site-logo img {
+    width:96px!important;height:auto!important;
+  }
+  html body:has(.subscription-home, .is-market-view) .bottom-nav.dhg-shared-bottom-nav {
+    width:100%!important;max-width:none!important;height:48px!important;min-height:48px!important;
+    padding:0 24px!important;gap:28px!important;border-image:none!important;
+  }
+  html body:has(.subscription-home, .is-market-view) .dhg-shared-header .site-header__actions {
+    position:fixed!important;z-index:60;top:50%;transform:translateY(-50%);
+    left:calc(var(--dhg-home-left) + var(--dhg-home-width) + 16px);right:auto;
+    width:208px;box-sizing:border-box;margin:0;padding:16px;
+    display:flex;flex-direction:column;align-items:stretch;gap:8px!important;
+    border:0;border-radius:0;background:transparent;
+    box-shadow:none;
+  }
+  html body:has(.subscription-home, .is-market-view) .dhg-shared-header .dhg-desktop-apply {
+    order:3;width:100%;box-sizing:border-box;padding:0 12px;gap:8px;
+    min-height:48px;font-size:14px;border-radius:999px;
+  }
+  html body:has(.subscription-home, .is-market-view) .dhg-shared-header .cart-button {
+    order:1;display:flex;align-items:center;justify-content:center;gap:8px;
+    width:100%;height:44px;color:#333;font-size:14px;font-weight:500;
+    border-radius:999px;text-decoration:none;
+  }
+  html body:has(.subscription-home, .is-market-view) .dhg-shared-header .cart-button::after {content:'장바구니';}
+  html body:has(.subscription-home, .is-market-view) .dhg-shared-header .cart-button svg {width:24px;height:24px;}
+  html body:has(.subscription-home, .is-market-view) .dhg-shared-header .login-button {
+    order:2;position:relative;display:flex;align-items:center;justify-content:center;
+    width:100%!important;height:44px!important;border-radius:999px!important;
+    border-top:0!important;
+  }
+  html body:has(.subscription-home, .is-market-view) .dhg-shared-header .login-button::before {content:'';position:absolute;top:-4px;left:calc(50% - 16px);width:32px;height:1px;background:#d8d8d8;}
+  html body:has(.subscription-home, .is-market-view) .dhg-shared-header :is(.cart-button,.login-button):hover {background:#faf5f8!important;}
+  /* Keep the gutter clear while the content beneath it scrolls. */
+  html body:has(.subscription-home, .is-market-view) :is(.site-header,.subscription-home > section,.subscription-home > div,.site-footer) {border-image:none!important;}
+}
+
+/* Footer information hierarchy; narrow screens retain the existing layout. */
+@media (min-width:1024px) {
+ html body .site-footer.dhg-shared-footer {padding:32px!important;gap:20px 28px!important;grid-template-columns:1fr 1.2fr!important;background:#f5f5f5!important;}
+ html body .dhg-shared-footer > img {grid-column:1;grid-row:1;width:96px!important;height:auto;align-self:start;}
+ html body .dhg-shared-footer > [module="Layout_Info"],html body .dhg-shared-footer > .xans-layout-info {grid-column:2;grid-row:1;}
+ html body .dhg-shared-footer h2 {margin:0;font-size:13px;font-weight:700;line-height:1.6;}
+ html body .dhg-shared-footer h2 a {display:block;margin-top:4px;font-size:20px;letter-spacing:-.4px;}
+ html body .dhg-shared-footer .site-footer__buttons {grid-column:1;grid-row:2;align-self:start;margin:0;}
+ html body .dhg-shared-footer .site-footer__info {grid-column:2;grid-row:2;line-height:1.8;overflow-wrap:anywhere;}
+ html body .dhg-shared-footer .site-footer__buttons a {border-radius:0!important;font-size:15px!important;font-weight:500!important;}
+ html body .dhg-shared-footer > nav a {font-family:inherit;font-size:13px!important;font-weight:700!important;line-height:1.6;color:#363530;letter-spacing:normal;}
+ html body .dhg-shared-footer .site-footer__info p {margin:0 0 4px;}
+ html body .dhg-shared-footer > nav {grid-column:1;grid-row:3;margin:0;padding:0;border:0;display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:flex-start;}
+ html body .dhg-shared-footer > small {grid-column:1/-1;grid-row:4;margin:0;text-align:center;}
+}
+.dhg-shared-footer .footer-runtime:empty,.dhg-shared-footer .footer-registration:has(.footer-value:empty) {display:none;}
+@media(min-width:1024px){
+ html body:has(.subscription-home) .site-header.dhg-shared-header {justify-content:flex-start!important;gap:18px!important;}
+ html body:has(.subscription-home) .dhg-shared-header > .bottom-nav.dhg-shared-bottom-nav {position:static!important;transform:none!important;display:flex!important;gap:16px!important;padding:0!important;width:auto!important;min-height:0!important;height:auto!important;border:0!important;box-shadow:none!important;background:none!important;order:0!important;}
+ html body:has(.subscription-home) .dhg-shared-header > .bottom-nav > a {position:relative;padding:0!important;height:auto!important;border:0!important;font-size:15px!important;font-weight:700!important;color:#bcbcbc!important;white-space:nowrap;}
+ html body:has(.subscription-home) .dhg-shared-header > .bottom-nav > a::after,html body:has(.subscription-home) .dhg-shared-header > .bottom-nav > a::before {display:none!important;}
+ html body:has(.subscription-home) .dhg-shared-header > .bottom-nav > [data-dhg-nav="subscription"] {color:#f27bbb!important;}
+ html body:has(.subscription-home) .dhg-shared-header > .bottom-nav > :is([data-dhg-nav="apply"],[data-dhg-nav="account"]) {display:none!important;}
+ html body:has(.subscription-home) .dhg-shared-header > .bottom-nav > :is([data-dhg-nav="subscription"],[data-dhg-nav="test"])::before {content:'';display:block!important;position:absolute;left:-8px;top:50%;transform:translateY(-50%);width:1px;height:14px;background:#dedede;border:0;}
+}
+.dhg-home-search {display:none;}
+@media(min-width:1024px){
+ html body:has(.subscription-home) .site-header.dhg-shared-header {position:sticky!important;top:0!important;z-index:60;background:#fff!important;}
+ html body .dhg-shared-header .dhg-desktop-search {box-sizing:border-box;display:flex;align-items:center;gap:8px;height:42px;border:1px solid #f27bbb;border-radius:6px;padding:0 12px;background:#fff;}
+ html body .dhg-shared-header .dhg-desktop-search input {flex:1;min-width:0;width:100%;border:0;outline:0;background:none;font:inherit;font-size:14px;color:#363530;}
+ html body .dhg-shared-header .dhg-desktop-search input::placeholder {color:#b5b5b5;}
+ html body .dhg-shared-header .dhg-desktop-search button {order:2;display:flex;align-items:center;justify-content:center;padding:0;border:0;background:none;width:24px;height:28px;flex:none;cursor:pointer;}
+ html body .dhg-shared-header .dhg-desktop-search svg {width:20px;height:20px;fill:none;stroke:#f27bbb;stroke-width:1.8;}
+ html body:has(.subscription-home) .dhg-shared-header > .dhg-home-search {position:absolute;top:16px;left:auto;right:24px;transform:none;width:clamp(140px,calc(100% - 360px),280px);max-width:none;margin:0;}
+}
+@media(min-width:1024px){
+ html body:has(.subscription-home) .dhg-shared-header > .bottom-nav > a {font-size:18px!important;font-weight:700!important;line-height:1.4!important;}
+ html body:has(.subscription-home) .dhg-shared-header .dhg-desktop-search input {font-size:16px!important;}
+ html body:has(.subscription-home) .dhg-shared-header > .dhg-home-search {left:auto;right:24px;transform:none;}
+}
+@media(min-width:1024px) and (max-width:1199px){
+ html body:has(.subscription-home) .site-header.dhg-shared-header {padding-left:16px!important;padding-right:16px!important;gap:12px!important;}
+ html body:has(.subscription-home) .app-shell .dhg-shared-header .site-logo {width:80px!important;flex-basis:80px!important;}
+ html body:has(.subscription-home) .dhg-shared-header .site-logo img {width:80px!important;}
+ html body:has(.subscription-home) .dhg-shared-header > .bottom-nav.dhg-shared-bottom-nav {gap:12px!important;}
+ html body:has(.subscription-home) .dhg-shared-header > .dhg-home-search {right:16px;width:calc(100% - 350px);}
+}

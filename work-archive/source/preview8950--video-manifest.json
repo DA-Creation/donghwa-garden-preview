@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "id": 32,
+      "file": "videos/product-32.mp4",
+      "prompt_file": "video-prompts/product-32.txt",
+      "model": "Wan 2.7",
+      "status": "ready",
+      "duration": 4.0,
+      "revision": "e0b887296a67"
+    },
+    {
+      "id": 33,
+      "file": "videos/product-33.mp4",
+      "prompt_file": "video-prompts/product-33.txt",
+      "model": "Wan 2.7",
+      "status": "ready",
+      "duration": 4.0,
+      "revision": "aee63ab68cd2"
+    },
+    {
+      "id": 34,
+      "file": "videos/product-34.mp4",
+      "prompt_file": "video-prompts/product-34.txt",
+      "model": "Seedance 2.0",
+      "status": "ready",
+      "duration": 4.0,
+      "revision": "087509c062e4"
+    },
+    {
+      "id": 35,
+      "file": "videos/product-35.mp4",
+      "prompt_file": "video-prompts/product-35.txt",
+      "model": "Wan 2.7",
+      "status": "ready",
+      "duration": 2.2,
+      "revision": "5fda4094c4a6"
+    },
+    {
+      "id": 36,
+      "file": "videos/product-36.mp4",
+      "prompt_file": "video-prompts/product-36.txt",
+      "model": "Wan 2.7",
+      "status": "ready",
+      "duration": 4.0,
+      "revision": "84bca1b06173"
+    },
+    {
+      "id": 37,
+      "file": "videos/product-37.mp4",
+      "prompt_file": "video-prompts/product-37.txt",
+      "model": "Wan 2.7",
+      "status": "ready",
+      "duration": 4.0,
+      "revision": "01799e3129fe"
+    },
+    {
+      "id": 39,
+      "file": "videos/product-39.mp4",
+      "prompt_file": "video-prompts/product-39.txt",
+      "model": "Wan 2.7",
+      "status": "ready",
+      "duration": 4.0,
+      "revision": "6b1b5ee80709"
+    },
+    {
+      "id": 40,
+      "file": "videos/product-40.mp4",
+      "prompt_file": "video-prompts/product-40.txt",
+      "model": "Wan 2.7",
+      "status": "ready",
+      "duration": 4.0,
+      "revision": "3d420012ff77"
+    },
+    {
+      "id": 41,
+      "file": "videos/product-41.mp4",
+      "prompt_file": "video-prompts/product-41.txt",
+      "model": "Wan 2.7",
+      "status": "ready",
+      "duration": 2.6,
+      "revision": "89cdce95686e"
+    },
+    {
+      "id": 42,
+      "file": "videos/product-42.mp4",
+      "prompt_file": "video-prompts/product-42.txt",
+      "model": "Seedance 2.0",
+      "status": "ready",
+      "duration": 4.0,
+      "revision": "86bce99037c1"
+    },
+    {
+      "id": 43,
+      "file": "videos/product-43.mp4",
+      "prompt_file": "video-prompts/product-43.txt",
+      "model": "Seedance 2.0",
+      "status": "ready",
+      "duration": 4.0,
+      "revision": "834abe5e281a"
+    },
+    {
+      "id": 44,
+      "file": "videos/product-44.mp4",
+      "prompt_file": "video-prompts/product-44.txt",
+      "model": "Wan 2.7",
+      "status": "ready",
+      "duration": 4.0,
+      "revision": "48b315775911"
+    },
+    {
+      "id": 45,
+      "file": "videos/product-45.mp4",
+      "prompt_file": "video-prompts/product-45.txt",
+      "model": "Wan 2.7",
+      "status": "ready",
+      "duration": 4.0,
+      "revision": "768579c0b2c1"
+    },
+    {
+      "id": 46,
+      "file": "videos/product-46.mp4",
+      "prompt_file": "video-prompts/product-46.txt",
+      "model": "Wan 2.7",
+      "status": "ready",
+      "duration": 3.0,
+      "revision": "ce46e2a2866f"
+    },
+    {
+      "id": 47,
+      "file": "videos/product-47.mp4",
+      "prompt_file": "video-prompts/product-47.txt",
+      "model": "Wan 2.7",
+      "status": "ready",
+      "duration": 4.0,
+      "revision": "6fdd6f7134ea"
+    }
+  ]
+}

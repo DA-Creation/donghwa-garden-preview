@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>짬뽕순두부 · 시작 이미지 비교</title>
+<style>
+*{box-sizing:border-box}[hidden]{display:none!important}body{margin:0;background:#fff;color:#222;font:15px/1.6 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif}
+header{padding:22px 24px 16px;border-bottom:1px solid #ddd}h1{font-size:22px;line-height:1.35;margin:0 0 14px;font-weight:650}nav{display:flex;gap:16px;flex-wrap:wrap;align-items:center}label{display:flex;gap:8px;align-items:center}select{font:inherit;padding:6px 8px;border:1px solid #aaa;background:white;color:inherit;border-radius:0}a{color:inherit}
+main{max-width:1648px;margin:24px auto;padding:0 24px}#compare{display:grid;grid-template-columns:1fr 1fr;gap:24px}figure{margin:0;min-width:0}figcaption{margin:0 0 8px;font-size:15px;font-weight:600}img{display:block;width:100%;height:auto}#compare img,#single img{aspect-ratio:16/9;object-fit:contain}#single{max-width:800px;margin:auto}#source{max-width:620px;margin:auto}
+.mobile #compare{grid-template-columns:repeat(2,minmax(0,390px));justify-content:center}.mobile #single{max-width:390px}.mobile #source{max-width:390px}
+p{margin:8px 0 0;color:#555}footer{border-top:1px solid #ddd;padding:16px 24px;margin-top:24px;font-size:13px}footer a{margin-right:18px}footer p{max-width:1000px}
+@media(max-width:700px){header{padding:16px}main{padding:0 12px;margin:18px auto}#compare,.mobile #compare{grid-template-columns:1fr;gap:24px}.mobile #compare figure{max-width:390px;margin:auto}nav{gap:10px}h1{font-size:20px}}
+</style></head><body>
+<header><h1>42 · 원조짬뽕순두부 — 시작 이미지 비교</h1><nav>
+<label>보기 <select id="viewSelect"><option value="compare">기존 / 수정본 비교</option><option value="new">수정본만</option><option value="original">실제 상품 사진</option><option value="candidate1">1차 수정본</option></select></label>
+<label>폭 <select id="sizeSelect"><option value="desktop">PC</option><option value="mobile">모바일 390px</option></select></label>
+<a href="/?product=42">기존 영상 보기</a></nav></header>
+<main id="main">
+<section id="compare" aria-label="기존 이미지와 수정 이미지 비교">
+<figure><figcaption>기존 시작 이미지</figcaption><a href="images/product-42.png" target="_blank"><img src="images/product-42.png" alt="기존 이미지: 공중에 뜬 숟가락과 매달린 국물방울"></a><p>공중 숟가락 · 매달린 방울 · 강한 광택</p></figure>
+<figure><figcaption>수정 시작 이미지 · 2차</figcaption><a href="candidates/product-42-v2-candidate2.png" target="_blank"><img src="candidates/product-42-v2-candidate2.png" alt="수정 이미지: 그릇 안 음식과 국물 표면에 닿은 숟가락"></a><p>국물에 닿은 숟가락 · 물방울 제거 · 순두부 질감 수정</p></figure>
+</section>
+<figure id="single" hidden><figcaption id="singleCaption">수정 시작 이미지 · 2차</figcaption><img id="singleImage" src="candidates/product-42-v2-candidate2.png" alt="수정 시작 이미지"></figure>
+<figure id="source" hidden><figcaption>동화가든 실제 상품 사진</figcaption><img src="evidence/product-42-actual-reference.jpg" alt="동화가든 기존 상품 상세페이지의 실제 짬뽕순두부 사진"><p><a href="https://www.donghwagarden.com/product/detail.html?product_no=16" target="_blank" rel="noopener">실제 상품 사진 출처</a></p></figure>
+</main>
+<footer><a href="prompts/product-42-v2-attempt-1.txt" target="_blank">구도 생성 프롬프트</a><a href="prompts/product-42-v2-attempt-2.txt" target="_blank">질감 수정 프롬프트</a><p>시작 정지 이미지 비교입니다. 수정본으로 새 영상을 생성하지 않았습니다. 기존 이미지·영상과 나머지 상품은 유지했습니다.</p></footer>
+<script>
+const main=document.querySelector('#main'),compare=document.querySelector('#compare'),single=document.querySelector('#single'),source=document.querySelector('#source');
+document.querySelector('#viewSelect').addEventListener('change',e=>{const v=e.target.value;compare.hidden=v!=='compare';single.hidden=!['new','candidate1'].includes(v);source.hidden=v!=='original';document.querySelector('#singleImage').src=v==='candidate1'?'candidates/product-42-v2-candidate1.png':'candidates/product-42-v2-candidate2.png';document.querySelector('#singleCaption').textContent=v==='candidate1'?'1차 수정본 · 질감 재검토 전':'수정 시작 이미지 · 2차';});
+document.querySelector('#sizeSelect').addEventListener('change',e=>main.classList.toggle('mobile',e.target.value==='mobile'));
+</script></body></html>

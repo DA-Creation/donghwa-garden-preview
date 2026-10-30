@@ -1,0 +1,49 @@
+/* Desktop storefront: centered 1200px content and three-level header. */
+@media(min-width:1024px){
+ html body:has(.subscription-home,.is-market-view) {--dhg-home-width:min(1200px,calc(100vw - 64px));--dhg-home-left:calc((100vw - var(--dhg-home-width))/2);}
+ html body:has(.subscription-home,.is-market-view) .app-shell {width:var(--dhg-home-width)!important;max-width:1200px!important;margin-left:auto!important;margin-right:auto!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell > header.site-header.dhg-shared-header {display:block!important;position:sticky!important;top:0!important;height:180px!important;min-height:180px!important;padding:0 24px!important;box-sizing:border-box;background:#fff!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header .site-logo {position:absolute!important;left:24px;top:46px;width:96px!important;height:52px!important;margin:0!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header > .bottom-nav.dhg-shared-bottom-nav {position:absolute!important;left:140px!important;top:60px!important;bottom:auto!important;transform:none!important;margin:0!important;gap:16px!important;width:auto!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header > :is(#market-search,.dhg-home-search) {position:absolute!important;top:48px!important;bottom:auto!important;left:50%!important;right:auto!important;transform:translateX(-50%)!important;width:clamp(280px,calc(100% - 800px),400px)!important;max-width:none!important;height:48px!important;margin:0!important;background:#fff!important;border:1px solid #f27bbb!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header .site-header__actions {display:contents!important;position:static!important;transform:none!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header .cart-button {position:absolute!important;top:50px!important;left:auto!important;right:24px!important;width:44px!important;height:44px!important;margin:0!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header .cart-button::after {display:none!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header .cart-button svg {width:30px;height:30px;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header .login-button {position:absolute!important;top:0!important;right:24px!important;width:auto!important;height:30px!important;padding:0!important;font-size:13px!important;border:0!important;background:none!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header .login-button::before {display:none!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header .dhg-desktop-apply {position:absolute!important;display:flex!important;bottom:10px!important;right:24px!important;top:auto!important;width:180px!important;min-height:38px!important;height:38px!important;border:1px solid #eee!important;border-radius:999px!important;background:#fff!important;color:#f27bbb!important;font-size:14px!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header > .meeting-market-filter {position:absolute!important;left:24px;bottom:0;top:auto;width:calc(100% - 250px)!important;height:60px;align-items:center;gap:32px!important;}
+ html body:has(.is-market-view) .app-shell.is-market-view > header.site-header.dhg-shared-header {top:-120px!important;}
+ html body:has(.is-market-view) .app-shell.is-market-view.dhg-market-scrolled .dhg-shared-header > #market-search {top:auto!important;bottom:9px!important;left:auto!important;right:228px!important;transform:none!important;width:220px!important;height:42px!important;background:#f8f8f8!important;border-color:transparent!important;}
+ html body:has(.is-market-view) .app-shell.is-market-view.dhg-market-scrolled .dhg-shared-header > .meeting-market-filter {width:calc(100% - 500px)!important;gap:24px!important;}
+}
+@media(min-width:1024px) and (max-width:1199px){
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header .site-logo,html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header .site-logo img {width:80px!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header > .bottom-nav.dhg-shared-bottom-nav {left:116px!important;gap:12px!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header > .bottom-nav > a {font-size:16px!important;}
+}
+@media(min-width:1024px){
+ html body:has(.subscription-home,.is-market-view) .dhg-account-mobile {display:none;}
+ html body:has(.subscription-home,.is-market-view) .dhg-account-desktop {display:inline;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header .dhg-desktop-join {display:flex;position:absolute;top:0;right:90px;height:30px;align-items:center;color:#f27bbb;font-size:13px;text-decoration:none;}
+ html body:has(.subscription-home,.is-market-view) .dhg-desktop-join::after {content:'';height:12px;width:1px;background:#ddd;position:absolute;right:-16px;}
+}
+/* Subscription CTA: filled brand treatment; home keeps it beside the cart. */
+@media(min-width:1024px){
+ html body:has(.subscription-home,.is-market-view) .app-shell .dhg-shared-header .dhg-desktop-apply {background:#f27bbb!important;color:#fff!important;border-color:#f27bbb!important;}
+ html body:has(.subscription-home) .app-shell .dhg-shared-header .dhg-desktop-apply {top:53px!important;bottom:auto!important;right:24px!important;width:168px!important;}
+ html body:has(.subscription-home) .app-shell .dhg-shared-header .cart-button {right:204px!important;}
+ html body:has(.subscription-home) .app-shell > header.site-header.dhg-shared-header {height:120px!important;min-height:120px!important;}
+}
+@media(min-width:1024px){
+ html body:has(.subscription-home) .app-shell .dhg-shared-header .cart-button {display:none!important;}
+}
+/* Market actions stay together in both full and compact desktop headers. */
+@media(min-width:1024px){
+ html body:has(.is-market-view) .app-shell .dhg-shared-header .dhg-desktop-apply {top:53px!important;bottom:auto!important;right:80px!important;width:168px!important;}
+ html body:has(.is-market-view) .app-shell.is-market-view.dhg-market-scrolled .dhg-shared-header .dhg-desktop-apply {top:auto!important;bottom:11px!important;}
+ html body:has(.is-market-view) .app-shell.is-market-view.dhg-market-scrolled .dhg-shared-header .cart-button {top:auto!important;bottom:8px!important;right:24px!important;}
+ html body:has(.is-market-view) .app-shell.is-market-view.dhg-market-scrolled .dhg-shared-header > #market-search {right:268px!important;}
+ html body:has(.is-market-view) .app-shell.is-market-view.dhg-market-scrolled .dhg-shared-header > .meeting-market-filter {width:calc(100% - 530px)!important;}
+}

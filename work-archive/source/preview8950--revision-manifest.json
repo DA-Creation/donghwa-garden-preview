@@ -1,0 +1,168 @@
+{
+  "purpose": "Restored historical comparison UI metadata reconstructed from published B/C/D still mapping; not a new approval or new generation.",
+  "products": [
+    {
+      "id": 32,
+      "name": "안송자 소고기 우거지 된장찌개",
+      "status": "ready",
+      "old_file": "images/product-32.png",
+      "file": "candidates/product-32-v2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "prompt_files": [
+        "prompts/product-32-v2.txt"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "육수가 필요 없는 안송자 토속 강된장 원액",
+      "status": "ready",
+      "old_file": "images/product-33.png",
+      "file": "candidates/product-33-v2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "prompt_files": [
+        "prompts/product-33-v2.txt"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "효자두유 190ml 15팩",
+      "status": "ready",
+      "old_file": "images/product-34.png",
+      "file": "candidates/product-34-v2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "prompt_files": [
+        "prompts/product-34-v2.txt"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "순·얼·비 세트",
+      "status": "ready",
+      "old_file": "images/product-35.png",
+      "file": "candidates/product-35-v2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "prompt_files": [
+        "prompts/product-35-v2.txt"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "순물 백김치 5kg",
+      "status": "ready",
+      "old_file": "images/product-36.png",
+      "file": "candidates/product-36-v2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "prompt_files": [
+        "prompts/product-36-v2.txt"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "안송자 청국장 키트 (육수가 필요 없는 맛집의 비법 양념)",
+      "status": "ready",
+      "old_file": "images/product-37.png",
+      "file": "candidates/product-37-v2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "prompt_files": [
+        "prompts/product-37-v2.txt"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "100% 국산콩 안송자 청국장 1kg",
+      "status": "ready",
+      "old_file": "images/product-39.png",
+      "file": "candidates/product-39-v2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "prompt_files": [
+        "prompts/product-39-v2.txt"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "순물 백김치 1kg",
+      "status": "ready",
+      "old_file": "images/product-40.png",
+      "file": "candidates/product-40-v2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "prompt_files": [
+        "prompts/product-40-v2.txt"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "국산콩 비지찌개",
+      "status": "ready",
+      "old_file": "images/product-41.png",
+      "file": "candidates/product-41-v2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "prompt_files": [
+        "prompts/product-41-v2.txt"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "원조짬뽕순두부 세트",
+      "status": "ready",
+      "old_file": "images/product-42.png",
+      "file": "candidates/product-42-v2-candidate2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "reference_file": "evidence/product-42-actual-reference.jpg"
+    },
+    {
+      "id": 43,
+      "name": "명품 순두부 (무첨가)",
+      "status": "ready",
+      "old_file": "images/product-43.png",
+      "file": "candidates/product-43-v2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "prompt_files": [
+        "prompts/product-43-v2.txt"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "얼큰 순두부",
+      "status": "ready",
+      "old_file": "images/product-44.png",
+      "file": "candidates/product-44-v2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "prompt_files": [
+        "prompts/product-44-v2.txt"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "안송자 청국장찌개",
+      "status": "ready",
+      "old_file": "images/product-45.png",
+      "file": "candidates/product-45-v2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "prompt_files": [
+        "prompts/product-45-v2.txt"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "국산콩 비지찌개 5+1",
+      "status": "ready",
+      "old_file": "images/product-46.png",
+      "file": "candidates/product-46-v2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "prompt_files": [
+        "prompts/product-46-v2.txt"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "된장 고추지",
+      "status": "ready",
+      "old_file": "images/product-47.png",
+      "file": "candidates/product-47-v2.png",
+      "scene": "Published revised still; this historical image comparison is separate from the newer F motion candidate.",
+      "prompt_files": [
+        "prompts/product-47-v2.txt"
+      ]
+    }
+  ]
+}

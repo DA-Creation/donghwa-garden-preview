@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>동화가든 · 시작 이미지 비교</title>
+<style>
+*{box-sizing:border-box}[hidden]{display:none!important}body{margin:0;background:#fff;color:#222;font:15px/1.6 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif}
+header{padding:22px 24px 16px;border-bottom:1px solid #ddd}h1{font-size:22px;line-height:1.35;margin:0 0 14px;font-weight:650}nav{display:flex;gap:16px;flex-wrap:wrap;align-items:center}label{display:flex;gap:8px;align-items:center}select,button{font:inherit;padding:6px 8px;border:1px solid #aaa;background:white;color:inherit;border-radius:0}button{cursor:pointer}a{color:inherit}
+main{max-width:1672px;margin:24px auto;padding:0 24px}#meta{max-width:800px;margin:0 auto 18px}#productName{font-size:18px;margin:0 0 6px}#scene{margin:0;color:#555}#status{margin:6px 0;color:#777;font-size:13px}
+#compare{display:grid;grid-template-columns:repeat(2,minmax(0,800px));gap:24px;justify-content:center}figure{margin:0;min-width:0}figcaption{margin:0 0 8px;font-size:15px;font-weight:600}.asset-link{display:block}img{display:block;width:100%;height:auto}.hero-image{aspect-ratio:16/9;object-fit:contain}#single{max-width:800px;margin:auto}#source{max-width:800px;margin:auto}.waiting{aspect-ratio:16/9;background:#f5f5f5;display:grid;place-items:center;color:#777}
+.mobile #compare{grid-template-columns:repeat(2,minmax(0,390px))}.mobile #single,.mobile #source{max-width:390px}
+footer{border-top:1px solid #ddd;padding:16px 24px;margin-top:24px;font-size:13px}footer a{display:inline-block;margin-right:18px}footer p{margin:8px 0 0;color:#555;max-width:1000px}
+@media(max-width:700px){header{padding:16px}main{padding:0 12px;margin:18px auto}#compare,.mobile #compare{grid-template-columns:minmax(0,1fr);gap:24px}.mobile #compare figure{width:100%;max-width:390px;margin:auto}nav{gap:10px}h1{font-size:20px}label:first-child{width:100%}#productSelect{flex:1;min-width:0}}
+</style>
+</head>
+<body>
+<header><h1>동화가든 · 시작 이미지 비교</h1><nav>
+<label>상품 <select id="productSelect" aria-label="상품 선택"></select></label>
+<label>보기 <select id="viewSelect" aria-label="비교 방식"><option value="compare">기존 / 수정본 비교</option><option value="new">수정본만</option><option value="original">실제 상품 사진</option></select></label>
+<label>폭 <select id="sizeSelect" aria-label="미리보기 폭"><option value="desktop">PC 800px</option><option value="mobile">모바일 390px</option></select></label>
+<button id="refresh" type="button">새로 확인</button>
+<a id="videoLink" href="./?product=42">기존 영상 보기</a>
+</nav></header>
+<main id="main">
+<div id="meta"><h2 id="productName"></h2><p id="scene"></p><p id="status" role="status" aria-live="polite">수정본 준비 중</p></div>
+<section id="compare" aria-label="기존 이미지와 수정 이미지 비교">
+<figure><figcaption>기존 시작 이미지</figcaption><a id="oldLink" class="asset-link" hidden target="_blank" rel="noopener"><img id="oldImage" class="hero-image" alt=""></a><div id="oldWaiting" class="waiting">기존 이미지 확인 중</div></figure>
+<figure><figcaption>수정 시작 이미지</figcaption><a id="newLink" class="asset-link" hidden target="_blank" rel="noopener"><img id="newImage" class="hero-image" alt=""></a><div id="newWaiting" class="waiting">수정본 준비 중</div></figure>
+</section>
+<figure id="single" hidden><figcaption>수정 시작 이미지</figcaption><a id="singleLink" class="asset-link" hidden target="_blank" rel="noopener"><img id="singleImage" class="hero-image" alt=""></a><div id="singleWaiting" class="waiting">수정본 준비 중</div></figure>
+<figure id="source" hidden><figcaption>동화가든 실제 상품 사진</figcaption><a id="sourceLink" class="asset-link" hidden target="_blank" rel="noopener"><img id="sourceImage" alt=""></a><div id="sourceWaiting" class="waiting">실제 상품 사진 준비 중</div></figure>
+</main>
+<footer><div id="promptLinks"></div><p>16:9 · 영상 제작 전 시작 정지 이미지 비교입니다. 기존 영상과 수정 시작 이미지는 별도로 확인합니다.</p></footer>
+<script>
+const ids=[32,33,34,35,36,37,39,40,41,42,43,44,45,46,47];
+const names={32:"안송자 소고기 우거지 된장찌개",33:"육수가 필요 없는 안송자 토속 강된장 원액",34:"효자두유 190ml 15팩",35:"순·얼·비 세트",36:"순물 백김치 5kg",37:"안송자 청국장 키트",39:"국산콩 안송자 청국장 1kg",40:"순물 백김치 1kg",41:"국산콩 비지찌개",42:"원조짬뽕순두부 세트",43:"명품 순두부",44:"얼큰 순두부",45:"안송자 청국장찌개",46:"국산콩 비지찌개 5+1",47:"된장 고추지"};
+const $=s=>document.querySelector(s),query=new URLSearchParams(location.search);
+let selected=ids.includes(Number(query.get("product")))?Number(query.get("product")):42;
+let products=ids.map(id=>({id,name:names[id],old_file:"images/product-"+id+".png",status:"pending"}));
+let renderKey="",loadToken=0,fetchToken=0;
+$("#viewSelect").value=["compare","new","original"].includes(query.get("view"))?query.get("view"):"compare";
+$("#sizeSelect").value=query.get("size")==="mobile"?"mobile":"desktop";
+function safeAsset(path,folders){if(typeof path!=="string"||path.includes("..")||path.startsWith("/")||path.includes("\\"))return "";return folders.some(f=>path.startsWith(f+"/"))?path:"";}
+function isReady(p){return !!safeAsset(p.file,["candidates","images"])&&["ready","approved","user_approved"].includes(p.status);}
+function updateQuery(){const q=new URLSearchParams();q.set("product",selected);if($("#viewSelect").value!=="compare")q.set("view",$("#viewSelect").value);if($("#sizeSelect").value!=="desktop")q.set("size",$("#sizeSelect").value);history.replaceState(null,"","?"+q);}
+function fillOptions(){const s=$("#productSelect");s.replaceChildren(...products.map(p=>{const o=document.createElement("option");o.value=p.id;o.textContent=p.id+" · "+p.name;return o}));s.value=String(selected);}
+function showMode(){const view=$("#viewSelect").value;$("#compare").hidden=view!=="compare";$("#single").hidden=view!=="new";$("#source").hidden=view!=="original";$("#main").classList.toggle("mobile",$("#sizeSelect").value==="mobile");}
+function setAsset(prefix,path,alt,token,emptyText){const link=$("#"+prefix+"Link"),img=$("#"+prefix+"Image"),waiting=$("#"+prefix+"Waiting");img.onload=null;img.onerror=null;img.removeAttribute("src");link.hidden=true;waiting.hidden=false;waiting.textContent=emptyText;link.removeAttribute("href");if(!path)return;
+img.alt=alt;link.href=path;img.onload=()=>{if(token!==loadToken)return;link.hidden=false;waiting.hidden=true;};img.onerror=()=>{if(token!==loadToken)return;link.hidden=true;waiting.hidden=false;waiting.textContent=emptyText;};img.src=path;}
+function draw(force=false){const p=products.find(p=>p.id===selected)||products.find(p=>p.id===42);if(!p)return;selected=p.id;$("#productSelect").value=String(selected);const key=JSON.stringify(p);showMode();$("#status").textContent=(isReady(p)?"수정본 확인 가능":"수정본 준비 중")+" · "+products.filter(isReady).length+" / "+ids.length;
+if(!force&&key===renderKey)return;renderKey=key;const token=++loadToken;$("#productName").textContent=p.id+" · "+p.name;$("#scene").textContent=p.scene||"";$("#scene").hidden=!p.scene;$("#videoLink").href="./?product="+p.id;
+const revised=isReady(p)?safeAsset(p.file,["candidates","images"]):"",old=safeAsset(p.old_file||"images/product-"+p.id+".png",["images","candidates"]),ref=safeAsset(p.reference_file,["evidence","images","candidates"]);
+setAsset("old",old,p.name+" · 기존 시작 이미지",token,"기존 이미지 준비 중");setAsset("new",revised,p.name+" · 수정 시작 이미지",token,"수정본 준비 중");setAsset("single",revised,p.name+" · 수정 시작 이미지",token,"수정본 준비 중");setAsset("source",ref,p.name+" · 실제 상품 사진",token,"실제 상품 사진 준비 중");
+const links=[];for(const [i,item] of (Array.isArray(p.prompt_files)?p.prompt_files:[]).entries()){const path=safeAsset(typeof item==="string"?item:item.path||item.file,["prompts"]);if(!path)continue;const a=document.createElement("a");a.href=path;a.target="_blank";a.rel="noopener";a.textContent=typeof item==="object"&&item.label?item.label:"생성 프롬프트 "+(i+1);links.push(a);}$("#promptLinks").replaceChildren(...links);
+}
+async function refresh(force=false){const token=++fetchToken;try{const r=await fetch("revision-manifest.json?t="+Date.now(),{cache:"no-store"});if(!r.ok){draw(force);return;}const d=await r.json();if(token!==fetchToken)return;const incoming=Array.isArray(d)?d:d.products;if(!Array.isArray(incoming)){draw(force);return;}const byId=new Map(incoming.filter(x=>x&&ids.includes(Number(x.id))).map(x=>[Number(x.id),x]));products=ids.map(id=>({...products.find(p=>p.id===id),...byId.get(id),id,name:byId.get(id)?.name||names[id]}));fillOptions();draw(force);}catch{if(token===fetchToken)draw(force);}}
+$("#productSelect").addEventListener("change",e=>{selected=Number(e.target.value);updateQuery();draw(true)});
+$("#viewSelect").addEventListener("change",()=>{updateQuery();showMode()});
+$("#sizeSelect").addEventListener("change",()=>{updateQuery();showMode()});
+$("#refresh").addEventListener("click",()=>refresh(true));
+window.addEventListener("popstate",()=>{const q=new URLSearchParams(location.search);selected=ids.includes(Number(q.get("product")))?Number(q.get("product")):42;$("#viewSelect").value=["compare","new","original"].includes(q.get("view"))?q.get("view"):"compare";$("#sizeSelect").value=q.get("size")==="mobile"?"mobile":"desktop";draw(true);});
+fillOptions();draw();refresh();setInterval(()=>refresh(),5000);
+</script>
+</body></html>
+

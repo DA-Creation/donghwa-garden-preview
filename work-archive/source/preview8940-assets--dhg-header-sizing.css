@@ -1,0 +1,71 @@
+/* Shared desktop header sizing; never changes page body typography. */
+@media(min-width:1024px){
+ html:root body :is(#wrap,.app-shell,.dhg-desktop-header-only) .site-header.dhg-shared-header[class] .site-logo,
+ html:root body :is(#wrap,.app-shell,.dhg-desktop-header-only) .site-header.dhg-shared-header[class] .site-logo img{width:90px!important;max-width:90px!important;flex-basis:90px!important;height:auto!important}
+ html:root body :is(#wrap,.app-shell,.dhg-desktop-header-only) .site-header.dhg-shared-header[class]>.bottom-nav.dhg-shared-bottom-nav{left:146px!important;gap:16px!important;top:60px!important}
+ html:root body :is(#wrap,.app-shell,.dhg-desktop-header-only) .site-header.dhg-shared-header[class]>.bottom-nav.dhg-shared-bottom-nav>a{font-size:18px!important;line-height:1.4!important;font-weight:700!important}
+ html:root body :is(#wrap,.app-shell,.dhg-desktop-header-only) .site-header.dhg-shared-header[class]>:is(#market-search,.dhg-home-search,.dhg-login-header-search){left:calc(50% + 44px)!important;right:auto!important;transform:translateX(-50%)!important;width:min(400px,calc(100% - 672px))!important;min-width:0!important;height:48px!important;box-sizing:border-box!important}
+ html:root body :is(#wrap,.app-shell,.dhg-desktop-header-only) .site-header.dhg-shared-header[class]>:is(#market-search,.dhg-home-search,.dhg-login-header-search) input{font-size:15px!important;line-height:1.4!important}
+ html:root body .app-shell.is-market-view.dhg-market-scrolled .site-header.dhg-shared-header[class]>#market-search{left:auto!important;right:272px!important;transform:none!important;width:220px!important}
+}
+/* Place only the article's leading back link beside its title. */
+html:root body #mag-article{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:20px;align-items:start}
+html:root body #mag-article>*{grid-column:1/-1;min-width:0}
+html:root body #mag-article>.mag-list-back:first-child{grid-column:2;grid-row:1;align-self:center;margin:0!important}
+html:root body #mag-article>h2{grid-column:1;grid-row:1;align-self:center;margin-top:0!important;margin-bottom:0!important}
+html:root body #mag-article>.mag-list-back{justify-self:start;background:transparent!important;border:1px solid #f585bf!important;color:#49303e!important;border-radius:10px!important;padding:10px 18px!important;box-shadow:none!important;text-decoration:none;white-space:nowrap;line-height:1.4}
+html:root body #mag-article>.mag-author{margin-top:14px}
+@media(max-width:600px){html:root body #mag-article{column-gap:12px}html:root body #mag-article>.mag-list-back{padding:8px 12px!important;font-size:13px!important}}
+
+/* Shared brand mark: compact proportions on every normal page header. */
+@media (min-width:1024px){
+ html:root body>.site-header.dhg-shared-header .site-logo,
+ html:root body>.site-header.dhg-shared-header .site-logo img{width:90px!important;max-width:90px!important;flex-basis:90px!important;height:auto!important}
+}
+@media (max-width:1023px){
+ html:root body .site-header.dhg-shared-header[class] .site-logo,
+ html:root body .site-header.dhg-shared-header[class] .site-logo img{width:84px!important;max-width:84px!important;flex-basis:84px!important;height:auto!important}
+ html:root.dhg-login-unified body .dhg-native-welcome>img{width:84px!important;height:auto!important}
+}
+
+/* A scrollable login page must keep the shared signup strip within the viewport. */
+@media(min-width:1024px){
+ html:root.dhg-login-unified body .dhg-signup-bar:not([hidden]){width:100%;margin:0;box-shadow:0 0 0 100vmax #f585bf;clip-path:inset(0 -100vmax)}
+ html:root.dhg-login-unified body .dhg-signup-bar button{right:24px}
+}
+
+/* Keep the compact mobile mark inside its own box; old A/styles offsets clipped it. */
+@media (max-width:1023px){
+ html:root body .site-header.dhg-shared-header[class] .site-logo{flex:0 0 84px!important;overflow:visible!important}
+ html:root body .site-header.dhg-shared-header[class] .site-logo img{display:block!important;margin:0!important;padding:0!important;transform:none!important;flex:none!important;object-fit:contain!important}
+}
+
+/* One soft, bottom-only separator. Border-image paints full bleed without
+   widening the layout or replacing the header's existing white backdrop. */
+html:root body .site-header.dhg-shared-header[class]::before {
+ content:""!important;display:block!important;position:absolute!important;
+ top:100%!important;bottom:auto!important;left:0!important;right:0!important;
+ width:auto!important;height:10px!important;margin:0!important;padding:0!important;
+ border:0!important;border-radius:0!important;
+ background:transparent!important;
+ border-image:linear-gradient(to bottom,rgba(0,0,0,.05) 0,rgba(0,0,0,.03) 2px,rgba(0,0,0,.01) 5px,rgba(0,0,0,0) 10px) fill 0 / 0 / 0 100vmax!important;
+ box-shadow:none!important;transform:none!important;filter:none!important;
+ backdrop-filter:none!important;-webkit-backdrop-filter:none!important;
+ opacity:1!important;visibility:visible!important;pointer-events:none!important;z-index:1!important;
+}
+
+/* The desktop market nests its 60px category row inside the header. */
+@media(min-width:1024px){
+ html:root body .app-shell.is-market-view:not(.dhg-market-scrolled) .site-header.dhg-shared-header[class]:has(>.meeting-market-filter)::before{top:calc(100% - 60px)!important}
+}
+
+/* Mobile normal header: add bottom space without moving the existing controls.
+   The compact market search header keeps its original 96px height. */
+@media (max-width:1023px) {
+ html:root body .app-shell:not(.is-market-search-sticky) {
+  --site-header-height:112px;
+ }
+ html:root body .app-shell:not(.is-market-search-sticky) > .site-header.dhg-shared-header[class] {
+  padding-bottom:16px!important;
+ }
+}

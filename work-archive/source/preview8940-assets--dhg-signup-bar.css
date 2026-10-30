@@ -1,0 +1,10 @@
+/* Desktop announcement in normal flow: scrolls away above sticky navigation. */
+.dhg-signup-bar {display:none;}
+@media(min-width:1024px){
+ .dhg-signup-bar:not([hidden]) {display:flex;order:-10;flex-shrink:0;position:relative;align-items:center;justify-content:center;box-sizing:border-box;width:100vw;height:44px;margin:0 calc(50% - 50vw);padding:0 60px;background:#f585bf;color:#fff;}
+ .dhg-signup-bar>a {display:flex;align-items:center;justify-content:center;gap:5px;min-height:44px;color:inherit;text-decoration:none;font-size:16px;font-weight:500;line-height:1.4;}
+ .dhg-signup-bar strong {font-weight:700;}
+ .dhg-signup-bar button {position:absolute;right:max(24px,calc((100vw - 1200px)/2 + 24px));top:6px;width:32px;height:32px;padding:0;border:0;background:transparent;color:inherit;font:300 28px/1 sans-serif;cursor:pointer;}
+ .dhg-signup-bar :is(a,button):focus-visible {outline:2px solid #49303e;outline-offset:2px;}
+ html:root body .app-shell.is-market-view .market-reference {padding-top:0!important;}
+}

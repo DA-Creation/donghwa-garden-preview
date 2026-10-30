@@ -1,0 +1,145 @@
+/* Meeting changes only. The original A stylesheets remain byte-for-byte intact. */
+.app-shell:has(> .subscription-home:not([hidden])) { --subscription-promo-height: 0px; }
+.subscription-home #guide.has-scroll-scene .subscription-promise__scene {
+  top: var(--site-header-height);
+  height: max(240px, calc(100svh - var(--site-header-height) - 80px));
+}
+.subscription-home .subscription-principles {
+  background: #181616;
+  padding-top: 88px;
+}
+.subscription-home .subscription-principles.has-card-scene > h2 {
+  background: #181616;
+}
+.cohort-reading-runway.has-cohort-reading > .cohort-shape-card {
+  position: sticky;
+  top: var(--cohort-reading-top);
+}
+.cohort-process {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  padding: 0;
+  margin: 22px 0;
+  list-style: none;
+}
+.cohort-process img { width: 100%; aspect-ratio: 1; object-fit: contain; border-radius: 12px; }
+.cohort-process li > span { display: block; margin: 8px 0 4px; color: #fffdf1; font-size: 12px; font-weight: 700; }
+.subscription-home .cohort-process li > p { font-size: 11px; line-height: 1.5; }
+.subscription-home .cohort-shape-card--reason > .subscription-cohort__quote { margin: 0; }
+@media (prefers-reduced-motion: no-preference) {
+  .cohort-process.is-ready img { opacity: 0; transform: translateY(10px); }
+  .cohort-process.is-ready.is-visible img { animation: cohort-prep-enter .55s both; }
+  .cohort-process.is-visible li:nth-child(2) img { animation-delay: .18s; }
+  .cohort-process.is-visible li:nth-child(3) img { animation-delay: .36s; }
+  @keyframes cohort-prep-enter { 0% { opacity: 0; transform: translateY(10px); } 75% { opacity: 1; transform: translateY(-3px); } 100% { opacity: 1; transform: none; } }
+}
+@media (prefers-reduced-motion: reduce) {
+  .subscription-home #guide.has-scroll-scene .subscription-promise__scene { position: static; height: auto; }
+}
+.subscription-home .cohort-process > li { display: block; padding: 0; border: 0; }
+
+/* September review: space to read between the banner and the introduction. */
+.subscription-home #empathy { padding-top: clamp(64px, 12svh, 96px); }
+
+.subscription-home .subscription-principles.has-card-scene .principles-stage {
+  overflow: hidden;
+  border-radius: 12px;
+}
+.subscription-home .subscription-composition > .composition-stories { margin-top: 36px; }
+.subscription-home .subscription-composition > .composition-marquees { margin-top: 24px; }
+.subscription-home .composition-products-title {
+  margin: 56px 22px 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #49303e;
+  text-align: center;
+  word-break: keep-all;
+}
+
+/* A continuous background keeps the last line inside the pink reading panel. */
+.subscription-home .cohort-shape-card--reason {
+  min-height: var(--cohort-available-height, calc(100svh - 160px));
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #f585bf;
+  border-radius: 48px;
+}
+.cohort-shape-card--reason > .cohort-shape-card__shape { display: none; }
+.subscription-home .cohort-shape-card--invitation h3 { font-size: 30px; }
+.subscription-home .cohort-shape-card .cohort-invitation-note {
+  color: #e5f9e8;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.bottom-nav__main i { grid-template-rows: 22px 24px; }
+.bottom-nav__main i svg { width: 21px; height: 21px; }
+.bottom-nav__main i span { text-align: center; line-height: 12px; }
+
+.cohort-ribbon__link { margin-right: 0; }
+.subscription-hero-invitation > .grandma-invitation {
+  display: block;
+  width: 144px;
+  height: 144px;
+  margin: 24px auto 0;
+  object-fit: cover;
+  object-position: 92% center;
+  border-radius: 50%;
+}
+.subscription-hero-invitation:has(.grandma-invitation) > p { margin-top: 18px; }
+.subscription-home .cohort-shape-card--invitation { padding: 32px 24px 40px; }
+.subscription-home .cohort-shape-card .cohort-seats {
+  display: grid;
+  gap: 6px;
+  margin: 24px 0;
+  padding: 14px;
+  background: #fffdf1;
+  color: #27663a;
+  border-radius: 18px;
+  font-size: 13px;
+}
+.cohort-seats strong { font-size: 34px; line-height: 1.2; font-variant-numeric: tabular-nums; }
+@media (max-height: 700px) {
+  .subscription-home .cohort-shape-card--invitation { padding: 24px 18px 32px; }
+  .subscription-home .cohort-shape-card--invitation h3 { font-size: 28px; margin-bottom: 18px; }
+  .subscription-home .cohort-shape-card .cohort-seats { margin: 18px 0; }
+}
+
+/* Keep the complete explanation above navigation even in a short preview. */
+@media (max-height: 700px) {
+  .subscription-home .cohort-shape-card--reason { padding: 22px 16px; }
+  .subscription-home .cohort-shape-card--reason h2 { font-size: 28px; margin-bottom: 16px; }
+  .subscription-home .cohort-shape-card--reason > p { font-size: 12px; line-height: 1.6; }
+  .subscription-home .cohort-shape-card--reason .cohort-process { margin: 14px 0; }
+  .cohort-shape-card--reason .cohort-process img { max-height: 78px; }
+  .subscription-home .cohort-shape-card--reason > .subscription-cohort__quote { font-size: 22px; line-height: 1.35; }
+}
+
+/* Separate reading screens over the same moving image. */
+.subscription-home #guide .promise-story-page {
+  position: absolute; inset: 0; z-index: 2; display: flex;
+  flex-direction: column; justify-content: center; padding: 28px 24px;
+  color: #fffdf1; text-align: left; pointer-events: none;
+  text-shadow: 0 2px 16px rgba(0,0,0,.25);
+}
+.subscription-home #guide .promise-story-page h3 { margin: 0 0 28px; font-size: clamp(23px, 6vw, 30px); line-height: 1.4; color: inherit; }
+.subscription-home #guide .promise-story-page p { margin: 0; font-size: clamp(17px, 4.7vw, 23px); font-weight: 700; line-height: 1.75; word-break: keep-all; }
+.promise-story-page--reason { opacity: var(--promise-reason-opacity, 0); transform: translateY(var(--promise-reason-y, 32px)); }
+.promise-story-page--process { opacity: var(--promise-process-opacity, 0); transform: translateY(var(--promise-process-y, 32px)); }
+.subscription-home #guide .promise-story-page ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 20px; }
+.subscription-home #guide .promise-story-page li { display: flex; gap: 18px; font-size: clamp(23px, 6vw, 30px); font-weight: 700; line-height: 1.5; }
+.subscription-home #guide .promise-story-page li span { opacity: 1; }
+.subscription-home #guide .promise-story-page blockquote { margin: 40px 0 0; font: 400 clamp(24px, 6.2vw, 32px)/1.6 'Soonakpilyeosa', sans-serif; color: inherit; }
+@media (prefers-reduced-motion: reduce) {
+  .subscription-home #guide .promise-story-page { position: relative; opacity: 1; transform: none; min-height: 340px; background: #28332c; }
+}
+
+.promise-story-page--quote { opacity: var(--promise-quote-opacity, 0); transform: translateY(var(--promise-quote-y, 32px)); }
+.subscription-home #guide .promise-story-page--process li { color: #fff; opacity: .5; transition: opacity 180ms ease; }
+.subscription-home #guide .promise-story-page--quote blockquote { margin: 0; font-size: clamp(30px, 8.2vw, 40px); line-height: 1.6; word-break: keep-all; }
+@media (prefers-reduced-motion: reduce) {
+  .subscription-home #guide .promise-story-page--process li { opacity: 1; transition: none; }
+}

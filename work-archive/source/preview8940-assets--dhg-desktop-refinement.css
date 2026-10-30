@@ -1,0 +1,35 @@
+/* Desktop refinement only: common heading scale and readable product cards. */
+@media(min-width:1024px){
+ html body .market-reference {--dhg-market-heading-size:30px;--dhg-market-accent:#f27bbb;}
+ html body .market-reference :is(.market-category-shelf__heading,.market-all__heading) h2 {font-size:var(--dhg-market-heading-size)!important;line-height:1.4!important;}
+ html body .market-reference .market-all {padding-top:0!important;}
+ html body .market-reference .market-all__heading {display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px;margin:16px 0 28px;}
+ html body .market-reference .market-all__heading h2::before {display:none;}
+ html body .market-reference .market-heading-description {font-size:18px!important;}
+ html body .market-reference .market-product h3,
+ html body .market-reference .market-product h3 a,
+ html body .market-reference .market-product h3 a span,
+ html body .market-reference .market-product .dhg-native-product-choose {font-size:18px!important;line-height:1.5!important;font-weight:400!important;}
+ html body .market-reference .market-product .dhg-price-row,
+ html body .market-reference .market-product .dhg-price-row :is(span,strong),
+ html body .market-reference .market-product h3 + strong {font-size:20px!important;line-height:1.4!important;font-weight:700!important;}
+ html body .market-reference .market-product .dhg-price-original,
+ html body .market-reference .market-product .dhg-price-original del {font-size:16px!important;}
+ html body .market-reference .market-product .dhg-native-product-choose {min-height:40px;}
+ html body .market-reference .dhg-search-result-title,
+ html body :is(.titleArea,.dhg-page-heading) :is(h1,h2).dhg-search-result-title {font-family:inherit!important;font-size:30px!important;font-weight:400!important;line-height:1.4!important;text-align:center!important;letter-spacing:-.025em;word-break:keep-all;overflow-wrap:anywhere;}
+ html body .dhg-page-heading:has(.dhg-search-result-title) {justify-content:center!important;min-height:100px;}
+ html body .dhg-search-result-title .dhg-search-keyword {color:#f27bbb!important;font:inherit!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .site-header.dhg-shared-header > .bottom-nav.dhg-shared-bottom-nav {left:150px!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .site-header.dhg-shared-header > .bottom-nav.dhg-shared-bottom-nav > a {font-size:20px!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .site-header.dhg-shared-header > :is(#market-search,.dhg-home-search) {width:clamp(190px,calc(100% - 880px),320px)!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .site-header.dhg-shared-header > :is(#market-search,.dhg-home-search) input {font-size:18px!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .site-header.dhg-shared-header > .meeting-market-filter button {font-size:18px!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .site-header.dhg-shared-header .dhg-desktop-apply {font-size:16px!important;}
+ html body:has(.is-market-view) .app-shell.is-market-view.dhg-market-scrolled .site-header.dhg-shared-header > #market-search {width:200px!important;}
+}
+@media(min-width:1024px) and (max-width:1199px){
+ html body:has(.subscription-home,.is-market-view) .app-shell .site-header.dhg-shared-header > .bottom-nav.dhg-shared-bottom-nav {left:122px!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .site-header.dhg-shared-header > .bottom-nav.dhg-shared-bottom-nav > a {font-size:16px!important;}
+ html body:has(.subscription-home,.is-market-view) .app-shell .site-header.dhg-shared-header > .meeting-market-filter {gap:24px!important;}
+}

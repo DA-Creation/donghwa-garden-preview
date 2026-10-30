@@ -1,0 +1,68 @@
+/* Cafe24 integration only. Approved A typography/layout/motion stay in source CSS. */
+.cart-button { text-decoration: none; }
+.site-footer__buttons > a { display: inline-flex; align-items: center; justify-content: center; }
+.site-footer .xans-layout-footer { margin: 0; }
+.displaynone { display: none !important; }
+/* Native Cafe24 order/account routes remain on their original layout. */
+
+/* Cafe24 inserts &nbsp; text nodes between images. Keep the three-photo
+   composition independent of anonymous grid items while preserving its ratio. */
+.subscription-home #empathy .empathy-image-grid {
+  display: block;
+  position: relative;
+  aspect-ratio: 1.35;
+  font-size: 0;
+  line-height: 0;
+}
+.subscription-home #empathy .empathy-image-grid > img {
+  position: absolute;
+  top: 0;
+  min-width: 0;
+}
+.subscription-home #empathy .empathy-image-grid > img:nth-of-type(1) {
+  left: 0;
+  width: calc((100% - 10px) * 2 / 3);
+  height: 100%;
+}
+.subscription-home #empathy .empathy-image-grid > img:nth-of-type(n + 2) {
+  right: 0;
+  width: calc((100% - 10px) / 3);
+  height: calc((100% - 10px) / 2);
+}
+.subscription-home #empathy .empathy-image-grid > img:nth-of-type(3) {
+  top: auto;
+  bottom: 0;
+}
+
+/* Subheadings for the schedule and preparation detail panels. */
+.subscription-home #plans .reassure-usage-benefit__panel > .reassure-usage-benefit__lead {
+  width: 100%;
+  margin: 0 0 8px;
+  text-align: center;
+  font-family: 'Pretendard Local', Pretendard, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #766b70;
+}
+.subscription-home #plans .reassure-usage-benefit__panel > .reassure-usage-benefit__lead > strong {
+  display: block;
+  margin-top: 6px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.45;
+  letter-spacing: -.025em;
+  text-wrap: balance;
+  color: #30262c;
+}
+.subscription-home #plans .reassure-usage-benefit__panel > .reassure-usage-benefit__lead > br { display: none; }
+
+/* Keep the first invitation closer to the three-photo composition. */
+.subscription-home #empathy + .subscription-hero-invitation > p {
+  margin-top: 16px;
+}
+
+/* Balance the third card's bottom inset with the label's extra top spacing. */
+.subscription-home .subscription-principles .principle-ferment-card {
+  padding-bottom: 32px;
+}

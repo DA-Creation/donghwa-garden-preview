@@ -1,0 +1,17 @@
+/* A compact, nonblocking confirmation; the product rail remains interactive. */
+.dhg-native-product-choose.is-cart-pending { cursor: progress; opacity: .7; }
+.dhg-market-cart-spinner { display: inline-block; width: 12px; height: 12px; border: 1.5px solid currentColor; border-right-color: transparent; border-radius: 50%; animation: dhg-cart-spin .75s linear infinite; }
+.dhg-market-cart-toast { position: fixed; z-index: 10020; left: 50%; bottom: calc(82px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); display: grid; grid-template-columns: minmax(0, 1fr) auto 24px; align-items: center; column-gap: 14px; width: min(358px, calc(100vw - 32px)); box-sizing: border-box; padding: 17px 14px 17px 20px; border: 1px solid #e1e7e1; border-radius: 16px; color: #273d2f; background: #fff; box-shadow: 0 6px 25px rgb(27 38 27 / 14%); font-family: "Pretendard Local", Pretendard, -apple-system, BlinkMacSystemFont, sans-serif; text-align: left; }
+.dhg-market-cart-toast[hidden] { display: none; }
+.dhg-market-cart-toast__copy { min-width: 0; }
+.dhg-market-cart-toast__copy strong { display: block; font-size: 14px; line-height: 1.45; font-weight: 650; overflow-wrap: anywhere; }
+.dhg-market-cart-toast__copy span { display: block; margin-top: 4px; color: #777b76; font-size: 11px; line-height: 1.5; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dhg-market-cart-toast__copy span:empty { display: none; }
+.dhg-market-cart-toast__link { padding: 8px 0; color: #365a40; font-size: 12px; font-weight: 600; line-height: 1.5; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }
+.dhg-market-cart-toast__close { display: grid; place-items: center; width: 28px; height: 36px; margin: 0; padding: 0; border: 0; background: none; color: #747a74; font: 24px/1 Arial, sans-serif; cursor: pointer; }
+.dhg-market-cart-toast.is-error { border-color: #e2d6ca; }
+.dhg-market-cart-toast.is-error strong { color: #634b39; }
+.dhg-market-cart-toast a:focus-visible, .dhg-market-cart-toast button:focus-visible { outline: 2px solid #457051; outline-offset: 3px; border-radius: 3px; }
+@keyframes dhg-cart-spin { to { transform: rotate(360deg); } }
+@media (max-width: 359px) { .dhg-market-cart-toast { width: calc(100vw - 20px); padding: 15px 10px 15px 14px; column-gap: 10px; }.dhg-market-cart-toast__copy strong { font-size: 13px; }.dhg-market-cart-toast__link { font-size: 11px; } }
+@media (prefers-reduced-motion: reduce) { .dhg-market-cart-spinner { animation: none; } }

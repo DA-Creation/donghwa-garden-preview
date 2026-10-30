@@ -1,0 +1,12 @@
+/* PC market header: full-width background, centered controls. */
+@media (min-width:1024px){
+ html body .app-shell.is-market-view > header.site-header.dhg-shared-header::after{content:"";position:absolute;inset:0;background:#fff;box-shadow:0 0 0 100vmax #fff;clip-path:inset(0 -100vmax);z-index:-1;pointer-events:none}
+ html body .app-shell.is-market-view > header.site-header.dhg-shared-header > nav.meeting-market-filter,
+ html body .app-shell.is-market-view > header.site-header.dhg-shared-header > nav.meeting-market-filter > a,
+ html body .app-shell.is-market-view > header.site-header.dhg-shared-header > nav.meeting-market-filter > button{font-size:15px!important}
+}
+
+@media(min-width:1024px){
+html:root body .app-shell .dhg-shared-footer .site-footer__info,
+html:root body .app-shell .dhg-shared-footer .site-footer__info p{line-height:1.2!important}
+}

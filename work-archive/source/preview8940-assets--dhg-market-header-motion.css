@@ -1,0 +1,29 @@
+/* Market only: keep the category track stable while header actions follow scroll. */
+@media(min-width:1024px){
+ html:root body :is(#wrap,.app-shell).is-market-view[class] > header.site-header.dhg-shared-header[class] {--dhg-market-progress:0;--dhg-market-search-width:clamp(180px,calc(100% - 776px),220px);height:180px!important;min-height:180px!important;top:-120px!important;transition:none!important;}
+ html:root body :is(#wrap,.app-shell).is-market-view[class] > header.site-header.dhg-shared-header[class] > .meeting-market-filter {left:24px!important;right:auto!important;top:120px!important;bottom:auto!important;width:calc(100% - 304px - var(--dhg-market-search-width))!important;height:60px!important;box-sizing:border-box!important;gap:20px!important;display:flex!important;align-items:center!important;justify-content:flex-start!important;flex-wrap:nowrap!important;overflow-x:auto!important;overflow-y:hidden!important;scrollbar-width:none;transform:none!important;transition:none!important;}
+ html:root body :is(#wrap,.app-shell).is-market-view[class] > header.site-header.dhg-shared-header[class] > .meeting-market-filter::-webkit-scrollbar {display:none;}
+ html:root body :is(#wrap,.app-shell).is-market-view[class] > header.site-header.dhg-shared-header[class] > .meeting-market-filter > :is(button,a) {flex:0 0 auto!important;white-space:nowrap!important;transform:none!important;}
+ html:root body :is(#wrap,.app-shell).is-market-view[class] > header.site-header.dhg-shared-header[class] > #market-search {position:absolute!important;left:auto!important;right:264px!important;top:48px!important;bottom:auto!important;width:var(--dhg-market-search-width)!important;max-width:none!important;min-width:0!important;height:42px!important;box-sizing:border-box!important;margin:0!important;transform:translateY(calc(var(--dhg-market-progress) * 81px))!important;transition:none!important;background:#fff!important;border:1px solid #f27bbb!important;}
+ html:root body :is(#wrap,.app-shell).is-market-view[class] > header.site-header.dhg-shared-header[class] > #market-search input {min-width:0!important;}
+ html:root body :is(#wrap,.app-shell).is-market-view[class] > header.site-header.dhg-shared-header[class] .dhg-desktop-apply {top:53px!important;bottom:auto!important;right:80px!important;width:168px!important;transform:translateY(calc(var(--dhg-market-progress) * 78px))!important;transition:none!important;}
+ html:root body :is(#wrap,.app-shell).is-market-view[class] > header.site-header.dhg-shared-header[class] .cart-button {top:50px!important;bottom:auto!important;right:24px!important;transform:translateY(calc(var(--dhg-market-progress) * 78px))!important;transition:none!important;}
+ html:root body :is(#wrap,.app-shell).is-market-view[class] > header.site-header.dhg-shared-header[class] > :is(.site-logo,.bottom-nav.dhg-shared-bottom-nav) {visibility:visible!important;pointer-events:auto!important;}
+ html:root body :is(#wrap,.app-shell).is-market-view[class] > header.site-header.dhg-shared-header[class]::before {top:100%!important;}
+}
+
+/* Mobile: categories sit below the shared header, not behind its older 52px height. */
+@media(max-width:1023px){
+ html:root body .app-shell.is-market-view > .site-header.dhg-shared-header {background:#fff!important;}
+ html:root body .app-shell.is-market-view .market-reference > .meeting-market-filter {
+  top:var(--site-header-height,96px)!important;
+ }
+ html:root body .app-shell.is-market-view .market-heading-featured {
+  display:grid!important;grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;align-items:center;
+ }
+ html:root body .app-shell.is-market-view .market-heading-featured > h2 {grid-column:1;grid-row:1;}
+ html:root body .app-shell.is-market-view .market-heading-featured > [data-market-shelf-count] {grid-column:2;grid-row:1;}
+ html:root body .app-shell.is-market-view .market-heading-featured > .market-heading-description {
+  display:block!important;grid-column:1/-1;grid-row:2;margin:0;padding:0;font-size:14px;line-height:1.6;font-weight:400;color:#888;word-break:keep-all;
+ }
+}

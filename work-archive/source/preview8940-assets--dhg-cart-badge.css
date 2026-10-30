@@ -1,0 +1,63 @@
+/* Shared Cafe24 basket count. No badge is shown until a real count is received. */
+.dhg-cart-count-link { position: relative; overflow: visible !important; }
+.dhg-cart-count-link .dhg-cart-count {
+  position: absolute;
+  z-index: 2;
+  top: -5px;
+  right: -5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 17px;
+  height: 17px;
+  padding: 0 4px;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  background: #4b9b5e;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  font-variant-numeric: tabular-nums;
+  pointer-events: none;
+}
+.dhg-cart-count-link .dhg-cart-count[hidden] { display: none !important; }
+.dhg-cart-count-link--added > svg { animation: dhg-cart-nudge 580ms ease-out both; }
+.dhg-cart-count-link--added .dhg-cart-count { animation: dhg-cart-count-pop 500ms ease-out both; }
+.dhg-cart-flight {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #4b9b5e;
+  z-index: 12000;
+  pointer-events: none;
+}
+.dhg-cart-count-status {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+@keyframes dhg-cart-nudge {
+  0%, 100% { transform: translateY(0); }
+  35% { transform: translateY(-2px); }
+  65% { transform: translateY(1px); }
+}
+@keyframes dhg-cart-count-pop {
+  0%, 100% { transform: scale(1); }
+  45% { transform: scale(1.16); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dhg-cart-count-link--added > svg,
+  .dhg-cart-count-link--added .dhg-cart-count { animation: none; }
+  .dhg-cart-flight { display: none; }
+}

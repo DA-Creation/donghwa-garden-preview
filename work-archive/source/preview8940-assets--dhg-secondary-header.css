@@ -1,0 +1,29 @@
+@media(min-width:1024px){
+ html body .site-header.dhg-shared-header.dhg-market-style-header {display:block!important;position:relative!important;height:120px!important;min-height:120px!important;padding:0!important;background:#fff;}
+ html body .dhg-shared-header.dhg-market-style-header .site-logo {position:absolute;left:24px;top:46px;width:96px!important;height:52px!important;}
+ html body .dhg-shared-header.dhg-market-style-header .site-logo img {width:96px!important;height:auto;}
+ html body .dhg-shared-header.dhg-market-style-header .site-header__actions {display:contents!important;}
+ html body .dhg-shared-header.dhg-market-style-header .cart-button {display:flex!important;position:absolute;right:24px;top:50px;width:44px!important;height:44px!important;align-items:center;justify-content:center;}
+ html body .dhg-shared-header.dhg-market-style-header .cart-button svg {width:30px;height:30px;}
+ html body .dhg-shared-header.dhg-market-style-header .login-button {position:absolute;right:24px;top:0;height:30px!important;width:auto!important;min-width:0!important;display:flex!important;align-items:center;padding:0!important;border:0!important;background:none!important;font-size:13px;}
+ html body .dhg-market-style-header .dhg-account-mobile {display:none;}
+ html body .dhg-market-style-header .dhg-account-desktop {display:inline;}
+ html body .dhg-market-style-header .dhg-desktop-join {display:flex;position:absolute;right:90px;top:0;height:30px;align-items:center;font-size:13px;color:#f27bbb;}
+ html body .dhg-shared-header.dhg-market-style-header .dhg-desktop-apply {display:flex!important;position:absolute;right:80px;top:53px;align-items:center;justify-content:center;gap:8px;width:168px;height:38px;border-radius:999px;background:#f27bbb;color:#fff;font-size:16px;font-weight:700;}
+ html body .dhg-market-style-header .dhg-desktop-apply svg {width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;}
+ html body .dhg-shared-header.dhg-market-style-header > .bottom-nav {display:flex!important;position:absolute!important;top:60px!important;bottom:auto!important;left:150px!important;right:auto!important;transform:none!important;width:auto!important;height:auto!important;min-height:0!important;padding:0!important;gap:16px!important;border:0!important;background:none!important;box-shadow:none!important;}
+ html body .dhg-shared-header.dhg-market-style-header .bottom-nav a {position:relative;padding:0!important;height:auto!important;border:0!important;color:#bcbcbc!important;font-size:20px!important;font-weight:700;white-space:nowrap;}
+ html body .dhg-shared-header.dhg-market-style-header .bottom-nav a::after,html body .dhg-shared-header.dhg-market-style-header .bottom-nav svg {display:none!important;}
+ html body .dhg-shared-header.dhg-market-style-header .bottom-nav :is([data-dhg-nav="apply"],[data-dhg-nav="account"]) {display:none!important;}
+ html body .dhg-shared-header.dhg-market-style-header .bottom-nav :is([data-dhg-nav="subscription"],[data-dhg-nav="test"])::before {content:'';position:absolute;left:-8px;top:5px;width:1px;height:14px;background:#ddd;}
+ html body .dhg-market-style-header .dhg-login-header-search {display:flex;position:absolute;top:48px;left:50%;transform:translateX(-50%);width:clamp(190px,calc(100% - 880px),320px);height:48px;border:1px solid #f27bbb;border-radius:6px;box-sizing:border-box;padding:0 12px;align-items:center;}
+ html body .dhg-market-style-header .dhg-login-header-search input {width:100%;min-width:0;border:0;background:none;font-size:18px;outline:none;}
+ html body .dhg-market-style-header .dhg-login-header-search button {border:0;background:none;padding:0;width:24px;height:24px;}
+ html body .dhg-market-style-header .dhg-login-header-search svg {width:22px;height:22px;fill:none;stroke:#f27bbb;stroke-width:1.8;}
+ html body .site-header__market-search {display:none!important;}
+ html body .site-header.dhg-shared-header.dhg-market-style-header > .bottom-nav.dhg-shared-bottom-nav > a{font-size:20px!important;font-weight:700!important;color:#bcbcbc!important;line-height:1.4!important;}
+html body .site-header.dhg-market-style-header{width:100%!important;max-width:1200px!important;margin:0 auto!important;box-sizing:border-box;z-index:46}
+html body .dhg-market-style-header .dhg-login-header-search{display:flex!important}
+}
+@media(min-width:1024px) and (max-width:1199px){html body .dhg-market-style-header .site-logo,html body .dhg-market-style-header .site-logo img{width:80px!important}html body .dhg-market-style-header>.bottom-nav{left:122px!important;gap:12px!important}html body .dhg-market-style-header>.bottom-nav>a{font-size:16px!important}}
+@media(max-width:1023px){.dhg-market-style-header .dhg-login-header-search{display:none!important}}

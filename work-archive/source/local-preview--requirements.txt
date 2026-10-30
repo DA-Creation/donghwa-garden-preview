@@ -1,0 +1,3 @@
+beautifulsoup4>=4.12,<5
+Pillow>=10,<13
+# Also install ffmpeg and ffprobe on PATH for video assembly/QA.

@@ -1,0 +1,160 @@
+{
+  "purpose": "영상 촬영 콘티용 정지 이미지 · 실제 영상 아님",
+  "excluded": [
+    38
+  ],
+  "products": [
+    {
+      "id": 32,
+      "name": "안송자 소고기 우거지 된장찌개",
+      "scene": "우거지·소고기 사이로 된장 국물이 끓는 순간. 영상에서는 작은 기포가 불규칙하게 터지고 국물이 재료 사이로 움직인다.",
+      "file": "images/product-32.png",
+      "caption": "줄 서서 먹는 맛집의 그 맛 그대로 집에서",
+      "status": "ready",
+      "detail_key": "dg-01",
+      "attempt": 1
+    },
+    {
+      "id": 33,
+      "name": "육수가 필요 없는 안송자 토속 강된장 원액",
+      "scene": "강된장 원액 한 숟가락을 냄비로 내리는 순간. 영상에서는 양념이 국물에 들어가 풀리는 동작으로 이어진다.",
+      "file": "images/product-33.png",
+      "caption": "줄 서서 먹는 맛집의 그 맛 그대로 집에서",
+      "status": "ready",
+      "detail_key": "dg-02",
+      "attempt": 1
+    },
+    {
+      "id": 34,
+      "name": "효자두유 190ml 15팩",
+      "scene": "실제 회갈색 두유를 투명한 잔에 가늘게 따르는 순간. 영상에서는 낮은 잔물결이 퍼지고 잔이 차오른다.",
+      "file": "images/product-34.png",
+      "caption": "매일 마시는 두유니까, 콩부터 제대로",
+      "status": "ready",
+      "detail_key": "dg-03",
+      "attempt": 2
+    },
+    {
+      "id": 35,
+      "name": "순·얼·비 세트",
+      "scene": "순두부 표면에 숟가락을 넣어 한 숟갈 뜨는 첫 장면. 영상에서는 얼큰순두부와 비지찌개 근접 컷으로 이어지는 3가지 구성 전환을 촬영한다.",
+      "file": "images/product-35.png",
+      "caption": "육수가 필요 없는 맛집의 비법 양념",
+      "status": "ready",
+      "detail_key": "dg-04",
+      "attempt": 1
+    },
+    {
+      "id": 36,
+      "name": "순물 백김치 5kg",
+      "scene": "백김치의 두꺼운 줄기를 젓가락으로 들어 올리는 순간. 배추 끝에서 작은 국물 방울이 떨어진다.",
+      "file": "images/product-36.png",
+      "caption": "줄 서서 먹는 맛집의 그 맛 그대로 집에서",
+      "status": "ready",
+      "detail_key": "dg-09",
+      "attempt": 1
+    },
+    {
+      "id": 37,
+      "name": "안송자 청국장 키트 (육수가 필요 없는 맛집의 비법 양념)",
+      "scene": "청국장 키트를 조리한 예시. 두부와 채소 사이에서 국물이 잔잔하게 끓는다.",
+      "file": "images/product-37.png",
+      "caption": "육수가 필요 없는 맛집의 비법 양념",
+      "status": "ready",
+      "detail_key": "dg-06",
+      "attempt": 1
+    },
+    {
+      "id": 39,
+      "name": "100% 국산콩 안송자 청국장 1kg",
+      "scene": "원물 청국장의 작은 모서리를 숟가락으로 떼는 조리 준비 장면. 부서진 단면의 콩 질감을 보여준다.",
+      "file": "images/product-39.png",
+      "caption": "양념하지 않은 순수 청국장 1kg",
+      "status": "ready",
+      "detail_key": "dg-08",
+      "attempt": 1
+    },
+    {
+      "id": 40,
+      "name": "순물 백김치 1kg",
+      "scene": "백김치의 얇은 잎을 젓가락으로 들어 올리는 순간. 접힌 잎이 펴지고 국물이 떨어진다.",
+      "file": "images/product-40.png",
+      "caption": "줄 서서 먹는 맛집의 그 맛 그대로 집에서",
+      "status": "ready",
+      "detail_key": "dg-09",
+      "attempt": 1
+    },
+    {
+      "id": 41,
+      "name": "국산콩 비지찌개",
+      "scene": "비지와 작은 배추 조각을 한 숟갈 들어 올리는 순간. 묽은 국물이 숟가락 끝에서 떨어진다.",
+      "file": "images/product-41.png",
+      "caption": "육수가 필요 없는 맛집의 비법 양념",
+      "status": "ready",
+      "detail_key": "dg-10",
+      "attempt": 1
+    },
+    {
+      "id": 42,
+      "name": "원조짬뽕순두부 세트",
+      "scene": "순두부와 해물을 한 숟가락 들어 올린 순간. 영상에서는 숟가락이 국물에서 올라오고 마지막에 작은 국물 방울이 떨어진다.",
+      "file": "images/product-42.png",
+      "caption": "짬뽕과 순두부의 시작, 강릉 동화가든 원조짬순",
+      "status": "ready",
+      "detail_key": "dg-11",
+      "attempt": 1
+    },
+    {
+      "id": 43,
+      "name": "명품 순두부 (무첨가)",
+      "scene": "순두부 한 숟갈을 들어 올리는 순간. 순물은 길게 늘어지지 않고 작은 방울로 바로 떨어진다.",
+      "file": "images/product-43.png",
+      "caption": "육수가 필요 없는 맛집의 비법 양념",
+      "status": "ready",
+      "detail_key": "dg-12",
+      "attempt": 1
+    },
+    {
+      "id": 44,
+      "name": "얼큰 순두부",
+      "scene": "실제 조리 예시의 냄비에서 얼큰순두부가 끓는 순간. 가장자리에 작은 기포가 생기고 계란 흰자가 익어 간다.",
+      "file": "images/product-44.png",
+      "caption": "육수가 필요 없는 맛집의 비법 양념",
+      "status": "ready",
+      "detail_key": "dg-13",
+      "attempt": 1
+    },
+    {
+      "id": 45,
+      "name": "안송자 청국장찌개",
+      "scene": "청국장찌개의 두부 한 조각을 숟가락으로 들어 올리는 순간. 국물이 한 방울 떨어지고 뒤로 버섯과 애호박이 보인다.",
+      "file": "images/product-45.png",
+      "caption": "냄새는 적고 구수함은 깊은 비법 레시피",
+      "status": "ready",
+      "detail_key": "dg-14",
+      "attempt": 1
+    },
+    {
+      "id": 46,
+      "name": "국산콩 비지찌개 5+1",
+      "scene": "비지 표면에 숟가락을 넣어 한입을 담는 순간. 잘게 으깬 비지와 배추 결이 가까이 보인다.",
+      "file": "images/product-46.png",
+      "caption": "육수가 필요 없는 맛집의 비법 양념",
+      "status": "ready",
+      "detail_key": "dg-10",
+      "attempt": 1
+    },
+    {
+      "id": 47,
+      "name": "된장 고추지",
+      "scene": "된장 고추지 한 개를 젓가락으로 들어 올리는 순간. 고추가 자연스럽게 휘고 표면의 된장 양념이 보인다.",
+      "file": "images/product-47.png",
+      "caption": "밥상에 하나쯤 꼭 필요한 매콤짭짤 밥도둑",
+      "status": "ready",
+      "detail_key": "dg-16",
+      "attempt": 1
+    }
+  ],
+  "generator": "built-in imagegen",
+  "version": "15-hero-stills-complete-v1"
+}
