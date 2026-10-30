@@ -38,3 +38,10 @@ Analyzed Cookat2094's two live MP4s frame by frame: 6-shot representative and4-s
 - Output:doenjang-hero-video-20261030/outputs/32-doenjang-hero-v1.mp4;3467947bytes;SHA256465279b7c5f26e355b30a001aa1b75d38c8538e90641079aef39333fcd5bf59a. Parent verified full decode/cut boundaries/browser autoplay-loop-muted-1x; final native D QA remains pending.
 - All7current prompt sources, negative prompt, failure decisions, settings, edit decision, render summary and complete build_video.py are preserved in DOENJANG_HERO_VIDEO_20261030.md. Initial SHOT_INPUTS.json is explicitly historical, with A's current hash refreshed and execution links added.
 - Some start-image gloss/beef texture remains; B uses a low supported hold instead of a rise. Review draft only; storefront not deployed. Existing still archive preserved; no media/base64/account balances or archive upload by preparer. GitHub connector read still requires reauthentication.
+
+## 2026-10-30 — 된장찌개 줌·160% 배속 편집
+
+- 사용자 요청으로 기존4컷에 A/C 줌인·B/D 줌아웃과1.6배속을 적용했다. 4.2042초·126프레임·29.97fps·무음 MP4이며 하드컷을 유지한다. 새 유료 생성 비용은 USD0이다.
+- 전체 디코드와126프레임 시트 검토를 마쳤다. 검은 테두리나 핵심 피사체 잘림은 발견하지 않았고, 원본 D의 국물 광택·입자 표현은 남는다. 실제 휴대폰 재생 검증과는 구분한다.
+- 상태는 `pending_video_hosting_confirmation`이다. Cafe24 쇼핑 FTP의 MP4 미지원 및 새 GitHub 미디어 업로드 금지 지침 때문에 호스팅 선택 답변을 기다리며 아직 공개 배포하지 않았다.
+- 전체 편집 코드, edit-manifest JSON, 원본/출력 경로·해시와 QA 근거를 DOENJANG_ZOOM160_RELEASE_20261030.md에 보관한다. 미디어/base64/인증정보는 포함하지 않는다.

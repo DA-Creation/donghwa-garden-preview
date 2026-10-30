@@ -519,5 +519,55 @@
       "audio": true,
       "final_audio_removed": true
     }
+  },
+  "doenjang_zoom160_release": {
+    "as_of": "2026-10-30",
+    "product_no": 32,
+    "status": "pending_video_hosting_confirmation",
+    "storefront_deployment_performed": false,
+    "archive_file": "DOENJANG_ZOOM160_RELEASE_20261030.md",
+    "source_document": "doenjang-hero-video-20261030/ZOOM160_RELEASE.md",
+    "source": "doenjang-hero-video-20261030/outputs/32-doenjang-hero-v1.mp4",
+    "source_sha256": "465279b7c5f26e355b30a001aa1b75d38c8538e90641079aef39333fcd5bf59a",
+    "file": "doenjang-hero-video-20261030/release-zoom160/32-doenjang-hero-zoom160-v1.mp4",
+    "sha256": "24cfd2eccbeff05ec07dac68b4a162f2eac157897f753e454d3b07c2ebb90a65",
+    "width": 1280,
+    "height": 720,
+    "fps": "30000/1001",
+    "frames": 126,
+    "duration_seconds": 4.2042,
+    "speed": 1.6,
+    "browser_playback_rate": 1,
+    "audio": false,
+    "bytes": 2612546,
+    "zooms": {
+      "A": [
+        1,
+        1.08
+      ],
+      "B": [
+        1.1,
+        1
+      ],
+      "C": [
+        1,
+        1.06
+      ],
+      "D": [
+        1.08,
+        1
+      ]
+    },
+    "transitions": "hard_cut_0f",
+    "additional_generation_cost_usd": 0,
+    "qa_directory": "doenjang-hero-video-20261030/qa/zoom160",
+    "qa_full_decode_success": true,
+    "qa_review": "All126frames inspected in contact sheets; correct zoom directions, no black borders or critical food/ladle cropping; adjacent identical decoded frames0. Not a physical-phone playback test.",
+    "remaining_limitation": "D retains original glossy broth and pronounced particles; not judged photorealistic.",
+    "hosting_blocker": "Cafe24 shopping FTP does not support MP4; new GitHub media is prohibited by user instruction; waiting for hosting choice.",
+    "hosting_reference": "https://support.cafe24.com/hc/ko/articles/17460428614041",
+    "media_archived": false,
+    "media_storage": "Local iCloud only",
+    "remote_main_observed": "b3f47d57504d10624701b817a1f554e8c538ccc2"
   }
 }

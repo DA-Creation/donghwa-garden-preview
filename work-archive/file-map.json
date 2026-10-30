@@ -2048,6 +2048,14 @@
       "sha256": "ba8d175fcdcc781db4cc8191ce974fda33819e34318840b3a9021467f3c16f97",
       "bytes": 38704,
       "sanitized": false
+    },
+    {
+      "archive_path": "DOENJANG_ZOOM160_RELEASE_20261030.md",
+      "restore_path": "doenjang-hero-video-20261030/ZOOM160_RELEASE.md",
+      "source_project_relative": "doenjang-hero-video-20261030/ZOOM160_RELEASE.md",
+      "sha256": "5bb648136bbb5ca5282d25b0f7e52262f8b468806d66cea7b9dc8311d94d7908",
+      "bytes": 11349,
+      "sanitized": false
     }
   ],
   "media_policy": "Text-only GitHub archive. Media maps are local iCloud references in thumbnail-assets-map.json; missing media never blocks source restore."
