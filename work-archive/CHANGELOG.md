@@ -30,3 +30,11 @@ Analyzed Cookat2094's two live MP4s frame by frame: 6-shot representative and4-s
 - 실제 상품32 원본과 쿠캣2094의4컷 구성을 대조해 A냄비/B국자/C덜기전/D근접 시작 이미지를 각각 생성했다. 선택본은 A-v1, B-v1, C-v1, D-v3이다.
 - D-v1/v2는 반복적인 고기 표면 무늬 때문에 미채택하고 실제 사진을 질감 기준으로 재생성했다. 총6회 내장 이미지 생성이며 Replicate 영상 생성/상세페이지 배포는 하지 않았다.
 - 전체 프롬프트6개, 컷 계획, 실제 참조, 선택·제외 이유와 파일 경로/해시를 DOENJANG_HERO_4CUTS_20261030.md에 기록했다. 이미지/영상은 iCloud에만 보관한다.
+
+## 2026-10-30 - Doenjang hero video review draft
+
+- Generated6Seedance2.0 calls at720p/4seconds and1Wan2.5i2v call at720p/5seconds:7calls, estimated USD4.82. B-v1 failed no-drip/low-lift requirements; D-v1/v2 failed low-viscosity soup flow. WanD-v3 replaced D. No further generation calls planned.
+- Rendered A[8,48),B-v2[40,84),C[56,92),D-v3-wan[35,77) at native1x into1280x720,30000/1001fps,202frames,6.740067seconds,silent. Internal0framehardcuts occur at1.668333,3.5035,5.005seconds.
+- Output:doenjang-hero-video-20261030/outputs/32-doenjang-hero-v1.mp4;3467947bytes;SHA256465279b7c5f26e355b30a001aa1b75d38c8538e90641079aef39333fcd5bf59a. Parent verified full decode/cut boundaries/browser autoplay-loop-muted-1x; final native D QA remains pending.
+- All7current prompt sources, negative prompt, failure decisions, settings, edit decision, render summary and complete build_video.py are preserved in DOENJANG_HERO_VIDEO_20261030.md. Initial SHOT_INPUTS.json is explicitly historical, with A's current hash refreshed and execution links added.
+- Some start-image gloss/beef texture remains; B uses a low supported hold instead of a rise. Review draft only; storefront not deployed. Existing still archive preserved; no media/base64/account balances or archive upload by preparer. GitHub connector read still requires reauthentication.

@@ -257,5 +257,267 @@
         }
       ]
     }
+  },
+  "doenjang_hero_video": {
+    "as_of": "2026-10-30",
+    "product_no": 32,
+    "status": "Four-shot review draft rendered and checked; user review pending; not deployed",
+    "archive_file": "DOENJANG_HERO_VIDEO_20261030.md",
+    "source_directory": "doenjang-hero-video-20261030",
+    "model": "bytedance/seedance-2.0 and wan-video/wan-2.5-i2v",
+    "calls_submitted": 7,
+    "calls_completed_observed": 7,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": false,
+    "source_observed": {
+      "fps": "24/1",
+      "frames_each": 97,
+      "duration_seconds_each": 4.041666666666667,
+      "width": 1280,
+      "height": 720,
+      "audio": false,
+      "model": "bytedance/seedance-2.0"
+    },
+    "reference": {
+      "url": "https://cookatmarket.com/ko/product/detail?product_id=2094",
+      "shots": 4,
+      "transitions": "hard_cut0f",
+      "delivered_fps": "30000/1001",
+      "capture_fps": "unknown"
+    },
+    "rejected_sources": {
+      "raw/B-v1.mp4": "Liquid threads/drips, impact rings, excessive lift/reframing, dangling cabbage",
+      "raw/D-v1.mp4": "Smooth thick triangular membrane inconsistent with low-viscosity soup; parent visual decision",
+      "raw/D-v2.mp4": "Persistent sauce-like smooth triangular flow; parent rejected for insufficient soup-physics improvement"
+    },
+    "partial_source_selection_24fps": {
+      "A": {
+        "source": "raw/A-v1.mp4",
+        "frames_half_open": [
+          8,
+          48
+        ],
+        "status": "parent confirmed"
+      },
+      "B": {
+        "source": "raw/B-v2.mp4",
+        "frames_half_open": [
+          40,
+          84
+        ],
+        "status": "parent confirmed; exclude early protrusion"
+      },
+      "C": {
+        "source": "raw/C-v1.mp4",
+        "frames_half_open": [
+          56,
+          92
+        ],
+        "status": "parent confirmed"
+      },
+      "D": {
+        "source": "raw/D-v3-wan.mp4",
+        "frames_half_open": [
+          35,
+          77
+        ],
+        "status": "native-frame review complete; conditional draft pass"
+      }
+    },
+    "prompt_snapshot_sha256": {
+      "prompts/A-pot-video.txt": "39c0060db3cd5e24e65019e9c32cc4e7d17767e766c416ae9f0eea890a56ddb1",
+      "prompts/B-ladle-video.txt": "a99cc61a9b89b61abfe084f164bba2c24bfbbf3fc31249b0603b0ce63676e345",
+      "prompts/C-serve-wide-video.txt": "10810297f483d217fba7075a660bf4edace3fe868bff8a7eb5799b3a52e93497",
+      "prompts/D-serve-close-video.txt": "9f00a29fcd43ac1973f6000a9b2ad91d256e10f1a4af2e38d3deb16dce6d1605",
+      "prompts/B-ladle-video-v2.txt": "6d34a34989b45bef8521a35c8e23b4b112f6d01f7b25df8abf54be0cf5da1b5d",
+      "prompts/D-serve-close-video-v2.txt": "25b168199056a337b6c3d5132805d73d4fa5fc3e5029a7ad65fee6b4419fac65",
+      "prompts/D-serve-close-video-v3-wan.json": "d40471d92d21ffd64ba441220c6b59a81d9042ce14677621b8e91d353eeddf22"
+    },
+    "cost_status": "Final7call generation estimateUSD4.82; not a verified account invoice",
+    "final_selection": [
+      {
+        "key": "A",
+        "source": "raw/A-v1.mp4",
+        "source_frames_start_inclusive_end_exclusive": [
+          8,
+          48
+        ],
+        "action": "Localized gentle simmer, locked pot view"
+      },
+      {
+        "key": "B",
+        "source": "raw/B-v2.mp4",
+        "source_frames_start_inclusive_end_exclusive": [
+          40,
+          84
+        ],
+        "action": "Low stable hold of the loaded ladle; intentionally omit the defective rise"
+      },
+      {
+        "key": "C",
+        "source": "raw/C-v1.mp4",
+        "source_frames_start_inclusive_end_exclusive": [
+          56,
+          92
+        ],
+        "action": "Low transfer of solids into the bowl; omit early thin flow and final tail"
+      },
+      {
+        "key": "D",
+        "source": "raw/D-v3-wan.mp4",
+        "source_frames_start_inclusive_end_exclusive": [
+          35,
+          77
+        ],
+        "action": "Low brief broth transfer and settling; exclude the broader smooth film at frames24-34. Draft retains some gloss and pronounced suspended particles."
+      }
+    ],
+    "final_output": {
+      "file": "outputs/32-doenjang-hero-v1.mp4",
+      "bytes": 3467947,
+      "sha256": "465279b7c5f26e355b30a001aa1b75d38c8538e90641079aef39333fcd5bf59a",
+      "frames": 202,
+      "fps": "30000/1001",
+      "duration_seconds": 6.740067,
+      "speed": "native 1x; no motion interpolation or slow-motion",
+      "transitions": "0-frame hard cuts",
+      "clips": [
+        {
+          "key": "A",
+          "source": "raw/A-v1.mp4",
+          "source_frames_start_inclusive_end_exclusive": [
+            8,
+            48
+          ],
+          "action": "Localized gentle simmer, locked pot view",
+          "output": "outputs/32-A-cut.mp4",
+          "output_frames": 50,
+          "timeline_start_frame": 0,
+          "timeline_end_frame_exclusive": 50,
+          "timeline_start_seconds": 0.0,
+          "timeline_end_seconds": 1.6683333333333334
+        },
+        {
+          "key": "B",
+          "source": "raw/B-v2.mp4",
+          "source_frames_start_inclusive_end_exclusive": [
+            40,
+            84
+          ],
+          "action": "Low stable hold of the loaded ladle; intentionally omit the defective rise",
+          "output": "outputs/32-B-cut.mp4",
+          "output_frames": 55,
+          "timeline_start_frame": 50,
+          "timeline_end_frame_exclusive": 105,
+          "timeline_start_seconds": 1.6683333333333334,
+          "timeline_end_seconds": 3.5035000000000003
+        },
+        {
+          "key": "C",
+          "source": "raw/C-v1.mp4",
+          "source_frames_start_inclusive_end_exclusive": [
+            56,
+            92
+          ],
+          "action": "Low transfer of solids into the bowl; omit early thin flow and final tail",
+          "output": "outputs/32-C-cut.mp4",
+          "output_frames": 45,
+          "timeline_start_frame": 105,
+          "timeline_end_frame_exclusive": 150,
+          "timeline_start_seconds": 3.5035000000000003,
+          "timeline_end_seconds": 5.005
+        },
+        {
+          "key": "D",
+          "source": "raw/D-v3-wan.mp4",
+          "source_frames_start_inclusive_end_exclusive": [
+            35,
+            77
+          ],
+          "action": "Low brief broth transfer and settling; exclude the broader smooth film at frames24-34. Draft retains some gloss and pronounced suspended particles.",
+          "output": "outputs/32-D-cut.mp4",
+          "output_frames": 52,
+          "timeline_start_frame": 150,
+          "timeline_end_frame_exclusive": 202,
+          "timeline_start_seconds": 5.005,
+          "timeline_end_seconds": 6.740066666666666
+        }
+      ],
+      "width": 1280,
+      "height": 720,
+      "audio": false,
+      "status": "review_draft; visual and decode checks complete",
+      "storefront_deployment": false
+    },
+    "final_estimated_cost_usd": 4.82,
+    "video_generation_performed": true,
+    "storefront_deployment_performed": false,
+    "media_archived": false,
+    "media_storage": "Local iCloud only; no media/base64 in text archive",
+    "github_text_sync_status": "Prepared for current text-only browser commit; completion receipt stored locally",
+    "existing_stills_archive": "Preserved as historical still-generation record",
+    "model_call_breakdown": [
+      {
+        "model": "bytedance/seedance-2.0",
+        "calls": 6,
+        "seconds_per_call": 4,
+        "estimated_usd_per_output_second": 0.18
+      },
+      {
+        "model": "wan-video/wan-2.5-i2v",
+        "calls": 1,
+        "seconds_per_call": 5,
+        "estimated_usd_per_output_second": 0.1,
+        "enable_prompt_expansion": false,
+        "seed": 2026103235
+      }
+    ],
+    "further_generation_planned": false,
+    "assembly_code_in_archive": true,
+    "assembly_code_sha256": "6dd425a8fa17aacf907980d3922fa8acbd8a621d256838c2f29b4559a7b04b3a",
+    "historical_initial_plan": "prompts/SHOT_INPUTS.json marked historical; A current prompt hash refreshed; execution result links added",
+    "final_native_D_qa": {
+      "status": "conditional_draft_pass",
+      "frames_half_open": [
+        35,
+        77
+      ],
+      "evidence": "qa/D-v3-wan/decision.json",
+      "limit": "Residual gloss and pronounced suspended particles; not photographic equivalence"
+    },
+    "draft_validation": {
+      "source": "Parent task report and local render manifest",
+      "full_decode": "passed",
+      "internal_hard_cut_boundaries_seconds": [
+        1.668333,
+        3.5035,
+        5.005
+      ],
+      "browser_autoplay": true,
+      "browser_loop": true,
+      "browser_muted": true,
+      "browser_playback_rate": 1,
+      "physical_device_test": "not claimed",
+      "evidence_directory": "qa/final-reviewed"
+    },
+    "known_limits": [
+      "Some start-image gloss and cooked-beef texture remain",
+      "B action changed from rise to low supported hold to omit defects",
+      "Review draft, not final photographic approval",
+      "D residual gloss and pronounced suspended particles remain"
+    ],
+    "wan_source_observed": {
+      "file": "raw/D-v3-wan.mp4",
+      "sha256": "9dba6163b6bc32f900695de7cf90c3d44c57d46bc23d574a199ee6b2f2842cb8",
+      "bytes": 3529442,
+      "width": 1280,
+      "height": 720,
+      "fps": "24/1",
+      "frames": 121,
+      "duration_seconds": 5.041666666666667,
+      "audio": true,
+      "final_audio_removed": true
+    }
   }
 }

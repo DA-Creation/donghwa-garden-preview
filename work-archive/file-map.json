@@ -2040,6 +2040,14 @@
       "sha256": "9972c32f4f5d5486aa658adc160d65bd1523ffefb944aaed80d695f3077e6b18",
       "bytes": 19546,
       "sanitized": false
+    },
+    {
+      "archive_path": "DOENJANG_HERO_VIDEO_20261030.md",
+      "restore_path": "doenjang-hero-video-20261030/ARCHIVE.md",
+      "source_project_relative": "doenjang-hero-video-20261030/ARCHIVE.md",
+      "sha256": "ba8d175fcdcc781db4cc8191ce974fda33819e34318840b3a9021467f3c16f97",
+      "bytes": 38704,
+      "sanitized": false
     }
   ],
   "media_policy": "Text-only GitHub archive. Media maps are local iCloud references in thumbnail-assets-map.json; missing media never blocks source restore."
