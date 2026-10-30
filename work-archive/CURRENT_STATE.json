@@ -167,5 +167,13 @@
     "manifest": "thumbnail-assets-map.json",
     "missing_local_media": "Source restore continues without media",
     "existing_public17MP4": "Remain unchanged for current live storefront pages"
+  },
+  "common_video_prompt": {
+    "file": "VIDEO_GENERATION_COMMON_PROMPT.md",
+    "version": "1.0",
+    "reference": "https://cookatmarket.com/ko/product/detail?product_id=2094",
+    "scope": "Shot-by-shot motion, framing, hard cuts, conditional food physics, per-shot English prompt and edit/QA rules",
+    "generation_or_deployment_performed": false,
+    "media_archived": false
   }
 }

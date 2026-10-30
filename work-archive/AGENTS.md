@@ -23,3 +23,7 @@ User correction: GitHub stores code, prompts and records only. Never upload work
 - Never archive filled `.env`, tokens, OAuth state, SFTP credentials, API keys, cookies, private customer records, raw private API responses, or unrelated desktop captures. Placeholder environment examples and already-public storefront source are allowed.
 - Restore, verify, collect, and Git synchronization must not trigger paid generation. Run paid generation only within the user's current authorized task and budget; do not automatically spend the remaining estimated budget.
 - Record what was actually checked. Desktop/mobile browser viewport checks do not establish physical iPhone behavior. Reference citations and probe summaries are enough; do not copy competitor media into this repository.
+
+## Shared video prompt
+
+Before planning or generating Donghwa video shots and before editing them, read `VIDEO_GENERATION_COMMON_PROMPT.md`. Fill the actual-product inputs and separate per-shot model prompts from editing transitions. Preserve current product42 heat/liquid constraints. Do not assume camera motion, speed ramps or capture fps from a cut or delivery fps. Update this text when later references or user corrections change the rules.

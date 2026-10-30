@@ -1484,8 +1484,8 @@
     {
       "archive_path": "AGENTS.md",
       "restore_path": "AGENTS.md",
-      "sha256": "e4b33a336382ffdabc4a3c38eaf17aa7ae3b02895d0d5d4704d93251cb4a6e75",
-      "bytes": 3452,
+      "sha256": "856f636ca3543806ddb42f453cb878f495515b6509af37ec28195e18a74bdd92",
+      "bytes": 3900,
       "sanitized": false
     },
     {
@@ -2023,6 +2023,14 @@
       "restore_path": "thumbnail-publish-20261030/preview-source-smoke-check.json",
       "sha256": "c5d9023b1e47e5e0ac08066799bae8be71491492b3d50dd5db632985dd5960aa",
       "bytes": 931,
+      "sanitized": false
+    },
+    {
+      "archive_path": "VIDEO_GENERATION_COMMON_PROMPT.md",
+      "restore_path": "VIDEO_GENERATION_COMMON_PROMPT.md",
+      "source_project_relative": "VIDEO_GENERATION_COMMON_PROMPT.md",
+      "sha256": "395c8f32f131852f7a20f1f01008f019c8f5f326a94bd72458990e6e197c3063",
+      "bytes": 21647,
       "sanitized": false
     }
   ],

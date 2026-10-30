@@ -20,3 +20,7 @@
 - 15상품의 기존 영상 A와 42번 E/F를 실제 MP4 17개로 제공했다. GIF/WebP 대체 배포를 중단했다.
 - 쿠캣 상세 첫 영상의 23.976fps·141프레임·5.880875초와 컷 경계를 확인해 F 출력에 맞췄다. 촬영 120fps 여부는 확인되지 않았다.
 - 데스크톱 및 390px 모바일 뷰포트에서 자동재생, 무음, 반복, 인라인, 후보 이동과 비활성 영상 정지를 검증했다. 물리 iPhone 테스트와는 구분한다.
+
+## 2026-10-30 — Common food-video prompt
+
+Analyzed Cookat2094's two live MP4s frame by frame: 6-shot representative and4-shot hero,29.97fps; all observed boundaries use hard cuts. Recorded subject motion separately from framing and transitions, and kept capture-rate/retiming uncertainty explicit. Added canonical common prompt, conditional heat/pour rules, per-shot template and editing/QA instructions. No paid generation, storefront changes or media uploads.
